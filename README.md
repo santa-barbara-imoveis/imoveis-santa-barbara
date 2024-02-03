@@ -6,6 +6,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## Architecture:
+
+- src 
+    - shared-components (components which make sense to exist globally)
+    - pages (pages)
+      - component (inner components of the page)
+
+
+
+
+
 ### `npm start`
 
 Runs the app in the development mode.\

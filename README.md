@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ## Architecture:
 
-- src 
+- src (everthing code related goes inside this folder)
     - shared-components (components which make sense to exist globally)
     - pages (pages)
       - component (inner components of the page)

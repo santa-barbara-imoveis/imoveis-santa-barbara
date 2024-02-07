@@ -395,7 +395,7 @@ function LandingPage() {
 
           <div className='boxConta'>
             <p className='boxFootTitulo'>ENTRAMOS EM CONTATO</p>
-            <div className='textDif'>Ficou com dúvida de como alugar ou comprar o seu imóvel, em contato, digite o seu email</div>
+            <div className='textDif'>Digite o seu email que entraremos em contato.</div>
             <div className='textDif'>Ao informar meus dados, eu concordo com a Política de Privacidade.</div>
             <div className='boxEmailMsg'>
                 <input  className="inputEmail" type="text" name="email" />

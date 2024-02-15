@@ -373,7 +373,7 @@ function LandingPage() {
             <p className='boxFootTitulo'>CONTATO</p>
             <p className='boxFootLinha'>
               <img className="qkIconLocal" src={iconEndereco}/>
-              Rua X de Novembro, 129, Centro, Santa Bárbara
+              X de Novembro, 129, Centro, Santa Bárbara
             </p>
             <p className='boxFootLinha'>
               <img className="qkIconLocal" src={iconTel}/>

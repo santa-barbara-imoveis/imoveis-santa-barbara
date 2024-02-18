@@ -14,14 +14,14 @@ import tpImovel from "../../assets/icons/tipoImovel.png";
 function RenderImoveis({itens}) 
 {
     return (
-      <div>
+      <div className="carrosel">
         {itens.map((item) => (
         <div className="BoxImovel">
           <div className="boxPicture">
             <img className="imFoto" src={item.fotoCapa}/>
           </div>
           <div className="boxDataImovel">
-            <div className="boxTitulo"> {item.bairro} | {item.cidade} </div>
+            <div className="boxTitulo"> {item.bairro} | {item.cidade} | {item.cod} </div>
             <div className="boxAmenitiesData">
               <div className='ltBoxData'> <img className="iconS" src={iconContrato}/> {item.contrato} </div>
               <div className='ltBoxData'> <img className="iconS" src={tpImovel}/> {item.tipoImovel} </div>
@@ -33,8 +33,6 @@ function RenderImoveis({itens})
               <div className='ltBoxData'> <img className="iconS" src={banho}/> {item.banheiros} banheiro/s </div>
               <div className='ltBoxData'> <img className="iconS" src={quartos}/> {item.quartos} quartos </div>
               <div className='ltBoxData'> <img className="iconS" src={vagas}/> {item.vagas} vagas </div>
-              <div className='ltBoxData'> <img className="iconS" src={iconCod}/> Código: {item.cod} </div>
-
             </div>
           </div>
         </div>

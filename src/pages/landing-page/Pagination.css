@@ -6,3 +6,31 @@
     display: flex;
     justify-content: space-around;
   }
+
+  button{
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    border: 0.1px solid white;
+    background-color: #e48134;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background-color: white;
+    color:rgb(29,70,67);
+  }
+
+  .numPagesNav{
+    width: 250px;
+    height: 30px;
+  }
+
+  .Pagination{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }

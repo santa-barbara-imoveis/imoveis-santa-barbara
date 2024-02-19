@@ -10,7 +10,6 @@ import vagas from "../../assets/icons/carros.png";
 import quartos from "../../assets/icons/quarto.png";
 import tpImovel from "../../assets/icons/tipoImovel.png";
 
-
 function RenderImoveis({itens}) 
 {
     return (

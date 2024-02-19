@@ -155,18 +155,6 @@ main {
     border: 1px solid white;
 }
 
-.FormSearch{
-    background-color:darkgray;
-    width: 100%;
-    height: 200px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    vertical-align:middle;
-    flex-direction: row;
-    display: flex;
-}
-
 .FormSearchMain{
     background-color:white;
     width: 100%;
@@ -294,8 +282,8 @@ h1{
 }
 
 .boxRenderOptions{
-    width: 850px;
-    height: 2080px;
+    width: 800px;
+    height: 2680px;
     justify-content:space-between;
     display: flex;
     flex-direction:column;
@@ -321,14 +309,16 @@ h1{
 }
 
 .carrosel{
-    width: 850px;
-    height: 2000px;
+    width: 800px;
+    height: 2500px;
     overflow-y: auto;
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
+    flex-direction: column;
+    display: flex;
 }
 
 .BoxImovel{
-    width: 98%;
+    width: 100%;
     height: 240px;
     margin-bottom: 10px;
     align-items:start;

@@ -1,0 +1,56 @@
+.documentos{
+    width: 100%;
+    height: 2000px;
+    align-items:center;
+    text-align:justify;
+    justify-content:start;
+    vertical-align:top;
+    flex-direction: column;
+    display: flex;
+}
+
+.documentosCompraVenda{
+    width: 85%;
+    height: 650px;
+    margin-top: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items:start;
+    text-align:justify;
+    justify-content:center;
+    vertical-align:middle;
+    flex-direction: column;
+    display: flex;
+}
+
+.documentosLocatario{
+    width: 85%;
+    height: 650px;
+    margin-top: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items:start;
+    text-align:justify;
+    justify-content:start;
+    vertical-align:middle;
+    flex-direction: column;
+    display: flex;
+}
+
+.documentos li{
+    padding-block:5px;
+}
+
+.documentos ul{
+    list-style-position: inside;
+}
+
+.documentos p{
+    padding-block:5px;
+}
+
+h1{
+    padding-block:10px;
+}
+
+h2{
+    padding-block:10px;
+}

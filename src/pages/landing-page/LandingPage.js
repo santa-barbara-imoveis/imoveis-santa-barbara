@@ -56,18 +56,18 @@ function LandingPage() {
           </div>
         </div>
         <header className="head">
-        <div className="logo"> 
-          <img className="logoImage" src={logo}/>
-        </div>
-        <nav className="navHead" >
-          <a href=""> Home </a>
-          <a href=""> Alugar </a>
-          <a href=""> Comprar </a>
-          <a href=""> Contato </a>
-          <a href=""> Instituicional </a>
-          <a href="" className='entrar'> Entrar </a>
-        </nav>
-      </header>
+          <div className="logo"> 
+            <img className="logoImage" src={logo}/>
+          </div>
+          <nav className="navHead" >
+            <a href=""> Home </a>
+            <a href=""> Alugar </a>
+            <a href=""> Comprar </a>
+            <a href=""> Contato </a>
+            <a href=""> Instituicional </a>
+            <a href="" className='entrar'> Entrar </a>
+          </nav>
+        </header>
       <main>
         <div className="hero" style={{backgroundImage:`url(${hero})`}}>
           BEM VINDO À SANTA BÁRBARA IMÓVEIS
@@ -408,6 +408,7 @@ function LandingPage() {
           </div>
 
         </footer>
+        
         <footer className='footExtra'>
           Copyright 2024 Desenvolvido por DevMind
           <div className="qkFace">

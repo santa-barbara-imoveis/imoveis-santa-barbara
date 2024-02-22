@@ -21,7 +21,6 @@ function Pagination ({itens, mudarImoveisAtuais}) {
   const endIndex = startIndex + itensPerPage;
   const currentItens = imoveisDisp.slice(startIndex, endIndex)
   mudarImoveisAtuais (currentItens);
-  console.log(pages)
   }, [currentPage])
 
   return (

@@ -3,6 +3,8 @@ import "./Footers.css";
 import iconTel from "./assets/telefone.png";
 import iconEmail from "./assets/email.png";
 import iconEndereco from "./assets/local.png";
+import iconCreci from "./assets/garantia.png";
+import iconCNPJ from "./assets/cnpj.png";
 
 function Footers() {
   return (
@@ -20,6 +22,14 @@ function Footers() {
         <p>
           <img className="qkIconLocal" src={iconEmail} />
           contato@santabarbaraimoveis.com.br
+        </p>
+        <p>
+          <img className="qkIconLocal" src={iconCNPJ} />
+          CNPJ: 43.491.093/0001-07
+        </p>
+        <p>
+          <img className="qkIconLocal" src={iconCreci} />
+          CRECI: MGJ0007201
         </p>
       </div>
 

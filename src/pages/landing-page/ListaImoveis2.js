@@ -64,43 +64,7 @@ import area from "../../assets/icons/area.png";
 
 function ListaImoveis2() {
   const [imoveis, setImoveis] = useState (imoveisDisp.slice(0, 10));
-  const [imoveisFiltro, setImoveisFiltro] = useState (imoveisDisp);
   const TotalImoveis = imoveisDisp.length;
-  const [demanda, setDemanda] = useState ([""])
-
-  function renderImoveisFiltrados (tpDemanda){
-    setDemanda(tpDemanda)
-    let lista = []
-    imoveisFiltro.forEach((dem)=>{
-      if(dem.tpDemanda==tpDemanda){
-        lista.push(
-          <div className="carrosel">
-          <div className="BoxImovel" key={dem.cod}>
-            <div className="boxPicture">
-              <img className="imFoto" src={dem.fotoCapa}/>
-            </div>
-            <div className="boxDataImovel">
-              <div className="boxTitulo"> {dem.bairro} | {dem.cidade} | {dem.cod} </div>
-              <div className="boxAmenitiesData">
-                <div className='ltBoxData'> <img className="iconS" src={iconContrato}/> {dem.contrato} </div>
-                <div className='ltBoxData'> <img className="iconS" src={tpImovel}/> {dem.tipoImovel} </div>
-                <div className='ltBoxData'>                      
-                  <img className="iconS" src={iconMoeda}/> {dem.valor} </div>
-                <div className='ltBoxData'>                    
-                  <img className="iconS" src={iconTotal}/>Área total: {dem.areaTotal} </div>
-                <div className='ltBoxData'> <img className="iconS" src={area}/> Área construida: {dem.areaConstruida} </div>
-                <div className='ltBoxData'> <img className="iconS" src={banho}/> {dem.banheiros} banheiro/s </div>
-                <div className='ltBoxData'> <img className="iconS" src={quartos}/> {dem.quartos} quartos </div>
-                <div className='ltBoxData'> <img className="iconS" src={vagas}/> {dem.vagas} vagas </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        )
-      }
-    })
-    setImoveisFiltro(lista)
-  }
 
   return (
     <body>
@@ -118,7 +82,7 @@ function ListaImoveis2() {
               </div>
               <div className='mSltFilter'>
                 <label className="lbTipoContrato"> Demanda </label>
-                <select value={demanda} onChange={(e)=>{renderImoveisFiltrados(e.target.value)}} className="sltMode" name="selectInteresse">
+                <select className="sltMode" name="selectInteresse">
                   <option value="Locação" label="Alugar"> </option>
                   <option value="Venda" label="Comprar"> </option>
                 </select>

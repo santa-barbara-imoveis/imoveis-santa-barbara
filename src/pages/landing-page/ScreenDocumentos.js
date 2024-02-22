@@ -73,6 +73,15 @@ function ScreenDocumentos() {
             <li>Telefone e e-mail do fiador.</li>
           </ul>
           <p>Obs.: O cadastro completo com referências pessoais e bancárias, bem como o contrato e demais etapas do negócio, serão realizados na imobiliária.</p>
+          <h2>Documentos do fiador pessoas jurídica:</h2>
+          <ul>
+            <li>Cadastro Nacional de Pessoa Jurídica - CNPJ;</li>
+            <li>Contrato Social atualizado;</li>
+            <li>Comprovante de Renda (IR detalhado e/ou carteira de trabalho + contracheque) dos sócios;</li>
+            <li>RG, CPF e Comprovante de Endereço dos Sócios, ou de quem assina pela empresa;</li>
+            <li>Telefone e e-mail do fiador.</li>
+          </ul>
+          <p>Obs.: O cadastro completo com referências pessoais e bancárias, bem como o contrato e demais etapas do negócio, serão realizados na imobiliária.</p>
         </div>
       </main>
   );

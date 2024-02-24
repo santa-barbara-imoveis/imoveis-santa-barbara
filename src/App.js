@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
+// import { Filtragem } from './pages/searchPage/components/Filtragem/Filtragem';
 import { ListaImoveis2 } from './pages/searchPage/ListaImoveis2';
 // import { LandingPage } from './pages/landing-page/LandingPage';
 // // import { ScreenDocumentos } from './pages/landing-page/ScreenDocumentos';
-// // import { Filtragem } from './pages/landing-page/Filtragem';
 
 function App() {
   

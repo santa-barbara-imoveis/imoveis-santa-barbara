@@ -14,6 +14,7 @@ import vagas from "../../assets/icons/carros.png";
 import quartos from "../../assets/icons/quarto.png";
 import tpImovel from "../../assets/icons/tipoImovel.png";
 import area from "../../assets/icons/area.png";
+import { Filtragem } from './components/Filtragem/Filtragem';
 
 function ListaImoveis2() {
   const [imoveis, setImoveis] = useState (imoveisDisp.slice(0, 10));
@@ -21,38 +22,6 @@ function ListaImoveis2() {
   const [contrato, setContrato] = useState ("")
   // const [imoveis, setImoveis] = useState ([]);
   const [tipoImovel, setTipoImovel] = useState ("")
-
-  function renderImoveisFiltrados (tpContrato){
-    setContrato(tpContrato)
-    let lista = []
-    imoveisDisp.forEach((contra)=>{
-      if(contra.contrato==tpContrato){
-        lista.push(
-          <div className="BoxImovel" key={contra.cod}>
-            <div className="boxPicture">
-              <img className="imFoto" src={contra.fotoCapa}/>
-            </div>
-            <div className="boxDataImovel">
-              <div className="boxTitulo"> {contra.bairro} | {contra.cidade} | {contra.cod} </div>
-              <div className="boxAmenitiesData">
-                <div className='ltBoxData'> <img className="iconS" src={iconContrato}/> {contra.contrato} </div>
-                <div className='ltBoxData'> <img className="iconS" src={tpImovel}/> {contra.tipoImovel} </div>
-                <div className='ltBoxData'>                      
-                  <img className="iconS" src={iconMoeda}/> {contra.valor} </div>
-                <div className='ltBoxData'>                    
-                  <img className="iconS" src={iconTotal}/>Área total: {contra.areaTotal} </div>
-                <div className='ltBoxData'> <img className="iconS" src={area}/> Área construida: {contra.areaConstruida} </div>
-                <div className='ltBoxData'> <img className="iconS" src={banho}/> {contra.banheiros} banheiro/s </div>
-                <div className='ltBoxData'> <img className="iconS" src={quartos}/> {contra.quartos} quartos </div>
-                <div className='ltBoxData'> <img className="iconS" src={vagas}/> {contra.vagas} vagas </div>
-              </div>
-            </div>
-          </div>
-        )
-      }
-    })
-    setImoveis(lista)
-  }
 
   return (
     <body>
@@ -62,9 +31,10 @@ function ListaImoveis2() {
         </div>
         <article className='FormSearchMain'>
           <div className='MainBox'>
-            <div className='boxFilter'>
-              <div>
-                <h1>
+          <Filtragem itens = {imoveis} mudarImoveisAtuais = {setImoveis}/>
+            {/* <div className='boxFilter'> */}
+              {/* <div> */}
+                {/* <h1>
                   Busca avançada
                 </h1>
               </div>
@@ -148,7 +118,7 @@ function ListaImoveis2() {
               <div className='btSearchAd'>
                 <button className="btSearchAvance" type="submit"> Buscar </button>
               </div>
-            </div>
+            </div> */}
 
             <div className='boxRenderOptions'>
               <div className='qtdEncontrado'>
@@ -161,6 +131,7 @@ function ListaImoveis2() {
               </div>
               <Pagination itens = {imoveis} mudarImoveisAtuais = {setImoveis}/>
               <RenderImoveis itens = {imoveis}/>
+
               <Pagination itens = {imoveis} mudarImoveisAtuais = {setImoveis}/>
             </div>
           </div>

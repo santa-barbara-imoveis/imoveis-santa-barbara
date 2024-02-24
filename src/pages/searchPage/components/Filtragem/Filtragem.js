@@ -1,93 +1,46 @@
 import React, { useEffect, useState } from 'react';
 import "./Filtragem.css";
-import "../../assets/style/brand.css";
-import hero from "../../assets/images/wideHeroImage.jpg";
+import "../../../../assets/style/brand.css";
+import hero from "../../../../assets/images/wideHeroImage.jpg";
 import { imoveisDisp } from '../../../../data/dataImoveis';
-import iconContrato from "../../assets/icons/contrato.png";
-import iconMoeda from "../../assets/icons/moedas.png";
-import iconTotal from "../../assets/icons/total.png";
-import banho from "../../assets/icons/banheira.png";
-import vagas from "../../assets/icons/carros.png";
-import quartos from "../../assets/icons/quarto.png";
-import tpImovel from "../../assets/icons/tipoImovel.png";
-import area from "../../assets/icons/area.png";
 
-function Filtragem () {
-  const TotalImoveis = imoveisDisp.length;
-  const [contrato, setContrato] = useState ("")
-  const [imoveis, setImoveis] = useState ([]);
-  const [tipoImovel, setTipoImovel] = useState ("")
+function Filtragem ({mudarImoveisAtuais, itens}) {
+  const [contrato, setContrato] = useState ("todos")
+  const [tipoImovel, setTipoImovel] = useState ("todos")
 
-  function renderImoveisFiltrados (tpContrato){
+
+  function filtrarImoveisPorSelecao (){
+    let lista = []
+
+    const filtrosDeContratoAplicar = contrato=="todos"? ["Locação", "Venda"]: [contrato]
+    const filtrosDeImovelAplicar = tipoImovel=="todos"? ["Apartamento","Casa","Kitnet","Lote/Casa","Galpão","Chácara","Ponto Comercial","Terreno","Sítio","Fazenda","Lote" ]: [tipoImovel]
+
+    imoveisDisp.forEach((imovel)=>{
+      if(filtrosDeContratoAplicar.includes(imovel.contrato)&&filtrosDeImovelAplicar.includes(imovel.tipoImovel)){
+        lista.push(imovel)
+      }
+    })
+    mudarImoveisAtuais(lista);
+  }
+
+  function alterarTipoContrato (tpContrato){
     setContrato(tpContrato)
-    let lista = []
-    imoveisDisp.forEach((contra)=>{
-      if(contra.contrato==tpContrato){
-        lista.push(
-            <div className="BoxImovel" key={contra.cod}>
-              <div className="boxPicture">
-                <img className="imFoto" src={contra.fotoCapa}/>
-              </div>
-              <div className="boxDataImovel">
-                <div className="boxTitulo"> {contra.bairro} | {contra.cidade} | {contra.cod} </div>
-                <div className="boxAmenitiesData">
-                  <div className='ltBoxData'> <img className="iconS" src={iconContrato}/> {contra.contrato} </div>
-                  <div className='ltBoxData'> <img className="iconS" src={tpImovel}/> {contra.tipoImovel} </div>
-                  <div className='ltBoxData'>                      
-                    <img className="iconS" src={iconMoeda}/> {contra.valor} </div>
-                  <div className='ltBoxData'>                    
-                    <img className="iconS" src={iconTotal}/>Área total: {contra.areaTotal} </div>
-                  <div className='ltBoxData'> <img className="iconS" src={area}/> Área construida: {contra.areaConstruida} </div>
-                  <div className='ltBoxData'> <img className="iconS" src={banho}/> {contra.banheiros} banheiro/s </div>
-                  <div className='ltBoxData'> <img className="iconS" src={quartos}/> {contra.quartos} quartos </div>
-                  <div className='ltBoxData'> <img className="iconS" src={vagas}/> {contra.vagas} vagas </div>
-                </div>
-              </div>
-            </div>
-        )
-      }
-    })
-    setImoveis(lista)
   }
 
-  function renderImoveisFiltrados2 (tpImovel){
+  function alterarTipoImovel (tpImovel){
     setTipoImovel(tpImovel)
-    let lista = []
-    imoveisDisp.forEach((im)=>{
-      if(im.tipoImovel==tpImovel){
-        lista.push(
-            <div className="BoxImovel" key={im.cod}>
-              <div className="boxPicture">
-                <img className="imFoto" src={im.fotoCapa}/>
-              </div>
-              <div className="boxDataImovel">
-                <div className="boxTitulo"> {im.bairro} | {im.cidade} | {im.cod} </div>
-                <div className="boxAmenitiesData">
-                  <div className='ltBoxData'> <img className="iconS" src={iconContrato}/> {im.contrato} </div>
-                  <div className='ltBoxData'> <img className="iconS" src={tpImovel}/> {im.tipoImovel} </div>
-                  <div className='ltBoxData'>                      
-                    <img className="iconS" src={iconMoeda}/> {im.valor} </div>
-                  <div className='ltBoxData'>                    
-                    <img className="iconS" src={iconTotal}/>Área total: {im.areaTotal} </div>
-                  <div className='ltBoxData'> <img className="iconS" src={area}/> Área construida: {im.areaConstruida} </div>
-                  <div className='ltBoxData'> <img className="iconS" src={banho}/> {im.banheiros} banheiro/s </div>
-                  <div className='ltBoxData'> <img className="iconS" src={quartos}/> {im.quartos} quartos </div>
-                  <div className='ltBoxData'> <img className="iconS" src={vagas}/> {im.vagas} vagas </div>
-                </div>
-              </div>
-            </div>
-        )
-      }
-    })
-    setImoveis(lista)
   }
+
+  useEffect(() => {
+      filtrarImoveisPorSelecao()
+    }, [contrato, tipoImovel])
 
   return (
     <body>
       <main>
-        <div className="hero" style={{ backgroundImage: `url(${hero})`}}>
+        {/* <div className="hero" style={{ backgroundImage: `url(${hero})`}}>
           ENCONTRE SEU IMÓVEL
-        </div>
+        </div> */}
         <article className='FormSearchMain'>
           <div className='MainBox'>
             <div className='boxFilter'>
@@ -97,15 +50,17 @@ function Filtragem () {
                 </h1>
               </div>
               <div className='mSltFilter'>
-                <label className="lbTipoContrato"> Demanda </label>
-                <select value={contrato} onChange={(e)=>{renderImoveisFiltrados(e.target.value)}} className="sltMode" name="selectInteresse">
+                <label className="lbTipoContrato"> Contrato </label>
+                <select defaultValue="todos" placeholder="todos" value={contrato} onChange={(e)=>{alterarTipoContrato(e.target.value)}} className="sltMode" name="selectInteresse">
+                  <option value="todos" label="todos" selected> </option>
                   <option value="Locação" label="Locação"> </option>
                   <option value="Venda" label="Venda"> </option>
                 </select>
               </div>
               <div className="mSltFilter">
                 <label className="lbTipoImovel"> Tipo de imóvel </label>
-                <select value={tipoImovel} onChange={(e)=>{renderImoveisFiltrados2(e.target.value)}} className="sltMode" name="sltTipoImovel">
+                <select defaultValue="todos" placeholder="todos" value={tipoImovel} onChange={(e)=>{alterarTipoImovel(e.target.value)}} className="sltMode" name="sltTipoImovel">
+                <option value="todos" label="todos" selected> </option>
                   <option value="Apartamento" label="Apartamento"> </option>
                   <option value="Casa" label="Casa"> </option>
                   <option value="Kitnet" label="Kitnet"> </option>
@@ -119,9 +74,6 @@ function Filtragem () {
                   <option value="Lote/Casa" label="Lote/Casa"> </option>
                 </select>
               </div>
-            </div>
-            <div className="carrosel">
-                {imoveis}
             </div>
           </div>
         </article>

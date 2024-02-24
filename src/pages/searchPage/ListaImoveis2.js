@@ -4,7 +4,7 @@ import "../../assets/style/brand.css";
 import hero from "../../assets/images/wideHeroImage.jpg";
 import RenderImoveis from "./listaDeImoveis";
 import { imoveisDisp } from '../../data/dataImoveis';
-import Pagination from './Pagination';
+import Pagination from './components/Pagination/Pagination';
 import iconContrato from "../../assets/icons/contrato.png";
 import iconMoeda from "../../assets/icons/moedas.png";
 import iconTotal from "../../assets/icons/total.png";
@@ -15,56 +15,44 @@ import quartos from "../../assets/icons/quarto.png";
 import tpImovel from "../../assets/icons/tipoImovel.png";
 import area from "../../assets/icons/area.png";
 
-// function setarEstadosSeletores (){
-//   const [demanda, setDemanda] = useState (["Venda", "Aluguel"])
-//   const [demandaSlt, setDemandaSlt] = useState ([])
-//   const [tipoImovel, setImovel] = useState ("Apartamento", "Casa", "Kitnet", "Chácara", "Sítio", "Fazenda", "Lote", "Terreno", "Ponto Comercial", "Galpão", "Lote/Casa")
-//   const [tipoImovelSlt, setTipoImovelSlt] = useState ([])
-//   const [cidade, setCidade] = useState ("Santa Bárbara", "Barão de Cocais")
-//   const [cidadeSlt, setCidadeSlt] = useState ([])
-//   const [bairro, setBairro] = useState ("Centro", "São Francisco")
-//   const [bairroSlt, setBairroSlt] = useState ([])
-//   const [quartos, setQuartos] = useState ("1 quarto", "2 quartos", "3 quartos", "4 quartos", "5 quartos")
-//   const [quartosSlt, setQuartosSlt] = useState ([])
-//   const [banheiros, setBanheiros] = useState ("1 banheiro", "2 banheiros", "3 banheiros", "4 banheiros", "5 banheiros")
-//   const [banheirosSlt, setBanheirosSlt] = useState ([])
-//   const [vagas, setVagas] = useState ("1 vaga", "2 vagas", "3 vagas", "4 vagas", "5 vagas")
-//   const [vagasSlt, setVagasSlt] = useState ([])
-
-//   // const [imoveis, setImoveis] = useState (imoveisDisp.slice(0, 10));
-//   // const TotalImoveis = imoveisDisp.length;
-
-//     return (
-//       <div className="carrosel">
-//         {itens.map((item) => (
-//         <div className="BoxImovel">
-//           <div className="boxPicture">
-//             <img className="imFoto" src={item.fotoCapa}/>
-//           </div>
-//           <div className="boxDataImovel">
-//             <div className="boxTitulo"> {item.bairro} | {item.cidade} | {item.cod} </div>
-//             <div className="boxAmenitiesData">
-//               <div className='ltBoxData'> <img className="iconS" src={iconContrato}/> {item.contrato} </div>
-//               <div className='ltBoxData'> <img className="iconS" src={tpImovel}/> {item.tipoImovel} </div>
-//               <div className='ltBoxData'>                      
-//                 <img className="iconS" src={iconMoeda}/> {item.valor} </div>
-//               <div className='ltBoxData'>                    
-//                 <img className="iconS" src={iconTotal}/>Área total: {item.areaTotal} </div>
-//               <div className='ltBoxData'> <img className="iconS" src={area}/> Área construida: {item.areaConstruida} </div>
-//               <div className='ltBoxData'> <img className="iconS" src={banho}/> {item.banheiros} banheiro/s </div>
-//               <div className='ltBoxData'> <img className="iconS" src={quartos}/> {item.quartos} quartos </div>
-//               <div className='ltBoxData'> <img className="iconS" src={vagas}/> {item.vagas} vagas </div>
-//             </div>
-//           </div>
-//         </div>
-//         ))}
-//       </div>
-//     );
-// }
-
 function ListaImoveis2() {
   const [imoveis, setImoveis] = useState (imoveisDisp.slice(0, 10));
   const TotalImoveis = imoveisDisp.length;
+  const [contrato, setContrato] = useState ("")
+  // const [imoveis, setImoveis] = useState ([]);
+  const [tipoImovel, setTipoImovel] = useState ("")
+
+  function renderImoveisFiltrados (tpContrato){
+    setContrato(tpContrato)
+    let lista = []
+    imoveisDisp.forEach((contra)=>{
+      if(contra.contrato==tpContrato){
+        lista.push(
+          <div className="BoxImovel" key={contra.cod}>
+            <div className="boxPicture">
+              <img className="imFoto" src={contra.fotoCapa}/>
+            </div>
+            <div className="boxDataImovel">
+              <div className="boxTitulo"> {contra.bairro} | {contra.cidade} | {contra.cod} </div>
+              <div className="boxAmenitiesData">
+                <div className='ltBoxData'> <img className="iconS" src={iconContrato}/> {contra.contrato} </div>
+                <div className='ltBoxData'> <img className="iconS" src={tpImovel}/> {contra.tipoImovel} </div>
+                <div className='ltBoxData'>                      
+                  <img className="iconS" src={iconMoeda}/> {contra.valor} </div>
+                <div className='ltBoxData'>                    
+                  <img className="iconS" src={iconTotal}/>Área total: {contra.areaTotal} </div>
+                <div className='ltBoxData'> <img className="iconS" src={area}/> Área construida: {contra.areaConstruida} </div>
+                <div className='ltBoxData'> <img className="iconS" src={banho}/> {contra.banheiros} banheiro/s </div>
+                <div className='ltBoxData'> <img className="iconS" src={quartos}/> {contra.quartos} quartos </div>
+                <div className='ltBoxData'> <img className="iconS" src={vagas}/> {contra.vagas} vagas </div>
+              </div>
+            </div>
+          </div>
+        )
+      }
+    })
+    setImoveis(lista)
+  }
 
   return (
     <body>
@@ -82,9 +70,9 @@ function ListaImoveis2() {
               </div>
               <div className='mSltFilter'>
                 <label className="lbTipoContrato"> Demanda </label>
-                <select className="sltMode" name="selectInteresse">
-                  <option value="Locação" label="Alugar"> </option>
-                  <option value="Venda" label="Comprar"> </option>
+                <select value={contrato} onChange={(e)=>{renderImoveisFiltrados(e.target.value)}} className="sltMode" name="selectInteresse">
+                  <option value="Locação" label="Locação"> </option>
+                  <option value="Venda" label="Venda"> </option>
                 </select>
               </div>
               <div className="mSltFilter">

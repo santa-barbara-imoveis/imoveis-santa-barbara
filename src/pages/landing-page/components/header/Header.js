@@ -45,12 +45,12 @@ function Header() {
         <img className="logoImage" src={logo}/>
       </div>
       <nav className="navHead" >
-        <a href=""> Home </a>
-        <a href=""> Alugar </a>
-        <a href=""> Comprar </a>
-        <a href=""> Documentação </a>
-        <a href=""> Contato </a>
-        <a href=""> Instituicional </a>
+        <a className="headMain"href=""> Home </a>
+        <a className="headMain"href=""> Alugar </a>
+        <a className="headMain"href=""> Comprar </a>
+        <a className="headMain"href=""> Documentos </a>
+        <a className="headMain"href=""> Contato </a>
+        <a className="headMain"href=""> Instituicional </a>
         <a href="" className='entrar'> Entrar </a>
       </nav>
     </header>

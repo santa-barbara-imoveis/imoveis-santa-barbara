@@ -10,6 +10,30 @@
     display: flex;
 }
 
+.headMain{
+    width: 127px;
+    height: 87px;
+    padding-inline: 5px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    vertical-align:middle;
+    display: flex;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    color: white;
+    font-size: 18px;
+}
+
+.headMain:hover{
+    background-color: rgb(26, 95, 91);
+}
+
+.entrar:hover{
+    background-color: rgb(26, 95, 91);
+}
+
 .logoImage{
     margin-left: 20px;
     width: 150px;
@@ -39,15 +63,7 @@
     justify-content:space-evenly;
     vertical-align:middle;
     flex-direction: row;
-    display: flex;}
-
-.navHead a{
-    color: black;
-	text-decoration: none;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight:bold;
-    color: white;
-    font-size: 18px;
+    display: flex;
 }
 
 .botaoEntrar{
@@ -70,9 +86,16 @@
 }
 
 .entrar{
+    width: 70px;
+    height: 25px;
     padding-inline: 15px;
     padding-block: 5px;
     border: 1px solid white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .quickInfos{

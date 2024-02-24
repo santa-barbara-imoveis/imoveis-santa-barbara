@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import "./Pagination.css";
-import { imoveisDisp } from '../../data/dataImoveis';
+import { imoveisDisp } from '../../../../data/dataImoveis';
 
 function Pagination ({itens, mudarImoveisAtuais}) {
 

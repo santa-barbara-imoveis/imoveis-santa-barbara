@@ -1,5 +1,6 @@
 import React from 'react';
 import "./header.css";
+import { Link } from "react-router-dom";
 import logo from "./assets/logo.png";
 import iconTel from "./assets/telefone.png";
 import iconEmail from "./assets/email.png";
@@ -45,11 +46,11 @@ function Header() {
         <img className="logoImage" src={logo}/>
       </div>
       <nav className="navHead" >
-        <a className="headMain"href=""> Home </a>
+        <a className="headMain"href=""> <Link to="/" className="headMain"> Home </Link> </a> 
         <a className="headMain"href=""> Alugar </a>
         <a className="headMain"href=""> Comprar </a>
-        <a className="headMain"href=""> Documentos </a>
-        <a className="headMain"href=""> Contato </a>
+        <a className="headMain"href=""> <Link to="documentos" className="headMain"> Documentos </Link> </a>
+        <a className="headMain"href=""> <Link to="financiar" className="headMain"> Financiar </Link> </a>
         <a className="headMain"href=""> Instituicional </a>
         <a href="" className='entrar'> Entrar </a>
       </nav>

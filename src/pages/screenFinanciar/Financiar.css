@@ -1,6 +1,6 @@
-.documentos{
+.financiar{
     width: 100%;
-    height: 2000px;
+    height: 1200px;
     background-color:azure;
     align-items:center;
     text-align:justify;
@@ -10,7 +10,7 @@
     display: flex;
 }
 
-.documentos h1{
+.financiar h1{
     padding-top:30px;
     padding-bottom: 0px;
     align-items:center;
@@ -21,10 +21,10 @@
     display: flex;
 }
 
-.documentosCompraVenda{
+.introducao{
     width: 85%;
-    height: 650px;
-    margin-top: 5px;
+    height: 800px;
+    margin-top: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items:start;
     text-align:justify;
@@ -47,11 +47,11 @@
     display: flex;
 }
 
-.documentos li{
+.introducao li{
     padding-block:5px;
 }
 
-.documentos ul{
+.introducao ul{
     list-style-position: inside;
 }
 

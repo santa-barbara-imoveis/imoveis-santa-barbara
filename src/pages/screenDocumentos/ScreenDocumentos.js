@@ -5,9 +5,10 @@ import "../../assets/style/brand.css";
 function ScreenDocumentos() {
   return (
       <main className='documentos'>
+          <h1>LISTA DE DOCUMENTOS</h1>
         <div className='documentosCompraVenda'>
-          <h1>COMPRA E VENDA</h1>
-          <h2>Documentos do comprador:</h2>
+          <h2>COMPRA E VENDA</h2>
+          <h3>Documentos do comprador:</h3>
           <ul>
             <li>RG e CPF, de preferência CNH;</li>
             <li>RG e CPF do cônjuge, de preferência CNH; (caso seja casado);</li>
@@ -16,7 +17,7 @@ function ScreenDocumentos() {
             <li>Informar profissão.</li>
           </ul>
           <p>Obs.: O cadastro completo com referências pessoais e bancárias, bem como o contrato e demais etapas do negócio, serão realizados na imobiliária.</p>
-          <h2>Documentos do vendedor:</h2>
+          <h3>Documentos do vendedor:</h3>
           <p>Inicialmente, para fins de assinatura do contrato de representação e corretagem, será necessário a apresentação dos seguintes documentos: </p>
           <ul>
             <li>RG e CPF, de preferência CNH;</li>
@@ -34,8 +35,8 @@ function ScreenDocumentos() {
         </div>
 
         <div className='documentosLocatario'>
-          <h1>LOCAÇÃO</h1>
-          <h2>Documentos do locatário:</h2>
+          <h2>LOCAÇÃO</h2>
+          <h3>Documentos do locatário:</h3>
           <ul>
             <li>RG e CPF, de preferência CNH;</li>
             <li>Informar e-mail, estado civil e profissão;</li>
@@ -44,7 +45,7 @@ function ScreenDocumentos() {
             <li>Documentos complementares de garantia contratual.</li>
           </ul>
           <p>Obs.: O cadastro completo com referências pessoais e bancárias, bem como o contrato e demais etapas do negócio, serão realizados na imobiliária.</p>
-          <h2>Documentos do locador:</h2>
+          <h3>Documentos do locador:</h3>
           <p>Inicialmente, para fins de assinatura do contrato de administração do imóvel, será necessário a apresentação dos seguintes documentos:</p>
           <ul>
             <li>RG e CPF, de preferência CNH;</li>
@@ -54,7 +55,7 @@ function ScreenDocumentos() {
             <li>Cópias de contas de água e energia atualizadas.</li>
           </ul>
           <p>Obs.: O cadastro completo com referências pessoais e bancárias, bem como o contrato e demais etapas do negócio, serão realizados na imobiliária.</p>
-          <h2>Documentos dos fiadores com renda:</h2>
+          <h3>Documentos dos fiadores com renda:</h3>
           <ul>
             <li>RG e CPF, de preferência CNH;</li>
             <li>Informar e-mail, estado civil e profissão;</li>
@@ -63,7 +64,7 @@ function ScreenDocumentos() {
             <li>Telefone e e-mail dos fiadores.</li>
           </ul>
           <p>Obs.: O cadastro completo com referências pessoais e bancárias, bem como o contrato e demais etapas do negócio, serão realizados na imobiliária.</p>
-          <h2>Documentos do fiador com imóvel quitado e registrado:</h2>
+          <h3>Documentos do fiador com imóvel quitado e registrado:</h3>
           <ul>
             <li>RG e CPF, de preferência CNH;</li>
             <li>RG e CPF do cônjuge, de preferência CNH; (caso seja casado);</li>
@@ -73,7 +74,7 @@ function ScreenDocumentos() {
             <li>Telefone e e-mail do fiador.</li>
           </ul>
           <p>Obs.: O cadastro completo com referências pessoais e bancárias, bem como o contrato e demais etapas do negócio, serão realizados na imobiliária.</p>
-          <h2>Documentos do fiador pessoas jurídica:</h2>
+          <h3>Documentos do fiador pessoas jurídica:</h3>
           <ul>
             <li>Cadastro Nacional de Pessoa Jurídica - CNPJ;</li>
             <li>Contrato Social atualizado;</li>

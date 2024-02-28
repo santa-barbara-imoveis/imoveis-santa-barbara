@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
-// import { Filtragem } from './pages/searchPage/components/Filtragem/Filtragem';
-import { ListaImoveis2 } from './pages/searchPage/ListaImoveis2';
-// import { LandingPage } from './pages/landing-page/LandingPage';
-// // import { ScreenDocumentos } from './pages/landing-page/ScreenDocumentos';
+import { Outlet } from 'react-router-dom';
+import { Header } from './pages/landing-page/components/header/Header';
+import { Footers } from './pages/landing-page/components/Footers/Footers';
+import { FFooter } from './pages/landing-page/components/Footers/FFooter';
 
 function App() {
   
   return (
     <div className="App">
-      {/* <ScreenDocumentos/>  */}
-      <ListaImoveis2/>
-      {/* <Filtragem/> */}
-      {/* <LandingPage/>   */}
+      <Header/>
+      <Outlet/>
+      <Footers/>
+      <FFooter/>
     </div>
   )
 }

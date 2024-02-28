@@ -1,6 +1,6 @@
 .financiar{
     width: 100%;
-    height: 1200px;
+    height: 3000px;
     background-color:azure;
     align-items:center;
     text-align:justify;
@@ -23,13 +23,13 @@
 
 .introducao{
     width: 85%;
-    height: 800px;
-    margin-top: 30px;
+    height: 2700px;
+    margin-top: 50px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items:start;
     text-align:justify;
-    justify-content:center;
-    vertical-align:middle;
+    justify-content:start;
+    vertical-align:top;
     flex-direction: column;
     display: flex;
 }
@@ -48,14 +48,22 @@
 }
 
 .introducao li{
-    padding-block:5px;
+    padding-block:8px;
+}
+
+.introducao h1{
+    padding-block:10px;
 }
 
 .introducao ul{
     list-style-position: inside;
 }
 
-.documentos p{
+.introducao ol{
+    list-style-position: inside;
+}
+
+.introducao p{
     padding-block:5px;
 }
 

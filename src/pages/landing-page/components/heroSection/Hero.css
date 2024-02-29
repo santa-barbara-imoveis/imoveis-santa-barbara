@@ -8,7 +8,7 @@ option{
     font-size: 18px;
 }
 
-.hero{
+.heroLanding{
     width: 100%;
     height: 350px;
     font-size: 40px;
@@ -80,7 +80,7 @@ option{
     cursor: pointer;
 } */
 
-.FormSearch{
+.FormSearchLanding{
     background-color:darkgray;
     width: 100%;
     height: 200px;
@@ -92,21 +92,21 @@ option{
     display: flex;
 }
 
-.sltMode{
+.sltModeLand{
     width: 200px;
     font-size: 20px;
     padding: 5px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.inputValor{
+.inputValorLand{
     width: 145px;
     height: 38px;
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.linha1select{
+.linha1selectLand{
     flex-direction: row;
     display: flex;
     justify-content: space-around;
@@ -117,7 +117,7 @@ option{
     vertical-align:middle;
 }
 
-.linha2select{
+.linha2selectLand{
     flex-direction: row;
     display: flex;
     justify-content: space-around;
@@ -128,7 +128,7 @@ option{
     vertical-align:middle;
 }
 
-.botaoBuscar{
+.botaoBuscarLand{
     width: 100px;
     height: 39px;
     font-size: 15px;
@@ -146,10 +146,12 @@ option{
     cursor: pointer;
 }
 
-.botaoBuscar:hover{
+.botaoBuscarLand:hover{
     background-color: rgb(26, 95, 91);
+    color: white;
 }
 
-.botaoHero button:hover{
+.botaoHeroLand button:hover{
     background-color: rgb(26, 95, 91);
+    color: white;
 }

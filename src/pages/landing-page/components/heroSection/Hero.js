@@ -5,7 +5,7 @@ import hero from "./assets/largo.jpg";
 function Hero() {
     return (
       <main className="Main">
-        <div className="hero" style={{backgroundImage:`url(${hero})`}}>
+        <div className="heroLanding" style={{backgroundImage:`url(${hero})`}}>
           BEM VINDO À SANTA BÁRBARA IMÓVEIS
           <a className="botaoHero" href="">
             <button type="submit">
@@ -13,17 +13,17 @@ function Hero() {
             </button>
           </a>
         </div>
-        <article className='FormSearch'>
+        <article className='FormSearchLanding'>
           <form>
-            <div className='linha1select'>
+            <div className='linha1selectLand'>
               <div>
-                  <select className="sltMode" name="selectInteresse">
+                  <select className="sltModeLand" name="selectInteresse">
                       <option value="Alugar" label="Alugar"> </option>
                       <option value="Comprar" label="Comprar"> </option>
                   </select>
               </div>
-              <div className="sltTipoImovel">
-                  <select className="sltMode" name="sltTipoImovel">
+              <div className="sltTipoImovelLand">
+                  <select className="sltModeLand" name="sltTipoImovel">
                       <option value="Apartamento" label="Apartamento"> </option>
                       <option value="Casa" label="Casa"> </option>
                       <option value="Kitnet" label="Kitnet"> </option>
@@ -37,22 +37,22 @@ function Hero() {
                       <option value="Lote/Casa" label="Lote/Casa"> </option>
                   </select>
               </div>
-              <div className="sltCidade">
-                  <select className="sltMode" name="sltTipoCidade">
+              <div className="sltCidadeLand">
+                  <select className="sltModeLand" name="sltTipoCidade">
                       <option value="Santa Bárbara" label="Santa Bárbara"> </option>
                       <option value="Barão de Cocais" label="Barão de Cocais"> </option>
                   </select>
               </div>
-              <div className="sltBairro">
-                  <select className="sltMode" name="sltTipoBairro">
+              <div className="sltBairroLand">
+                  <select className="sltModeLand" name="sltTipoBairro">
                       <option value="Centro" label="Centro"> </option>
                       <option value="São Francisco" label="São Francisco"> </option>
                   </select>
               </div>
             </div>
-            <div className='linha2select'>
+            <div className='linha2selectLand'>
               <div>
-                  <select className="sltMode" name="selectQuartos">
+                  <select className="sltModeLand" name="selectQuartos">
                       <option value="1 quarto" label="1 quarto"> </option>
                       <option value="2 quartos" label="2 quartos"> </option>
                       <option value="3 quartos" label="3 quartos"> </option>
@@ -61,7 +61,7 @@ function Hero() {
                   </select>
               </div>
               <div>
-                  <select className="sltMode" name="sltVagas">
+                  <select className="sltModeLand" name="sltVagas">
                       <option value="1 vaga" label="1 vaga"> </option>
                       <option value="2 vagas" label="2 vagas"> </option>
                       <option value="3 vagas" label="3 vagas"> </option>
@@ -70,12 +70,12 @@ function Hero() {
                   </select>
               </div>
               <div>
-                <input  className="inputValor" type="text" name="name" />
+                <input  className="inputValorLand" type="text" name="name" />
               </div>
               <div>
-                <input  className="inputValor" type="text" name="name" />
+                <input  className="inputValorLand" type="text" name="name" />
               </div>
-              <button className="botaoBuscar" type="submit"> Buscar </button>
+              <button className="botaoBuscarLand" type="submit"> Buscar </button>
             </div>
           </form>
         </article>

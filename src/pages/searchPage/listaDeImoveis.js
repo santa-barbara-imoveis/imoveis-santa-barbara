@@ -4,7 +4,6 @@ import "./ListaImoveis.css";
 import iconContrato from "../../assets/icons/contrato.png";
 import iconMoeda from "../../assets/icons/moedas.png";
 import iconTotal from "../../assets/icons/total.png";
-import iconCod from "../../assets/icons/codigo.png";
 import banho from "../../assets/icons/banheira.png";
 import vagas from "../../assets/icons/carros.png";
 import quartos from "../../assets/icons/quarto.png";
@@ -41,37 +40,3 @@ function RenderImoveis({itens})
 };
 
 export default RenderImoveis
-
-/*
-function renderImoveis(imoveisDisp) 
-{
-  var box = document.querySelector(".BoxImovel");
-  let boxImoveisRender = "";
-  boxImoveisRender  += `<div class="box">`;
-    for (var i = 0; i < imoveisDisp.length; i++) {
-      box.innerHTML += `
-      <img className="imFoto" src=${fotoFrente3}/>
-      <div className="boxDataImovel">
-          <div className="boxTitulo">
-            ${imoveisDisp.titulo[i]}
-          </div>
-          <div className="boxAmenitiesData">
-            <div className='ltBoxData'>                      
-              <img className="iconS" src={area}/>
-              ${imoveisDisp.valor[i]}
-            </div>
-            <div className='ltBoxData'>                    
-              <img className="iconS" src={area}/>
-              ${imoveisDisp.areaTotal[i]}
-            </div>
-            <div className='ltBoxData'>                    
-              <img className="iconS" src={area}/>
-              ${imoveisDisp.areaConstruida[i]}
-            </div>
-          </div>
-      </div>`
-      boxImoveisRender += `</div>`;
-    }
-  return boxImoveisRender;
-};
-*/

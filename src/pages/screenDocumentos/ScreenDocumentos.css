@@ -19,6 +19,7 @@
     vertical-align:middle;
     flex-direction: row;
     display: flex;
+    color: black;
 }
 
 .documentosCompraVenda{

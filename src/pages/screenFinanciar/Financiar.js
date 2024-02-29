@@ -15,7 +15,7 @@ function Financiar() {
           <br></br>
           <p>O financiamento (SFH) pode chegar no máximo a <strong>80% do valor do imóvel, que não pode ultrapassar o preço de R$ 1,5 milhão na avaliação</strong>. Vale frisar que, para ter acesso ao subsídio, é realizada a análise financeira (crédito) do comprador, o qual deverá comprovar que os encargos mensais (prestação, seguros, juros) não ultrapassam 30% da sua renda mensal bruta.</p>
           <br></br>
-          <p>O prazo do empréstimo pode chegar a até 35 anos e a <strong>taxa de juros</strong> anual é fixa, limitada em no máximo 12%, mais a Taxa Referencial (TR), que atualiza o saldo devedor. Quando o valor da TR é zero, o devedor paga, na prática, apenas o valor fixo. (taxa média de juros hoje é de entre 7% e 9% ao ano).</p>
+          <p>O prazo do empréstimo pode chegar a até 35 anos e a <strong>taxa de juros</strong> anual é fixa, limitada em no máximo 12%, mais a Taxa Referencial (TR), que atualiza o saldo devedor. Quando o valor da TR é zero, o devedor paga, na prática, apenas o valor fixo (taxa média de juros hoje é de entre 7% e 9% ao ano).</p>
           <br></br>
           <p>Para a contratação do financiamento existem despesas que podem representar cerca de 5% do valor do imóvel, quais sejam:</p>
           <ul>

@@ -9,6 +9,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import {LandingPage} from "./pages/landing-page/LandingPage";
 import {Documentos} from "./pages/screenDocumentos/Documentos";
 import {Financiar} from './pages/screenFinanciar/Financiar';
+import {ListaImoveis2} from './pages/searchPage/ListaImoveis2';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: 'financiar',
         element: <Financiar/>
+      },
+      {
+        path: 'imoveis',
+        element: <ListaImoveis2/>
       }
     ]
   },

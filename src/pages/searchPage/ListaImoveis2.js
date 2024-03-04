@@ -8,11 +8,14 @@ import Pagination from './components/Pagination/Pagination';
 import { Filtragem } from './components/Filtragem/Filtragem';
 
 function ListaImoveis2() {
-  const [imoveis, setImoveis] = useState (imoveisDisp.slice(0, 10));
-  const TotalImoveis = imoveisDisp.length;
+  const [imoveis, setImoveis] = useState (imoveisDisp);
+  const [imoveisPageAtual, setImoveisPageAtual] = useState (imoveisDisp.slice(0, 10));
+  const TotalImoveis = imoveis.length;
   const [contrato, setContrato] = useState ("")
   // const [imoveis, setImoveis] = useState ([]);
   const [tipoImovel, setTipoImovel] = useState ("")
+
+  useEffect(()=>{setImoveisPageAtual(imoveis.slice(0,10))}, [imoveis])
 
   return (
     <body>
@@ -21,7 +24,7 @@ function ListaImoveis2() {
           ENCONTRE SEU IMÓVEL
         </div>
         <article className='FormSearchMain'>
-          <div className='MainBox'>
+          <div className='MainBoxLista'>
           <Filtragem itens = {imoveis} mudarImoveisAtuais = {setImoveis}/>
             <div className='boxRenderOptions'>
               <div className='qtdEncontrado'>
@@ -32,9 +35,9 @@ function ListaImoveis2() {
                   Imóveis encontrados
                 </h1>
               </div>
-              <Pagination itens = {imoveis} mudarImoveisAtuais = {setImoveis}/>
-              <RenderImoveis itens = {imoveis}/>
-              <Pagination itens = {imoveis} mudarImoveisAtuais = {setImoveis}/>
+              <Pagination imoveisListaCompleta = {imoveis} imoveisPaginaAtual = {imoveisPageAtual} mudarImoveisAtuais = {setImoveisPageAtual}/>
+              <RenderImoveis itens = {imoveisPageAtual}/>
+              <Pagination imoveisListaCompleta = {imoveis} imoveisPaginaAtual = {imoveisPageAtual} mudarImoveisAtuais = {setImoveisPageAtual}/>
             </div>
           </div>
         </article>

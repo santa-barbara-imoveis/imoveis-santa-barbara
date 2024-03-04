@@ -3,11 +3,11 @@ import { useEffect, useState } from 'react';
 import "./Pagination.css";
 import { imoveisDisp } from '../../../../data/dataImoveis';
 
-function Pagination ({itens, mudarImoveisAtuais}) {
+function Pagination ({imoveisListaCompleta, imoveisPaginaAtual, mudarImoveisAtuais}) {
 
   const [itensPerPage, setItensItensPerPage] = useState(10)
   const [currentPage, setCurrentPage] = useState(0)
-  const pages = Math.ceil(imoveisDisp.length / itensPerPage)
+  const pages = Math.ceil(imoveisListaCompleta.length / itensPerPage)
 
   //esta atualizacao dos estados causou um looping infinito
   //ao chamar mudarImoveisAtuais, o estado do pai mudou
@@ -19,18 +19,24 @@ function Pagination ({itens, mudarImoveisAtuais}) {
   useEffect(() => {
   const startIndex = currentPage * itensPerPage;
   const endIndex = startIndex + itensPerPage;
-  const currentItens = imoveisDisp.slice(startIndex, endIndex)
+  const currentItens = imoveisListaCompleta.slice(startIndex, endIndex)
   mudarImoveisAtuais (currentItens);
   }, [currentPage])
+
+  useEffect(() => {setCurrentPage(0)}, [imoveisListaCompleta]);
 
   return (
     <div className='Pagination'>
       <div className='numPagesNav'>
-        <button className='prev' value={currentPage-1} onClick={(e) => setCurrentPage(Number(e.target.value))}>&lt;</button>
+        {
+        currentPage == 0? null : <button className='prev' value={currentPage-1} onClick={(e) => setCurrentPage(Number(e.target.value))}>&lt;</button>
+        }
         {Array.from(Array(pages), (item, index) => {
-          return <button value={index} onClick={(e) => setCurrentPage(Number(e.target.value))}>{index + 1}</button>
+          return <button className={index == currentPage? "currentPage" : ""} value={index} onClick={(e) => setCurrentPage(Number(e.target.value))}>{index + 1}</button>
         })}
-        <button className='next' value={currentPage+1} onClick={(e) => setCurrentPage(Number(e.target.value))}>&gt;</button>
+        {
+        currentPage+1 >= pages? null : <button className='next' value={currentPage+1} onClick={(e) => setCurrentPage(Number(e.target.value))}>&gt;</button>
+        }
       </div>
     </div>
   );

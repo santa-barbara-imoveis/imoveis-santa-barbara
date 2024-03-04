@@ -10,6 +10,7 @@ import {LandingPage} from "./pages/landing-page/LandingPage";
 import {Documentos} from "./pages/screenDocumentos/Documentos";
 import {Financiar} from './pages/screenFinanciar/Financiar';
 import {ListaImoveis2} from './pages/searchPage/ListaImoveis2';
+import {Empresa} from './pages/Institucional/Empresa';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: 'imoveis',
         element: <ListaImoveis2/>
+      },
+      {
+        path: 'quem-somos',
+        element: <Empresa/>
       }
     ]
   },

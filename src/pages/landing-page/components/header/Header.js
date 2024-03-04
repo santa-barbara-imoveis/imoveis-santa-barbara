@@ -51,7 +51,7 @@ function Header() {
         <a className="headMain"href=""> <Link to="imoveis" className="headMain"> Comprar </Link> </a>
         <a className="headMain"href=""> <Link to="documentos" className="headMain"> Documentos </Link> </a>
         <a className="headMain"href=""> <Link to="financiar" className="headMain"> Financiar </Link> </a>
-        <a className="headMain"href=""> Instituicional </a>
+        <a className="headMain"href=""> <Link to="quem-somos" className="headMain"> Institucional </Link> </a>
         <a href="" className='entrar'> Entrar </a>
       </nav>
     </header>

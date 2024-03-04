@@ -24,6 +24,11 @@
     color:rgb(29,70,67);
   }
 
+  .currentPage{
+    background-color: white;
+    color:rgb(29,70,67);
+  }
+
   .numPagesNav{
     width: 250px;
     height: 30px;

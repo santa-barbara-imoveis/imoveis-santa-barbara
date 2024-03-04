@@ -5,6 +5,7 @@ import iconEmail from "./assets/email.png";
 import iconEndereco from "./assets/local.png";
 import iconCreci from "./assets/garantia.png";
 import iconCNPJ from "./assets/cnpj.png";
+import { Link } from "react-router-dom";
 
 function Footers() {
   return (
@@ -35,10 +36,11 @@ function Footers() {
 
       <div className='boxMapa'>
         <p className='boxFootTitulo'>MAPA</p>
-        <p>Home</p>
-        <p>Alugar</p>
-        <p>Comprar</p>
-        <p>Institucional</p>
+        <p> <Link to="/" className='mps'> Home </Link></p>
+        <p> <Link to="imoveis" className='mps'> Alugar </Link> </p>
+        <p> <Link to="imoveis" className='mps'> Comprar </Link></p>
+        <p> <Link to="documentos" className='mps'> Documentos </Link></p>
+        <p> <Link to="imoveis" className='mps'> Instituicional </Link></p>
       </div>
 
       <div className='boxConta'>

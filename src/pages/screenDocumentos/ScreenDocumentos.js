@@ -5,7 +5,6 @@ import "../../assets/style/brand.css";
 function ScreenDocumentos() {
   return (
       <main className='documentos'>
-          <h1>LISTA DE DOCUMENTOS</h1>
         <div className='documentosCompraVenda'>
           <h2>COMPRA E VENDA</h2>
           <h3>Documentos do comprador:</h3>

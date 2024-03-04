@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Hero.css";
 import hero from "./assets/largo.jpg";
+import { Link } from "react-router-dom";
 
 function Hero() {
     return (
@@ -9,7 +10,7 @@ function Hero() {
           BEM VINDO À SANTA BÁRBARA IMÓVEIS
           <a className="botaoHero" href="">
             <button type="submit">
-                Saiba mais
+              <Link to="quem-somos" className="saibaMais"> Saiba mais </Link>
             </button>
           </a>
         </div>
@@ -75,7 +76,7 @@ function Hero() {
               <div>
                 <input  className="inputValorLand" type="text" name="name" />
               </div>
-              <button className="botaoBuscarLand" type="submit"> Buscar </button>
+              <button className="botaoBuscarLand" type="submit"> <Link to="imoveis" className="saibaMais"> Buscar </Link> </button>
             </div>
           </form>
         </article>

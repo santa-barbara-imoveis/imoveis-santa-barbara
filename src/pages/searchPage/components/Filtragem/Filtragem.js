@@ -8,21 +8,30 @@ function Filtragem ({mudarImoveisAtuais, itens}) {
   const [tipoImovel, setTipoImovel] = useState ("todos")
   const [cidade, setCidade] = useState ("todos")
   const [quartos, setQuartos] = useState ("todos")
+  const [vagas, setVagas] = useState ("todos")
+  const [banhos, setBanhos] = useState ("todos")
 
   function filtrarImoveisPorSelecao (){
     let lista = []
-
     const filtrosDeContratoAplicar = contrato=="todos"? ["Locação", "Venda"]: [contrato]
-    const filtrosDeImovelAplicar = tipoImovel=="todos"? ["Apartamento","Casa","Kitnet","Lote/Casa","Galpão","Chácara","Ponto Comercial","Terreno","Sítio","Fazenda","Lote" ]: [tipoImovel]
-    const filtrosDeCidade = cidade=="todos"? ["Santa Bárbara","Barão de Cocais", "Catas Altas" ]: [cidade]
-    const filtrosQuartos = quartos=="todos"? ["1","2", "3", "4", "5"]: [quartos]
+    const filtrosDeImovelAplicar = tipoImovel=="todos"? ["Apartamento","Casa","Chalé", "Kitnet","Lote/Casa", "Galpão","Chácara","Ponto comercial","Terreno","Sítio","Fazenda","Lote"]: [tipoImovel]
+    const filtrosDeCidade = cidade=="todos"? ["Santa Bárbara", "Barão de Cocais", "Catas Altas", "São Gonçalo do Rio Abaixo"]: [cidade]
+    const filtrosQuartos = quartos=="todos"? [0, 1, 2, 3, 4, 5]: [quartos]
+    const filtrosVagas = vagas=="todos"? [0, 1, 2, 3, 4, 5]: [vagas]
+    const filtrosBanhos = banhos=="todos"? [0, 1, 2, 3, 4, 5]: [banhos]
+    console.log({filtrosDeContratoAplicar, filtrosDeImovelAplicar, filtrosDeCidade, filtrosQuartos, filtrosVagas, filtrosBanhos})
 
     imoveisDisp.forEach((imovel)=>{
       if(filtrosDeContratoAplicar.includes(imovel.contrato)&&
       filtrosDeImovelAplicar.includes(imovel.tipoImovel)&&
       filtrosDeCidade.includes(imovel.cidade)&&
-      filtrosQuartos.includes(imovel.quartos)){
+      filtrosQuartos.includes(imovel.quartos)&&
+      filtrosVagas.includes(imovel.vagas)&&
+      filtrosBanhos.includes(imovel.banheiros)){
         lista.push(imovel)
+      }
+      else{
+        console.log(imovel)
       }
     })
     mudarImoveisAtuais(lista);
@@ -44,9 +53,13 @@ function Filtragem ({mudarImoveisAtuais, itens}) {
     setQuartos(tpQuartos)
   }
 
-  useEffect(() => {
-      filtrarImoveisPorSelecao()
-    }, [contrato, tipoImovel, cidade, quartos])
+  function alterarVagas (tpVagas){
+    setVagas(tpVagas)
+  }
+
+  function alterarBanhos (tpBanhos){
+    setBanhos(tpBanhos)
+  }
 
   return (
     <body>
@@ -79,7 +92,7 @@ function Filtragem ({mudarImoveisAtuais, itens}) {
                   <option value="Fazenda" label="Fazenda"> </option>
                   <option value="Lote" label="Lote"> </option>
                   <option value="Terreno" label="Terreno"> </option>
-                  <option value="Ponto Comercial" label="Ponto Comercial"> </option>
+                  <option value="Ponto comercial" label="Ponto comercial"> </option>
                   <option value="Galpão" label="Galpão"> </option>
                   <option value="Lote/Casa" label="Lote/Casa"> </option>
                 </select>
@@ -97,12 +110,40 @@ function Filtragem ({mudarImoveisAtuais, itens}) {
                 <label className="lbQuartos"> Quartos </label>
                 <select defaultValue="todos" placeholder="todos" value={quartos} onChange={(e)=>{alterarQuartos(e.target.value)}} className="sltMode" name="sltQuartos">
                 <option value="todos" label="todos" selected> </option>
-                  <option value="1" label="1 quarto"> </option>
-                  <option value="2" label="2 quartos"> </option>
-                  <option value="3" label="3 quartos"> </option>
-                  <option value="4" label="4 quartos"> </option>
-                  <option value="5" label="5 quartos"> </option>
+                  <option value={0} label="0 quarto"> </option>
+                  <option value={1} label="1 quarto"> </option>
+                  <option value={2} label="2 quartos"> </option>
+                  <option value={3} label="3 quartos"> </option>
+                  <option value={4} label="4 quartos"> </option>
+                  <option value={5} label="5 quartos"> </option>
                 </select>
+              </div>
+              <div className="mSltFilter">
+                <label className="lbVagas"> Vagas </label>
+                <select defaultValue="todos" placeholder="todos" value={vagas} onChange={(e)=>{alterarVagas(e.target.value)}} className="sltMode" name="sltVagas">
+                <option value="todos" label="todos" selected> </option>
+                  <option value={0} label="0 vaga"> </option>
+                  <option value={1} label="1 vaga"> </option>
+                  <option value={2} label="2 Vagas"> </option>
+                  <option value={3} label="3 Vagas"> </option>
+                  <option value={4} label="4 Vagas"> </option>
+                  <option value={5} label="5 Vagas"> </option>
+                </select>
+              </div>
+              <div className="mSltFilter">
+                <label className="lbBanhos"> Banheiros </label>
+                <select defaultValue="todos" placeholder="todos" value={banhos} onChange={(e)=>{alterarBanhos(e.target.value)}} className="sltMode" name="sltBanhos">
+                <option value="todos" label="todos" selected> </option>
+                  <option value={0} label="0 banheiro"> </option>
+                  <option value={1} label="1 banheiro"> </option>
+                  <option value={2} label="2 banheiros"> </option>
+                  <option value={3} label="3 banheiros"> </option>
+                  <option value={4} label="4 banheiros"> </option>
+                  <option value={5} label="5 banheiros"> </option>
+                </select>
+              </div>
+              <div className="divBt">
+                <button onClick={(e)=>filtrarImoveisPorSelecao()} className="btBuscarIm" name="btBuscarIm"> Buscar </button>
               </div>
             </div>
           </div>

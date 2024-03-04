@@ -4,7 +4,7 @@ import banho from "./assets/banheira.png";
 import area from "./assets/area.png";
 import vagas from "./assets/carros.png";
 import quartos from "./assets/quarto.png";
-import fotoFrente from "./assets/001_fachada.jpg";
+import fotoFrente from "./assets/V124.jpeg";
 import fotoFrente2 from "./assets/002_fachada.jpeg";
 import fotoFrente3 from "./assets/003_fachada.jpg";
 import setaE from "./assets/seta-esquerda.png";
@@ -20,33 +20,34 @@ function Highlights() {
         </div>
         <div className="opcaoImoveis">
           <div className="boxImovel">
-            <div className="imFotoMain">
-              <img className="imFoto" src={fotoFrente} />
+            <div className="imFotoMainV">
+              <img className="imFotoV" src={fotoFrente} />
               <div className="boxPreco">
                 <div className="tipoContrato">Venda</div>
-                <div className="precoImovel">R$ 2.000.000,00</div>
+                <div className="precoImovel">R$ 490.000,00</div>
               </div>
             </div>
             <div className="imBairroCidade">
-              Capim Cheiroso - Barão de Cocais
+              Resid. Santo Antônio - Santa Bárbara
             </div>
-            <div className="imId">Código: 001</div>
+            <div className="imId">Código: V124</div>
             <div className="imAmenities">
               <div className="iconsAmenities">
                 <img className="icon" src={area} />
-                300
+                360
                 <img className="icon" src={banho} />
                 2
                 <img className="icon" src={vagas} />
                 2
-                <img className="icon" src={quartos} />3
+                <img className="icon" src={quartos} />
+                3
               </div>
             </div>
           </div>
 
           <div className="boxImovel">
-            <div className="imFotoMain">
-              <img className="imFoto" src={fotoFrente2} />
+            <div className="imFotoMainV">
+              <img className="imFotoV" src={fotoFrente2} />
               <div className="boxPreco">
                 <div className="tipoContrato">Venda</div>
                 <div className="precoImovel">R$ 490.000,00</div>
@@ -68,8 +69,8 @@ function Highlights() {
           </div>
 
           <div className="boxImovel">
-            <div className="imFotoMain">
-              <img className="imFoto" src={fotoFrente3} />
+            <div className="imFotoMainV">
+              <img className="imFotoV" src={fotoFrente3} />
               <div className="boxPreco">
                 <div className="tipoContrato">Venda</div>
                 <div className="precoImovel">R$ 320.000,00</div>

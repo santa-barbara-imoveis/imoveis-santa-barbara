@@ -1,11 +1,12 @@
 import React from 'react';
 import "./Financiar.css";
 import "../../assets/style/brand.css";
+import {HeroFin} from './heroSection/HeroFin';
 
 function Financiar() {
   return (
       <main className='financiar'>
-          <h1>FINANCIAMENTO IMOBILIÁRIO</h1>
+          <HeroFin/>
         <div className='introducao'>
           <p>No Brasil, apesar de haver diversas linhas de crédito, a grande parte dos financiamentos imobiliários são feitos através do Sistema Financeiro da Habitação (SFH), criado em 1964 pelo Governo Federal com objetivo de reduzir o déficit habitacional brasileiro diante do cenário de rápida urbanização.</p>
           <br></br>

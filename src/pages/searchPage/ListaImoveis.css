@@ -126,8 +126,7 @@ h1{
 
 .boxRenderOptions{
     width: 800px;
-    height: 2680px;
-    justify-content:space-between;
+    height: fit-content;
     display: flex;
     flex-direction:column;
 }
@@ -153,7 +152,7 @@ h1{
 
 .carrosel{
     width: 800px;
-    height: 2500px;
+    height: fit-content;
     overflow-y: auto;
     scroll-behavior: smooth;
     flex-direction: column;
@@ -312,6 +311,18 @@ select{
     align-items:end;
     text-align: center;
     justify-content:center;
+    vertical-align:middle;
+    flex-direction: row;
+    display: flex;
+}
+
+.MainBoxLista{
+    width: 100%;
+    height: fit-content;
+    margin-top: 50px;
+    align-items:start;
+    text-align: center;
+    justify-content:space-around;
     vertical-align:middle;
     flex-direction: row;
     display: flex;

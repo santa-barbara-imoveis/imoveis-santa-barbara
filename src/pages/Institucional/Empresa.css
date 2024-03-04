@@ -1,6 +1,6 @@
-.financiar{
+.aEmpresa{
     width: 100%;
-    height: 3100px;
+    height: fit-content;
     background-color:azure;
     align-items:center;
     text-align:justify;
@@ -10,9 +10,9 @@
     display: flex;
 }
 
-.introducao{
+.valores{
     width: 85%;
-    height: 2900px;
+    height: 2000px;
     margin-top: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items:start;
@@ -23,30 +23,43 @@
     display: flex;
 }
 
-.introducao li{
+.nossaEquipe{
+    width: 85%;
+    height: fit-content;
+    margin-top: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items:start;
+    text-align:justify;
+    justify-content:start;
+    vertical-align:top;
+    flex-direction: column;
+    display: flex;
+}
+
+.valores li{
     padding-block:8px;
 }
 
-.introducao ul{
+.valores ul{
     list-style-position: inside;
 }
 
-.introducao ol{
-    list-style-position: inside;
-}
-
-.introducao p{
+.valores p{
     padding-block:5px;
 }
 
-.introducao h1{
+.valores h1{
     padding-top:10px;
+    color: black;
+    margin: 0px;
 }
 
 h2{
     padding-block:10px;
+    color: black;
 }
 
 h3{
     padding-block:10px;
+    color: black;
 }

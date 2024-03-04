@@ -146,6 +146,11 @@ option{
     cursor: pointer;
 }
 
+.saibaMais{
+    text-decoration: none;
+    color: white;
+}
+
 .botaoBuscarLand:hover{
     background-color: rgb(26, 95, 91);
     color: white;

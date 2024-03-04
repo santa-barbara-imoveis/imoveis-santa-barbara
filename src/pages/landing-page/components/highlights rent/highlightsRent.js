@@ -20,8 +20,8 @@ function HighlightsRent() {
       </div>
       <div className="opcaoImoveis">
         <div className='boxImovel'>
-          <div className='imFotoMain'>
-            <img className="imFoto" src={fotoFrente6} />
+          <div className='imFotoMainR'>
+            <img className="imFoto2" src={fotoFrente6} />
             <div className='boxPreco'>
               <div className='tipoContrato'>
                 Locação - Comercial
@@ -52,8 +52,8 @@ function HighlightsRent() {
         </div>
 
         <div className='boxImovel'>
-          <div className='imFotoMain'>
-            <img className="imFoto" src={fotoFrente5} />
+          <div className='imFotoMainR'>
+            <img className="imFoto2" src={fotoFrente5} />
             <div className='boxPreco'>
               <div className='tipoContrato'>
                 Locação - Comercial
@@ -84,8 +84,8 @@ function HighlightsRent() {
         </div>
 
         <div className='boxImovel'>
-          <div className='imFotoMain'>
-            <img className="imFoto" src={fotoFrente4} />
+          <div className='imFotoMainR'>
+            <img className="imFoto2" src={fotoFrente4} />
             <div className='boxPreco'>
               <div className='tipoContrato'>
                 Locação

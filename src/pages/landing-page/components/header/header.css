@@ -42,23 +42,6 @@
     font-size: 18px;
 }
 
-.headMain a:hover{
-    width: 127px;
-    height: 87px;
-    padding-inline: 5px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    vertical-align:middle;
-    display: flex;
-    text-decoration: none;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight:bold;
-    color: white;
-    font-size: 18px;
-    background-color: rgb(26, 95, 91);
-}
-
 .headMain:hover{
     width: 127px;
     height: 87px;

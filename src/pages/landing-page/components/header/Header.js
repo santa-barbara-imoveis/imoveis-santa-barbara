@@ -37,7 +37,7 @@ function Header() {
           <a href="https://www.instagram.com/santabarbaraimoveis/" target="_blank"><img className="qkIcon" src={iconInsta} /></a>
         </div>
         <div className="qkZap">
-          <a href="https://wa.me//553198131403?text=Acessei%20o%20site%20de%20vocês%20e%20gostaria%20de%20visitar%20um%20dos%20imóveis." target="_blank"><img className="qkIcon" src={iconZap} /></a>
+          <a href="https://wa.me//5531971861985?text=Acessei%20o%20site%20de%20vocês%20e%20gostaria%20de%20visitar%20um%20dos%20imóveis." target="_blank"><img className="qkIcon" src={iconZap} /></a>
         </div>
       </div>
     </div>

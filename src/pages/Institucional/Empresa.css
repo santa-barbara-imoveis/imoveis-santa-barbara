@@ -10,9 +10,71 @@
     display: flex;
 }
 
+.curriculo{
+    width: 100%;
+    height: fit-content;
+    flex-direction: row;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.curriculoTexto1{
+    margin-right: 30px;
+    font-size: 18px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items:center;
+    text-align:left;
+    justify-content:center;
+    vertical-align:middle;
+    flex-direction: column;
+}
+
+.curriculoTexto2{
+    margin-left: 30px;
+    font-size: 18px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items:center;
+    text-align:left;
+    justify-content:center;
+    vertical-align:middle;
+    flex-direction: column;
+}
+
+.imgJuliano{
+    width: 220px;
+    border-radius: 5px;
+
+}
+
+.imgRodolpho{
+    width: 180px;
+    border-radius: 5px;
+}
+
 .valores{
     width: 85%;
-    height: 2000px;
+    height: fit-content;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    align-items:start;
+    text-align:justify;
+    justify-content:start;
+    vertical-align:top;
+    flex-direction: column;
+    display: flex;
+}
+
+.nossaEquipe{
+    width: 100%;
+    height: fit-content;
     margin-top: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items:start;
@@ -23,16 +85,13 @@
     display: flex;
 }
 
-.nossaEquipe{
-    width: 85%;
-    height: fit-content;
-    margin-top: 30px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    align-items:start;
+p{
+    padding-block:10px;
+    color: black;
+    align-items:center;
     text-align:justify;
-    justify-content:start;
-    vertical-align:top;
-    flex-direction: column;
+    justify-content:center;
+    vertical-align:middle;
     display: flex;
 }
 
@@ -57,6 +116,13 @@
 h2{
     padding-block:10px;
     color: black;
+    align-items:start;
+    text-align:left;
+    justify-content:left;
+    vertical-align:middle;
+    display: flex;
+    width: 100%;
+    height: fit-content;
 }
 
 h3{

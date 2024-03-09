@@ -12,7 +12,7 @@ function BoxContact() {
           Inovação em Negócios Imobiliários!
         </div>
         <div className="botaoContato"> 
-          Fale conosco
+          <a href="https://wa.me//553198131403?text=Acessei%20o%20site%20de%20vocês%20e%20gostaria%20de%20visitar%20um%20dos%20imóveis." target="_blank">Fale conosco</a>
         </div>
       </article>
     );

@@ -7,16 +7,16 @@ function Financiar() {
   return (
       <main className='financiar'>
           <HeroFin/>
-        <div className='introducao'>
+        <div className='introducaoFin'>
           <p>No Brasil, apesar de haver diversas linhas de crédito, a grande parte dos financiamentos imobiliários são feitos através do Sistema Financeiro da Habitação (SFH), criado em 1964 pelo Governo Federal com objetivo de reduzir o déficit habitacional brasileiro diante do cenário de rápida urbanização.</p>
           <br></br>
-          <p>O SFH tem limites estabelecidos pelo governo federal, como <strong>valor máximo do imóvel</strong> que pode ser financiado, a <strong>taxa de juros</strong> e o <strong>comprometimento da renda</strong> do comprador.</p>
+          <p>O SFH tem limites estabelecidos pelo governo federal, como valor máximo do imóvel que pode ser financiado, a taxa de juros e o comprometimento da renda do comprador.</p>
           <br></br>
-          <p>Os recursos do SFH podem ser utilizados para três finalidades: <strong>compra, reforma ou construção de uma casa</strong>. Da mesma forma, as aquisições de bens enquadrados no programa Minha Casa Minha Vida, criado em 2009, também integram o SFH.</p>
+          <p>Os recursos do SFH podem ser utilizados para três finalidades: compra, reforma ou construção de uma casa. Da mesma forma, as aquisições de bens enquadrados no programa Minha Casa Minha Vida, criado em 2009, também integram o SFH.</p>
           <br></br>
-          <p>O financiamento (SFH) pode chegar no máximo a <strong>80% do valor do imóvel, que não pode ultrapassar o preço de R$ 1,5 milhão na avaliação</strong>. Vale frisar que, para ter acesso ao subsídio, é realizada a análise financeira (crédito) do comprador, o qual deverá comprovar que os encargos mensais (prestação, seguros, juros) não ultrapassam 30% da sua renda mensal bruta.</p>
+          <p>O financiamento (SFH) pode chegar no máximo a 80% do valor do imóvel, que não pode ultrapassar o preço de R$ 1,5 milhão na avaliação. Vale frisar que, para ter acesso ao subsídio, é realizada a análise financeira (crédito) do comprador, o qual deverá comprovar que os encargos mensais (prestação, seguros, juros) não ultrapassam 30% da sua renda mensal bruta.</p>
           <br></br>
-          <p>O prazo do empréstimo pode chegar a até 35 anos e a <strong>taxa de juros</strong> anual é fixa, limitada em no máximo 12%, mais a Taxa Referencial (TR), que atualiza o saldo devedor. Quando o valor da TR é zero, o devedor paga, na prática, apenas o valor fixo (taxa média de juros hoje é de entre 7% e 9% ao ano).</p>
+          <p>O prazo do empréstimo pode chegar a até 35 anos e a taxa de juros anual é fixa, limitada em no máximo 12%, mais a Taxa Referencial (TR), que atualiza o saldo devedor. Quando o valor da TR é zero, o devedor paga, na prática, apenas o valor fixo (taxa média de juros hoje é de entre 7% e 9% ao ano).</p>
           <br></br>
           <p>Para a contratação do financiamento existem despesas que podem representar cerca de 5% do valor do imóvel, quais sejam:</p>
           <ul>
@@ -56,7 +56,7 @@ function Financiar() {
           <h1>FUNDO DE GARANTIA POR TEMPO DE SERVIÇO - FGTS</h1>
           <br></br>
           <p>Todo trabalhador com carteira assinada tem direito ao Fundo de Garantia por Tempo de Serviço, o FGTS. E tanto quem optou pelo saque-aniversário, quanto quem optou pelo saque-rescisão pode utilizar o saldo do FGTS para o financiamento da moradia própria, conforme a Lei Nº 13.932, de 2019.</p>
-          <p>Mas, mesmo tendo direito ao FGTS e saldo em conta, <strong>é preciso cumprir alguns outros requisitos para poder usar esse dinheiro para financiar um imóvel.</strong></p>
+          <p>Mas, mesmo tendo direito ao FGTS e saldo em conta, é preciso cumprir alguns outros requisitos para poder usar esse dinheiro para financiar um imóvel.</p>
           <ul>
             <li>Ter, pelo menos, 3 anos de registro em carteira (não necessariamente consecutivos nem na mesma empresa);</li>
             <li>Morar ou trabalhar na mesma cidade ou na mesma Região Metropolitana onde comprará o novo imóvel;</li>
@@ -67,12 +67,12 @@ function Financiar() {
           <br></br>
           <p>Vale lembrar que o imóvel deve estar localizado em zona urbana – não necessariamente na mesma cidade onde a pessoa trabalha, já que os municípios que compõem a Região Metropolitana também são considerados. Você vai precisar comprovar todas as informações durante a contratação do crédito imobiliário.</p>
           <br></br>
-          <p>Usar o FGTS para o financiamento de um imóvel começa por um planejamento financeiro – ou seja, colocar na ponta do lápis todos os gastos previstos, já que o valor do imóvel não pode ser 100% financiado. <strong>Depois, o processo, em linhas gerais, é o seguinte:</strong></p>
+          <p>Usar o FGTS para o financiamento de um imóvel começa por um planejamento financeiro – ou seja, colocar na ponta do lápis todos os gastos previstos, já que o valor do imóvel não pode ser 100% financiado. Depois, o processo, em linhas gerais, é o seguinte:</p>
           <ol>
             <li>Consulte o saldo do seu FGTS para utilizá-lo no valor de entrada do financiamento;</li>
             <li>Pesquise e escolha o imóvel que atenda às suas necessidades – desde que o valor não passe de R$ 1,5 milhão (para o SFH);</li>
             <li>Faça simulações de financiamento em diferentes bancos e instituições financeiras autorizadas a funcionar pelo Banco Central. Dessa forma, você encontrará a melhor opção que cabe no seu bolso;</li>
-            <li>Reúna todos os documentos necessários – solicitados pela instituição financeira – para comprovação. <strong>Normalmente são: RG, CPF, certidão de casamento (para quem é casado), comprovante de residência e comprovantes de renda. Para trabalhadores informais, os extratos bancários são indispensáveis;</strong></li>
+            <li>Reúna todos os documentos necessários – solicitados pela instituição financeira – para comprovação. Normalmente são: RG, CPF, certidão de casamento (para quem é casado), comprovante de residência e comprovantes de renda. Para trabalhadores informais, os extratos bancários são indispensáveis.</li>
             <li>Certifique-se que todos os documentos estão atualizados: do imóvel, do comprador e do vendedor;</li>
             <li>Autorize a instituição financeira a consultar o seu saldo FGTS;</li>
             <li>Aguarde a avaliação do bem, por parte do banco, para a aprovação do uso do FGTS;</li>
@@ -81,7 +81,7 @@ function Financiar() {
           </ol>
           <br></br>
           <p>A consulta ao seu saldo do FGTS pode ser feita no aplicativo ou no internet banking da Caixa:</p>
-          <p><strong>No aplicativo:</strong></p>
+          <p>No aplicativo:</p>
           <ul>
             <li>Acesse a opção “autorizar inst. financeiras a acessarem dados do extrato” ou “autorizar bancos a consultarem o seu FGTS;</li>
             <li>Clique em “moradia própria”, confirme a leitura do termo e aceite;</li>
@@ -90,7 +90,7 @@ function Financiar() {
             <li>Clique em “gerar extrato PDF”, depois em “compartilhar” ou “enviar arquivo”, escolha a opção “compartilhar por e-mail”, digite o e-mail da Agência, conforme o caso e clique em “enviar”. Este processo deve ser realizado para todas as contas vinculadas de todos os participantes que irão utilizar os recursos.</li>
           </ul>
           <br></br>
-          <p><strong>No Internet Banking</strong> (caso seja cliente CAIXA):</p>
+          <p>No Internet Banking (caso seja cliente CAIXA):</p>
           <ul>
             <li>Acesse o Internet Banking, opção “FGTS e INSS”;</li>
             <li>Selecione “Autoriza Agente Financeiro FGTS”;</li>

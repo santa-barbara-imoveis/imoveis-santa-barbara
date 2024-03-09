@@ -6,17 +6,18 @@ import vagas from "./assets/carros.png";
 import quartos from "./assets/quarto.png";
 import fotoFrente from "./assets/V124.jpeg";
 import fotoFrente2 from "./assets/002_fachada.jpeg";
-import fotoFrente3 from "./assets/003_fachada.jpg";
+import fotoFrente3 from "./assets/V109.1.jpg";
 import setaE from "./assets/seta-esquerda.png";
 import setaD from "./assets//seta-direita.png";
+
 
 function Highlights() {
     return (
       <article className='highlts'>
         <div className="tituloBoxVenda">DESTAQUE VENDA</div>
         <div className="iconSetaPai">
-          <img className="iconSeta" src={setaE} />
-          <img className="iconSeta" src={setaD} />
+          {/* <img className="iconSeta" src={setaE} />
+          <img className="iconSeta" src={setaD} /> */}
         </div>
         <div className="opcaoImoveis">
           <div className="boxImovel">
@@ -73,19 +74,19 @@ function Highlights() {
               <img className="imFotoV" src={fotoFrente3} />
               <div className="boxPreco">
                 <div className="tipoContrato">Venda</div>
-                <div className="precoImovel">R$ 320.000,00</div>
+                <div className="precoImovel">R$ 500.000,00</div>
               </div>
             </div>
-            <div className="imBairroCidade">Ana Margarida - Santa Bárbara</div>
-            <div className="imId">Código: V118</div>
+            <div className="imBairroCidade">Barra Feliz - Santa Bárbara</div>
+            <div className="imId">Código: V109a1</div>
             <div className="imAmenities">
               <div className="iconsAmenities">
                 <img className="icon" src={area} />
-                60
+                200
                 <img className="icon" src={banho} />
                 2
                 <img className="icon" src={vagas} />
-                1
+                3
                 <img className="icon" src={quartos} />2
               </div>
             </div>

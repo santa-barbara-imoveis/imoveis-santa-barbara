@@ -10,8 +10,8 @@ import { Link } from "react-router-dom";
 function Footers() {
   return (
     <footer className='boxFooter'>
-      <div className='boxConta'>
-        <p className='boxFootTitulo'>CONTATO</p>
+      <div className='boxContaFoo'>
+        <p className='boxFootTituloF'>CONTATO</p>
         <p className='boxFootLinha'>
           <img className="qkIconLocal" src={iconEndereco} />
           X de Novembro, 129, Centro, Santa Bárbara
@@ -33,20 +33,10 @@ function Footers() {
           CRECI: MGJ0007201
         </p>
       </div>
-
-      <div className='boxMapa'>
-        <p className='boxFootTitulo'>MAPA</p>
-        <p> <Link to="/" className='mps'> Home </Link></p>
-        <p> <Link to="imoveis" className='mps'> Alugar </Link> </p>
-        <p> <Link to="imoveis" className='mps'> Comprar </Link></p>
-        <p> <Link to="documentos" className='mps'> Documentos </Link></p>
-        <p> <Link to="imoveis" className='mps'> Instituicional </Link></p>
-      </div>
-
-      <div className='boxConta'>
-        <p className='boxFootTitulo'>ENTRAMOS EM CONTATO</p>
-        <div className='textDif'>Digite o seu email que entraremos em contato.</div>
-        <div className='textDif'>Ao informar meus dados, eu concordo com a Política de Privacidade.</div>
+      <div className='boxContaF'>
+        <p className='boxFootTituloF'>ENTRAMOS EM CONTATO</p>
+        <div className='textDifContato'>Digite o seu email que entraremos em contato.</div>
+        <div className='textDifContato'>Ao informar meus dados, eu concordo com a Política de Privacidade.</div>
         <div className='boxEmailMsg'>
           <input className="inputEmail" type="text" name="email" />
         </div>

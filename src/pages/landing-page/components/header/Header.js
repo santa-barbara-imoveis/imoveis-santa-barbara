@@ -31,13 +31,13 @@ function Header() {
       </div>
       <div className="qkNetwork">
         <div className="qkFace">
-          <img className="qkIcon" src={iconFace} />
+          <a href="https://m.facebook.com/SantaBarbaraImoveisImobiliaria/" target="_blank"><img className="qkIcon" src={iconFace}/></a>
         </div>
         <div className="qkInsta">
-          <img className="qkIcon" src={iconInsta} />
+          <a href="https://www.instagram.com/santabarbaraimoveis/" target="_blank"><img className="qkIcon" src={iconInsta} /></a>
         </div>
         <div className="qkZap">
-          <img className="qkIcon" src={iconZap} />
+          <a href="https://wa.me//553198131403?text=Acessei%20o%20site%20de%20vocês%20e%20gostaria%20de%20visitar%20um%20dos%20imóveis." target="_blank"><img className="qkIcon" src={iconZap} /></a>
         </div>
       </div>
     </div>

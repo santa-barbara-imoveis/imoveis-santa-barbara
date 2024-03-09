@@ -26,6 +26,22 @@
     font-size: 18px;
 }
 
+.headMain a{
+    width: 127px;
+    height: 87px;
+    padding-inline: 5px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    vertical-align:middle;
+    display: flex;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    color: white;
+    font-size: 18px;
+}
+
 .headMain a:hover{
     width: 127px;
     height: 87px;

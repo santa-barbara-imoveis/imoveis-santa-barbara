@@ -47,11 +47,11 @@ function Header() {
       </div>
       <nav className="navHead" >
         <Link className="headMain" to="/"> Home </Link> 
-        <a className="headMain" href=""> <Link to="imoveis" className=""> Alugar </Link> </a>
-        <a className="headMain" href=""> <Link to="imoveis" className=""> Comprar </Link> </a>
-        <a className="headMain" href=""> <Link to="documentos" className=""> Documentos </Link> </a>
-        <a className="headMain" href=""> <Link to="financiar" className=""> Financiar </Link> </a>
-        <a className="headMain" href=""> <Link to="quem-somos" className=""> Institucional </Link> </a>
+        <Link to="imoveis" className="headMain"> Alugar </Link>
+        <Link to="imoveis" className="headMain"> Comprar </Link>
+        <Link to="documentos" className="headMain"> Documentos </Link>
+        <Link to="financiar" className="headMain"> Financiar </Link>
+        <Link to="quem-somos" className="headMain"> Institucional </Link>
         <a href="" className='entrar'> Entrar </a>
       </nav>
     </header>

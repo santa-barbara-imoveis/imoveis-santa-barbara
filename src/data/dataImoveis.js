@@ -1,3 +1,9 @@
+import ffL008 from "../assets/images/L008.jpg";
+import ffL010 from "../assets/images/L010.jpg";
+import ffL048a4 from "../assets/images/L048a4.jpeg";
+import ffL063a2 from "../assets/images/L063a2.jpeg";
+import ffL063a3 from "../assets/images/L063a3.jpeg";
+import ffL070 from "../assets/images/L070.jpg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV004 from "../assets/images/V004.jpg";
 import ffV006 from "../assets/images/V006.jpg";
@@ -12,16 +18,12 @@ import ffV060 from "../assets/images/V060.jpg";
 import ffV062 from "../assets/images/V062.jpg";
 import ffV064 from "../assets/images/V064.jpg";
 import ffV067 from "../assets/images/V067.jpg";
-import ffV085 from "../assets/images/V085.jpg";
 import ffV086 from "../assets/images/V086.jpg";
 import ffV088 from "../assets/images/V088.jpeg";
 import ffV095 from "../assets/images/V095.jpg";
-import ffV104 from "../assets/images/V104.jpg";
 import ffV108 from "../assets/images/V108.jpg";
 import ffV109a1 from "../assets/images/V109.1.jpg";
-import ffV113 from "../assets/images/V113.jpg";
 import ffV114 from "../assets/images/V114.jpeg";
-import ffV115 from "../assets/images/V115.jpeg";
 import ffV118 from "../assets/images/V118.jpg";
 import ffV119 from "../assets/images/V119.jpeg";
 import ffV120 from "../assets/images/V120.jpeg";
@@ -30,7 +32,6 @@ import ffV122 from "../assets/images/V122.jpg";
 import ffV123 from "../assets/images/V123.jpeg";
 import ffV124 from "../assets/images/V124.jpeg";
 import ffV125 from "../assets/images/V125.jpg";
-import ffV126 from "../assets/images/V126.jpg";
 import ffV127 from "../assets/images/V127.jpeg";
 import ffV129 from "../assets/images/V129.jpg";
 import ffV130 from "../assets/images/V130.jpg";
@@ -39,23 +40,9 @@ import ffV132 from "../assets/images/V132.jpg";
 import ffV133 from "../assets/images/V133.jpg";
 import ffV134 from "../assets/images/V134.jpeg";
 import ffV135 from "../assets/images/V135.jpeg";
-import ffV136 from "../assets/images/V136.jpeg";
 import ffV137 from "../assets/images/V137.jpeg";
 import ffV138 from "../assets/images/V138.jpg";
 import ffV139 from "../assets/images/V139.jpeg";
-import ffL008 from "../assets/images/L008.jpg";
-import ffL009a1 from "../assets/images/L009a1.jpg";
-import ffL010 from "../assets/images/L010.jpg";
-import ffL017 from "../assets/images/L017.jpg";
-import ffL020 from "../assets/images/L020.jpg";
-import ffL036 from "../assets/images/L036.jpg";
-import ffL038 from "../assets/images/L038.jpg";
-import ffL048a2 from "../assets/images/L048a2.jpeg";
-import ffL048a3 from "../assets/images/L048a3.jpeg";
-import ffL048a4 from "../assets/images/L048a4.jpeg";
-import ffL063a2 from "../assets/images/L063a2.jpeg";
-import ffL063a3 from "../assets/images/L063a3.jpeg";
-import ffL070 from "../assets/images/L070.jpg";
 import ffV141 from "../assets/images/V141.jpeg";
 import ffV142 from "../assets/images/V142.jpg";
 
@@ -435,7 +422,7 @@ const imoveisDisp = [
       valor:"R$ 320.000,00",
       areaTotal:"60 m²",
       areaConstruida: "60 m²",
-      titulo:"Vende-se ótimo apartamento no bairro Ana Margarida.",
+      titulo:"Vende-se ótimo apartamento no bairro Ana Margarida",
       descricao: "Apartamento novo e no térreo. Área construída: 60m². Sala / 02 quartos / 01 banheiro. Cozinha (com armário, cooktop, suggar). Área de serviço / área externa / garagem."
     },
     {
@@ -453,7 +440,7 @@ const imoveisDisp = [
       valor:"R$ 500.000,00",
       areaTotal:"- m²",
       areaConstruida: "200 m²",
-      titulo:"Sítio de 5,50 hectares à venda em Santa Bárbara.",
+      titulo:"Sítio de 5,50 hectares à venda em Santa Bárbara",
       descricao: "Já com estrutura de água e luz. Cercado e com porteiras. Pomar formado com vários tipos de frutas."
     },
     {
@@ -471,7 +458,7 @@ const imoveisDisp = [
       valor:"R$ 415.000,00",
       areaTotal:"178 m²",
       areaConstruida: "178 m²",
-      titulo:"Vende-se ótimo apartamento no centro.",
+      titulo:"Vende-se ótimo apartamento no centro",
       descricao: "Apartamento localizado em frente ao Colégio das Irmãs.05 quartos / 02 banheiros / sala, copa, cozinha.Armários embutidos / Varanda / Terraço / Área de serviço. Documentação regular."
     },
     {
@@ -489,7 +476,7 @@ const imoveisDisp = [
       valor:"R$ 1.180.000,00",
       areaTotal:"740 m²",
       areaConstruida: "180 m²",
-      titulo:"Ótima casa à venda no bairro Santa Mônica.",
+      titulo:"Ótima casa à venda no bairro Santa Mônica",
       descricao: "- Sala / Cozinha. Área Gourmet. Área de serviço. Piscina / Casa de criança. Jardim / Pomar. Varanda / Garagem ampla."
     },
     {
@@ -507,7 +494,7 @@ const imoveisDisp = [
       valor:"R$ 115.000,00",
       areaTotal:"1000 m²",
       areaConstruida: "- m²",
-      titulo:"Condomínio colonial Catas Altas.",
+      titulo:"Condomínio colonial Catas Altas",
       descricao: "Viva em conexão com a natureza exuberante na região de Catas Altas. Desfrute de um condomínio diferenciado, com segurança e bem estar, unindo-se ao estilo da vida cultural que somente a região pode oferecer."
     },
     {
@@ -525,7 +512,7 @@ const imoveisDisp = [
       valor:"R$ 6.000.000,00",
       areaTotal:"10,6 ha",
       areaConstruida: "- m²",
-      titulo:"Vende-se terreno de 10,6 ha em área urbana .",
+      titulo:"Vende-se terreno de 10,6 ha em área urbana",
       descricao: "Localizado na entrada de Santa Bárbara.Propriedade com escritura.Zona de Diversificação Econômica."
     },
     {
@@ -543,7 +530,7 @@ const imoveisDisp = [
       valor:"R$ 490.000,00",
       areaTotal:"360 m²",
       areaConstruida: "180 m²",
-      titulo:"Casa à venda no residencial Santo Antônio.",
+      titulo:"Casa à venda no residencial Santo Antônio",
       descricao: "Casa com cozinha ampla/copa e quintal. Varanda / Jardim.Casa de laje, piso de porcelanato e cerâmica. Toda murada e com portão eletrônico."
     },
     {
@@ -561,7 +548,7 @@ const imoveisDisp = [
       valor:"R$ 350.000,00",
       areaTotal:"450 m²",
       areaConstruida: "- m²",
-      titulo:"Vende-se lote – bairro Centro.",
+      titulo:"Vende-se lote – bairro Centro",
       descricao: "Ótima Localização. Documentação regular para financiamento."
     },
     {
@@ -579,7 +566,7 @@ const imoveisDisp = [
       valor:"R$ 1.032.000,00",
       areaTotal:"360 m²",
       areaConstruida: "256 m²",
-      titulo:"Vende-se lote – bairro Centro.",
+      titulo:"Vende-se lote – bairro Centro",
       descricao: "- Sala de jantar / Sala de estar. Sala de TV / Sala de escritório. Cozinha com bancada em granito. Despensa / área de serviço. Lavanderia / Garagem ampla."
     },
     {
@@ -597,7 +584,7 @@ const imoveisDisp = [
       valor:"R$ 990.000,00",
       areaTotal:"- m²",
       areaConstruida: "176 m²",
-      titulo:"Vende-se imóvel comercial, residencial no Centro Histórico.",
+      titulo:"Vende-se imóvel comercial, residencial no Centro Histórico",
       descricao: "Localização privilegiada.Infraestrutura completa (acesso a rua calçada, água, energia, esgoto e passeio).Espaço pode ser utilizado para fim comercial e residencial. "
     },
     {
@@ -615,7 +602,7 @@ const imoveisDisp = [
       valor:"R$ 430.000,00",
       areaTotal:"733 m²",
       areaConstruida: "733 m²",
-      titulo:"Vende-se lote – bairro Caminhos de Minas.",
+      titulo:"Vende-se lote – bairro Caminhos de Minas",
       descricao: "Lote plano de esquina. A partir de 180 metros. Imóvel documentado. Bairro com alto investimento em obras."
     },
     {
@@ -633,7 +620,7 @@ const imoveisDisp = [
       valor:"R$ 120.000,00",
       areaTotal:"710 m²",
       areaConstruida: "- m²",
-      titulo:"Oportunidade para compra em Barão de Cocais.",
+      titulo:"Oportunidade para compra em Barão de Cocais",
       descricao: "Lote plano. Não financia."
     },
     {
@@ -651,7 +638,7 @@ const imoveisDisp = [
       valor:"R$ 100.000,00",
       areaTotal:"618 m²",
       areaConstruida: "- m²",
-      titulo:"Oportunidade para compra em Barão de Cocais.",
+      titulo:"Oportunidade para compra em Barão de Cocais",
       descricao: "Lote plano. Não financia.Parcialmente murado."
     },
     {
@@ -669,7 +656,7 @@ const imoveisDisp = [
       valor:"R$ 380.000,00",
       areaTotal:"303 m²",
       areaConstruida: "166 m²",
-      titulo:"Vende-se casa em Barão de Cocais.",
+      titulo:"Vende-se casa em Barão de Cocais",
       descricao: "Sala/cozinha (bancada granito).Área externa / Área de churrasqueira.Documento regular para financiamento."
     },
     {
@@ -687,7 +674,7 @@ const imoveisDisp = [
       valor:"R$ 490.000,00",
       areaTotal:"- m²",
       areaConstruida: "- m²",
-      titulo:"Vende-se casa em Barão de Cocais.",
+      titulo:"Vende-se casa em Barão de Cocais",
       descricao: "Casa de laje, piso de cerâmica (porcelanato), 2 suítes, telhado colonial. Área externa/Área de churrasqueira.Documento regular para financiamento."
     },
     {
@@ -705,7 +692,7 @@ const imoveisDisp = [
       valor:"R$ 385.000,00",
       areaTotal:"70 m²",
       areaConstruida: "70 m²",
-      titulo:"Apartamento na planta.",
+      titulo:"Apartamento na planta",
       descricao: "Prédio com um total de 8 apartamentos. 2 apartamentos por andar. Localização privilegiada. Qualidade de acabamento. Elevador e varandas. Garagem coberta. Sala e cozinha integradas. Banheiro social e área de tanque."
     },
     {
@@ -723,7 +710,7 @@ const imoveisDisp = [
       valor:"R$ 195.000,00",
       areaTotal:"360 m²",
       areaConstruida: "- m²",
-      titulo:"Vende-se lote no bairro Santa Ipanema.",
+      titulo:"Vende-se lote no bairro Santa Ipanema",
       descricao: "Lote plano, com escritura.Bairro com infraestrutura completa."
     },
     {
@@ -741,7 +728,7 @@ const imoveisDisp = [
       valor:"R$ 2.000.000,00",
       areaTotal:"300 m²",
       areaConstruida: "- m²",
-      titulo:"Vende-se casa de alto padrão em Barão de Cocais.",
+      titulo:"Vende-se casa de alto padrão em Barão de Cocais",
       descricao: "Casa moderna, com ar condicionado, aquecimento solar, portão eletrônico.1 suíte com closet, banheira de hidromassagem e jardim interno.2 quartos sendo um com guarda roupa embutido.1 sala de jantar, 1 sala de estar, 1 sala de TV, 1 escritório.Cozinha planejada com bancadas em granito, com fogão cooktop e forno instalados.2 banheiros sociais no primeiro pavimento.1 área de serviço."
     },
     {
@@ -759,7 +746,7 @@ const imoveisDisp = [
       valor:"R$ 120.000,00",
       areaTotal:"300 m²",
       areaConstruida: "- m²",
-      titulo:"Vende-se lote – bairro São Veríssimo.",
+      titulo:"Vende-se lote – bairro São Veríssimo",
       descricao: "Topografia com pouco declive.Lote situado bem próximo ao Espaço Bessa. Não financia. Infraestrutura completa."
     },
     {
@@ -777,7 +764,7 @@ const imoveisDisp = [
       valor:"R$ 850.000,00",
       areaTotal:"440 m²",
       areaConstruida: "186 m²",
-      titulo:"Ótima casa a venda no bairro Santa Mônica.",
+      titulo:"Ótima casa a venda no bairro Santa Mônica",
       descricao: "Casa de laje e telhado colonial, com móveis planejados, portão eletrônico, aquecedor solar, sistema de segurança, cozinha e banheiros com bancadas em granito."
     },
     {
@@ -795,7 +782,7 @@ const imoveisDisp = [
       valor:"R$ 450.000,00",
       areaTotal:"81 m²",
       areaConstruida: "70 m²",
-      titulo:"Casa geminada a venda no bairro Lagoa.",
+      titulo:"Casa geminada a venda no bairro Lagoa",
       descricao: "Casa de laje e telhado colonial, com móveis planejados, ótimo acabamento e portão eletrônico."
     },
     {
@@ -1034,4 +1021,4 @@ const imoveisDisp = [
     }
   ]
 
-  export { imoveisDisp }
+  export { imoveisDisp };

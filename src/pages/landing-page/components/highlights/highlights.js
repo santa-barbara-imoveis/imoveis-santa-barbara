@@ -47,7 +47,6 @@ function Highlights() {
             </div>
           </Link>
 
-
           <div className="boxImovel">
             <div className="imFotoMainV">
               <img className="imFotoV" src={fotoFrente2} />

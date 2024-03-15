@@ -46,6 +46,16 @@ import ffV139 from "../assets/images/V139.jpeg";
 import ffV141 from "../assets/images/V141.jpeg";
 import ffV142 from "../assets/images/V142.jpg";
 
+const importAll = (r) => {
+  let images = [];
+  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+
+  r.keys().forEach((item) => {
+    images.push(r(item))
+  })
+  return images;
+};
+
 const imoveisDisp = [
     {
         fotoCapa: ffV003,
@@ -516,6 +526,7 @@ const imoveisDisp = [
       descricao: "Localizado na entrada de Santa Bárbara.Propriedade com escritura.Zona de Diversificação Econômica."
     },
     {
+      fotos: importAll(require.context('../assets/images/V124', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV124,
       cod: "V124",
       contrato: "Venda",
@@ -531,7 +542,7 @@ const imoveisDisp = [
       areaTotal:"360 m²",
       areaConstruida: "180 m²",
       titulo:"Casa à venda no residencial Santo Antônio",
-      descricao: "Casa com cozinha ampla/copa e quintal. Varanda / Jardim.Casa de laje, piso de porcelanato e cerâmica. Toda murada e com portão eletrônico."
+      descricao: "Casa com cozinha ampla/copa e quintal. Varanda / Jardim. Casa de laje, piso de porcelanato e cerâmica. Toda murada e com portão eletrônico."
     },
     {
       fotoCapa: ffV125,

@@ -1,4 +1,45 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 .photoProperty {
     margin: 0 auto;
     width: 100%;
 }
+
+.image-gallery button:hover {
+    background-color: transparent !important;
+    border: 2px black;
+}
+
+.image-gallery-right-nav {
+    right: 15px !important
+}
+
+.image-gallery-fullscreen-button {
+    right: 15px !important
+}
+
+.boxDataImovelPropertyDetails {
+    width: 100% !important;
+}
+
+.boxAmenitiesData.boxAmenitiesDataPropertyDetails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100% !important;
+    flex-grow: 1;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.singlePropertyDetail .address {
+    font-size: 12px;
+    padding: 10px;
+    color: rgb(88, 90, 86)
+}
+
+.boxAmenitiesDataPropertyDetails .ltBoxData {
+    /* width: 32%; */
+    width: auto;
+}
+

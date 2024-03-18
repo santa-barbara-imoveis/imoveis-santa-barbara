@@ -19,7 +19,7 @@ function Header() {
       </div>
       <div className="qkTelef">
         <img className="qkIcon" src={iconTel} />
-        31 3832-1674
+        31 97186-1985
       </div>
       <div className="qkTelef">
         <img className="qkIcon" src={iconTel} />

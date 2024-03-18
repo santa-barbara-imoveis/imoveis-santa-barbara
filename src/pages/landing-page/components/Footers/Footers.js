@@ -18,7 +18,7 @@ function Footers() {
         </p>
         <p className='boxFootLinha'>
           <img className="qkIconLocal" src={iconTel} />
-          31 97189-1985
+          31 97186-1985
         </p>
         <p>
           <img className="qkIconLocal" src={iconEmail} />

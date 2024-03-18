@@ -49,7 +49,6 @@ import ffV142 from "../assets/images/V142.jpg";
 const importAll = (r) => {
   let images = [];
   r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
-
   r.keys().forEach((item) => {
     images.push(r(item))
   })
@@ -382,6 +381,7 @@ const imoveisDisp = [
       descricao: "Imóvel conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo à área hospitalar). Em um raio de apenas 500m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas."
     } ,
     {
+      fotos: importAll(require.context('../assets/images/L0109a1', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV109a1,
       cod: "V109a1",
       contrato: "Venda",
@@ -671,6 +671,7 @@ const imoveisDisp = [
       descricao: "Sala/cozinha (bancada granito).Área externa / Área de churrasqueira.Documento regular para financiamento."
     },
     {
+      fotos: importAll(require.context('../assets/images/V134', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV134,
       cod: "V134",
       contrato: "Venda",
@@ -833,6 +834,7 @@ const imoveisDisp = [
     //   descricao:"Casa de 03 quartos com ótima localização (em frente à Igreja do Rosário). Espaço social com jardim, sinuca e churrasqueira."
     // },
     {
+      fotos: importAll(require.context('../assets/images/L010', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffL010,
       cod: "L010",
       contrato: "Locação",
@@ -847,7 +849,7 @@ const imoveisDisp = [
       valor:"R$ 800,00",
       areaTotal:"30 m²",
       areaConstruida: "- m²",
-      titulo:"-",
+      titulo:"Aluguel de ponto comercial na rua João Mota",
       descricao:"Localizado em área central de altíssima movimentação. Ideal para loja, escritório, consultório, salão de beleza."
     },
     // {
@@ -977,8 +979,9 @@ const imoveisDisp = [
       descricao:"01 sala comercial com 01 banheiro (25m²). Localizado em área central de altíssima movimentação, no 1º andar."
     },
     {
+      fotos: importAll(require.context('../assets/images/L063a2', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffL063a2,
-      cod: "L063.2",
+      cod: "L063a2",
       contrato: "Locação",
       tipoImovel:"Ponto comercial",
       ruaNum: "Rua Ramal dos Ferroviários, 473",
@@ -991,7 +994,7 @@ const imoveisDisp = [
       valor:"R$ 1.100,00",
       areaTotal:"14 m²",
       areaConstruida: "- m²",
-      titulo:"-",
+      titulo:"Aluguel de sala comercial no Reale - 2º andar.",
       descricao:"R$ 400,00 taxa de condomínio. Sala de 14m² em ótima localização e acabamento. Situado em área central de alta movimentação. Recepção climatizada, com recepcionista. Porta principal com acionamento eletrônico. Telefones fixos / Whatsapp automatizado. Internet banda larga / Espaço com copa equipada.Banheiros para clientes e banheiros internos.Sistema de câmeras de segurança, com monitoramento via app.Alarme geral e individual por sala, com acesso exclusivo.Possibilidades de adaptação de diversos projetos tais como spa day, com ducha aquecida, ou outros tipos de projetos específicos.Ideal para escritórios em geral, clínicas de estética, estúdio de pilates e outros. Despesas de condomínio inclui água, luz, IPTU, internet, recepção, sistema de câmeras e limpeza de áreas comuns."
     },
     {
@@ -1013,6 +1016,7 @@ const imoveisDisp = [
       descricao:"R$ 400,00 taxa de condomínio. Sala de 14m² em ótima localização e acabamento. Situado em área central de alta movimentação. Recepção climatizada, com recepcionista. Porta principal com acionamento eletrônico. Telefones fixos / Whatsapp automatizado. Internet banda larga / Espaço com copa equipada.Banheiros para clientes e banheiros internos.Sistema de câmeras de segurança, com monitoramento via app.Alarme geral e individual por sala, com acesso exclusivo.Possibilidades de adaptação de diversos projetos tais como spa day, com ducha aquecida, ou outros tipos de projetos específicos.Ideal para escritórios em geral, clínicas de estética, estúdio de pilates e outros. Despesas de condomínio inclui água, luz, IPTU, internet, recepção, sistema de câmeras e limpeza de áreas comuns."
     },
     {
+      fotos: importAll(require.context('../assets/images/L070', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffL070,
       cod: "L070",
       contrato: "Locação",
@@ -1027,7 +1031,7 @@ const imoveisDisp = [
       valor:"R$ 2.250,00",
       areaTotal:"178 m²",
       areaConstruida: "- m²",
-      titulo:"-",
+      titulo:"Aluga-se apartamento no centro",
       descricao:"Apartamento localizado em frente ao Colégio das Irmãs.05 quartos / 02 banheiros / sala, copa, cozinha. Armários embutidos / Varanda / Terraço / Área de serviço. 01 vaga de garagem."
     }
   ]

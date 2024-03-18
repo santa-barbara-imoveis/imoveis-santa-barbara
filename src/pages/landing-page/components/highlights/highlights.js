@@ -19,10 +19,11 @@ function Highlights() {
           <img className="iconSeta" src={setaD} /> */}
         </div>
         <div className="opcaoImoveis">
-          <Link to={`imovel/V124`}>
             <div className="boxImovel">
               <div className="imFotoMainV">
-                <img className="imFotoV" src={fotoFrente} />
+                <Link to={`imovel/V124`} className='linkImage'>
+                  <img className="imFotoV" src={fotoFrente} />
+                </Link>
                 <div className="boxPreco">
                   <div className="tipoContrato">Venda</div>
                   <div className="precoImovel">R$ 490.000,00</div>
@@ -45,12 +46,12 @@ function Highlights() {
                 </div>
               </div>
             </div>
-          </Link>
-
-
+          
           <div className="boxImovel">
             <div className="imFotoMainV">
-              <img className="imFotoV" src={fotoFrente2} />
+              <Link to={`imovel/V134`} className='linkImage'>
+                <img className="imFotoV" src={fotoFrente2} />
+              </Link>
               <div className="boxPreco">
                 <div className="tipoContrato">Venda</div>
                 <div className="precoImovel">R$ 490.000,00</div>
@@ -73,7 +74,9 @@ function Highlights() {
 
           <div className="boxImovel">
             <div className="imFotoMainV">
-              <img className="imFotoV" src={fotoFrente3} />
+              <Link to={`imovel/V109a1`} className='linkImage'>
+                <img className="imFotoV" src={fotoFrente3} />
+              </Link>
               <div className="boxPreco">
                 <div className="tipoContrato">Venda</div>
                 <div className="precoImovel">R$ 500.000,00</div>

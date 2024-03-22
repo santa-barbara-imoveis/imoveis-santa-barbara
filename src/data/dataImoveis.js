@@ -114,6 +114,7 @@ const imoveisDisp = [
         descricao:"Imóvel com área total de 736,10 m² no centro (em frente ao Posto Shell). Localização privilegiada. Infraestrutura completa (acesso a rua calçada, água, energia, esgoto e passeio). Espaço pode ser utilizado para fim comercial e residencial. Lote todo murado."
     },
     {
+        fotos: importAll(require.context('../assets/images/V021', true, /\.(png|jpe?g|svg)$/)),
         fotoCapa: ffV021,
         cod: "V021",
         contrato: "Venda",

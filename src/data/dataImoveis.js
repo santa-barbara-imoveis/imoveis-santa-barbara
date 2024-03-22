@@ -133,6 +133,7 @@ const imoveisDisp = [
         descricao:"Lote plano com excelente localização; 949 m². De frente para a rodovia MG129 (sentido Catas Altas)"
     },
     {
+      fotos: importAll(require.context('../assets/images/V023', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV023,
       cod: "V023",
       contrato: "Venda",
@@ -151,6 +152,7 @@ const imoveisDisp = [
       descricao:"Localização privilegiada (próximo ao centro da cidade). Infraestrutura completa (acesso a rua calçada, água, energia, esgoto e passeio). Lote todo murado."
     },
     {
+      fotos: importAll(require.context('../assets/images/V035', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV035,
       cod: "V035",
       contrato: "Venda",
@@ -169,6 +171,7 @@ const imoveisDisp = [
       descricao:"03 quartos / 02 banheiros (01 suíte). Sala de TV / Sala de jantar. Cozinha estilo americana. Despensa / área de serviço. Quintal / Garagem ampla."
     },
     {
+      fotos: importAll(require.context('../assets/images/V047', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV047,
       cod: "V047",
       contrato: "Venda",
@@ -177,9 +180,9 @@ const imoveisDisp = [
       bairro:"Centro",
       cidade:"Santa Bárbara",
       Estado:"Minas Gerais",
-      quartos:0,
-      banheiros:0,
-      vagas:0,
+      quartos:"-",
+      banheiros:"-",
+      vagas:"-",
       valor:"R$ 550.000,00",
       areaTotal:"520 m²",
       areaConstruida: "520 m²",
@@ -187,6 +190,7 @@ const imoveisDisp = [
       descricao:"Localizado na João Mota (rua de altíssima movimentação). Ideal para fim comercial. 13m de frente. Infraestrutura completa (acesso a rua calçada, água, energia, esgoto e passeio)."
     },
     {
+      fotos: importAll(require.context('../assets/images/V052', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV052,
       cod: "V052",
       contrato: "Venda",
@@ -195,9 +199,9 @@ const imoveisDisp = [
       bairro:"Centro",
       cidade:"São Gonçalo do Rio Abaixo",
       Estado:"Minas Gerais",
-      quartos:0,
-      banheiros:0,
-      vagas:0,
+      quartos:"-",
+      banheiros:"-",
+      vagas:"-",
       valor:"R$ 130.000,00",
       areaTotal:"3.000 m²",
       areaConstruida: "0 m²",
@@ -205,6 +209,7 @@ const imoveisDisp = [
       descricao:"Excelente opção para quem busca tranquilidade e qualidade de vida. Chácaras de 3.000m² (ao lado do Retiro dos Chalés). 11 km de Santa Bárbara. 10km de São Gonçalo. 25km de João Monlevade. Infraestrutura completa e fácil acesso!"
     },
     {
+      fotos: importAll(require.context('../assets/images/V055', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV055,
       cod: "V055",
       contrato: "Venda",
@@ -220,9 +225,10 @@ const imoveisDisp = [
       areaTotal:"70 m²",
       areaConstruida: "150 m²",
       titulo:"Vende-se casa no bairro São Vicente",
-      descricao:"- Sala / copa / cozinha. Sala TV / Lavanderia. Garagem para 01 carro. Imóvel de 3 andares e com bom acabamento."
+      descricao:"Sala / copa / cozinha. Sala TV / Lavanderia. Garagem para 01 carro. Imóvel de 3 andares e com bom acabamento."
     },
     {
+      fotos: importAll(require.context('../assets/images/V058', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV058,
       cod: "V058",
       contrato: "Venda",
@@ -231,9 +237,9 @@ const imoveisDisp = [
       bairro:"Centro",
       cidade:"Santa Bárbara",
       Estado:"Minas Gerais",
-      quartos:0,
-      banheiros:0,
-      vagas:0,
+      quartos:"-",
+      banheiros:"-",
+      vagas:"-",
       valor:"R$ 1.600.000,00",
       areaTotal:"1008 m²",
       areaConstruida: "- m²",
@@ -241,6 +247,7 @@ const imoveisDisp = [
       descricao:"Imóvel em lote de 1008m² próximo à Igreja Nossa Senhora do Rosário.Imóvel possui 03 casas e 01 kitnet. Área comum com jardim, churrasqueira, sinuca. Infraestrutura completa (acesso a rua calçada, água, energia, esgoto)."
     },
     {
+      fotos: importAll(require.context('../assets/images/V060', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV060,
       cod: "V060",
       contrato: "Venda",
@@ -249,9 +256,9 @@ const imoveisDisp = [
       bairro:"Cidade Nova",
       cidade:"Barão de Cocais",
       Estado:"Minas Gerais",
-      quartos:0,
-      banheiros:0,
-      vagas:0,
+      quartos:"-",
+      banheiros:"-",
+      vagas:"-",
       valor:"R$ 100.000,00",
       areaTotal:"300 m²",
       areaConstruida: "- m²",
@@ -259,6 +266,7 @@ const imoveisDisp = [
       descricao:"Não financia. Infraestrutura completa."
     },
     {
+      fotos: importAll(require.context('../assets/images/V062', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV062,
       cod: "V062",
       contrato: "Venda",
@@ -267,34 +275,36 @@ const imoveisDisp = [
       bairro:"Represa de Peti",
       cidade:"Santa Bárbara",
       Estado:"Minas Gerais",
-      quartos:0,
-      banheiros:0,
-      vagas:0,
+      quartos:"-",
+      banheiros:"-",
+      vagas:"-",
       valor:"R$ 4.500.000,00",
       areaTotal:"32 ha",
       areaConstruida: "- m²",
       titulo:"Vende-se linda propriedade de 32ha, à margem do lago da represa do Peti",
       descricao:"Excelente opção para quem busca tranquilidade e qualidade de vida. Casa sede de 200m².Casa de hóspede de 200m².Área de lazer de 276m². 02 casas de caseiro. 5 hectares de cana. Produção integrada de cachaça. Curral. Infraestrutura completa e fácil acesso."
     },
+    // {
+    //   fotos: importAll(require.context('../assets/images/V064', true, /\.(png|jpe?g|svg)$/)),
+    //   fotoCapa: ffV064,
+    //   cod: "V064",
+    //   contrato: "Venda",
+    //   tipoImovel:"Lote",
+    //   ruaNum: "-",
+    //   bairro:"Residencial Vila da Serra",
+    //   cidade:"Santa Bárbara",
+    //   Estado:"Minas Gerais",
+    //   quartos:"-",
+    //   banheiros:"-",
+    //   vagas:"-",
+    //   valor:"R$ 90.000,00",
+    //   areaTotal:"309,14 m²",
+    //   areaConstruida: "- m²",
+    //   titulo:"Lote residencial Vila da Serra",
+    //   descricao:"Vista para a serra, qualidade de vida e um excelente investimento.Infraestrutura completa."
+    // },
     {
-      fotoCapa: ffV064,
-      cod: "V064",
-      contrato: "Venda",
-      tipoImovel:"Lote",
-      ruaNum: "-",
-      bairro:"Residencial Vila da Serra",
-      cidade:"Santa Bárbara",
-      Estado:"Minas Gerais",
-      quartos:0,
-      banheiros:0,
-      vagas:0,
-      valor:"R$ 90.000,00",
-      areaTotal:"309,14 m²",
-      areaConstruida: "- m²",
-      titulo:"Lote residencial Vila da Serra",
-      descricao:"Vista para a serra, qualidade de vida e um excelente investimento.Infraestrutura completa."
-    },
-    {
+      fotos: importAll(require.context('../assets/images/V067', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV067,
       cod: "V067",
       contrato: "Venda",
@@ -303,9 +313,9 @@ const imoveisDisp = [
       bairro:"Cidade Nova",
       cidade:"Barão de Cocais",
       Estado:"Minas Gerais",
-      quartos:0,
-      banheiros:0,
-      vagas:0,
+      quartos:"-",
+      banheiros:"-",
+      vagas:"-",
       valor:"R$ 140.000,00",
       areaTotal:"300 m²",
       areaConstruida: "- m²",
@@ -313,6 +323,7 @@ const imoveisDisp = [
       descricao:"Bairro Cidade Nova. Financia. R$ 140.000,00. Infraestrutura completa."
     },
     {
+      fotos: importAll(require.context('../assets/images/V086', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV086,
       cod: "V086",
       contrato: "Venda",
@@ -330,25 +341,27 @@ const imoveisDisp = [
       titulo:"Vende-se ótima casa no sumidouro",
       descricao:"Imóvel novo, rústico e aconchegante. Localização privilegiada (Rodovia do Caraça). Casa bem estruturada e com amplo terreno. Infraestrutura completa."
     },
+    // {
+    //   fotos: importAll(require.context('../assets/images/V088', true, /\.(png|jpe?g|svg)$/)),
+    //   fotoCapa: ffV088,
+    //   cod: "V088",
+    //   contrato: "Venda",
+    //   tipoImovel:"Casa",
+    //   ruaNum: "Rua Névio Verdolim, 229",
+    //   bairro:"Vila Brandão",
+    //   cidade:"Barão de Cocais",
+    //   Estado:"Minas Gerais",
+    //   quartos:3,
+    //   banheiros:3,
+    //   vagas:3,
+    //   valor:"R$ 510.000,00",
+    //   areaTotal:"540 m²",
+    //   areaConstruida: "220 m²",
+    //   titulo:"Vende-se ótima casa em Barão de Cocais",
+    //   descricao: "Localização privilegiada (Em frente ao Clube Jabaquara). Lote amplo com grande área construída. Próximo à escola, farmácia, supermercado e clube. Infraestrutura completa. 02 quartos, 1 suíte, 2 banheiros, garagem, copa, sala, cozinha, quintal"
+    // },
     {
-      fotoCapa: ffV088,
-      cod: "V088",
-      contrato: "Venda",
-      tipoImovel:"Casa",
-      ruaNum: "Rua Névio Verdolim, 229",
-      bairro:"Vila Brandão",
-      cidade:"Barão de Cocais",
-      Estado:"Minas Gerais",
-      quartos:3,
-      banheiros:3,
-      vagas:3,
-      valor:"R$ 510.000,00",
-      areaTotal:"540 m²",
-      areaConstruida: "220 m²",
-      titulo:"Vende-se ótima casa em Barão de Cocais",
-      descricao: "Localização privilegiada (Em frente ao Clube Jabaquara). Lote amplo com grande área construída. Próximo à escola, farmácia, supermercado e clube. Infraestrutura completa. 02 quartos, 1 suíte, 2 banheiros, garagem, copa, sala, cozinha, quintal"
-    },
-    {
+      fotos: importAll(require.context('../assets/images/V095', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV095,
       cod: "V095",
       contrato: "Venda",
@@ -367,6 +380,7 @@ const imoveisDisp = [
       descricao: "Apartamento 2º pavimento. Copa/cozinha, área de serviço, 2 varandas. 2 quartos (2 suítes), documentação regular."
     },
     {
+      fotos: importAll(require.context('../assets/images/V108', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV108,
       cod: "V108",
       contrato: "Venda",
@@ -404,6 +418,7 @@ const imoveisDisp = [
       descricao: "Imóvel novo e aconchegante. Localização privilegiada (Ao lado do River Park). Chalé bem estruturado e com área ampla. Portão eletrônico/quiosque com churrasqueira e piscina. Banheiro social/ 01 suíte / 02 quartos. Sala / Cozinha / Área de serviço. Garagem / Quintal."
     } ,
     {
+      fotos: importAll(require.context('../assets/images/V114', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV114,
       cod: "V114",
       contrato: "Venda",
@@ -422,6 +437,7 @@ const imoveisDisp = [
       descricao: "Sala / Copa, 02 Quartos (01 suíte), 02 banheiros. Cozinha. Área de serviço. Garagem para 02 carros. Quintal, 410 m² de área total / 100 m² de área construída. Localização privilegiada (próximo ao Colégio das Irmãs). Infraestrutura completa."
     },
     {
+      fotos: importAll(require.context('../assets/images/V118', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV118,
       cod: "V118",
       contrato: "Venda",
@@ -440,6 +456,7 @@ const imoveisDisp = [
       descricao: "Apartamento novo e no térreo. Área construída: 60m². Sala / 02 quartos / 01 banheiro. Cozinha (com armário, cooktop, suggar). Área de serviço / área externa / garagem."
     },
     {
+      fotos: importAll(require.context('../assets/images/V119', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV119,
       cod: "V119",
       contrato: "Venda",
@@ -458,6 +475,7 @@ const imoveisDisp = [
       descricao: "Já com estrutura de água e luz. Cercado e com porteiras. Pomar formado com vários tipos de frutas."
     },
     {
+      fotos: importAll(require.context('../assets/images/V120', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV120,
       cod: "V120",
       contrato: "Venda",
@@ -468,7 +486,7 @@ const imoveisDisp = [
       Estado:"Minas Gerais",
       quartos:5,
       banheiros:2,
-      vagas:0,
+      vagas:"0",
       valor:"R$ 415.000,00",
       areaTotal:"178 m²",
       areaConstruida: "178 m²",
@@ -476,6 +494,7 @@ const imoveisDisp = [
       descricao: "Apartamento localizado em frente ao Colégio das Irmãs.05 quartos / 02 banheiros / sala, copa, cozinha.Armários embutidos / Varanda / Terraço / Área de serviço. Documentação regular."
     },
     {
+      fotos: importAll(require.context('../assets/images/V121', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV121,
       cod: "V121",
       contrato: "Venda",
@@ -491,9 +510,10 @@ const imoveisDisp = [
       areaTotal:"740 m²",
       areaConstruida: "180 m²",
       titulo:"Ótima casa à venda no bairro Santa Mônica",
-      descricao: "- Sala / Cozinha. Área Gourmet. Área de serviço. Piscina / Casa de criança. Jardim / Pomar. Varanda / Garagem ampla."
+      descricao: "Sala / Cozinha. Área Gourmet. Área de serviço. Piscina / Casa de criança. Jardim / Pomar. Varanda / Garagem ampla."
     },
     {
+      fotos: importAll(require.context('../assets/images/V122', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV122,
       cod: "V122",
       contrato: "Venda",
@@ -502,9 +522,9 @@ const imoveisDisp = [
       bairro:"Catas Altas",
       cidade:"Catas Altas",
       Estado:"Minas Gerais",
-      quartos:0,
-      banheiros:0,
-      vagas:0,
+      quartos:"-",
+      banheiros:"-",
+      vagas:"-",
       valor:"R$ 115.000,00",
       areaTotal:"1000 m²",
       areaConstruida: "- m²",
@@ -512,6 +532,7 @@ const imoveisDisp = [
       descricao: "Viva em conexão com a natureza exuberante na região de Catas Altas. Desfrute de um condomínio diferenciado, com segurança e bem estar, unindo-se ao estilo da vida cultural que somente a região pode oferecer."
     },
     {
+      fotos: importAll(require.context('../assets/images/V123', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV123,
       cod: "V123",
       contrato: "Venda",
@@ -527,7 +548,7 @@ const imoveisDisp = [
       areaTotal:"10,6 ha",
       areaConstruida: "- m²",
       titulo:"Vende-se terreno de 10,6 ha em área urbana",
-      descricao: "Localizado na entrada de Santa Bárbara.Propriedade com escritura.Zona de Diversificação Econômica."
+      descricao: "Localizado na entrada de Santa Bárbara. Propriedade com escritura. Zona de Diversificação Econômica."
     },
     {
       fotos: importAll(require.context('../assets/images/V124', true, /\.(png|jpe?g|svg)$/)),
@@ -549,6 +570,7 @@ const imoveisDisp = [
       descricao: "Casa com cozinha ampla/copa e quintal. Varanda / Jardim. Casa de laje, piso de porcelanato e cerâmica. Toda murada e com portão eletrônico."
     },
     {
+      fotos: importAll(require.context('../assets/images/V125', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV125,
       cod: "V125",
       contrato: "Venda",
@@ -567,6 +589,7 @@ const imoveisDisp = [
       descricao: "Ótima Localização. Documentação regular para financiamento."
     },
     {
+      fotos: importAll(require.context('../assets/images/V127', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV127,
       cod: "V127",
       contrato: "Venda",
@@ -582,9 +605,10 @@ const imoveisDisp = [
       areaTotal:"360 m²",
       areaConstruida: "256 m²",
       titulo:"Vende-se lote – bairro Centro",
-      descricao: "- Sala de jantar / Sala de estar. Sala de TV / Sala de escritório. Cozinha com bancada em granito. Despensa / área de serviço. Lavanderia / Garagem ampla."
+      descricao: "Sala de jantar / Sala de estar. Sala de TV / Sala de escritório. Cozinha com bancada em granito. Despensa / área de serviço. Lavanderia / Garagem ampla."
     },
     {
+      fotos: importAll(require.context('../assets/images/V129', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV129,
       cod: "V129",
       contrato: "Venda",
@@ -593,9 +617,9 @@ const imoveisDisp = [
       bairro:"Centro",
       cidade:"Santa Bárbara",
       Estado:"Minas Gerais",
-      quartos:0,
-      banheiros:0,
-      vagas:0,
+      quartos:"-",
+      banheiros:"-",
+      vagas:"-",
       valor:"R$ 990.000,00",
       areaTotal:"- m²",
       areaConstruida: "176 m²",
@@ -603,6 +627,7 @@ const imoveisDisp = [
       descricao: "Localização privilegiada.Infraestrutura completa (acesso a rua calçada, água, energia, esgoto e passeio).Espaço pode ser utilizado para fim comercial e residencial. "
     },
     {
+      fotos: importAll(require.context('../assets/images/V130', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV130,
       cod: "V130",
       contrato: "Venda",
@@ -611,9 +636,9 @@ const imoveisDisp = [
       bairro:"Caminhos de Minas",
       cidade:"Santa Bárbara",
       Estado:"Minas Gerais",
-      quartos:0,
-      banheiros:0,
-      vagas:0,
+      quartos:"-",
+      banheiros:"-",
+      vagas:"-",
       valor:"R$ 430.000,00",
       areaTotal:"733 m²",
       areaConstruida: "733 m²",
@@ -621,17 +646,18 @@ const imoveisDisp = [
       descricao: "Lote plano de esquina. A partir de 180 metros. Imóvel documentado. Bairro com alto investimento em obras."
     },
     {
+      fotos: importAll(require.context('../assets/images/V131', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV131,
-      cod: "V130",
+      cod: "V131",
       contrato: "Venda",
       tipoImovel:"Lote",
       ruaNum: "Chácara 2",
       bairro:"Chácara 2",
       cidade:"Barão de Cocais",
       Estado:"Minas Gerais",
-      quartos:0,
-      banheiros:0,
-      vagas:0,
+      quartos:"-",
+      banheiros:"-",
+      vagas:"-",
       valor:"R$ 120.000,00",
       areaTotal:"710 m²",
       areaConstruida: "- m²",
@@ -639,6 +665,7 @@ const imoveisDisp = [
       descricao: "Lote plano. Não financia."
     },
     {
+      fotos: importAll(require.context('../assets/images/V132', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV132,
       cod: "V132",
       contrato: "Venda",
@@ -647,9 +674,9 @@ const imoveisDisp = [
       bairro:"São João Batista",
       cidade:"Barão de Cocais",
       Estado:"Minas Gerais",
-      quartos:0,
-      banheiros:0,
-      vagas:0,
+      quartos:"-",
+      banheiros:"-",
+      vagas:"-",
       valor:"R$ 100.000,00",
       areaTotal:"618 m²",
       areaConstruida: "- m²",
@@ -657,6 +684,7 @@ const imoveisDisp = [
       descricao: "Lote plano. Não financia.Parcialmente murado."
     },
     {
+      fotos: importAll(require.context('../assets/images/V133', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV133,
       cod: "V133",
       contrato: "Venda",
@@ -694,6 +722,7 @@ const imoveisDisp = [
       descricao: "Casa de laje, piso de cerâmica (porcelanato), 2 suítes, telhado colonial. Área externa/Área de churrasqueira.Documento regular para financiamento."
     },
     {
+      fotos: importAll(require.context('../assets/images/V135', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV135,
       cod: "V135",
       contrato: "Venda",
@@ -712,6 +741,7 @@ const imoveisDisp = [
       descricao: "Prédio com um total de 8 apartamentos. 2 apartamentos por andar. Localização privilegiada. Qualidade de acabamento. Elevador e varandas. Garagem coberta. Sala e cozinha integradas. Banheiro social e área de tanque."
     },
     {
+      fotos: importAll(require.context('../assets/images/V137', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV137,
       cod: "V137",
       contrato: "Venda",
@@ -720,9 +750,9 @@ const imoveisDisp = [
       bairro:"Ipanema",
       cidade:"Santa Bárbara",
       Estado:"Minas Gerais",
-      quartos:0,
-      banheiros:0,
-      vagas:0,
+      quartos:"-",
+      banheiros:"-",
+      vagas:"-",
       valor:"R$ 195.000,00",
       areaTotal:"360 m²",
       areaConstruida: "- m²",
@@ -730,6 +760,7 @@ const imoveisDisp = [
       descricao: "Lote plano, com escritura.Bairro com infraestrutura completa."
     },
     {
+      fotos: importAll(require.context('../assets/images/V138', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV138,
       cod: "V138",
       contrato: "Venda",
@@ -748,6 +779,7 @@ const imoveisDisp = [
       descricao: "Casa moderna, com ar condicionado, aquecimento solar, portão eletrônico.1 suíte com closet, banheira de hidromassagem e jardim interno.2 quartos sendo um com guarda roupa embutido.1 sala de jantar, 1 sala de estar, 1 sala de TV, 1 escritório.Cozinha planejada com bancadas em granito, com fogão cooktop e forno instalados.2 banheiros sociais no primeiro pavimento.1 área de serviço."
     },
     {
+      fotos: importAll(require.context('../assets/images/V139', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV139,
       cod: "V139",
       contrato: "Venda",
@@ -756,9 +788,9 @@ const imoveisDisp = [
       bairro:"São Veríssimo",
       cidade:"Santa Bárbara",
       Estado:"Minas Gerais",
-      quartos:0,
-      banheiros:0,
-      vagas:0,
+      quartos:"-",
+      banheiros:"-",
+      vagas:"-",
       valor:"R$ 120.000,00",
       areaTotal:"300 m²",
       areaConstruida: "- m²",
@@ -766,6 +798,7 @@ const imoveisDisp = [
       descricao: "Topografia com pouco declive.Lote situado bem próximo ao Espaço Bessa. Não financia. Infraestrutura completa."
     },
     {
+      fotos: importAll(require.context('../assets/images/V141', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV141,
       cod: "V141",
       contrato: "Venda",
@@ -784,6 +817,7 @@ const imoveisDisp = [
       descricao: "Casa de laje e telhado colonial, com móveis planejados, portão eletrônico, aquecedor solar, sistema de segurança, cozinha e banheiros com bancadas em granito."
     },
     {
+      fotos: importAll(require.context('../assets/images/V142', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV142,
       cod: "V142",
       contrato: "Venda",
@@ -802,6 +836,7 @@ const imoveisDisp = [
       descricao: "Casa de laje e telhado colonial, com móveis planejados, ótimo acabamento e portão eletrônico."
     },
     {
+      fotos: importAll(require.context('../assets/images/L008', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffL008,
       cod: "L008",
       contrato: "Locação",
@@ -816,7 +851,7 @@ const imoveisDisp = [
       valor:"R$ 4.900,00",
       areaTotal:"1.000 m²",
       areaConstruida: "- m²",
-      titulo:"-",
+      titulo:"Aluguel de lotes próximo ao trevo de Santa Bárbara",
       descricao:"Lotes planos com excelente localização. De frente para a rodovia MG129 (sentido Catas Altas)."
     },
     // {
@@ -965,6 +1000,7 @@ const imoveisDisp = [
     //   descricao:"01 sala comercial com 01 banheiro (20m²). Localizado em área central de altíssima movimentação, no 2º andar."
     // },
     {
+      fotos: importAll(require.context('../assets/images/L048.4', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffL048a4,
       cod: "L048.4",
       contrato: "Locação",
@@ -973,13 +1009,13 @@ const imoveisDisp = [
       bairro:"Centro",
       cidade:"Santa Bárbara",
       Estado:"Minas Gerais",
-      quartos:0,
-      banheiros:1,
-      vagas:0,
+      quartos:"-",
+      banheiros:"-",
+      vagas:"-",
       valor:"R$ 2.000,00",
       areaTotal:"25 m²",
       areaConstruida: "- m²",
-      titulo:"-",
+      titulo:"Aluguel de ponto comercial na rua João Mota (em frente a Caixa Ecônomica)",
       descricao:"01 sala comercial com 01 banheiro (25m²). Localizado em área central de altíssima movimentação, no 1º andar."
     },
     {
@@ -1002,6 +1038,7 @@ const imoveisDisp = [
       descricao:"R$ 400,00 taxa de condomínio. Sala de 14m² em ótima localização e acabamento. Situado em área central de alta movimentação. Recepção climatizada, com recepcionista. Porta principal com acionamento eletrônico. Telefones fixos / Whatsapp automatizado. Internet banda larga / Espaço com copa equipada.Banheiros para clientes e banheiros internos.Sistema de câmeras de segurança, com monitoramento via app.Alarme geral e individual por sala, com acesso exclusivo.Possibilidades de adaptação de diversos projetos tais como spa day, com ducha aquecida, ou outros tipos de projetos específicos.Ideal para escritórios em geral, clínicas de estética, estúdio de pilates e outros. Despesas de condomínio inclui água, luz, IPTU, internet, recepção, sistema de câmeras e limpeza de áreas comuns."
     },
     {
+      fotos: importAll(require.context('../assets/images/L063.3', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffL063a3,
       cod: "L063.3",
       contrato: "Locação",
@@ -1016,7 +1053,7 @@ const imoveisDisp = [
       valor:"R$ 1.100,00",
       areaTotal:"14 m²",
       areaConstruida: "- m²",
-      titulo:"-",
+      titulo:"Aluguel de sala comercial na REALE - 2º andar",
       descricao:"R$ 400,00 taxa de condomínio. Sala de 14m² em ótima localização e acabamento. Situado em área central de alta movimentação. Recepção climatizada, com recepcionista. Porta principal com acionamento eletrônico. Telefones fixos / Whatsapp automatizado. Internet banda larga / Espaço com copa equipada.Banheiros para clientes e banheiros internos.Sistema de câmeras de segurança, com monitoramento via app.Alarme geral e individual por sala, com acesso exclusivo.Possibilidades de adaptação de diversos projetos tais como spa day, com ducha aquecida, ou outros tipos de projetos específicos.Ideal para escritórios em geral, clínicas de estética, estúdio de pilates e outros. Despesas de condomínio inclui água, luz, IPTU, internet, recepção, sistema de câmeras e limpeza de áreas comuns."
     },
     {

@@ -40,7 +40,11 @@ const router = createBrowserRouter([
       },
       {
         path: "imovel/:propertyId",
-        element: <PropertyDetails />
+        element: <PropertyDetails/>
+      },
+      {
+        path: "imoveis/imovel/:propertyId",
+        element: <PropertyDetails/>
       }
     ]
   },

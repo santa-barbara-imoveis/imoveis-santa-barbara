@@ -57,6 +57,7 @@ const importAll = (r) => {
 
 const imoveisDisp = [
     {
+        fotos: importAll(require.context('../assets/images/V003', true, /\.(png|jpe?g|svg)$/)),
         fotoCapa: ffV003,
         cod: "V003",
         contrato: "Venda",
@@ -75,6 +76,7 @@ const imoveisDisp = [
         descricao:"Sala de TV, sala de jantar, cozinha estilo americana, despensa, área de serviço, quintal, garagem ampla"
     },
     {
+      fotos: importAll(require.context('../assets/images/V004', true, /\.(png|jpe?g|svg)$/)),
         fotoCapa: ffV004,
         cod: "V004",
         contrato: "Venda",
@@ -93,6 +95,7 @@ const imoveisDisp = [
         descricao:"Casa em área residencial, localizada no centro da cidade (próximo ao Hospital e a Igreja Nossa Senhora das Mercês). Local possui infraestrutura completa (rua calçada, água, energia, esgoto e passeio)"
     },
     {
+        fotos: importAll(require.context('../assets/images/V006', true, /\.(png|jpe?g|svg)$/)),
         fotoCapa: ffV006,
         cod: "V006",
         contrato: "Venda",
@@ -111,6 +114,7 @@ const imoveisDisp = [
         descricao:"Imóvel com área total de 736,10 m² no centro (em frente ao Posto Shell). Localização privilegiada. Infraestrutura completa (acesso a rua calçada, água, energia, esgoto e passeio). Espaço pode ser utilizado para fim comercial e residencial. Lote todo murado."
     },
     {
+        fotos: importAll(require.context('../assets/images/V021', true, /\.(png|jpe?g|svg)$/)),
         fotoCapa: ffV021,
         cod: "V021",
         contrato: "Venda",

@@ -1,6 +1,8 @@
 import React, { useMemo } from 'react';
 import ImageGallery from "react-image-gallery";
 import { useParams } from 'react-router-dom';
+import "../../assets/style/global.css";
+import { imoveisDisp } from '../../data/dataImoveis';
 import area from "./iconX/area.png";
 import banho from "./iconX/banheira.png";
 import vagas from "./iconX/carros.png";
@@ -9,8 +11,6 @@ import iconMoeda from "./iconX/moedas.png";
 import quartos from "./iconX/quarto.png";
 import tpImovel from "./iconX/tipoImovel.png";
 import iconTotal from "./iconX/total.png";
-import "../../assets/style/global.css";
-import { imoveisDisp } from '../../data/dataImoveis';
 import "./style.css";
 
 function PropertyDetails() {
@@ -20,10 +20,8 @@ function PropertyDetails() {
 
     const {titulo, fotoCapa, fotos, ruaNum, bairro, cidade, Estado, descricao} = property
 
-    console.log({fotos})
-
     const photos = useMemo(() => (
-        Boolean(fotos.length) 
+        Boolean(fotos?.length) 
             ? fotos?.map((p) => (
                 {
                     original: p,

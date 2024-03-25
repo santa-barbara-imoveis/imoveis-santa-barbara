@@ -1,12 +1,9 @@
-import React from 'react';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import "./Pagination.css";
-import { imoveisDisp } from '../../../../data/dataImoveis';
 
-function Pagination ({imoveisListaCompleta, imoveisPaginaAtual, mudarImoveisAtuais}) {
+function Pagination ({imoveisListaCompleta, imoveisPaginaAtual, mudarImoveisAtuais, currentPage, setCurrentPage}) {
 
   const [itensPerPage, setItensItensPerPage] = useState(10)
-  const [currentPage, setCurrentPage] = useState(0)
   const pages = Math.ceil(imoveisListaCompleta.length / itensPerPage)
 
   //esta atualizacao dos estados causou um looping infinito

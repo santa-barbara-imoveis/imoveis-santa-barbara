@@ -1,7 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import hero from "../../assets/images/wideHeroImage.jpg";
 import "../../assets/style/brand.css";
 import { imoveisDisp } from '../../data/dataImoveis';
+import { filterSearchParams } from '../../dicts/filter-search-params';
+import { propertyType } from '../../dicts/property-types';
 import "./ListaImoveis.css";
 import { Filtragem } from './components/Filtragem/Filtragem';
 import Pagination from './components/Pagination/Pagination';
@@ -16,8 +19,28 @@ function ListaImoveis2() {
   const [tipoImovel, setTipoImovel] = useState ("")
   const [currentPage, setCurrentPage] = useState(0)
 
-
   useEffect(()=>{setImoveisPageAtual(imoveis.slice(0,10))}, [imoveis])
+
+  let [searchParams, setSearchParams] = useSearchParams();
+
+  const initialFilters = useMemo(() => {
+    const iFilters = {
+
+    }
+
+    if(searchParams.get(filterSearchParams.type)) {
+      const param = searchParams.get(filterSearchParams.type)
+
+      const allowedKeys = Object.keys(propertyType)
+
+      if (allowedKeys.includes(param)) {
+        iFilters.type = propertyType[param]
+      }
+    }
+
+    return iFilters
+  }, [searchParams])
+
 
   return (
     <body>
@@ -27,7 +50,7 @@ function ListaImoveis2() {
         </div>
         <article className='FormSearchMain'>
           <div className='MainBoxLista'>
-          <Filtragem itens = {imoveis} mudarImoveisAtuais = {setImoveis}/>
+          <Filtragem itens = {imoveis} mudarImoveisAtuais = {setImoveis} initialFilters={initialFilters}/>
             <div className='boxRenderOptions'>
               <div className='qtdEncontrado'>
                 <div className='qtdImoveis'>

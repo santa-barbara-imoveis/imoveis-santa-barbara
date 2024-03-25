@@ -43,12 +43,41 @@
     border: 2px black;
 }
 
+.image-gallery-swipe .image-gallery-slides  {
+    width: 40%;
+    margin: auto;
+}
+
+@media (max-width: 650px)  { 
+    .image-gallery-swipe .image-gallery-slides  {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+.fullscreen .image-gallery-swipe .image-gallery-slides {
+    width: 100%;
+    margin: initial;
+}
+
 .image-gallery-right-nav {
-    right: 15px !important
+    right: 50px !important
+}
+
+@media (max-width: 650px)  { 
+    .image-gallery-right-nav {
+        right: 35px !important
+    }
+}
+
+.image-gallery-icon.image-gallery-play-button {
+    bottom: 10px !important;
 }
 
 .image-gallery-fullscreen-button {
-    right: 15px !important
+    right: 15px !important;
+    bottom: 16px !important;
 }
 
 .boxDataImovelPropertyDetails {

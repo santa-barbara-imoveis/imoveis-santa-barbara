@@ -10,6 +10,7 @@ import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
 import ffV023 from "../assets/images/V023.jpg";
 import ffV035 from "../assets/images/V035.jpeg";
+
 import ffV047 from "../assets/images/V047.jpg";
 import ffV052 from "../assets/images/V052.jpg";
 import ffV055 from "../assets/images/V055.jpg";

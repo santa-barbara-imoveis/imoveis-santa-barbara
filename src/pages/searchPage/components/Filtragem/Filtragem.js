@@ -17,7 +17,6 @@ function Filtragem ({mudarImoveisAtuais, itens, initialFilters}) {
   const [vagas, setVagas] = useState ("todos")
   const [banhos, setBanhos] = useState ("todos")
 
-  console.log({imoveisDisp, len: imoveisDisp.length})
   useEffect(() => {
     if (initialFilters?.type) {
       setContrato(initialFilters?.type)
@@ -31,13 +30,12 @@ function Filtragem ({mudarImoveisAtuais, itens, initialFilters}) {
 
     const contract = contratoOverride || contrato
 
-
     const filtrosDeContratoAplicar = contract=="todos"? contractTypes: [contract]
     const filtrosDeImovelAplicar = tipoImovel=="todos"? propertyTypes: [tipoImovel]
     const filtrosDeCidade = cidade=="todos"? cities: [cidade]
-    const filtrosQuartos = quartos=="todos"? amenitiesQuantities: [quartos]
-    const filtrosVagas = vagas=="todos"? amenitiesQuantities: [vagas]
-    const filtrosBanhos = banhos=="todos"? amenitiesQuantities: [banhos]
+    const filtrosQuartos = quartos=="todos"? amenitiesQuantities: [Number(quartos)]
+    const filtrosVagas = vagas=="todos"? amenitiesQuantities: [Number(vagas)]
+    const filtrosBanhos = banhos=="todos"? amenitiesQuantities: [Number(banhos)]
 
     imoveisDisp.forEach((imovel)=>{
       if(filtrosDeContratoAplicar.includes(imovel.contrato)&&
@@ -53,7 +51,7 @@ function Filtragem ({mudarImoveisAtuais, itens, initialFilters}) {
       }
     })
 
-    console.log({lista})
+    console.log({lista, filtrosQuartos})
     mudarImoveisAtuais(lista);
   }
 

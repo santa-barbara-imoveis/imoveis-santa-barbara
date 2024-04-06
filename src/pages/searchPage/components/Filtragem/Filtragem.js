@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import "../../../../assets/style/brand.css";
 import { imoveisDisp } from '../../../../data/dataImoveis';
-import { propertyType } from '../../../../dicts/property-types';
+import { amenitiesQuantities } from '../../../../dicts/amenities-quantity';
+import { cities } from '../../../../dicts/cities';
+import { contractType, contractTypes } from '../../../../dicts/contract-type';
+import { propertyTypes } from '../../../../dicts/property-type';
 import "./Filtragem.css";
 
 
@@ -27,12 +30,12 @@ function Filtragem ({mudarImoveisAtuais, itens, initialFilters}) {
 
     const contract = contratoOverride || contrato
 
-    const filtrosDeContratoAplicar = contract=="todos"? ["Locação", "Venda"]: [contract]
-    const filtrosDeImovelAplicar = tipoImovel=="todos"? ["Apartamento","Casa","Chalé", "Kitnet","Lote/Casa", "Galpão","Chácara","Ponto comercial","Terreno","Sítio","Fazenda","Lote"]: [tipoImovel]
-    const filtrosDeCidade = cidade=="todos"? ["Santa Bárbara", "Barão de Cocais", "Catas Altas", "São Gonçalo do Rio Abaixo"]: [cidade]
-    const filtrosQuartos = quartos=="todos"? [0, 1, 2, 3, 4, 5]: [quartos]
-    const filtrosVagas = vagas=="todos"? [0, 1, 2, 3, 4, 5]: [vagas]
-    const filtrosBanhos = banhos=="todos"? [0, 1, 2, 3, 4, 5]: [banhos]
+    const filtrosDeContratoAplicar = contract=="todos"? contractTypes: [contract]
+    const filtrosDeImovelAplicar = tipoImovel=="todos"? propertyTypes: [tipoImovel]
+    const filtrosDeCidade = cidade=="todos"? cities: [cidade]
+    const filtrosQuartos = quartos=="todos"? amenitiesQuantities: [Number(quartos)]
+    const filtrosVagas = vagas=="todos"? amenitiesQuantities: [Number(vagas)]
+    const filtrosBanhos = banhos=="todos"? amenitiesQuantities: [Number(banhos)]
 
     imoveisDisp.forEach((imovel)=>{
       if(filtrosDeContratoAplicar.includes(imovel.contrato)&&
@@ -44,10 +47,11 @@ function Filtragem ({mudarImoveisAtuais, itens, initialFilters}) {
         lista.push(imovel)
       }
       else{
+        console.log({imovel})
       }
     })
 
-    console.log({lista})
+    console.log({lista, filtrosQuartos})
     mudarImoveisAtuais(lista);
   }
 
@@ -90,8 +94,8 @@ function Filtragem ({mudarImoveisAtuais, itens, initialFilters}) {
                 <label className="lbTipoContrato"> Contrato </label>
                 <select defaultValue="todos" placeholder="todos" value={contrato} onChange={(e)=>{alterarTipoContrato(e.target.value)}} className="sltMode" name="selectInteresse">
                   <option value="todos" label="todos" selected> </option>
-                  <option value={propertyType.rent} label={propertyType.rent}> </option>
-                  <option value={propertyType.buy} label={propertyType.buy}> </option>
+                  <option value={contractType.rent} label={contractType.rent}> </option>
+                  <option value={contractType.buy} label={contractType.buy}> </option>
                 </select>
               </div>
               <div className="mSltFilter">

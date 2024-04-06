@@ -3,8 +3,8 @@ import { useSearchParams } from 'react-router-dom';
 import hero from "../../assets/images/wideHeroImage.jpg";
 import "../../assets/style/brand.css";
 import { imoveisDisp } from '../../data/dataImoveis';
+import { contractType } from '../../dicts/contract-type';
 import { filterSearchParams } from '../../dicts/filter-search-params';
-import { propertyType } from '../../dicts/property-types';
 import "./ListaImoveis.css";
 import { Filtragem } from './components/Filtragem/Filtragem';
 import Pagination from './components/Pagination/Pagination';
@@ -31,10 +31,10 @@ function ListaImoveis2() {
     if(searchParams.get(filterSearchParams.type)) {
       const param = searchParams.get(filterSearchParams.type)
 
-      const allowedKeys = Object.keys(propertyType)
+      const allowedKeys = Object.keys(contractType)
 
       if (allowedKeys.includes(param)) {
-        iFilters.type = propertyType[param]
+        iFilters.type = contractType[param]
       }
     }
 

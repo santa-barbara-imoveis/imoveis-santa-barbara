@@ -1,13 +1,11 @@
-import React, { useEffect, useMemo, useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
 import hero from "../../assets/images/wideHeroImage.jpg";
 import "../../assets/style/brand.css";
 import { imoveisDisp } from '../../data/dataImoveis';
-import { contractType } from '../../dicts/contract-type';
-import { filterSearchParams } from '../../dicts/filter-search-params';
 import "./ListaImoveis.css";
 import { Filtragem } from './components/Filtragem/Filtragem';
 import Pagination from './components/Pagination/Pagination';
+import { useInitialFilters } from './hooks/use-initial-filters';
 import RenderImoveis from "./listaDeImoveis";
 
 function ListaImoveis2() {
@@ -21,26 +19,7 @@ function ListaImoveis2() {
 
   useEffect(()=>{setImoveisPageAtual(imoveis.slice(0,10))}, [imoveis])
 
-  let [searchParams, setSearchParams] = useSearchParams();
-
-  const initialFilters = useMemo(() => {
-    const iFilters = {
-
-    }
-
-    if(searchParams.get(filterSearchParams.type)) {
-      const param = searchParams.get(filterSearchParams.type)
-
-      const allowedKeys = Object.keys(contractType)
-
-      if (allowedKeys.includes(param)) {
-        iFilters.type = contractType[param]
-      }
-    }
-
-    return iFilters
-  }, [searchParams])
-
+  const initialFilters = useInitialFilters()
 
   return (
     <body>

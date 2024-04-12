@@ -4,6 +4,7 @@ import { imoveisDisp } from '../../../../data/dataImoveis';
 import { amenitiesQuantities } from '../../../../dicts/amenities-quantity';
 import { cities } from '../../../../dicts/cities';
 import { contractType, contractTypes } from '../../../../dicts/contract-type';
+import { filterSearchParams } from '../../../../dicts/filter-search-params';
 import { propertyTypes } from '../../../../dicts/property-type';
 import "./Filtragem.css";
 
@@ -17,25 +18,67 @@ function Filtragem ({mudarImoveisAtuais, itens, initialFilters}) {
   const [vagas, setVagas] = useState ("todos")
   const [banhos, setBanhos] = useState ("todos")
 
+  const initialFilterToSetterMapping = {
+    [filterSearchParams.contractType]: setContrato,
+    [filterSearchParams.propertyType]: setTipoImovel,
+    [filterSearchParams.city]: setCidade,
+    [filterSearchParams.rooms]: setQuartos,
+    [filterSearchParams.parking]: setVagas,
+  }
+
   useEffect(() => {
-    if (initialFilters?.type) {
-      setContrato(initialFilters?.type)
-      filtrarImoveisPorSelecao({contratoOverride: initialFilters?.type})
-    }
+    console.log({initialFilters})
+    const initialFilterEntries = Object.entries(initialFilters)
+
+    initialFilterEntries.forEach(([key, value]) => {
+      const setter = initialFilterToSetterMapping[key]
+
+      if (setter) {
+        setter(value)
+      }
+    })
+
+    filtrarImoveisPorSelecao(initialFilters)
   }, [initialFilters])
 
 
-  function filtrarImoveisPorSelecao ({contratoOverride} = {}){
+  function filtrarImoveisPorSelecao (override = {}){
     let lista = []
 
-    const contract = contratoOverride || contrato
+    console.log({override})
+
+
+    const contract = override?.contractType || contrato
+    const propertyType = override?.propertyType || tipoImovel
+    const city = override?.city || cidade
+    const rooms = Number.isInteger(override?.rooms) ? String(override.rooms)  : quartos
+    const parking = Number.isInteger(override?.parking) ? String(override.parking)  : vagas
+    const bathrooms = Number.isInteger(override?.bathroom) ? String(override.bathroom)  : banhos
+
+    console.log({
+      contract,
+      propertyType,
+      city,
+      rooms,
+      parking,
+      bathrooms
+    })
 
     const filtrosDeContratoAplicar = contract=="todos"? contractTypes: [contract]
-    const filtrosDeImovelAplicar = tipoImovel=="todos"? propertyTypes: [tipoImovel]
-    const filtrosDeCidade = cidade=="todos"? cities: [cidade]
-    const filtrosQuartos = quartos=="todos"? amenitiesQuantities: [Number(quartos)]
-    const filtrosVagas = vagas=="todos"? amenitiesQuantities: [Number(vagas)]
-    const filtrosBanhos = banhos=="todos"? amenitiesQuantities: [Number(banhos)]
+    const filtrosDeImovelAplicar = propertyType=="todos"? propertyTypes: [propertyType]
+    const filtrosDeCidade = city=="todos"? cities: [city]
+    const filtrosQuartos = rooms=="todos"? amenitiesQuantities: [Number(rooms)]
+    const filtrosVagas = parking=="todos"? amenitiesQuantities: [Number(parking)]
+    const filtrosBanhos = bathrooms=="todos"? amenitiesQuantities: [Number(bathrooms)]
+
+    console.log({
+      filtrosDeContratoAplicar,
+      filtrosDeImovelAplicar,
+      filtrosDeCidade,
+      filtrosQuartos,
+      filtrosVagas,
+      filtrosBanhos
+    })
 
     imoveisDisp.forEach((imovel)=>{
       if(filtrosDeContratoAplicar.includes(imovel.contrato)&&
@@ -47,11 +90,11 @@ function Filtragem ({mudarImoveisAtuais, itens, initialFilters}) {
         lista.push(imovel)
       }
       else{
-        console.log({imovel})
+        // console.log({imovel})
       }
     })
 
-    console.log({lista, filtrosQuartos})
+    // console.log({lista, filtrosQuartos})
     mudarImoveisAtuais(lista);
   }
 

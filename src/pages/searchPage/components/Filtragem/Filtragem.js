@@ -24,6 +24,7 @@ function Filtragem ({mudarImoveisAtuais, itens, initialFilters}) {
     [filterSearchParams.city]: setCidade,
     [filterSearchParams.rooms]: setQuartos,
     [filterSearchParams.parking]: setVagas,
+    [filterSearchParams.bathroom]: setBanhos
   }
 
   useEffect(() => {

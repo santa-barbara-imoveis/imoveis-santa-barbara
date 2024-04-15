@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import "../../../../assets/style/brand.css";
 import { imoveisDisp } from '../../../../data/dataImoveis';
-import { amenitiesQuantities } from '../../../../dicts/amenities-quantity';
+import { allFiltersSelectedPlaceholder } from '../../../../dicts/all-filters-selected-placeholder';
+import { amenitiesQuantities, isAmenityQuantity } from '../../../../dicts/amenities-quantity';
 import { cities } from '../../../../dicts/cities';
 import { contractType, contractTypes } from '../../../../dicts/contract-type';
 import { filterSearchParams } from '../../../../dicts/filter-search-params';
@@ -52,9 +53,9 @@ function Filtragem ({mudarImoveisAtuais, itens, initialFilters}) {
     const contract = override?.contractType || contrato
     const propertyType = override?.propertyType || tipoImovel
     const city = override?.city || cidade
-    const rooms = Number.isInteger(override?.rooms) ? String(override.rooms)  : quartos
-    const parking = Number.isInteger(override?.parking) ? String(override.parking)  : vagas
-    const bathrooms = Number.isInteger(override?.bathroom) ? String(override.bathroom)  : banhos
+    const rooms = isAmenityQuantity(override?.rooms)  ? String(override.rooms)  : quartos
+    const parking = isAmenityQuantity(override?.rooms)  ? String(override.parking)  : vagas
+    const bathrooms = isAmenityQuantity(override?.rooms)  ? String(override.bathroom)  : banhos
 
     console.log({
       contract,
@@ -62,15 +63,16 @@ function Filtragem ({mudarImoveisAtuais, itens, initialFilters}) {
       city,
       rooms,
       parking,
-      bathrooms
+      bathrooms,
+      numberOfImov: imoveisDisp.length
     })
 
-    const filtrosDeContratoAplicar = contract=="todos"? contractTypes: [contract]
-    const filtrosDeImovelAplicar = propertyType=="todos"? propertyTypes: [propertyType]
-    const filtrosDeCidade = city=="todos"? cities: [city]
-    const filtrosQuartos = rooms=="todos"? amenitiesQuantities: [Number(rooms)]
-    const filtrosVagas = parking=="todos"? amenitiesQuantities: [Number(parking)]
-    const filtrosBanhos = bathrooms=="todos"? amenitiesQuantities: [Number(bathrooms)]
+    const filtrosDeContratoAplicar = contract == allFiltersSelectedPlaceholder? contractTypes: [contract]
+    const filtrosDeImovelAplicar = propertyType == allFiltersSelectedPlaceholder? propertyTypes: [propertyType]
+    const filtrosDeCidade = city == allFiltersSelectedPlaceholder? cities: [city]
+    const filtrosQuartos = rooms == allFiltersSelectedPlaceholder? amenitiesQuantities: [Number(rooms)]
+    const filtrosVagas = parking == allFiltersSelectedPlaceholder? amenitiesQuantities: [Number(parking)]
+    const filtrosBanhos = bathrooms == allFiltersSelectedPlaceholder? amenitiesQuantities: [Number(bathrooms)]
 
     console.log({
       filtrosDeContratoAplicar,
@@ -136,16 +138,16 @@ function Filtragem ({mudarImoveisAtuais, itens, initialFilters}) {
               </div>
               <div className='mSltFilter'>
                 <label className="lbTipoContrato"> Contrato </label>
-                <select defaultValue="todos" placeholder="todos" value={contrato} onChange={(e)=>{alterarTipoContrato(e.target.value)}} className="sltMode" name="selectInteresse">
-                  <option value="todos" label="todos" selected> </option>
+                <select defaultValue={allFiltersSelectedPlaceholder} placeholder={allFiltersSelectedPlaceholder} value={contrato} onChange={(e)=>{alterarTipoContrato(e.target.value)}} className="sltMode" name="selectInteresse">
+                  <option value={allFiltersSelectedPlaceholder} label={allFiltersSelectedPlaceholder} selected> </option>
                   <option value={contractType.rent} label={contractType.rent}> </option>
                   <option value={contractType.buy} label={contractType.buy}> </option>
                 </select>
               </div>
               <div className="mSltFilter">
                 <label className="lbTipoImovel"> Tipo de imóvel </label>
-                <select defaultValue="todos" placeholder="todos" value={tipoImovel} onChange={(e)=>{alterarTipoImovel(e.target.value)}} className="sltMode" name="sltTipoImovel">
-                <option value="todos" label="todos" selected> </option>
+                <select defaultValue={allFiltersSelectedPlaceholder} placeholder={allFiltersSelectedPlaceholder} value={tipoImovel} onChange={(e)=>{alterarTipoImovel(e.target.value)}} className="sltMode" name="sltTipoImovel">
+                <option value={allFiltersSelectedPlaceholder} label={allFiltersSelectedPlaceholder} selected> </option>
                   <option value="Apartamento" label="Apartamento"> </option>
                   <option value="Casa" label="Casa"> </option>
                   <option value="Kitnet" label="Kitnet"> </option>
@@ -161,8 +163,8 @@ function Filtragem ({mudarImoveisAtuais, itens, initialFilters}) {
               </div>
               <div className="mSltFilter">
                 <label className="lbCidade"> Cidade </label>
-                <select defaultValue="todos" placeholder="todos" value={cidade} onChange={(e)=>{alterarCidade(e.target.value)}} className="sltMode" name="sltCidade">
-                <option value="todos" label="todos" selected> </option>
+                <select defaultValue={allFiltersSelectedPlaceholder} placeholder={allFiltersSelectedPlaceholder} value={cidade} onChange={(e)=>{alterarCidade(e.target.value)}} className="sltMode" name="sltCidade">
+                <option value={allFiltersSelectedPlaceholder} label={allFiltersSelectedPlaceholder} selected> </option>
                   <option value="Santa Bárbara" label="Santa Bárbara"> </option>
                   <option value="Barão de Cocais" label="Barão de Cocais"> </option>
                   <option value="Catas Altas" label="Catas Altas"> </option>
@@ -170,8 +172,8 @@ function Filtragem ({mudarImoveisAtuais, itens, initialFilters}) {
               </div>
               <div className="mSltFilter">
                 <label className="lbQuartos"> Quartos </label>
-                <select defaultValue="todos" placeholder="todos" value={quartos} onChange={(e)=>{alterarQuartos(e.target.value)}} className="sltMode" name="sltQuartos">
-                <option value="todos" label="todos" selected> </option>
+                <select defaultValue={allFiltersSelectedPlaceholder} placeholder={allFiltersSelectedPlaceholder} value={quartos} onChange={(e)=>{alterarQuartos(e.target.value)}} className="sltMode" name="sltQuartos">
+                <option value={allFiltersSelectedPlaceholder} label={allFiltersSelectedPlaceholder} selected> </option>
                   <option value={0} label="0 quarto"> </option>
                   <option value={1} label="1 quarto"> </option>
                   <option value={2} label="2 quartos"> </option>
@@ -182,8 +184,8 @@ function Filtragem ({mudarImoveisAtuais, itens, initialFilters}) {
               </div>
               <div className="mSltFilter">
                 <label className="lbVagas"> Vagas </label>
-                <select defaultValue="todos" placeholder="todos" value={vagas} onChange={(e)=>{alterarVagas(e.target.value)}} className="sltMode" name="sltVagas">
-                <option value="todos" label="todos" selected> </option>
+                <select defaultValue={allFiltersSelectedPlaceholder} placeholder={allFiltersSelectedPlaceholder} value={vagas} onChange={(e)=>{alterarVagas(e.target.value)}} className="sltMode" name="sltVagas">
+                <option value={allFiltersSelectedPlaceholder} label={allFiltersSelectedPlaceholder} selected> </option>
                   <option value={0} label="0 vaga"> </option>
                   <option value={1} label="1 vaga"> </option>
                   <option value={2} label="2 Vagas"> </option>
@@ -194,8 +196,8 @@ function Filtragem ({mudarImoveisAtuais, itens, initialFilters}) {
               </div>
               <div className="mSltFilter">
                 <label className="lbBanhos"> Banheiros </label>
-                <select defaultValue="todos" placeholder="todos" value={banhos} onChange={(e)=>{alterarBanhos(e.target.value)}} className="sltMode" name="sltBanhos">
-                <option value="todos" label="todos" selected> </option>
+                <select defaultValue={allFiltersSelectedPlaceholder} placeholder={allFiltersSelectedPlaceholder} value={banhos} onChange={(e)=>{alterarBanhos(e.target.value)}} className="sltMode" name="sltBanhos">
+                <option value={allFiltersSelectedPlaceholder} label={allFiltersSelectedPlaceholder} selected> </option>
                   <option value={0} label="0 banheiro"> </option>
                   <option value={1} label="1 banheiro"> </option>
                   <option value={2} label="2 banheiros"> </option>

@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { contractType } from '../../../../dicts/contract-type';
 import { propertyType } from '../../../../dicts/property-type';
 
+import { allFiltersSelectedPlaceholder, allFiltersSelectedPlaceholderFilter } from '../../../../dicts/all-filters-selected-placeholder';
 import { amenitiesQuantity } from '../../../../dicts/amenities-quantity';
 import { city } from '../../../../dicts/cities';
 import { filterSearchParams } from '../../../../dicts/filter-search-params';
@@ -27,6 +28,12 @@ function Hero() {
     })
   }
     
+  function getAmenityLabelName(label, sufix) {
+    if (label === allFiltersSelectedPlaceholder) {
+      return label.charAt(0).toUpperCase() + label.slice(1);
+    } 
+    return [amenitiesQuantity.zero, amenitiesQuantity.one].includes(label) ?`${label} ${sufix}` : `${label} ${sufix}s`
+  }
   return (
     <main className="Main">
       <div className="heroLanding" style={{backgroundImage:`url(${hero})`}}>
@@ -63,42 +70,45 @@ function Hero() {
             </div>
           </div>
           <div className='linha2selectLand'>
-            <div>
-                <select className="sltModeLand" name="selectQuartos" id="selectQuartos">
-                  {Object.entries(amenitiesQuantity).map(([key, value]) => (
-                    <option 
-                      value={key} 
-                      label={[amenitiesQuantity.zero, amenitiesQuantity.one].includes(value) ?`${value} quarto` : `${value} quartos`}>
-                    </option>
-                  ))}
-                </select>
+            <div className='sltModeLandContainer'>
+              <label htmlFor='sltVagas'>Quartos</label>
+              <select className="sltModeLand" name="selectQuartos" id="selectQuartos">
+                {[[allFiltersSelectedPlaceholderFilter, allFiltersSelectedPlaceholder], ...Object.entries(amenitiesQuantity)].map(([key, value]) => (
+                  <option 
+                    value={key} 
+                    label={getAmenityLabelName(value, "quarto")}>
+                  </option>
+                ))}
+              </select>
             </div>
-            <div>
+            <div className='sltModeLandContainer'>
+                <label htmlFor='sltVagas'>Vagas</label>
                 <select className="sltModeLand" name="sltVagas" id="sltVagas">
-                  {Object.entries(amenitiesQuantity).map(([key, value]) => (
+                  {[[allFiltersSelectedPlaceholderFilter, allFiltersSelectedPlaceholder], ...Object.entries(amenitiesQuantity)].map(([key, value]) => (
                     <option 
                       value={key} 
-                      label={[amenitiesQuantity.zero, amenitiesQuantity.one].includes(value) ?`${value} vaga` : `${value} vagas`}>
-                    </option>
+                      label={getAmenityLabelName(value, "vaga")}>
+                      </option>
                   ))}
                 </select>
             </div>
-            <div>
+            <div className='sltModeLandContainer'>
+              <label htmlFor='sltVagas'>Banheiros</label>
                 <select className="sltModeLand" name="sltBathrooms" id="sltBathrooms">
-                  {Object.entries(amenitiesQuantity).map(([key, value]) => (
+                  {[[allFiltersSelectedPlaceholderFilter, allFiltersSelectedPlaceholder], ...Object.entries(amenitiesQuantity)].map(([key, value]) => (
                     <option 
                       value={key} 
-                      label={[amenitiesQuantity.zero, amenitiesQuantity.one].includes(value) ?`${value} banheiro` : `${value} banheiros`}>
+                      label={getAmenityLabelName(value, "banheiro")}>
                     </option>
                   ))}
                 </select>
             </div>
-            <button className="botaoBuscarLand"  onClick={searchAction}> 
+          </div>
+          <button className="botaoBuscarLand"  onClick={searchAction}> 
               {/* <Link to="imoveis" className="saibaMais">  */}
               Buscar 
               {/* </Link>  */}
             </button>
-          </div>
         </form>
       </article>
     </main>

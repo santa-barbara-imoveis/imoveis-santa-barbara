@@ -92,10 +92,21 @@ option{
     display: flex;
 }
 
+.sltModeLandContainer {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sltModeLandContainer > label {
+    color: black
+}
+
+
 .sltModeLand{
     width: 200px;
     font-size: 20px;
-    padding: 5px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -132,6 +143,8 @@ option{
     width: 100px;
     height: 39px;
     font-size: 15px;
+    margin: 10px auto;
+
     background-color: rgb(29,70,67);
     align-items: center;
     text-align: center;

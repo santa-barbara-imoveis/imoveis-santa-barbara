@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
+import { allFiltersSelectedPlaceholder, allFiltersSelectedPlaceholderFilter } from "../../../dicts/all-filters-selected-placeholder";
 import { amenitiesQuantity } from "../../../dicts/amenities-quantity";
 import { city } from "../../../dicts/cities";
 import { contractType } from "../../../dicts/contract-type";
@@ -9,10 +10,19 @@ import { propertyType } from "../../../dicts/property-type";
 const filterToObjectMapping = {
     [filterSearchParams.contractType]: contractType,
     [filterSearchParams.city]: city,
-    [filterSearchParams.parking]: amenitiesQuantity,
     [filterSearchParams.propertyType]: propertyType,
-    [filterSearchParams.rooms]: amenitiesQuantity,
-    [filterSearchParams.bathroom]: amenitiesQuantity
+    [filterSearchParams.parking]: {
+        ...amenitiesQuantity,
+        [allFiltersSelectedPlaceholderFilter]: allFiltersSelectedPlaceholder
+    },
+    [filterSearchParams.rooms]: {
+        ...amenitiesQuantity,
+        [allFiltersSelectedPlaceholderFilter]: allFiltersSelectedPlaceholder
+    },
+    [filterSearchParams.bathroom]: {
+        ...amenitiesQuantity,
+        [allFiltersSelectedPlaceholderFilter]: allFiltersSelectedPlaceholder
+    }
 }
 
 export function useInitialFilters() {
@@ -26,7 +36,7 @@ export function useInitialFilters() {
 
         if(param) {
             const filterOptions = filterToObjectMapping[current]
-
+            
             if (filterOptions) {
                 if (Object.keys(filterOptions).includes(param)) {
                     return {

@@ -1,3 +1,9 @@
 export const filterSearchParams = {
-    type: "type"
+    contractType: "contractType",
+    propertyType: "propertyType",
+    city: "city",
+    rooms: "rooms",
+    parking: "parking",
+    bathroom: "bathroom"
+
 }

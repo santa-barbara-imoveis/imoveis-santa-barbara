@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { contractTypeParamKey } from '../../../../dicts/contract-type';
+import { filterSearchParams } from '../../../../dicts/filter-search-params';
 import iconEmail from "./assets/email.png";
 import iconFace from "./assets/facebook.png";
 import iconCreci from "./assets/garantia.png";
@@ -48,8 +49,8 @@ function Header() {
       </div>
       <nav className="navHead" >
         <Link className="headMain" to="/"> Home </Link> 
-        <Link to={`imoveis?type=${contractTypeParamKey.rent}`} className="headMain"> Alugar </Link>
-        <Link to={`imoveis?type=${contractTypeParamKey.buy}`} className="headMain"> Comprar </Link>
+        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.rent}`} className="headMain"> Alugar </Link>
+        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.buy}`} className="headMain"> Comprar </Link>
         <Link to="documentos" className="headMain"> Documentos </Link>
         <Link to="financiar" className="headMain"> Financiar </Link>
         <Link to="quem-somos" className="headMain"> Institucional </Link>

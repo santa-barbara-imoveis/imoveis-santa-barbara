@@ -23,7 +23,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
     color: white;
-    font-size: 18px;
+    
 }
 
 .headMain a{
@@ -39,7 +39,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
     color: white;
-    font-size: 18px;
+    
 }
 
 .headMain:hover{
@@ -55,7 +55,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
     color: white;
-    font-size: 18px;
+    
     background-color: rgb(26, 95, 91);
 }
 
@@ -99,7 +99,7 @@
     margin-top: 10px;
     width: 100px;
     height: 45px;
-    font-size: 15px;
+    
     background-color: rgb(29,70,67);
     align-items: center;
     text-align: center;
@@ -123,7 +123,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
     color: white;
-    font-size: 18px;
+    
     text-decoration: none;
 }
 
@@ -132,7 +132,7 @@
     height: 50px;
     background-color: #f4f5f2;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
+    
     align-items: center;
     text-align: center;
     justify-content:space-around;

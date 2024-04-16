@@ -38,39 +38,36 @@ function Hero() {
       <div className="heroLanding" style={{backgroundImage:`url(${hero})`}}>
         <h1>BEM VINDO À SANTA BÁRBARA IMÓVEIS</h1>
         <a className="botaoHero" href="">
-          <button type="submit">
-            <Link to="quem-somos" className="saibaMais"> Saiba mais </Link>
-          </button>
+          <Link to="quem-somos" className="saibaMais"> Saiba mais </Link>
         </a>
       </div>
       <article className='FormSearchLanding'>
-        <form>
-          <div className='linha1selectLand'>
-            <div>
+        <div className='sltModeLandContainer barraSelect'>
+                <label htmlFor='sltVagas'><p>Contrato</p></label>
                 <select className="sltModeLand" name="selectInteresse" id="selectInteresse">
                     {Object.entries(contractType).map(([key, value]) => (
                       <option value={key} label={value}> </option>
                     ))}
                 </select>
-            </div>
-            <div className="sltTipoImovelLand">
+        </div>
+        <div className="sltModeLandContainer barraSelect">
+                <label htmlFor='sltVagas'><p>Tipo</p></label>
                 <select className="sltModeLand" name="sltTipoImovel" id="sltTipoImovel">
                     {Object.entries(propertyType).map(([key, value]) => (
                       <option value={key} label={value}> </option>
                     ))}
                 </select>
-            </div>
-            <div className="sltCidadeLand">
+        </div>
+        <div className="sltModeLandContainer barraSelect">
+                <label htmlFor='sltVagas'><p>Cidade</p></label>
                 <select className="sltModeLand" name="sltTipoCidade" id="sltTipoCidade">
                   {Object.entries(city).map(([key, value]) => (
                     <option value={key} label={value}> </option>
                   ))}
                 </select>
-            </div>
-          </div>
-          <div className='linha2selectLand'>
-            <div className='sltModeLandContainer'>
-              <label htmlFor='sltVagas'>Quartos</label>
+        </div>
+        <div className='sltModeLandContainer barraSelect'>
+              <label htmlFor='sltVagas'><p>Quartos</p></label>
               <select className="sltModeLand" name="selectQuartos" id="selectQuartos">
                 {[[allFiltersSelectedPlaceholderFilter, allFiltersSelectedPlaceholder], ...Object.entries(amenitiesQuantity)].map(([key, value]) => (
                   <option 
@@ -79,9 +76,9 @@ function Hero() {
                   </option>
                 ))}
               </select>
-            </div>
-            <div className='sltModeLandContainer'>
-                <label htmlFor='sltVagas'>Vagas</label>
+        </div>
+        <div className='sltModeLandContainer barraSelect'>
+                <label htmlFor='sltVagas'><p>Vagas</p></label>
                 <select className="sltModeLand" name="sltVagas" id="sltVagas">
                   {[[allFiltersSelectedPlaceholderFilter, allFiltersSelectedPlaceholder], ...Object.entries(amenitiesQuantity)].map(([key, value]) => (
                     <option 
@@ -90,9 +87,9 @@ function Hero() {
                       </option>
                   ))}
                 </select>
-            </div>
-            <div className='sltModeLandContainer'>
-              <label htmlFor='sltVagas'>Banheiros</label>
+        </div>
+        <div className='sltModeLandContainer barraSelect'>
+                <label htmlFor='sltVagas'><p>Banheiros</p></label>
                 <select className="sltModeLand" name="sltBathrooms" id="sltBathrooms">
                   {[[allFiltersSelectedPlaceholderFilter, allFiltersSelectedPlaceholder], ...Object.entries(amenitiesQuantity)].map(([key, value]) => (
                     <option 
@@ -101,13 +98,13 @@ function Hero() {
                     </option>
                   ))}
                 </select>
-            </div>
-          </div>
-          <button className="botaoBuscarLand"  onClick={searchAction}> 
-              Buscar 
-            </button>
-        </form>
+        </div>
       </article>
+      <button className="botaoBuscarLand" onClick={searchAction}> 
+          <p>Buscar</p>
+      </button>
+      <br></br>
+      
     </main>
   )
 }

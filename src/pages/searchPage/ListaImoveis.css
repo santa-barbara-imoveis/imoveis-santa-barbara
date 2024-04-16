@@ -466,7 +466,7 @@ select{
     display: flex;
 }
 
-.boxContato{
+/* .boxContato{
     background-color: rgb(29,70,67);
     width: 100%;
     height: 200px;
@@ -477,18 +477,17 @@ select{
     vertical-align:middle;
     flex-direction: row;
     display: flex;
-}
+} */
 
 .logoImage2{
     width: 230px;
 }
 
-.sloganMedio{
+/* .sloganMedio{
     width: 400px;
     height: 65px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
-    
     color: white;
     align-items: center;
     text-align: center;
@@ -496,14 +495,13 @@ select{
     vertical-align:middle;
     flex-direction: row;
     display: flex;
-}
+} */
 
-.botaoContato{
+/* .botaoContato{
     width: 200px;
     height: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
-    
     padding: 10px;
     padding-bottom: 15px;
     color: white;
@@ -515,7 +513,7 @@ select{
     display: flex;
     border: 0.5px solid white;
     cursor: pointer;
-}
+} */
 
 .quickInfos{
     width: 100%;

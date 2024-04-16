@@ -8,9 +8,9 @@ function BoxContact() {
         <div className="logo"> 
           <img className="logoImage2" src={logo}/>
         </div>
-        <div className="sloganMedio"> 
+        <p className="sloganMedio"> 
           Inovação em Negócios Imobiliários!
-        </div>
+        </p>
         <div className="botaoContato"> 
           <a href="https://wa.me//553198131403?text=Acessei%20o%20site%20de%20vocês%20e%20gostaria%20de%20visitar%20um%20dos%20imóveis." target="_blank">Fale conosco</a>
         </div>

@@ -402,18 +402,6 @@ select{
     display: flex;
 }
 
-.opcaoImoveis{
-    background-color:white;
-    width: 100%;
-    height: 450px;
-    align-items: center;
-    text-align: center;
-    justify-content:space-around;
-    vertical-align:middle;
-    flex-direction: row;
-    display: flex;
-}
-
 .tituloBoxVenda{
     width: 100%;
     height: 60px;

@@ -39,7 +39,10 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
     color: white;
-    
+}
+
+.headMain p{
+    color: white;
 }
 
 .headMain:hover{
@@ -99,7 +102,6 @@
     margin-top: 10px;
     width: 100px;
     height: 45px;
-    
     background-color: rgb(29,70,67);
     align-items: center;
     text-align: center;
@@ -117,13 +119,13 @@
 .entrar{
     width: 70px;
     height: 25px;
+    color: white;
     padding-inline: 15px;
     padding-block: 5px;
     border: 1px solid white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
     color: white;
-    
     text-decoration: none;
 }
 
@@ -132,7 +134,6 @@
     height: 50px;
     background-color: #f4f5f2;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
     align-items: center;
     text-align: center;
     justify-content:space-around;
@@ -140,6 +141,13 @@
     flex-direction: row;
     display: flex;
 }
+
+@media (min-width:1025px) {
+    .quickInfos p {
+        font-size: 1.1vw;
+    } 
+}
+
 
 .qkIcon{
     width: 15px;

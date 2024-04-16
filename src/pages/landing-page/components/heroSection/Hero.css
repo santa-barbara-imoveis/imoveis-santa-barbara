@@ -11,7 +11,6 @@ option{
 .heroLanding{
     width: 100%;
     height: 350px;
-    
     align-items: center;
     text-align: center;
     justify-content:center;
@@ -25,9 +24,8 @@ option{
 
 .botaoHero button{
     padding: 10px;
-    width: 100px;
+    width: fit-content;
     height: 45px;
-    
     background-color: rgb(29,70,67);
     align-items: center;
     text-align: center;
@@ -44,9 +42,8 @@ option{
 
 .botaoHero{
     margin-top: 10px;
-    width: 100px;
+    width: 120px;
     height: 45px;
-    
     background-color: rgb(29,70,67);
     align-items: center;
     text-align: center;
@@ -65,7 +62,6 @@ option{
     margin-top: 10px;
     width: 100px;
     height: 45px;
-    
     background-color: rgb(29,70,67);
     align-items: center;
     text-align: center;
@@ -98,7 +94,6 @@ option{
     flex-direction: column;
     align-items: flex-start;
     width: 200px;
-    
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -109,14 +104,12 @@ option{
 
 .sltModeLand{
     width: 200px;
-    
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .inputValorLand{
     width: 145px;
     height: 38px;
-    
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -146,7 +139,6 @@ option{
 .botaoBuscarLand{
     width: 100px;
     height: 39px;
-    
     margin: 10px auto;
     background-color: rgb(29,70,67);
     align-items: center;

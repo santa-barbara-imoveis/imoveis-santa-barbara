@@ -33,13 +33,16 @@
     height: 60px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
-    
     align-items:end;
     text-align: center;
     justify-content:center;
     vertical-align:middle;
     flex-direction: row;
     display: flex;
+}
+
+.tituloBoxVenda h1{
+    color: black;
 }
 
 .boxImovel{

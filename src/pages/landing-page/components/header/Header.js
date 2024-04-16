@@ -17,19 +17,19 @@ function Header() {
           <div className="quickInfos">
       <div className="qkCreci">
         <img className="qkIcon" src={iconCreci} />
-        CRECI:MGJ0007201
+        <p>CRECI:MGJ0007201</p>
       </div>
       <div className="qkTelef">
         <img className="qkIcon" src={iconTel} />
-        31 97186-1985
+        <p>31 97186-1985</p>
       </div>
       <div className="qkTelef">
         <img className="qkIcon" src={iconTel} />
-        31 97186-1985
+        <p>31 97186-1985</p>
       </div>
       <div className="qkEmail">
         <img className="qkIcon" src={iconEmail} />
-        contato@santabarbaraimoveis.com.br
+        <p>contato@santabarbaraimoveis.com.br</p>
       </div>
       <div className="qkNetwork">
         <div className="qkFace">
@@ -48,13 +48,13 @@ function Header() {
         <img className="logoImage" src={logo}/>
       </div>
       <nav className="navHead" >
-        <Link className="headMain" to="/"> Home </Link> 
+        <Link className="headMain" to="/"> <p>Home</p> </Link> 
         <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.rent}`} className="headMain"> Alugar </Link>
         <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.buy}`} className="headMain"> Comprar </Link>
-        <Link to="documentos" className="headMain"> Documentos </Link>
-        <Link to="financiar" className="headMain"> Financiar </Link>
-        <Link to="quem-somos" className="headMain"> Institucional </Link>
-        <a href="" className='entrar'> Entrar </a>
+        <Link to="documentos" className="headMain"> <p>Documentos</p> </Link>
+        <Link to="financiar" className="headMain"> <p>Financiar</p> </Link>
+        <Link to="quem-somos" className="headMain"> <p>Institucional</p> </Link>
+        <a href="" className='entrar'>Entrar</a>
       </nav>
     </header>
     </div>

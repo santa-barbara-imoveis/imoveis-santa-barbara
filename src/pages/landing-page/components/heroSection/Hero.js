@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, useNavigate } from "react-router-dom";
 import { contractType } from '../../../../dicts/contract-type';
 import { propertyType } from '../../../../dicts/property-type';
-
 import { allFiltersSelectedPlaceholder, allFiltersSelectedPlaceholderFilter } from '../../../../dicts/all-filters-selected-placeholder';
 import { amenitiesQuantity } from '../../../../dicts/amenities-quantity';
 import { city } from '../../../../dicts/cities';
@@ -37,7 +36,7 @@ function Hero() {
   return (
     <main className="Main">
       <div className="heroLanding" style={{backgroundImage:`url(${hero})`}}>
-        BEM VINDO À SANTA BÁRBARA IMÓVEIS
+        <h1>BEM VINDO À SANTA BÁRBARA IMÓVEIS</h1>
         <a className="botaoHero" href="">
           <button type="submit">
             <Link to="quem-somos" className="saibaMais"> Saiba mais </Link>
@@ -105,9 +104,7 @@ function Hero() {
             </div>
           </div>
           <button className="botaoBuscarLand"  onClick={searchAction}> 
-              {/* <Link to="imoveis" className="saibaMais">  */}
               Buscar 
-              {/* </Link>  */}
             </button>
         </form>
       </article>

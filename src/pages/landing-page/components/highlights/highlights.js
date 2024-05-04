@@ -24,8 +24,8 @@ function Highlights() {
                   <img className="imFotoV" src={fotoFrente} />
                 </Link>
                 <div className="boxPreco">
-                  <p className="tipoContrato">Venda</p>
-                  <p className="precoImovel">R$ 490.000,00</p>
+                  <div className="tipoContrato">Venda</div>
+                  <div className="precoImovel">R$ 490.000,00</div>
                 </div>
               </div>
               <p className="imBairroCidade"> Resid. Santo Antônio - Santa Bárbara </p>

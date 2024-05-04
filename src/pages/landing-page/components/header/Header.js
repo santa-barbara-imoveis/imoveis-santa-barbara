@@ -13,25 +13,25 @@ import "./header.css";
 
 function Header() {
   return (
-    <div>
-          <div className="quickInfos">
-      <div className="qkCreci">
+  <div className='BoxQkInfos'>
+    <div className="BxQuickInfos">
+      <div className="qkCreci qkBox">
         <img className="qkIcon" src={iconCreci} />
         <p>CRECI:MGJ0007201</p>
       </div>
-      <div className="qkTelef">
+      <div className="qkTelef qkBox">
         <img className="qkIcon" src={iconTel} />
         <p>31 97186-1985</p>
       </div>
-      <div className="qkTelef">
+      <div className="qkTelef qkBox">
         <img className="qkIcon" src={iconTel} />
         <p>31 97186-1985</p>
       </div>
-      <div className="qkEmail">
+      <div className="qkEmail qkBox">
         <img className="qkIcon" src={iconEmail} />
         <p>contato@santabarbaraimoveis.com.br</p>
       </div>
-      <div className="qkNetwork">
+      <div className="qkNetwork qkBox">
         <div className="qkFace">
           <a href="https://m.facebook.com/SantaBarbaraImoveisImobiliaria/" target="_blank" rel="noreferrer"><img className="qkIcon" src={iconFace}/></a>
         </div>

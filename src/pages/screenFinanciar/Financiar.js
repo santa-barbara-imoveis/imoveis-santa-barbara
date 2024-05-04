@@ -99,6 +99,19 @@ function Financiar() {
             <li>Na opção “FGTS e INSS”, clique em “extrato” e depois “meu FGTS” “ver todas as suas contas”.</li>
             <li>Clique em “compartilhar”, escolha a opção “compartilhar por e-mail”, digita o e-mail da Agência, conforme o caso e clique em “enviar”. Da mesma forma, este processo deve ser realizado para todas as contas vinculadas de todos os participantes que utilizarão os recursos.</li>
           </ul>
+          <br></br>
+          <h1>SIMULADOS DE FINANCIAMENTO - BANCOS</h1>
+          <br></br>
+          <a target="_blank" href="https://www8.caixa.gov.br/siopiinternet-web/simulaOperacaoInternet.do?method=inicializarCasoUso">Caixa Econômica</a>
+          <br></br>
+          <a target="_blank" href="https://www42.bb.com.br/portalbb/imobiliario/creditoimobiliario/simular,802,2250,2250.bbx">Banco do Brasil</a>
+          <br></br>
+          <a target="_blank" href="https://credito-imobiliario.itau.com.br/">Itaú</a>
+          <br></br>
+          <a target="_blank" href="https://banco.bradesco/html/classic/produtos-servicos/emprestimo-e-financiamento/encontre-seu-credito/simuladores-imoveis.shtm">Bradesco</a>
+          <br></br>
+          <a target="_blank" href="https://www.santander.com.br/hotsite/credito-financiamento-imobiliario/?gclid=CjwKCAjw5ImwBhBtEiwAFHDZxysumEJp42g9AlHvgzhtkfM1BFaf3aV7Lhe6qfBrU_uEG15E1sJBKxoClYUQAvD_BwE&gclsrc=aw.ds">Santander</a>
+          <br></br>
         </div>
       </main>
   );

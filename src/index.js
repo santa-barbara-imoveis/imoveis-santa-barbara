@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
+import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import {LandingPage} from "./pages/landing-page/LandingPage";
-import {Documentos} from "./pages/screenDocumentos/Documentos";
-import {Financiar} from './pages/screenFinanciar/Financiar';
-import {ListaImoveis2} from './pages/searchPage/ListaImoveis2';
-import {Empresa} from './pages/Institucional/Empresa';
+import { Empresa } from './pages/Institucional/Empresa';
+import { LandingPage } from "./pages/landing-page/LandingPage";
+import { PropertyDetails } from './pages/propertyDetails';
+import { Documentos } from "./pages/screenDocumentos/Documentos";
+import { Financiar } from './pages/screenFinanciar/Financiar';
+import { ListaImoveis2 } from './pages/searchPage/ListaImoveis2';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,14 @@ const router = createBrowserRouter([
       {
         path: 'quem-somos',
         element: <Empresa/>
+      },
+      {
+        path: "imovel/:propertyId",
+        element: <PropertyDetails/>
+      },
+      {
+        path: "imoveis/imovel/:propertyId",
+        element: <PropertyDetails/>
       }
     ]
   },

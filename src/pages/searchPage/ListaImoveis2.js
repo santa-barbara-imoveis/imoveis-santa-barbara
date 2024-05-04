@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import "./ListaImoveis.css";
-import "../../assets/style/brand.css";
 import hero from "../../assets/images/wideHeroImage.jpg";
-import RenderImoveis from "./listaDeImoveis";
+import "../../assets/style/brand.css";
 import { imoveisDisp } from '../../data/dataImoveis';
-import Pagination from './components/Pagination/Pagination';
+import "./ListaImoveis.css";
 import { Filtragem } from './components/Filtragem/Filtragem';
+import Pagination from './components/Pagination/Pagination';
+import { useInitialFilters } from './hooks/use-initial-filters';
+import RenderImoveis from "./listaDeImoveis";
 
 function ListaImoveis2() {
   const [imoveis, setImoveis] = useState (imoveisDisp);
@@ -14,8 +15,11 @@ function ListaImoveis2() {
   const [contrato, setContrato] = useState ("")
   // const [imoveis, setImoveis] = useState ([]);
   const [tipoImovel, setTipoImovel] = useState ("")
+  const [currentPage, setCurrentPage] = useState(0)
 
   useEffect(()=>{setImoveisPageAtual(imoveis.slice(0,10))}, [imoveis])
+
+  const initialFilters = useInitialFilters()
 
   return (
     <body>
@@ -25,7 +29,7 @@ function ListaImoveis2() {
         </div>
         <article className='FormSearchMain'>
           <div className='MainBoxLista'>
-          <Filtragem itens = {imoveis} mudarImoveisAtuais = {setImoveis}/>
+          <Filtragem itens = {imoveis} mudarImoveisAtuais = {setImoveis} initialFilters={initialFilters}/>
             <div className='boxRenderOptions'>
               <div className='qtdEncontrado'>
                 <div className='qtdImoveis'>
@@ -35,9 +39,21 @@ function ListaImoveis2() {
                   Imóveis encontrados
                 </h1>
               </div>
-              <Pagination imoveisListaCompleta = {imoveis} imoveisPaginaAtual = {imoveisPageAtual} mudarImoveisAtuais = {setImoveisPageAtual}/>
+              <Pagination 
+                currentPage={currentPage} 
+                setCurrentPage={setCurrentPage} 
+                imoveisListaCompleta = {imoveis} 
+                imoveisPaginaAtual = {imoveisPageAtual} 
+                mudarImoveisAtuais = {setImoveisPageAtual}
+              />
               <RenderImoveis itens = {imoveisPageAtual}/>
-              <Pagination imoveisListaCompleta = {imoveis} imoveisPaginaAtual = {imoveisPageAtual} mudarImoveisAtuais = {setImoveisPageAtual}/>
+              <Pagination 
+                currentPage={currentPage} 
+                setCurrentPage={setCurrentPage} 
+                imoveisListaCompleta = {imoveis} 
+                imoveisPaginaAtual = {imoveisPageAtual} 
+                mudarImoveisAtuais = {setImoveisPageAtual}
+              />
             </div>
           </div>
         </article>
@@ -46,4 +62,5 @@ function ListaImoveis2() {
   )
 }
 
-export { ListaImoveis2 }
+export { ListaImoveis2 };
+

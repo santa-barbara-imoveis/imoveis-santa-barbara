@@ -1,11 +1,12 @@
 import React from 'react';
 import "./HighlightsRent.css";
+import { Link } from 'react-router-dom';
 import banho from "./assets/banheira.png";
 import area from "./assets/area.png";
 import vagas from "./assets/carros.png";
 import quartos from "./assets/quarto.png";
-import fotoFrente4 from "./assets/L036.jpg";
-import fotoFrente5 from "./assets/L038.jpg";
+import fotoFrente4 from "./assets/L010.jpg";
+import fotoFrente5 from "./assets/L070.jpg";
 import fotoFrente6 from "./assets/L063.jpeg";
 import setaE from "./assets/seta-esquerda.png";
 import setaD from "./assets//seta-direita.png";
@@ -21,7 +22,9 @@ function HighlightsRent() {
       <div className="opcaoImoveis">
         <div className='boxImovel'>
           <div className='imFotoMainR'>
-            <img className="imFoto2" src={fotoFrente6} />
+            <Link to={`imovel/L063a2`} className='linkImage'>
+              <img className="imFoto2" src={fotoFrente6} />
+            </Link>
             <div className='boxPreco'>
               <div className='tipoContrato'>
                 Locação - Comercial
@@ -53,13 +56,15 @@ function HighlightsRent() {
 
         <div className='boxImovel'>
           <div className='imFotoMainR'>
-            <img className="imFoto2" src={fotoFrente5} />
+            <Link to={`imovel/L070`} className='linkImage'>
+              <img className="imFoto2" src={fotoFrente5} />
+            </Link>
             <div className='boxPreco'>
               <div className='tipoContrato'>
                 Locação
               </div>
               <div className='precoImovel'>
-                R$ 1.000,00
+                R$ 2.250,00
               </div>
             </div>
           </div>
@@ -67,50 +72,52 @@ function HighlightsRent() {
             Centro - Santa Bárbara
           </div>
           <div className='imId'>
-            Código: L038
+            Código: L070
           </div>
           <div className='imAmenities'>
             <div className='iconsAmenities'>
               <img className="icon" src={area} />
-              90
+              178
               <img className="icon" src={banho} />
-              1
+              2
               <img className="icon" src={vagas} />
-              0
+              1
               <img className="icon" src={quartos} />
-              3
+              5
             </div>
           </div>
         </div>
 
         <div className='boxImovel'>
           <div className='imFotoMainR'>
-            <img className="imFoto2" src={fotoFrente4} />
+            <Link to={`imovel/L010`} className='linkImage'>
+              <img className="imFoto2" src={fotoFrente4} />
+            </Link>
             <div className='boxPreco'>
               <div className='tipoContrato'>
                 Locação
               </div>
               <div className='precoImovel'>
-                R$ 1.250,00
+                R$ 800,00
               </div>
             </div>
           </div>
           <div className='imBairroCidade'>
-            Ana Margarida - Santa Bárbara
+            Centro - Santa Bárbara
           </div>
           <div className='imId'>
-            Código: L036
+            Código: L010
           </div>
           <div className='imAmenities'>
             <div className='iconsAmenities'>
               <img className="icon" src={area} />
-              60
+              30
               <img className="icon" src={banho} />
               1
               <img className="icon" src={vagas} />
-              1
+              0
               <img className="icon" src={quartos} />
-              2
+              0
             </div>
           </div>
         </div>

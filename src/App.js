@@ -1,9 +1,10 @@
 import React from 'react';
-import './App.css';
 import { Outlet } from 'react-router-dom';
-import { Header } from './pages/landing-page/components/header/Header';
-import { Footers } from './pages/landing-page/components/Footers/Footers';
+import './App.css';
+import "./assets/style/reset.css";
 import { FFooter } from './pages/landing-page/components/Footers/FFooter';
+import { Footers } from './pages/landing-page/components/Footers/Footers';
+import { Header } from './pages/landing-page/components/header/Header';
 
 function App() {
   

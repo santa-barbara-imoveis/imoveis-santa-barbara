@@ -1,9 +1,11 @@
 import ffL008 from "../assets/images/L008.jpg";
 import ffL010 from "../assets/images/L010.jpg";
+import ffL048a1 from "../assets/images/L048a1.jpeg";
 import ffL048a4 from "../assets/images/L048a4.jpeg";
 import ffL063a2 from "../assets/images/L063a2.jpeg";
 import ffL063a3 from "../assets/images/L063a3.jpeg";
 import ffL070 from "../assets/images/L070.jpg";
+import ffL073 from "../assets/images/L073.jpg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV004 from "../assets/images/V004.jpg";
 import ffV006 from "../assets/images/V006.jpg";
@@ -77,25 +79,25 @@ const imoveisDisp = [
         titulo:"Oportunidade para compra no centro de Santa Bárbara",
         descricao:"Sala de TV, sala de jantar, cozinha estilo americana, despensa, área de serviço, quintal, garagem ampla"
     },
-    {
-      fotos: importAll(require.context('../assets/images/V004', true, /\.(png|jpe?g|svg)$/)),
-        fotoCapa: ffV004,
-        cod: "V004",
-        contrato: contractType[contractTypeParamKey.buy],
-        tipoImovel:propertyType.house,
-        ruaNum: "Rua Nossa Senhora das Mercês, nº 182 (próximo ao Hospital)",
-        bairro:"Centro",
-        cidade:city.santa_barbara,
-        Estado:"Minas Gerais",
-        quartos:3,
-        banheiros:2,
-        vagas:0,
-        valor:"R$ 270.000,00",
-        areaTotal:"119,2 m²",
-        areaConstruida: "120 m²",
-        titulo:"Ótima oportunidade para compra no centro de Santa Bárbara",
-        descricao:"Casa em área residencial, localizada no centro da cidade (próximo ao Hospital e a Igreja Nossa Senhora das Mercês). Local possui infraestrutura completa (rua calçada, água, energia, esgoto e passeio)"
-    },
+    // {
+    //   fotos: importAll(require.context('../assets/images/V004', true, /\.(png|jpe?g|svg)$/)),
+    //     fotoCapa: ffV004,
+    //     cod: "V004",
+    //     contrato: contractType[contractTypeParamKey.buy],
+    //     tipoImovel:propertyType.house,
+    //     ruaNum: "Rua Nossa Senhora das Mercês, nº 182 (próximo ao Hospital)",
+    //     bairro:"Centro",
+    //     cidade:city.santa_barbara,
+    //     Estado:"Minas Gerais",
+    //     quartos:3,
+    //     banheiros:2,
+    //     vagas:0,
+    //     valor:"R$ 270.000,00",
+    //     areaTotal:"119,2 m²",
+    //     areaConstruida: "120 m²",
+    //     titulo:"Ótima oportunidade para compra no centro de Santa Bárbara",
+    //     descricao:"Casa em área residencial, localizada no centro da cidade (próximo ao Hospital e a Igreja Nossa Senhora das Mercês). Local possui infraestrutura completa (rua calçada, água, energia, esgoto e passeio)"
+    // },
     {
         fotos: importAll(require.context('../assets/images/V006', true, /\.(png|jpe?g|svg)$/)),
         fotoCapa: ffV006,
@@ -552,25 +554,25 @@ const imoveisDisp = [
       titulo:"Vende-se terreno de 10,6 ha em área urbana",
       descricao: "Localizado na entrada de Santa Bárbara. Propriedade com escritura. Zona de Diversificação Econômica."
     },
-    {
-      fotos: importAll(require.context('../assets/images/V124', true, /\.(png|jpe?g|svg)$/)),
-      fotoCapa: ffV124,
-      cod: "V124",
-      contrato: contractType[contractTypeParamKey.buy],
-      tipoImovel:propertyType.house,
-      ruaNum: "-",
-      bairro:"Residencial Santo Antônio",
-      cidade:city.santa_barbara,
-      Estado:"Minas Gerais",
-      quartos:3,
-      banheiros:2,
-      vagas:2,
-      valor:"R$ 490.000,00",
-      areaTotal:"360 m²",
-      areaConstruida: "180 m²",
-      titulo:"Casa à venda no residencial Santo Antônio",
-      descricao: "Casa com cozinha ampla/copa e quintal. Varanda / Jardim. Casa de laje, piso de porcelanato e cerâmica. Toda murada e com portão eletrônico."
-    },
+    // {
+    //   fotos: importAll(require.context('../assets/images/V124', true, /\.(png|jpe?g|svg)$/)),
+    //   fotoCapa: ffV124,
+    //   cod: "V124",
+    //   contrato: contractType[contractTypeParamKey.buy],
+    //   tipoImovel:propertyType.house,
+    //   ruaNum: "-",
+    //   bairro:"Residencial Santo Antônio",
+    //   cidade:city.santa_barbara,
+    //   Estado:"Minas Gerais",
+    //   quartos:3,
+    //   banheiros:2,
+    //   vagas:2,
+    //   valor:"R$ 490.000,00",
+    //   areaTotal:"360 m²",
+    //   areaConstruida: "180 m²",
+    //   titulo:"Casa à venda no residencial Santo Antônio",
+    //   descricao: "Casa com cozinha ampla/copa e quintal. Varanda / Jardim. Casa de laje, piso de porcelanato e cerâmica. Toda murada e com portão eletrônico."
+    // },
     {
       fotos: importAll(require.context('../assets/images/V125', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV125,
@@ -1002,6 +1004,25 @@ const imoveisDisp = [
     //   descricao:"01 sala comercial com 01 banheiro (20m²). Localizado em área central de altíssima movimentação, no 2º andar."
     // },
     {
+      fotos: importAll(require.context('../assets/images/L048.1', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffL048a1,
+      cod: "L048.1",
+      contrato: contractType[contractTypeParamKey.rent],
+      tipoImovel:propertyType.house,
+      ruaNum: "Não informado.",
+      bairro:"Centro",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:amenitiesQuantity.three,
+      banheiros:amenitiesQuantity.three,
+      vagas:amenitiesQuantity.five,
+      valor:"R$ 3.500,00",
+      areaTotal:"- m²",
+      areaConstruida: "- m²",
+      titulo:"Ótima casa para aluguel no centro (em frente a Caixa Econômica.",
+      descricao:"03 quartos, 3 banheiros, sala/cozinha, área de serviço, área externa com piscina, churrasqueira, jardim e garagem para 5 carros."
+    },
+    {
       fotos: importAll(require.context('../assets/images/L048.4', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffL048a4,
       cod: "L048.4",
@@ -1076,6 +1097,25 @@ const imoveisDisp = [
       areaConstruida: "- m²",
       titulo:"Aluga-se apartamento no centro",
       descricao:"Apartamento localizado em frente ao Colégio das Irmãs.05 quartos / 02 banheiros / sala, copa, cozinha. Armários embutidos / Varanda / Terraço / Área de serviço. 01 vaga de garagem."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/L073', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffL073,
+      cod: "L073",
+      contrato: contractType[contractTypeParamKey.rent],
+      tipoImovel:propertyType.house,
+      ruaNum: "Não informado",
+      bairro:"Centro",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:3,
+      banheiros:1,
+      vagas:0,
+      valor:"R$ 2.000,00",
+      areaTotal:"- m²",
+      areaConstruida: "- m²",
+      titulo:"Casa de Aluguel no centrão de Santa Bárbara",
+      descricao:"Casa 3 quartos, 1 banheiro, sala, cozinha, área de serviço, sem garagem. Preferência de locação para empresas."
     }
   ]
 

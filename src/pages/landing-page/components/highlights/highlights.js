@@ -1,14 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./Highlights.css";
-import banho from "./assets/banheira.png";
-import area from "./assets/area.png";
-import vagas from "./assets/carros.png";
-import quartos from "./assets/quarto.png";
-import fotoFrente from "./assets/V124.jpeg";
 import fotoFrente2 from "./assets/002_fachada.jpeg";
 import fotoFrente3 from "./assets/V109.1.jpg";
-import setaE from "./assets/seta-esquerda.png";
-import setaD from "./assets//seta-direita.png";
+import fotoFrente from "./assets/V124.jpeg";
+import area from "./assets/area.png";
+import banho from "./assets/banheira.png";
+import vagas from "./assets/carros.png";
+import quartos from "./assets/quarto.png";
 
 
 function Highlights() {
@@ -20,35 +19,39 @@ function Highlights() {
           <img className="iconSeta" src={setaD} /> */}
         </div>
         <div className="opcaoImoveis">
-          <div className="boxImovel">
-            <div className="imFotoMainV">
-              <img className="imFotoV" src={fotoFrente} />
-              <div className="boxPreco">
-                <div className="tipoContrato">Venda</div>
-                <div className="precoImovel">R$ 490.000,00</div>
+            <div className="boxImovel">
+              <div className="imFotoMainV">
+                <Link to={`imovel/V124`} className='linkImage'>
+                  <img className="imFotoV" src={fotoFrente} />
+                </Link>
+                <div className="boxPreco">
+                  <div className="tipoContrato">Venda</div>
+                  <div className="precoImovel">R$ 490.000,00</div>
+                </div>
+              </div>
+              <div className="imBairroCidade">
+                Resid. Santo Antônio - Santa Bárbara
+              </div>
+              <div className="imId">Código: V124</div>
+              <div className="imAmenities">
+                <div className="iconsAmenities">
+                  <img className="icon" src={area} />
+                  360
+                  <img className="icon" src={banho} />
+                  2
+                  <img className="icon" src={vagas} />
+                  2
+                  <img className="icon" src={quartos} />
+                  3
+                </div>
               </div>
             </div>
-            <div className="imBairroCidade">
-              Resid. Santo Antônio - Santa Bárbara
-            </div>
-            <div className="imId">Código: V124</div>
-            <div className="imAmenities">
-              <div className="iconsAmenities">
-                <img className="icon" src={area} />
-                360
-                <img className="icon" src={banho} />
-                2
-                <img className="icon" src={vagas} />
-                2
-                <img className="icon" src={quartos} />
-                3
-              </div>
-            </div>
-          </div>
-
+          
           <div className="boxImovel">
             <div className="imFotoMainV">
-              <img className="imFotoV" src={fotoFrente2} />
+              <Link to={`imovel/V134`} className='linkImage'>
+                <img className="imFotoV" src={fotoFrente2} />
+              </Link>
               <div className="boxPreco">
                 <div className="tipoContrato">Venda</div>
                 <div className="precoImovel">R$ 490.000,00</div>
@@ -71,7 +74,9 @@ function Highlights() {
 
           <div className="boxImovel">
             <div className="imFotoMainV">
-              <img className="imFotoV" src={fotoFrente3} />
+              <Link to={`imovel/V109a1`} className='linkImage'>
+                <img className="imFotoV" src={fotoFrente3} />
+              </Link>
               <div className="boxPreco">
                 <div className="tipoContrato">Venda</div>
                 <div className="precoImovel">R$ 500.000,00</div>
@@ -96,4 +101,5 @@ function Highlights() {
     );
   }
   
-export { Highlights }
+export { Highlights };
+

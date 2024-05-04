@@ -1,6 +1,7 @@
 import area from "../../assets/icons/area.png";
 import React from 'react';
 import "./ListaImoveis.css";
+import { Link } from 'react-router-dom';
 import iconContrato from "../../assets/icons/contrato.png";
 import iconMoeda from "../../assets/icons/moedas.png";
 import iconTotal from "../../assets/icons/total.png";
@@ -11,12 +12,15 @@ import tpImovel from "../../assets/icons/tipoImovel.png";
 
 function RenderImoveis({itens}) 
 {
+
     return (
       <div className="carrosel">
         {itens.map((item) => (
         <div className="BoxImovel">
           <div className="boxPicture">
-            <img className="imFoto" src={item.fotoCapa}/>
+            <Link to={`imovel/${item.cod}`} className='linkImage'>
+              <img className="imFoto" src={item.fotoCapa}/>
+            </Link>
           </div>
           <div className="boxDataImovel">
             <div className="boxTitulo"> {item.bairro} | {item.cidade} | {item.cod} </div>

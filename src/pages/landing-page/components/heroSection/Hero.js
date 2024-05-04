@@ -1,87 +1,119 @@
 import React from 'react';
+import { Link, useNavigate } from "react-router-dom";
+import { contractType } from '../../../../dicts/contract-type';
+import { propertyType } from '../../../../dicts/property-type';
+
+import { allFiltersSelectedPlaceholder, allFiltersSelectedPlaceholderFilter } from '../../../../dicts/all-filters-selected-placeholder';
+import { amenitiesQuantity } from '../../../../dicts/amenities-quantity';
+import { city } from '../../../../dicts/cities';
+import { filterSearchParams } from '../../../../dicts/filter-search-params';
 import "./Hero.css";
 import hero from "./assets/largo.jpg";
-import { Link } from "react-router-dom";
 
 function Hero() {
-    return (
-      <main className="Main">
-        <div className="heroLanding" style={{backgroundImage:`url(${hero})`}}>
-          BEM VINDO À SANTA BÁRBARA IMÓVEIS
-          <a className="botaoHero" href="">
-            <button type="submit">
-              <Link to="quem-somos" className="saibaMais"> Saiba mais </Link>
-            </button>
-          </a>
-        </div>
-        <article className='FormSearchLanding'>
-          <form>
-            <div className='linha1selectLand'>
-              <div>
-                  <select className="sltModeLand" name="selectInteresse">
-                      <option value="Alugar" label="Alugar"> </option>
-                      <option value="Comprar" label="Comprar"> </option>
-                  </select>
-              </div>
-              <div className="sltTipoImovelLand">
-                  <select className="sltModeLand" name="sltTipoImovel">
-                      <option value="Apartamento" label="Apartamento"> </option>
-                      <option value="Casa" label="Casa"> </option>
-                      <option value="Kitnet" label="Kitnet"> </option>
-                      <option value="Chácara" label="Chácara"> </option>
-                      <option value="Sítio" label="Sítio"> </option>
-                      <option value="Fazenda" label="Fazenda"> </option>
-                      <option value="Lote" label="Lote"> </option>
-                      <option value="Terreno" label="Terreno"> </option>
-                      <option value="Ponto Comercial" label="Ponto Comercial"> </option>
-                      <option value="Galpão" label="Galpão"> </option>
-                      <option value="Lote/Casa" label="Lote/Casa"> </option>
-                  </select>
-              </div>
-              <div className="sltCidadeLand">
-                  <select className="sltModeLand" name="sltTipoCidade">
-                      <option value="Santa Bárbara" label="Santa Bárbara"> </option>
-                      <option value="Barão de Cocais" label="Barão de Cocais"> </option>
-                  </select>
-              </div>
-              <div className="sltBairroLand">
-                  <select className="sltModeLand" name="sltTipoBairro">
-                      <option value="Centro" label="Centro"> </option>
-                      <option value="São Francisco" label="São Francisco"> </option>
-                  </select>
-              </div>
-            </div>
-            <div className='linha2selectLand'>
-              <div>
-                  <select className="sltModeLand" name="selectQuartos">
-                      <option value="1 quarto" label="1 quarto"> </option>
-                      <option value="2 quartos" label="2 quartos"> </option>
-                      <option value="3 quartos" label="3 quartos"> </option>
-                      <option value="4 quartos" label="4 quartos"> </option>
-                      <option value="5 quartos ou +" label="5 quartos ou +"> </option>
-                  </select>
-              </div>
-              <div>
-                  <select className="sltModeLand" name="sltVagas">
-                      <option value="1 vaga" label="1 vaga"> </option>
-                      <option value="2 vagas" label="2 vagas"> </option>
-                      <option value="3 vagas" label="3 vagas"> </option>
-                      <option value="4 vagas" label="4 vagas"> </option>
-                      <option value="5 vagas ou +" label="5 vagas ou +"> </option>
-                  </select>
-              </div>
-              <div>
-                <input  className="inputValorLand" type="text" name="name" />
-              </div>
-              <div>
-                <input  className="inputValorLand" type="text" name="name" />
-              </div>
-              <button className="botaoBuscarLand" type="submit"> <Link to="imoveis" className="saibaMais"> Buscar </Link> </button>
-            </div>
-          </form>
-        </article>
-      </main>
-    )
+  const navigate = useNavigate()
+
+  function searchAction(e) {
+    e.preventDefault()
+    const selectInteresse = document.getElementById('selectInteresse').value;
+    const sltTipoImovel = document.getElementById('sltTipoImovel').value;
+    const sltTipoCidade = document.getElementById('sltTipoCidade').value;
+    const selectQuartos = document.getElementById('selectQuartos').value;
+    const vagas = document.getElementById('sltVagas').value;
+    const bathRooms = document.getElementById('sltBathrooms').value
+
+    navigate({
+      pathname: "/imoveis",
+      search: `?${filterSearchParams.propertyType}=${sltTipoImovel}&${filterSearchParams.city}=${sltTipoCidade}&${filterSearchParams.rooms}=${selectQuartos}&${filterSearchParams.contractType}=${selectInteresse}&${filterSearchParams.parking}=${vagas}&${filterSearchParams.bathroom}=${bathRooms}`,
+    })
   }
+    
+  function getAmenityLabelName(label, sufix) {
+    if (label === allFiltersSelectedPlaceholder) {
+      return label.charAt(0).toUpperCase() + label.slice(1);
+    } 
+    return [amenitiesQuantity.zero, amenitiesQuantity.one].includes(label) ?`${label} ${sufix}` : `${label} ${sufix}s`
+  }
+  return (
+    <main className="Main">
+      <div className="heroLanding" style={{backgroundImage:`url(${hero})`}}>
+        BEM VINDO À SANTA BÁRBARA IMÓVEIS
+        <a className="botaoHero" href="">
+          <button type="submit">
+            <Link to="quem-somos" className="saibaMais"> Saiba mais </Link>
+          </button>
+        </a>
+      </div>
+      <article className='FormSearchLanding'>
+        <form>
+          <div className='linha1selectLand'>
+            <div>
+                <select className="sltModeLand" name="selectInteresse" id="selectInteresse">
+                    {Object.entries(contractType).map(([key, value]) => (
+                      <option value={key} label={value}> </option>
+                    ))}
+                </select>
+            </div>
+            <div className="sltTipoImovelLand">
+                <select className="sltModeLand" name="sltTipoImovel" id="sltTipoImovel">
+                    {Object.entries(propertyType).map(([key, value]) => (
+                      <option value={key} label={value}> </option>
+                    ))}
+                </select>
+            </div>
+            <div className="sltCidadeLand">
+                <select className="sltModeLand" name="sltTipoCidade" id="sltTipoCidade">
+                  {Object.entries(city).map(([key, value]) => (
+                    <option value={key} label={value}> </option>
+                  ))}
+                </select>
+            </div>
+          </div>
+          <div className='linha2selectLand'>
+            <div className='sltModeLandContainer'>
+              <label htmlFor='sltVagas'>Quartos</label>
+              <select className="sltModeLand" name="selectQuartos" id="selectQuartos">
+                {[[allFiltersSelectedPlaceholderFilter, allFiltersSelectedPlaceholder], ...Object.entries(amenitiesQuantity)].map(([key, value]) => (
+                  <option 
+                    value={key} 
+                    label={getAmenityLabelName(value, "quarto")}>
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div className='sltModeLandContainer'>
+                <label htmlFor='sltVagas'>Vagas</label>
+                <select className="sltModeLand" name="sltVagas" id="sltVagas">
+                  {[[allFiltersSelectedPlaceholderFilter, allFiltersSelectedPlaceholder], ...Object.entries(amenitiesQuantity)].map(([key, value]) => (
+                    <option 
+                      value={key} 
+                      label={getAmenityLabelName(value, "vaga")}>
+                      </option>
+                  ))}
+                </select>
+            </div>
+            <div className='sltModeLandContainer'>
+              <label htmlFor='sltVagas'>Banheiros</label>
+                <select className="sltModeLand" name="sltBathrooms" id="sltBathrooms">
+                  {[[allFiltersSelectedPlaceholderFilter, allFiltersSelectedPlaceholder], ...Object.entries(amenitiesQuantity)].map(([key, value]) => (
+                    <option 
+                      value={key} 
+                      label={getAmenityLabelName(value, "banheiro")}>
+                    </option>
+                  ))}
+                </select>
+            </div>
+          </div>
+          <button className="botaoBuscarLand"  onClick={searchAction}> 
+              {/* <Link to="imoveis" className="saibaMais">  */}
+              Buscar 
+              {/* </Link>  */}
+            </button>
+        </form>
+      </article>
+    </main>
+  )
+}
   
-export { Hero }
+export { Hero };
+

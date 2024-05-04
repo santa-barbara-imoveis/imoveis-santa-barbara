@@ -1,12 +1,9 @@
-import React from 'react';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import "./Pagination.css";
-import { imoveisDisp } from '../../../../data/dataImoveis';
 
-function Pagination ({imoveisListaCompleta, imoveisPaginaAtual, mudarImoveisAtuais}) {
+function Pagination ({imoveisListaCompleta, imoveisPaginaAtual, mudarImoveisAtuais, currentPage, setCurrentPage}) {
 
   const [itensPerPage, setItensItensPerPage] = useState(10)
-  const [currentPage, setCurrentPage] = useState(0)
   const pages = Math.ceil(imoveisListaCompleta.length / itensPerPage)
 
   //esta atualizacao dos estados causou um looping infinito
@@ -17,10 +14,10 @@ function Pagination ({imoveisListaCompleta, imoveisPaginaAtual, mudarImoveisAtua
   //responsividade / midiaquery
 
   useEffect(() => {
-  const startIndex = currentPage * itensPerPage;
-  const endIndex = startIndex + itensPerPage;
-  const currentItens = imoveisListaCompleta.slice(startIndex, endIndex)
-  mudarImoveisAtuais (currentItens);
+    const startIndex = currentPage * itensPerPage;
+    const endIndex = startIndex + itensPerPage;
+    const currentItens = imoveisListaCompleta.slice(startIndex, endIndex)
+    mudarImoveisAtuais (currentItens);
   }, [currentPage])
 
   useEffect(() => {setCurrentPage(0)}, [imoveisListaCompleta]);
@@ -29,7 +26,7 @@ function Pagination ({imoveisListaCompleta, imoveisPaginaAtual, mudarImoveisAtua
     <div className='Pagination'>
       <div className='numPagesNav'>
         {
-        currentPage == 0? null : <button className='prev' value={currentPage-1} onClick={(e) => setCurrentPage(Number(e.target.value))}>&lt;</button>
+          currentPage == 0 ? null : <button className='prev' value={currentPage-1} onClick={(e) => setCurrentPage(Number(e.target.value))}>&lt;</button>
         }
         {Array.from(Array(pages), (item, index) => {
           return <button className={index == currentPage? "currentPage" : ""} value={index} onClick={(e) => setCurrentPage(Number(e.target.value))}>{index + 1}</button>

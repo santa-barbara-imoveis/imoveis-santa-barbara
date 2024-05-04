@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media (max-width:320px)  { 
     h1 {
         font-size: 13px;
@@ -13,41 +14,70 @@
     }
     a, p, div, option {
         font-size: 12px;
+=======
+@media (min-width:320px)  { 
+    h1 {
+        font-size: 3vw;
+>>>>>>> 4527acbdcc22aea20db52ee451aadeafc6a686b4
     }
 }
 
 @media (min-width:481px)  { 
     h1 {
+<<<<<<< HEAD
         font-size: 13px;
     }
     a, p, div, option {
         font-size: 12px;
+=======
+        font-size: 3vw;
+>>>>>>> 4527acbdcc22aea20db52ee451aadeafc6a686b4
     }
 }
 
 @media (min-width:641px)  { 
     h1 {
+<<<<<<< HEAD
         font-size: 13px;
     }
     a, p, div, option {
         font-size: 12px;
+=======
+        font-size: 3vw;
+>>>>>>> 4527acbdcc22aea20db52ee451aadeafc6a686b4
     }
 }
 
 @media (min-width:961px)  { 
     h1 {
+<<<<<<< HEAD
         font-size: 1.8vw;
     }
     a, p, div, option {
         font-size: 1.3vw;
+=======
+        font-size: 2vw;
+>>>>>>> 4527acbdcc22aea20db52ee451aadeafc6a686b4
     }
 }
 
 @media (min-width:1025px) { 
     h1 {
+<<<<<<< HEAD
         font-size: 1.8vw;
     }
     a, p, div, option{
         font-size: 1.3vw;
     }
 }
+=======
+        font-size: 1.5vw;
+    }
+}
+
+@media (min-width:1281px) { 
+    h1 {
+        font-size: 1.5vw;
+    } 
+ }
+>>>>>>> 4527acbdcc22aea20db52ee451aadeafc6a686b4

@@ -6,6 +6,7 @@ import ffL063a2 from "../assets/images/L063a2.jpeg";
 import ffL063a3 from "../assets/images/L063a3.jpeg";
 import ffL070 from "../assets/images/L070.jpg";
 import ffL073 from "../assets/images/L073.jpg";
+import ffL075 from "../assets/images/L075.jpeg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV004 from "../assets/images/V004.jpg";
 import ffV006 from "../assets/images/V006.jpg";
@@ -45,6 +46,7 @@ import ffV138 from "../assets/images/V138.jpg";
 import ffV139 from "../assets/images/V139.jpeg";
 import ffV141 from "../assets/images/V141.jpeg";
 import ffV142 from "../assets/images/V142.jpg";
+import ffV147 from "../assets/images/V147.jpeg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -840,6 +842,25 @@ const imoveisDisp = [
       descricao: "Casa de laje e telhado colonial, com móveis planejados, ótimo acabamento e portão eletrônico."
     },
     {
+      fotos: importAll(require.context('../assets/images/V142', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffV147,
+      cod: "V147",
+      contrato: contractType[contractTypeParamKey.buy],
+      tipoImovel:propertyType.house,
+      ruaNum: "Rua Oscar Rodrigues Martins, 114",
+      bairro:"Santa Mônica",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:3,
+      banheiros:2,
+      vagas:3,
+      valor:"R$ 980.000,00",
+      areaTotal:"360 m²",
+      areaConstruida: "254 m²",
+      titulo:"Vende-se casa no bairro Santa Mônica",
+      descricao: "Sala de estar, jantar e tv;Copa/cozinha (bancada granito); 3 quartos sendo uma suíte; 2 banheiros sociais, área de serviço; Espaço gourmet com churrasqueira e área livre; Banho externo e ducha; Documento regular para financiamento."
+    },
+    {
       fotos: importAll(require.context('../assets/images/L008', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffL008,
       cod: "L008",
@@ -1116,6 +1137,25 @@ const imoveisDisp = [
       areaConstruida: "- m²",
       titulo:"Casa de Aluguel no centrão de Santa Bárbara",
       descricao:"Casa 3 quartos, 1 banheiro, sala, cozinha, área de serviço, sem garagem. Preferência de locação para empresas."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/L075', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffL075,
+      cod: "L075",
+      contrato: contractType[contractTypeParamKey.rent],
+      tipoImovel:propertyType.house,
+      ruaNum: "Não informado",
+      bairro:"Sol Nascente",
+      cidade:city.catas_altas,
+      Estado:"Minas Gerais",
+      quartos:5,
+      banheiros:3,
+      vagas:2,
+      valor:"R$ 3.500,00",
+      areaTotal:"- m²",
+      areaConstruida: "- m²",
+      titulo:"Casa de Aluguel no bairro Sol Nascente em Catas Altas",
+      descricao:"Sala, copa, cozinha, 1 suíte, 4 quartos, 2 banheiros, área de serviço, quintal, garagem para 2 carros.."
     }
   ]
 

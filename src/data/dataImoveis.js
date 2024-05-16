@@ -842,7 +842,7 @@ const imoveisDisp = [
       descricao: "Casa de laje e telhado colonial, com móveis planejados, ótimo acabamento e portão eletrônico."
     },
     {
-      fotos: importAll(require.context('../assets/images/V142', true, /\.(png|jpe?g|svg)$/)),
+      fotos: importAll(require.context('../assets/images/V147', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV147,
       cod: "V147",
       contrato: contractType[contractTypeParamKey.buy],

@@ -23,7 +23,6 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
     color: white;
-    
 }
 
 .headMain a{
@@ -136,7 +135,7 @@
 
 .BxQuickInfos{
     width: 100%;
-    margin: 25px;
+    margin: 5px;
     background-color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
@@ -156,13 +155,17 @@
 
 @media (max-width:481px) {
     .qkBox{
-        margin-block: 25px;
-        width: 400px;
+        margin-block: 15px;
+        width: 250px;
     } 
 }
 
 .qkBox{
-
+    align-items: center;
+    text-align: center;
+    justify-content:left;
+    vertical-align:middle;
+    display: flex;
 } 
 
 .qkIcon{
@@ -174,6 +177,7 @@
     justify-content: center;
     vertical-align:middle;
     display: flex;
+    padding-right: 15px;
 }
 
 .qkData{
@@ -192,7 +196,6 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
     text-align: center;
-    justify-content:space-between;
     vertical-align:middle;
     display: flex;
     flex-direction: row;
@@ -203,7 +206,6 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
     text-align: center;
-    justify-content:space-between;
     vertical-align:middle;
     display: flex;
     flex-direction: row;
@@ -214,10 +216,47 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
     text-align: center;
-    justify-content:space-between;
     vertical-align:middle;
     display: flex;
     flex-direction: row;
+}
+
+.bg-menu{
+    height: 50px;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+@media screen and (max-width:730px) {
+    .logo{
+        display: none;
+    } 
+    .headMain{
+        display: none;
+    } 
+    .entrar{
+        display: none;
+    } 
+    .mobile-menu-icon{
+        display: block;
+        cursor: pointer;
+        margin-right: 10px;
+    } 
+    .mobile-menu{
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 10px;
+    } 
+    .open{
+        display: block;
+    }
 }
 
 .qkNetwork{

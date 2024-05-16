@@ -8,11 +8,18 @@
     vertical-align:middle;
     flex-direction: row;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .mps{
     text-decoration: none;
     color: white;
+}
+
+@media (max-width:481px)  { 
+    .boxContaFoo{
+        padding-block: 10px;
+    }
 }
 
 .boxContaF{
@@ -25,12 +32,26 @@
     vertical-align:middle;
     flex-direction: column;
     display: flex;
+    padding-block: 30px;
+}
+
+.boxContaFoo{
+    width: fit-content;
+    height: fit-content;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items:start;
+    text-align: center;
+    justify-content:start;
+    vertical-align:middle;
+    flex-direction: column;
+    display: flex;
+    margin-right: 35px;
+    padding-block: 10px;
 }
 
 .boxContaFoo p{
     width: 100%;
     height: 30px;
-    
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     align-items:center;
@@ -127,7 +148,7 @@
     justify-content: center;
     vertical-align:middle;
     display: flex;
-    margin-right: 6px;
+    margin-right: 25px;
 }
 
 .qkLinks{

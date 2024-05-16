@@ -7,9 +7,20 @@ import iconFace from "./assets/facebook.png";
 import iconCreci from "./assets/garantia.png";
 import iconInsta from "./assets/instagram.png";
 import logo from "./assets/logo.png";
+import bgMenu from "./assets/cardapio.png";
 import iconTel from "./assets/telefone.png";
 import iconZap from "./assets/zapPB.png";
 import "./header.css";
+
+function menuShow(){
+  let menuMobile = document.querySelector(".mobile-menu");
+  if (menuMobile.classList.contains("open")){
+    menuMobile.classList.remove("open")
+  }
+  else{
+    menuMobile.classList.add("open")
+  }
+}
 
 function Header() {
   return (
@@ -56,10 +67,24 @@ function Header() {
         <Link to="quem-somos" className="headMain"> <p>Institucional</p> </Link>
         <a href="" className='entrar'>Entrar</a>
       </nav>
+
+      <div className="mobile-menu-icon"> 
+        <button onclick={menuShow}><img className="bg-menu" src={bgMenu}/></button>
+      </div>
+
+      <nav className="mobile-menu" >
+        <Link className="" to="/"> <p>Home</p> </Link> 
+        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.rent}`} className=""> Alugar </Link>
+        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.buy}`} className=""> Comprar </Link>
+        <Link to="documentos" className=""> <p>Documentos</p> </Link>
+        <Link to="financiar" className=""> <p>Financiar</p> </Link>
+        <Link to="quem-somos" className=""> <p>Institucional</p> </Link>
+        <a href="" className='entrar'>Entrar</a>
+      </nav>
     </header>
     </div>
   )
 }
-  
+
 export { Header };
 

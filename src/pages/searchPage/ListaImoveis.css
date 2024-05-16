@@ -539,77 +539,6 @@ select{
     display: flex;
 }
 
-.qkTelef{
-    width: 125px;
-    height: 15px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    align-items: center;
-    text-align: center;
-    justify-content:space-between;
-    vertical-align:middle;
-    display: flex;
-    flex-direction: row;
-}
-
-.qkCreci{
-    width: 150px;
-    height: 15px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    align-items: center;
-    text-align: center;
-    justify-content:space-between;
-    vertical-align:middle;
-    display: flex;
-    flex-direction: row;
-}
-
-.qkEmail{
-    width: 280px;
-    height: 15px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    align-items: center;
-    text-align: center;
-    justify-content:space-between;
-    vertical-align:middle;
-    display: flex;
-    flex-direction: row;
-}
-
-.qkNetwork{
-    width: 100px;
-    height: 15px;
-    align-items: center;
-    text-align: center;
-    justify-content:space-between;
-    vertical-align:middle;
-    display: flex;
-    flex-direction: row;
-}
-
-.qkFace{
-    cursor: pointer;
-}
-
-.qkInsta{
-    cursor: pointer;
-}
-
-.qkZap{
-    cursor: pointer;
-}
-
-.boxFooter{
-    background-color: rgb(29,70,67);
-    width: 100%;
-    height: 400px;
-    align-items: center;
-    text-align: center;
-    justify-content:space-around;
-    vertical-align:middle;
-    flex-direction: row;
-    display: flex;
-}
-
 .boxConta{
     width: 380px;
     height: 350px;
@@ -736,17 +665,6 @@ select{
 
 .boxFootLinha{
     flex-direction: row;
-}
-
-.qkIconLocal{
-    width: 15px;
-    height: 15px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    vertical-align:middle;
-    display: flex;
-    margin-right: 6px;
 }
 
 .footExtra{

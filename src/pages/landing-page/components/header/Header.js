@@ -8,17 +8,23 @@ import iconCreci from "./assets/garantia.png";
 import iconInsta from "./assets/instagram.png";
 import logo from "./assets/logo.png";
 import bgMenu from "./assets/cardapio.png";
+import bgFecha from "./assets/fechar.png";
 import iconTel from "./assets/telefone.png";
 import iconZap from "./assets/zapPB.png";
 import "./header.css";
 
 function menuShow(){
   let menuMobile = document.querySelector(".mobile-menu");
+  let bgMenu = document.querySelector(".mobile-menu-icon button");
   if (menuMobile.classList.contains("open")){
     menuMobile.classList.remove("open")
+    bgMenu.classList.remove("alt")
+    // document.querySelector(".bg-menu").src="assets/cardapio.png"
   }
   else{
     menuMobile.classList.add("open")
+    bgMenu.classList.add("alt")
+    // document.querySelector(".bg-menu").src="assets/fechar.png"
   }
 }
 
@@ -73,12 +79,12 @@ function Header() {
       </div>
 
       <nav className="mobile-menu" >
-        <Link className="" to="/"> <p>Home</p> </Link> 
-        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.rent}`} className=""> <p>Alugar</p> </Link>
-        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.buy}`} className=""> <p>Comprar</p> </Link>
-        <Link to="documentos" className=""> <p>Documentos</p> </Link>
-        <Link to="financiar" className=""> <p>Financiar</p> </Link>
-        <Link to="quem-somos" className=""> <p>Institucional</p> </Link>
+        <Link className="mob-mn-itens" to="/"> <p>Home</p> </Link> 
+        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.rent}`} className="mob-mn-itens"> <p>Alugar</p> </Link>
+        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.buy}`} className="mob-mn-itens"> <p>Comprar</p> </Link>
+        <Link to="documentos" className="mob-mn-itens"> <p>Documentos</p> </Link>
+        <Link to="financiar" className="mob-mn-itens"> <p>Financiar</p> </Link>
+        <Link to="quem-somos" className="mob-mn-itens"> <p>Institucional</p> </Link>
         <a href="" className='entrar'>Entrar</a>
       </nav>
     </header>

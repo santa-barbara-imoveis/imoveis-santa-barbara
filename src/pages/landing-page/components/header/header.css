@@ -56,8 +56,6 @@
     text-decoration: none;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
-    color: white;
-    
     background-color: rgb(26, 95, 91);
 }
 
@@ -69,6 +67,11 @@
     margin-left: 20px;
     width: 150px;
     height: 65px;
+    padding-block: 8px;
+}
+
+button{
+    border: 0;
 }
 
 .head{
@@ -82,7 +85,6 @@
     vertical-align:middle;
     flex-direction: row;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .navHead{
@@ -234,15 +236,31 @@
     vertical-align:middle;
     display: flex;
     flex-direction: row;
-    height: 50px;
+    height: 30px;
+    border: 0;
+    background-color: rgb(227, 238, 237);
+}
+
+.mobile-menu-icon button{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(29,70,67);
+}
+
+.alt{
+    margin-right: 50px;
+    border: 0;
+    background-color: rgb(29,70,67);
 }
 
 .mobile-menu-icon{
     display: none;
+    background-color: rgb(29,70,67);
 }
 
 .mobile-menu{
     display: none;
+    background-color: rgb(29,70,67);
 }
 
 @media screen and (max-width:730px) {
@@ -256,7 +274,7 @@
         vertical-align: center;
         align-items:center;
         display: flex;
-        justify-content: right;
+        justify-content:center;
         padding-block: 20px;
     } 
     .entrar{
@@ -266,6 +284,7 @@
         display: block;
         cursor: pointer;
         margin-right: 10px;
+        background-color: rgb(29,70,67);
     } 
     .mobile-menu{
         display: none;
@@ -276,8 +295,13 @@
     } 
     .open{
         display: block;
-        justify-content:center;
+
     }
+    .mob-mn-itens p{
+        justify-content:center;
+        color:white;
+        font-size: 15px;
+    } 
 }
 
 .qkNetwork{

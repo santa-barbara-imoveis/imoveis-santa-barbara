@@ -1,11 +1,11 @@
 import React from 'react';
 import "./boxContact.css";
-import logo from "./assets/logo.png";
+import logo from "./assets/logo2.png";
 
 function BoxContact() {
     return (
       <article className='boxContato'>
-        <div className="logo"> 
+        <div className="logo2"> 
           <img className="logoImage2" src={logo}/>
         </div>
         <p className="sloganMedio"> 

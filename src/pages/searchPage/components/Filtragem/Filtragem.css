@@ -15,12 +15,6 @@ main {
     height: 3000px;
 }
 
-.logoImage{
-    margin-left: 20px;
-    width: 150px;
-    height: 65px;
-}
-
 .navHead a{
     color: black;
 	text-decoration: none;
@@ -539,10 +533,6 @@ select{
     flex-direction: row;
     display: flex;
 } */
-
-.logoImage2{
-    width: 230px;
-}
 
 /* .sloganMedio{
     width: 400px;

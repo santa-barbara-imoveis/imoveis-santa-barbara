@@ -60,8 +60,8 @@ function Header() {
       </div>
       <nav className="navHead" >
         <Link className="headMain" to="/"> <p>Home</p> </Link> 
-        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.rent}`} className="headMain"> Alugar </Link>
-        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.buy}`} className="headMain"> Comprar </Link>
+        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.rent}`} className="headMain"> <p>Alugar</p> </Link>
+        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.buy}`} className="headMain"> <p>Comprar</p> </Link>
         <Link to="documentos" className="headMain"> <p>Documentos</p> </Link>
         <Link to="financiar" className="headMain"> <p>Financiar</p> </Link>
         <Link to="quem-somos" className="headMain"> <p>Institucional</p> </Link>
@@ -69,13 +69,13 @@ function Header() {
       </nav>
 
       <div className="mobile-menu-icon"> 
-        <button onclick={menuShow}><img className="bg-menu" src={bgMenu}/></button>
+        <button onClick={menuShow}><img className="bg-menu" src={bgMenu}/></button>
       </div>
 
       <nav className="mobile-menu" >
         <Link className="" to="/"> <p>Home</p> </Link> 
-        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.rent}`} className=""> Alugar </Link>
-        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.buy}`} className=""> Comprar </Link>
+        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.rent}`} className=""> <p>Alugar</p> </Link>
+        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.buy}`} className=""> <p>Comprar</p> </Link>
         <Link to="documentos" className=""> <p>Documentos</p> </Link>
         <Link to="financiar" className=""> <p>Financiar</p> </Link>
         <Link to="quem-somos" className=""> <p>Institucional</p> </Link>

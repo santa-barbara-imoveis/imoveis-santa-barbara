@@ -30,6 +30,9 @@ option{
         background-size:cover;
         height: 170px;
     }
+    .MainDocs{
+        height: 170px;
+    }
 }
 
 .heroDocs h2{

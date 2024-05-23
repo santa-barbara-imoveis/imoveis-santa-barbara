@@ -10,14 +10,13 @@ function Empresa() {
       <main className='aEmpresa'>
         <HeroSomos/>
         <div className='valores'>
-          <h1>MISSÃO</h1>
-          <br></br>
+          <h2>MISSÃO</h2>
           <p>Realizar negócios imobiliários com inovação.</p>
-          <h1>VISÃO</h1>
-          <br></br>
+          <br></br>  
+          <h2>VISÃO</h2>
           <p>Ser a Imobiliária referência em Santa Bárbara e região, reconhecida como a melhor opção por clientes, colaboradores, comunidade, fornecedores e investidores, pela qualidade de nossos produtos, serviços e relacionamento.</p>
-          <h1>VALORES</h1>
-          <br></br>      
+          <br></br>  
+          <h2>VALORES</h2>    
           <ul>
             <li>Ética</li>
             <li>Inovação</li>
@@ -27,8 +26,9 @@ function Empresa() {
             <li>Responsabilidade Social</li>
             <li>Inovação na forma de realização dos negócios</li>
           </ul>
+          <br></br>  
           <div className='nossaEquipe'>
-          <h1>QUEM SOMOS</h1>
+          <h2>QUEM SOMOS</h2>
             <div className='curriculo'>
               <div className='curriculoTexto1'>
                 <h2>Juliano Xavier, sócio-fundador</h2>

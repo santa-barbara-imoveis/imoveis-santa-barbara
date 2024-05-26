@@ -12,7 +12,6 @@ import tpImovel from "../../assets/icons/tipoImovel.png";
 
 function RenderImoveis({itens}) 
 {
-
     return (
       <div className="carrosel">
         {itens.map((item) => (

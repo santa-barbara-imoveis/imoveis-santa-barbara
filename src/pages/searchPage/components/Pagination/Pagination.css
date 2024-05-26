@@ -8,18 +8,33 @@
   }
 
   button:hover{
-    background-color: white;
-    color:rgb(29,70,67);
+    /* background-color:#e48134; */
+    color:black;
+    cursor: pointer;
+    font-weight: bolder;
   }
 
   .currentPage{
-    background-color: white;
-    color:rgb(29,70,67);
+    background-color: #e48134;
+    color:black;
   }
 
   .numPagesNav{
     width: 250px;
     height: 30px;
+    padding: 10px;
+    align-items:center;
+    text-align: center;
+    justify-content:center;
+    vertical-align:middle;
+    display: flex;
+  }
+
+  .numPagesNav button{
+    padding-block: 5px;
+    padding-inline: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:normal;
   }
 
   .Pagination{

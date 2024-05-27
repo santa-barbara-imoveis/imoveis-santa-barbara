@@ -1,7 +1,6 @@
 import area from "../../assets/icons/area.png";
 import React from 'react';
 import "./ListaImoveis.css";
-import { Link } from 'react-router-dom';
 import iconContrato from "../../assets/icons/contrato.png";
 import iconMoeda from "../../assets/icons/moedas.png";
 import iconTotal from "../../assets/icons/total.png";
@@ -9,6 +8,7 @@ import banho from "../../assets/icons/banheira.png";
 import vagas from "../../assets/icons/carros.png";
 import quartos from "../../assets/icons/quarto.png";
 import tpImovel from "../../assets/icons/tipoImovel.png";
+import { HashLink as Link } from 'react-router-hash-link';
 
 function RenderImoveis({itens}) 
 {
@@ -17,7 +17,7 @@ function RenderImoveis({itens})
         {itens.map((item) => (
         <div className="BoxImovel">
           <div className="boxPicture">
-            <Link to={`imovel/${item.cod}`} className='linkImage'>
+            <Link to={`imovel/${item.cod}#goTitle`} className='linkImage'>
               <img className="imFoto" src={item.fotoCapa}/>
             </Link>
           </div>

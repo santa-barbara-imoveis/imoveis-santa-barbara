@@ -32,7 +32,7 @@ function PropertyDetails() {
 
     return (
         <div className="fullOfParent singlePropertyDetail">
-            {titulo && <h1 style={{color: 'black', textAlign: "center", margin: "15px 0px"}}>{titulo}</h1>}
+            {titulo && <h1 id="goTitle" style={{color: 'black', textAlign: "center", margin: "15px 0px"}}>{titulo}</h1>}
             <ImageGallery  className="imageGallery" items={photos} />;
             {/* <img className="photoProperty" src={fotoCapa} /> */}
             <div className="boxDataImovel boxDataImovelPropertyDetails">

@@ -23,7 +23,7 @@
 
 .opcaoImoveis{
     background-color:white;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
     align-items: center;
     text-align: center;
     justify-content:space-around;
@@ -215,7 +215,7 @@
 
 .iconSetaPai{
     width: 95%;
-    height: 50px;
+    height: 25px;
     align-items: center;
     text-align: center;
     justify-content:right;

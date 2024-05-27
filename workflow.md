@@ -8,5 +8,3 @@ fluxo de trabalho git
 7 - * esse processo pode gerar conflito, se acontecer deve ser resolvido...
 8 - push na main
 
-
-buscar conceito de link anchor html

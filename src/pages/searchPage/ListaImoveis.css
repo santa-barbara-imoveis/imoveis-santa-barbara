@@ -686,4 +686,7 @@ select{
         flex-direction:column;
         flex-wrap: wrap;
     }
+    .MainBoxLista{
+        margin-top: 0px;
+    }
 }

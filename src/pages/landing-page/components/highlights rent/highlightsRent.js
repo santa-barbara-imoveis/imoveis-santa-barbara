@@ -15,10 +15,6 @@ function HighlightsRent() {
   return (
     <article className='highlts'>
       <div className="tituloBoxVenda"><h1>DESTAQUE LOCAÇÃO</h1></div>
-      <div className="iconSetaPai">
-        {/* <img className="iconSeta" src={setaE} />
-        <img className="iconSeta" src={setaD} /> */}
-      </div>
       <div className="opcaoImoveis">
         <div className='boxImovel'>
           <div className='imFotoMainR'>

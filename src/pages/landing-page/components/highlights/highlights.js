@@ -13,10 +13,6 @@ function Highlights() {
     return (
       <article className='highlts'>
         <div className="tituloBoxVenda"><h1>DESTAQUE VENDA</h1></div>
-        <div className="iconSetaPai">
-          {/* <img className="iconSeta" src={setaE} />
-          <img className="iconSeta" src={setaD} /> */}
-        </div>
         <div className="opcaoImoveis">
             <div className="boxImovel">
               <div className="imFotoMainV">

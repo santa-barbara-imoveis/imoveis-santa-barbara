@@ -11,7 +11,9 @@ option{
 
 .heroLanding{
     width: 100%;
-    height: 350px;
+    height: 250px;
+    background-position: bottom -100px right 30px;
+    background-size: cover;
     align-items: center;
     text-align: center;
     justify-content:center;
@@ -139,4 +141,12 @@ option{
 .botaoHeroLand button:hover{
     background-color: rgb(26, 95, 91);
     color: white;
+}
+
+@media (max-width:481px)  { 
+    .heroLanding{
+        background-position: bottom 2px right -50px;
+        background-size:cover;
+        height: 170px;
+    }
 }

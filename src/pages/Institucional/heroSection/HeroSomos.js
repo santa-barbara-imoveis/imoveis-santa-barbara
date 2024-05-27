@@ -6,7 +6,7 @@ function HeroSomos() {
     return (
       <main className="MainSomos">
         <div className="heroSomos" style={{backgroundImage:`url(${hero})`}}>
-          INOVAÇÃO EM NEGÓCIOS IMOBILIÁRIOS
+          <h2>INOVAÇÃO EM NEGÓCIOS IMOBILIÁRIOS</h2>
         </div>
       </main>
     )

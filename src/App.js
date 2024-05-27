@@ -7,7 +7,6 @@ import { Footers } from './pages/landing-page/components/Footers/Footers';
 import { Header } from './pages/landing-page/components/header/Header';
 
 function App() {
-  
   return (
     <div className="App">
       <Header/>

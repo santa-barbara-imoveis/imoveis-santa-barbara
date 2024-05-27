@@ -1,4 +1,4 @@
-.logo{
+/* .logo{
     background-color: rgb(29,70,67);
     width: 170px;
     height: 70px;
@@ -8,43 +8,12 @@
     vertical-align:middle;
     flex-direction: row;
     display: flex;
-}
+} */
 
 main {
     width: 100%;
-    height: 3000px;
+    height: fit-content;
 }
-
-.logoImage{
-    margin-left: 20px;
-    width: 150px;
-    height: 65px;
-}
-
-.head{
-    background-color: rgb(29,70,67);
-    border:1px solid rgb(29,70,67);
-    width: 100%;
-    height: 85px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    vertical-align:middle;
-    flex-direction: row;
-    display: flex;
-}
-
-.navHead{
-    background-color: rgb(29,70,67);
-    border: rgb(29,70,67);
-    width: 100%;
-    height: 70px;
-    align-items: center;
-    text-align: center;
-    justify-content:space-evenly;
-    vertical-align:middle;
-    flex-direction: row;
-    display: flex;}
 
 .navHead a{
     color: black;
@@ -52,13 +21,14 @@ main {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
     color: white;
-    font-size: 18px;
+    
 }
 
 .hero{
     width: 100%;
-    height: 200px;
-    font-size: 40px;
+    height: 250px;
+    background-position: bottom -150px right 0px;
+    background-size: cover;
     align-items: center;
     text-align: center;
     justify-content:center;
@@ -67,10 +37,18 @@ main {
     display: flex;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
-    color: black;
-    background-position: 80% 50%;
-	opacity: 90%;
-    background-size: cover;
+    color: white;
+}
+
+.hero h2{
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    vertical-align:middle;
+    flex-direction: column;
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.339);
 }
 
 .boxFilter{
@@ -78,6 +56,12 @@ main {
     height: fit-content;
     background-color: rgb(29,70,67);
     border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    vertical-align:middle;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .divBt{
@@ -89,7 +73,7 @@ main {
 }
 
 .MainBox{
-    width: 100%;
+    width: fit-content;
     height: fit-content;
     align-items:start;
     text-align: center;
@@ -97,89 +81,29 @@ main {
     vertical-align:middle;
     flex-direction: row;
     display: flex;
+    flex-wrap: wrap;
 }
 
-.botaoHero button{
-    padding: 10px;
-    width: 100px;
-    height: 45px;
-    font-size: 15px;
-    background-color: rgb(29,70,67);
-    align-items: center;
-    text-align: center;
-    justify-content:center;
-    vertical-align:middle;
-    display: flex;
-    text-decoration:none;
-    border: none;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight:bold;
-    color: white;
-    cursor: pointer;
-}
-
-.botaoHero{
-    margin-top: 10px;
-    width: 100px;
-    height: 45px;
-    font-size: 15px;
-    background-color: rgb(29,70,67);
-    align-items: center;
-    text-align: center;
-    justify-content:center;
-    vertical-align:middle;
-    display: flex;
-    text-decoration:none;
-    border: none;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight:bold;
-    color: white;
-    cursor: pointer;
-}
-
-.botaoEntrar{
-    margin-top: 10px;
-    width: 100px;
-    height: 45px;
-    font-size: 15px;
-    background-color: rgb(29,70,67);
-    align-items: center;
-    text-align: center;
-    justify-content:center;
-    vertical-align:middle;
-    display: flex;
-    text-decoration:none;
-    border: none;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight:bold;
-    color: white;
-    cursor: pointer;
-}
-
-.entrar{
-    padding-inline: 15px;
-    padding-block: 5px;
-    border: 1px solid white;
-}
-
-.FormSearchMain{
+.FormSearchMain2{
     background-color:white;
     width: 100%;
-    height: 2500px;
+    height: 600px;
     align-items:start;
     text-align: center;
     justify-content: center;
     vertical-align:middle;
     flex-direction: row;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .sltMode{
     width: 300px;
     height: 35px;
-    font-size: 16px;
     padding: 5px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .mSltFilter{
@@ -235,7 +159,7 @@ label{
 .inputValor{
     width: 120px;
     height: 35px;
-    font-size: 20px;
+    
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -245,7 +169,7 @@ label{
     background-color: rgb(88, 90, 86);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
-    font-size: 15px;
+    
     color: white;
     align-items: center;
     text-align: center;
@@ -263,7 +187,7 @@ label{
     background-color: rgb(88, 90, 86);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
-    font-size: 15px;
+    
     color: white;
     align-items:center;
     text-align:center;
@@ -311,19 +235,27 @@ h1{
     background-color: rgb(29,70,67);
     height: 60px;
     flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content:left;
+    vertical-align:middle;
     display: flex;
-    border-radius: 5px;
 }
 
 .qtdImoveis{
-    font-size: 24px;
+    
     margin:10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
+    font-size: 23px;
     color: white;
     margin-bottom: 10px;
     flex-direction: row;
     display: flex;
+}
+
+.qtdEncontrado h1{
+    font-size: 23px;
 }
 
 .carrosel{
@@ -333,6 +265,7 @@ h1{
     scroll-behavior: smooth;
     flex-direction: column;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .BoxImovel{
@@ -344,10 +277,13 @@ h1{
     justify-content:left;
     vertical-align:top;
     flex-direction: row;
-    display: flex;
     background-color:whitesmoke;
     border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+
 
 .boxPicture{
     width: 35%;
@@ -357,6 +293,8 @@ h1{
 .boxDataImovel{
     width: 60%;
     height: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .boxTitulo{
@@ -364,7 +302,6 @@ h1{
     height: 10%;
     padding: 10px;
     padding-left: 30px;
-    font-size: 18px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
     color: rgb(88, 90, 86);
@@ -373,6 +310,7 @@ h1{
     justify-content:left;
     vertical-align:top;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .boxAmenitiesData{
@@ -380,7 +318,6 @@ h1{
     height: 70%;
     padding: 8px;
     padding-left: 30px;
-    font-size: 15px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:normal;
     color: rgb(88, 90, 86);
@@ -401,7 +338,6 @@ h1{
 .ltBoxData{
     width: 95%;
     height: 30px;
-    font-size: 12px;
     flex-direction: row;
     display: flex;
     vertical-align:middle;
@@ -438,7 +374,6 @@ select{
 .botaoBuscar{
     width: 100px;
     height: 39px;
-    font-size: 15px;
     background-color: rgb(29,70,67);
     align-items: center;
     text-align: center;
@@ -466,24 +401,12 @@ select{
     display: flex;
 }
 
-.opcaoImoveis{
-    background-color:white;
-    width: 100%;
-    height: 450px;
-    align-items: center;
-    text-align: center;
-    justify-content:space-around;
-    vertical-align:middle;
-    flex-direction: row;
-    display: flex;
-}
-
 .tituloBoxVenda{
     width: 100%;
     height: 60px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
-    font-size: 30px;
+    
     align-items:end;
     text-align: center;
     justify-content:center;
@@ -504,8 +427,6 @@ select{
 }
 
 .boxPreco{
-    width: 100%;
-    height: 15%;
     color: white;
     align-items: center;
     text-align: center;
@@ -630,7 +551,7 @@ select{
     display: flex;
 }
 
-.boxContato{
+/* .boxContato{
     background-color: rgb(29,70,67);
     width: 100%;
     height: 200px;
@@ -641,18 +562,13 @@ select{
     vertical-align:middle;
     flex-direction: row;
     display: flex;
-}
+} */
 
-.logoImage2{
-    width: 230px;
-}
-
-.sloganMedio{
+/* .sloganMedio{
     width: 400px;
     height: 65px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
-    font-size: 22px;
     color: white;
     align-items: center;
     text-align: center;
@@ -660,14 +576,13 @@ select{
     vertical-align:middle;
     flex-direction: row;
     display: flex;
-}
+} */
 
-.botaoContato{
+/* .botaoContato{
     width: 200px;
     height: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
-    font-size: 20px;
     padding: 10px;
     padding-bottom: 15px;
     color: white;
@@ -679,14 +594,14 @@ select{
     display: flex;
     border: 0.5px solid white;
     cursor: pointer;
-}
+} */
 
 .quickInfos{
     width: 100%;
     height: 50px;
     background-color: #f4f5f2;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
+    
     align-items: center;
     text-align: center;
     justify-content:space-around;
@@ -717,77 +632,6 @@ select{
     display: flex;
 }
 
-.qkTelef{
-    width: 125px;
-    height: 15px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    align-items: center;
-    text-align: center;
-    justify-content:space-between;
-    vertical-align:middle;
-    display: flex;
-    flex-direction: row;
-}
-
-.qkCreci{
-    width: 150px;
-    height: 15px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    align-items: center;
-    text-align: center;
-    justify-content:space-between;
-    vertical-align:middle;
-    display: flex;
-    flex-direction: row;
-}
-
-.qkEmail{
-    width: 280px;
-    height: 15px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    align-items: center;
-    text-align: center;
-    justify-content:space-between;
-    vertical-align:middle;
-    display: flex;
-    flex-direction: row;
-}
-
-.qkNetwork{
-    width: 100px;
-    height: 15px;
-    align-items: center;
-    text-align: center;
-    justify-content:space-between;
-    vertical-align:middle;
-    display: flex;
-    flex-direction: row;
-}
-
-.qkFace{
-    cursor: pointer;
-}
-
-.qkInsta{
-    cursor: pointer;
-}
-
-.qkZap{
-    cursor: pointer;
-}
-
-.boxFooter{
-    background-color: rgb(29,70,67);
-    width: 100%;
-    height: 400px;
-    align-items: center;
-    text-align: center;
-    justify-content:space-around;
-    vertical-align:middle;
-    flex-direction: row;
-    display: flex;
-}
-
 .boxConta{
     width: 380px;
     height: 350px;
@@ -815,7 +659,7 @@ select{
 .boxConta p{
     width: 100%;
     height: 30px;
-    font-size: 17px;
+    
     margin-top: 10px;
     margin-bottom: 10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -831,7 +675,7 @@ select{
 .boxMapa p{
     width: 100%;
     height: 30px;
-    font-size: 17px;
+    
     margin-top: 10px;
     margin-bottom: 10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -851,7 +695,7 @@ select{
 .textDif{
     width: 300px;
     height: 40px;
-    font-size: 17px;
+    
     margin-top: 10px;
     margin-bottom: 10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -901,7 +745,7 @@ select{
     background-color: rgb(88, 90, 86);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
-    font-size: 15px;
+    
     color: white;
     align-items: center;
     text-align: center;
@@ -914,17 +758,6 @@ select{
 
 .boxFootLinha{
     flex-direction: row;
-}
-
-.qkIconLocal{
-    width: 15px;
-    height: 15px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    vertical-align:middle;
-    display: flex;
-    margin-right: 6px;
 }
 
 .footExtra{
@@ -940,3 +773,98 @@ select{
     display: flex;
 }
 
+@media (max-width:481px)  { 
+    .carrosel{
+        width: 350px;
+        height: fit-content;
+        overflow-y: auto;
+        scroll-behavior: smooth;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .MainBox{
+        border-radius:0%;
+    }
+    .BoxImovel{
+        width: 350px;
+        height: fit-content;
+        margin-bottom: 10px;
+        align-items:center;
+        text-align: center;
+        justify-content:center;
+        vertical-align:top;
+        flex-direction: column;
+        background-color:whitesmoke;
+        border-radius: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .boxAmenitiesData{
+        width: 350px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight:normal;
+        color: rgb(88, 90, 86);
+        align-items:start;
+        text-align:justify;
+        justify-content:left;
+        flex-direction: column;
+        vertical-align:top;
+        display: flex;
+    }
+    .boxPicture{
+        padding-top: 20px;
+        width: 350px;
+    }
+    .imFoto{
+        width: 200px;
+        height: 200px;
+    }
+    .boxDataImovel{
+        width: 350px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .boxTitulo{
+        text-align:center;
+        justify-content:center;
+        font-size: 13px;
+    }
+    .boxFilter{
+        width: 100%;
+        border-radius:0px;
+    }
+    .mSltFilter{
+        width: 300px;
+        height: fit-content;
+    }
+    label{
+        width: 200px;
+        height: fit-content;
+        text-align:center;
+        justify-content:center;
+    }
+    .sltMode{
+        width: 200px;
+    }
+    .hero{
+        background-position: bottom -25px right 0px;
+        background-size:cover;
+        height: 170px;
+    }
+    .qtdEncontrado{
+        background-color: rgb(29,70,67);
+        height: 60px;
+        align-items:center;
+        text-align: center;
+        justify-content:center;
+        vertical-align:middle;
+        display: flex;
+    }
+    .qtdImoveis{
+        font-size: 15px;
+    }
+    .qtdEncontrado h1{
+        font-size: 15px;
+    }
+}

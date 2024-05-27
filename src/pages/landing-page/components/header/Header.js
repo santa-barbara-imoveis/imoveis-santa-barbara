@@ -7,31 +7,48 @@ import iconFace from "./assets/facebook.png";
 import iconCreci from "./assets/garantia.png";
 import iconInsta from "./assets/instagram.png";
 import logo from "./assets/logo.png";
+import bgMenu from "./assets/cardapio.png";
+import bgFecha from "./assets/fechar.png";
 import iconTel from "./assets/telefone.png";
 import iconZap from "./assets/zapPB.png";
 import "./header.css";
 
+function menuShow(){
+  let menuMobile = document.querySelector(".mobile-menu");
+  let bgMenu = document.querySelector(".mobile-menu-icon button");
+  if (menuMobile.classList.contains("open")){
+    menuMobile.classList.remove("open")
+    bgMenu.classList.remove("alt")
+    // document.querySelector(".bg-menu").src="assets/cardapio.png"
+  }
+  else{
+    menuMobile.classList.add("open")
+    bgMenu.classList.add("alt")
+    // document.querySelector(".bg-menu").src="assets/fechar.png"
+  }
+}
+
 function Header() {
   return (
-    <div>
-          <div className="quickInfos">
-      <div className="qkCreci">
+  <div className='BoxQkInfos'>
+    <div className="BxQuickInfos">
+      <div className="qkCreci qkBox">
         <img className="qkIcon" src={iconCreci} />
-        CRECI:MGJ0007201
+        <p>CRECI:MGJ0007201</p>
       </div>
-      <div className="qkTelef">
+      <div className="qkTelef qkBox">
         <img className="qkIcon" src={iconTel} />
-        31 97186-1985
+        <p>31 97186-1985</p>
       </div>
-      <div className="qkTelef">
+      <div className="qkTelef qkBox">
         <img className="qkIcon" src={iconTel} />
-        31 97186-1985
+        <p>31 97186-1985</p>
       </div>
-      <div className="qkEmail">
+      <div className="qkEmail qkBox">
         <img className="qkIcon" src={iconEmail} />
-        contato@santabarbaraimoveis.com.br
+        <p>contato@santabarbaraimoveis.com.br</p>
       </div>
-      <div className="qkNetwork">
+      <div className="qkNetwork qkBox">
         <div className="qkFace">
           <a href="https://m.facebook.com/SantaBarbaraImoveisImobiliaria/" target="_blank" rel="noreferrer"><img className="qkIcon" src={iconFace}/></a>
         </div>
@@ -48,18 +65,32 @@ function Header() {
         <img className="logoImage" src={logo}/>
       </div>
       <nav className="navHead" >
-        <Link className="headMain" to="/"> Home </Link> 
-        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.rent}`} className="headMain"> Alugar </Link>
-        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.buy}`} className="headMain"> Comprar </Link>
-        <Link to="documentos" className="headMain"> Documentos </Link>
-        <Link to="financiar" className="headMain"> Financiar </Link>
-        <Link to="quem-somos" className="headMain"> Institucional </Link>
-        <a href="" className='entrar'> Entrar </a>
+        <Link className="headMain" to="/"> <p>Home</p> </Link> 
+        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.rent}`} className="headMain"> <p>Alugar</p> </Link>
+        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.buy}`} className="headMain"> <p>Comprar</p> </Link>
+        <Link to="documentos" className="headMain"> <p>Documentos</p> </Link>
+        <Link to="financiar" className="headMain"> <p>Financiar</p> </Link>
+        <Link to="quem-somos" className="headMain"> <p>Institucional</p> </Link>
+        <a href="" className='entrar'>Entrar</a>
+      </nav>
+
+      <div className="mobile-menu-icon"> 
+        <button onClick={menuShow}><img className="bg-menu" src={bgMenu}/></button>
+      </div>
+
+      <nav className="mobile-menu" >
+        <Link className="mob-mn-itens" to="/"> <p>Home</p> </Link> 
+        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.rent}`} className="mob-mn-itens"> <p>Alugar</p> </Link>
+        <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.buy}`} className="mob-mn-itens"> <p>Comprar</p> </Link>
+        <Link to="documentos" className="mob-mn-itens"> <p>Documentos</p> </Link>
+        <Link to="financiar" className="mob-mn-itens"> <p>Financiar</p> </Link>
+        <Link to="quem-somos" className="mob-mn-itens"> <p>Institucional</p> </Link>
+        <a href="" className='entrar'>Entrar</a>
       </nav>
     </header>
     </div>
   )
 }
-  
+
 export { Header };
 

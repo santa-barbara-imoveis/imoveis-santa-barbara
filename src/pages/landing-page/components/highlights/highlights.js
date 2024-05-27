@@ -9,11 +9,10 @@ import banho from "./assets/banheira.png";
 import vagas from "./assets/carros.png";
 import quartos from "./assets/quarto.png";
 
-
 function Highlights() {
     return (
       <article className='highlts'>
-        <div className="tituloBoxVenda">DESTAQUE VENDA</div>
+        <div className="tituloBoxVenda"><h1>DESTAQUE VENDA</h1></div>
         <div className="iconSetaPai">
           {/* <img className="iconSeta" src={setaE} />
           <img className="iconSeta" src={setaD} /> */}
@@ -29,20 +28,18 @@ function Highlights() {
                   <div className="precoImovel">R$ 490.000,00</div>
                 </div>
               </div>
-              <div className="imBairroCidade">
-                Resid. Santo Antônio - Santa Bárbara
-              </div>
-              <div className="imId">Código: V124</div>
+              <p className="imBairroCidade"> Resid. Santo Antônio - Santa Bárbara </p>
+              <p className="imId">Código: V124</p>
               <div className="imAmenities">
                 <div className="iconsAmenities">
                   <img className="icon" src={area} />
-                  360
+                  <p>360</p>
                   <img className="icon" src={banho} />
-                  2
+                  <p>2</p>
                   <img className="icon" src={vagas} />
-                  2
+                  <p>2</p>
                   <img className="icon" src={quartos} />
-                  3
+                  <p>3</p>
                 </div>
               </div>
             </div>

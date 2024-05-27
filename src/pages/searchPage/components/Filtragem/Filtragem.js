@@ -9,8 +9,6 @@ import { filterSearchParams } from '../../../../dicts/filter-search-params';
 import { propertyTypes } from '../../../../dicts/property-type';
 import "./Filtragem.css";
 
-
-
 function Filtragem ({mudarImoveisAtuais, itens, initialFilters}) {
   const [contrato, setContrato] = useState ("todos")
   const [tipoImovel, setTipoImovel] = useState ("todos")
@@ -128,7 +126,7 @@ function Filtragem ({mudarImoveisAtuais, itens, initialFilters}) {
   return (
     <body>
       <main>
-        <article className='FormSearchMain'>
+        <article className='FormSearchMain2'>
           <div className='MainBox'>
             <div className='boxFilter'>
               <div>

@@ -25,11 +25,11 @@ function ListaImoveis2() {
     <body>
       <main>
         <div className="hero" style={{ backgroundImage: `url(${hero})`}}>
-          ENCONTRE SEU IMÓVEL
+          <h2>ENCONTRE SEU IMÓVEL</h2>
         </div>
         <article className='FormSearchMain'>
           <div className='MainBoxLista'>
-          <Filtragem itens = {imoveis} mudarImoveisAtuais = {setImoveis} initialFilters={initialFilters}/>
+            <Filtragem itens = {imoveis} mudarImoveisAtuais = {setImoveis} initialFilters={initialFilters}/>
             <div className='boxRenderOptions'>
               <div className='qtdEncontrado'>
                 <div className='qtdImoveis'>

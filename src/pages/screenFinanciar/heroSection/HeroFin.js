@@ -6,7 +6,7 @@ function HeroFin() {
     return (
       <main className="MainFin">
         <div className="heroFin" style={{backgroundImage:`url(${hero})`}}>
-          FINANCIAMENTO IMOBILIÁRIO
+          <h2>FINANCIAMENTO IMOBILIÁRIO</h2>
         </div>
       </main>
     )

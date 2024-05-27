@@ -7,7 +7,6 @@ import { HighlightsRent } from './components/highlights rent/highlightsRent';
 function LandingPage() {
   return (
     <>
-    
       <Hero/>
       <Highlights/>
       <BoxContact/>

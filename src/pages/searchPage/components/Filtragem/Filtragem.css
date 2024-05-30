@@ -73,8 +73,8 @@ main {
 }
 
 .MainBox{
-    width: fit-content;
-    height: fit-content;
+    width: 100%;
+    height: 500px;
     align-items:start;
     text-align: center;
     justify-content:space-around;
@@ -780,7 +780,24 @@ select{
         flex-wrap: wrap;
     }
     .MainBox{
+        width: 100%;
         border-radius:0%;
+        height: 550px;
+    }
+    .FormSearchMain2{
+        width: 100%;
+        border-radius:0%;
+        height: 550px;
+    }
+    .boxFilter{
+        width: 100%;
+        height: 500px;
+        border-radius:0px;
+        text-align:center;
+        justify-content:center;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
     }
     .BoxImovel{
         width: 350px;
@@ -826,10 +843,7 @@ select{
         justify-content:center;
         font-size: 13px;
     }
-    .boxFilter{
-        width: 100%;
-        border-radius:0px;
-    }
+
     .mSltFilter{
         width: 300px;
         height: fit-content;

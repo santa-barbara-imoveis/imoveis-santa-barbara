@@ -31,6 +31,9 @@ function menuShow(){
 function Header() {
   return (
   <div className='BoxQkInfos'>
+    <div className="logoHead"> 
+      <img className="logoImageHead" src={logo}/>
+    </div>
     <div className="BxQuickInfos">
       <div className="qkCreci qkBox">
         <img className="qkIcon" src={iconCreci} />

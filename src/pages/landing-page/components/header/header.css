@@ -132,13 +132,16 @@ button{
 }
 
 .BoxQkInfos{
+    align-items: center;
+    text-align: center;
+    justify-content:center;
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(29,70,67);
 }
 
 .BxQuickInfos{
     width: 100%;
-    margin: 5px;
     background-color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
@@ -263,8 +266,20 @@ button{
     background-color: rgb(29,70,67);
 }
 
+.logoHead{
+    display: none;
+    background-color: rgb(29,70,67);
+}
+
+.logoImageHead{
+    display: none;
+}
+
 @media screen and (max-width:730px) {
     .logo{
+        display: none;
+    } 
+    .BxQuickInfos{
         display: none;
     } 
     .headMain{
@@ -302,6 +317,24 @@ button{
         color:white;
         font-size: 15px;
     } 
+    .logoHead{
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content:center;
+        display: flex;
+        background-color: rgb(29,70,67);
+        flex-wrap: wrap;
+    }
+    
+    .logoImageHead{
+        align-items: center;
+        text-align: center;
+        justify-content:center;
+        display: flex;
+        display: block;
+        flex-wrap: wrap;
+    }
 }
 
 .qkNetwork{

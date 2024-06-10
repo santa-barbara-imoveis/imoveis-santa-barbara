@@ -128,12 +128,17 @@ option{
     color: white;
 }
 
+.botaoBuscarLand :hover{
+    background-color: rgb(26, 95, 91);
+    color: white;
+}
+
 .saibaMais{
     text-decoration: none;
     color: white;
 }
 
-.botaoBuscarLand:hover{
+.saibaMais:hover{
     background-color: rgb(26, 95, 91);
     color: white;
 }

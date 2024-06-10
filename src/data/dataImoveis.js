@@ -7,6 +7,7 @@ import ffL063a3 from "../assets/images/L063a3.jpeg";
 import ffL070 from "../assets/images/L070.jpg";
 import ffL073 from "../assets/images/L073.jpg";
 import ffL075 from "../assets/images/L075.jpeg";
+import ffL077 from "../assets/images/L077.jpeg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV004 from "../assets/images/V004.jpg";
 import ffV006 from "../assets/images/V006.jpg";
@@ -47,6 +48,9 @@ import ffV139 from "../assets/images/V139.jpeg";
 import ffV141 from "../assets/images/V141.jpeg";
 import ffV142 from "../assets/images/V142.jpg";
 import ffV147 from "../assets/images/V147.jpeg";
+import ffV149 from "../assets/images/V149.jpeg";
+import ffV150 from "../assets/images/V150.jpeg";
+import ffV152 from "../assets/images/V152.jpeg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -556,25 +560,25 @@ const imoveisDisp = [
       titulo:"Vende-se terreno de 10,6 ha em área urbana",
       descricao: "Localizado na entrada de Santa Bárbara. Propriedade com escritura. Zona de Diversificação Econômica."
     },
-    // {
-    //   fotos: importAll(require.context('../assets/images/V124', true, /\.(png|jpe?g|svg)$/)),
-    //   fotoCapa: ffV124,
-    //   cod: "V124",
-    //   contrato: contractType[contractTypeParamKey.buy],
-    //   tipoImovel:propertyType.house,
-    //   ruaNum: "-",
-    //   bairro:"Residencial Santo Antônio",
-    //   cidade:city.santa_barbara,
-    //   Estado:"Minas Gerais",
-    //   quartos:3,
-    //   banheiros:2,
-    //   vagas:2,
-    //   valor:"R$ 490.000,00",
-    //   areaTotal:"360 m²",
-    //   areaConstruida: "180 m²",
-    //   titulo:"Casa à venda no residencial Santo Antônio",
-    //   descricao: "Casa com cozinha ampla/copa e quintal. Varanda / Jardim. Casa de laje, piso de porcelanato e cerâmica. Toda murada e com portão eletrônico."
-    // },
+    {
+      fotos: importAll(require.context('../assets/images/V124', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffV124,
+      cod: "V124",
+      contrato: contractType[contractTypeParamKey.buy],
+      tipoImovel:propertyType.house,
+      ruaNum: "-",
+      bairro:"Residencial Santo Antônio",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:3,
+      banheiros:2,
+      vagas:2,
+      valor:"R$ 460.000,00",
+      areaTotal:"360 m²",
+      areaConstruida: "180 m²",
+      titulo:"Casa à venda no residencial Santo Antônio",
+      descricao: "Casa com cozinha ampla/copa e quintal. Varanda / Jardim. Casa de laje, piso de porcelanato e cerâmica. Toda murada e com portão eletrônico."
+    },
     {
       fotos: importAll(require.context('../assets/images/V125', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV125,
@@ -645,7 +649,7 @@ const imoveisDisp = [
       quartos:amenitiesQuantity.zero,
       banheiros:amenitiesQuantity.zero,
       vagas:amenitiesQuantity.zero,
-      valor:"R$ 430.000,00",
+      valor:"R$ 450,00 o metro quadrado",
       areaTotal:"733 m²",
       areaConstruida: "733 m²",
       titulo:"Vende-se lote – bairro Caminhos de Minas",
@@ -861,6 +865,63 @@ const imoveisDisp = [
       descricao: "Sala de estar, jantar e tv;Copa/cozinha (bancada granito); 3 quartos sendo uma suíte; 2 banheiros sociais, área de serviço; Espaço gourmet com churrasqueira e área livre; Banho externo e ducha; Documento regular para financiamento."
     },
     {
+      fotos: importAll(require.context('../assets/images/V149', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffV149,
+      cod: "V149",
+      contrato: contractType[contractTypeParamKey.buy],
+      tipoImovel:propertyType.house,
+      ruaNum: "-",
+      bairro:"Caminhos de Minas",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:3,
+      banheiros:1,
+      vagas:2,
+      valor:"R$ 490.000,00",
+      areaTotal:"180 m²",
+      areaConstruida: "- m²",
+      titulo:"Vende-se Casa Geminada no bairro Caminhos de Minas",
+      descricao: "Cozinha/área serviço, 03 quartos (1 suíte), 01 banheiro social e 02 vagas de garagem."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/V150', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffV150,
+      cod: "V150",
+      contrato: contractType[contractTypeParamKey.buy],
+      tipoImovel:propertyType.house,
+      ruaNum: "-",
+      bairro:"Leão XIII",
+      cidade:city.barao_cocais,
+      Estado:"Minas Gerais",
+      quartos:4,
+      banheiros:2,
+      vagas:2,
+      valor:"R$ 280.000,00",
+      areaTotal:"- m²",
+      areaConstruida: "- m²",
+      titulo:"Vende-se casa no bairro Leão XIII.",
+      descricao: "04 quartos, 02 banheiros sociais, 02 vagas de garagem, quintal e lavanderia.Tem alvará de construção, mas sem habite-se averbado."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/V152', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffV152,
+      cod: "V152",
+      contrato: contractType[contractTypeParamKey.buy],
+      tipoImovel:propertyType.house,
+      ruaNum: "-",
+      bairro:"Centro",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:4,
+      banheiros:2,
+      vagas:2,
+      valor:"R$ 450.000,00",
+      areaTotal:"200 m²",
+      areaConstruida: "160 m²",
+      titulo:"Vende-se casa de 4 quartos no centro.",
+      descricao: "Sala, copa, cozinha, 4 quartos (sendo uma suíte), 1 banheiro social, Varanda / Área de serviço, garagem para 02 veículos, casa de forro (sem laje), piso de cerâmica e ardósia, janelas ferro e vidro, armários planejados na cozinha e banheiros, box nos banheiros, bancada em granito na cozinha e banheiros."
+    },
+    {
       fotos: importAll(require.context('../assets/images/L008', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffL008,
       cod: "L008",
@@ -1030,7 +1091,7 @@ const imoveisDisp = [
       cod: "L048.1",
       contrato: contractType[contractTypeParamKey.rent],
       tipoImovel:propertyType.house,
-      ruaNum: "Não informado.",
+      ruaNum: "Não informado",
       bairro:"Centro",
       cidade:city.santa_barbara,
       Estado:"Minas Gerais",
@@ -1040,7 +1101,7 @@ const imoveisDisp = [
       valor:"R$ 3.500,00",
       areaTotal:"- m²",
       areaConstruida: "- m²",
-      titulo:"Ótima casa para aluguel no centro (em frente a Caixa Econômica.",
+      titulo:"Ótima casa para aluguel no centro (em frente a Caixa Econômica).",
       descricao:"03 quartos, 3 banheiros, sala/cozinha, área de serviço, área externa com piscina, churrasqueira, jardim e garagem para 5 carros."
     },
     // {
@@ -1137,6 +1198,25 @@ const imoveisDisp = [
       areaConstruida: "- m²",
       titulo:"Casa de Aluguel no centrão de Santa Bárbara",
       descricao:"Casa 3 quartos, 1 banheiro, sala, cozinha, área de serviço, sem garagem. Preferência de locação para empresas."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/L077', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffL077,
+      cod: "L077",
+      contrato: contractType[contractTypeParamKey.rent],
+      tipoImovel:propertyType.house,
+      ruaNum: "Não informado",
+      bairro:"Santa Mônica",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:3,
+      banheiros:3,
+      vagas:3,
+      valor:"R$ 5.000,00",
+      areaTotal:"740 m²",
+      areaConstruida: "180 m²",
+      titulo:"Ótima casa de aluguel no bairro Santa Mônica",
+      descricao:"3 quartos (01 suíte), 3 banheiros,  sala, cozinha, área gourmet, área de serviço, piscina / casa de criança, jardim / pomar e varanda / garagem ampla."
     },
     // {
     //   fotos: importAll(require.context('../assets/images/L075', true, /\.(png|jpe?g|svg)$/)),

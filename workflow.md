@@ -9,7 +9,7 @@ fluxo de trabalho git
 8 - push na main
 
 MUDANÇAS NO SITE
-V124 – alterar Valor para R$ 460 mil
+V124 – alterar Valor para R$ 460 mil - já havia sido retirada
 V134 – alterar Valor para R$ 460 mil ok
 L070 – excluir ok
 L010 – ocultar ok
@@ -17,14 +17,18 @@ V035 – excluir ok
 V055 – excluir ok
 V118 - excluir ok
 V120 mudar para apartamento ok
-Subir V146, V149, V150 e 152
 L048.4 - ocultar ok
 L075  - ocultar ok
-L077 - subir 
 V060 - excluir ok
 V067- excluir ok
-V130 - valor errado. Correto é R$450,00 o m2
 V132 - excluir ok
 V147 - alterar valor para 925mil ok
-L063.1 - subir
-V152 - subir
+
+V130 - valor errado. Correto é R$450,00 o m2 ok
+
+Subir V146 não tem fotos
+V149 ok - não contem a metragem da area construida
+V150 - nao possui a metragem na ficha ok
+152 ok
+L063.1 - subir marcado com alugado, aguardar resposta
+L077 - subir ok

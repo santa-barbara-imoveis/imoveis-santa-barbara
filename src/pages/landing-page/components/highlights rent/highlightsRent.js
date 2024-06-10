@@ -5,8 +5,8 @@ import banho from "./assets/banheira.png";
 import area from "./assets/area.png";
 import vagas from "./assets/carros.png";
 import quartos from "./assets/quarto.png";
-import fotoFrente4 from "./assets/L010.jpg";
-import fotoFrente5 from "./assets/L070.jpg";
+import fotoFrente4 from "./assets/L048a1.jpeg";
+import fotoFrente5 from "./assets/L077.jpeg";
 import fotoFrente6 from "./assets/L063.jpeg";
 import setaE from "./assets/seta-esquerda.png";
 import setaD from "./assets//seta-direita.png";
@@ -52,7 +52,7 @@ function HighlightsRent() {
 
         <div className='boxImovel'>
           <div className='imFotoMainR'>
-            <Link to={`imovel/L070`} className='linkImage'>
+            <Link to={`imovel/L077`} className='linkImage'>
               <img className="imFoto2" src={fotoFrente5} />
             </Link>
             <div className='boxPreco'>
@@ -60,33 +60,33 @@ function HighlightsRent() {
                 Locação
               </div>
               <div className='precoImovel'>
-                R$ 2.250,00
+                R$ 5.000,00
               </div>
             </div>
           </div>
           <div className='imBairroCidade'>
-            Centro - Santa Bárbara
+            Santa Mônica - Santa Bárbara
           </div>
           <div className='imId'>
-            Código: L070
+            Código: L077
           </div>
           <div className='imAmenities'>
             <div className='iconsAmenities'>
               <img className="icon" src={area} />
-              178
+              180
               <img className="icon" src={banho} />
-              2
+              3
               <img className="icon" src={vagas} />
-              1
+              3
               <img className="icon" src={quartos} />
-              5
+              3
             </div>
           </div>
         </div>
 
         <div className='boxImovel'>
           <div className='imFotoMainR'>
-            <Link to={`imovel/L010`} className='linkImage'>
+            <Link to={`imovel/L048.1`} className='linkImage'>
               <img className="imFoto2" src={fotoFrente4} />
             </Link>
             <div className='boxPreco'>
@@ -94,7 +94,7 @@ function HighlightsRent() {
                 Locação
               </div>
               <div className='precoImovel'>
-                R$ 800,00
+                R$ 3.500,00
               </div>
             </div>
           </div>
@@ -102,18 +102,18 @@ function HighlightsRent() {
             Centro - Santa Bárbara
           </div>
           <div className='imId'>
-            Código: L010
+            Código: L048.1
           </div>
           <div className='imAmenities'>
             <div className='iconsAmenities'>
               <img className="icon" src={area} />
-              30
+              1.000
               <img className="icon" src={banho} />
-              1
+              3
               <img className="icon" src={vagas} />
-              0
+              5
               <img className="icon" src={quartos} />
-              0
+              3
             </div>
           </div>
         </div>

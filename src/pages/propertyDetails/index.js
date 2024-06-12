@@ -50,10 +50,10 @@ function PropertyDetails() {
                         <img className="iconX" src={iconTotal}/>Área total: {property.areaTotal} 
                     </div>
                 )}
-                {property.areaConstruida && <div className='ltBoxDataN'> <img className="iconX" src={area}/> Área construida: {property.areaConstruida} </div>}
-                {property.banheiros && <div className='ltBoxDataN'> <img className="iconX" src={banho}/> {property.banheiros} banheiro/s </div>}
-                {property.quartos && <div className='ltBoxDataN'> <img className="iconX" src={quartos}/> {property.quartos} quartos </div>}
-                {property.vagas && <div className='ltBoxDataN'> <img className="iconX" src={vagas}/> {property.vagas} vagas </div>}
+                {Number.isFinite(property.areaConstruida) && <div className='ltBoxDataN'> <img className="iconX" src={area}/> Área construida: {property.areaConstruida} </div>}
+                {Number.isFinite(property.banheiros) && <div className='ltBoxDataN'> <img className="iconX" src={banho}/> {property.banheiros} banheiro/s </div>}
+                {Number.isFinite(property.quartos) && <div className='ltBoxDataN'> <img className="iconX" src={quartos}/> {property.quartos} quartos </div>}
+                {Number.isFinite(property.vagas) && <div className='ltBoxDataN'> <img className="iconX" src={vagas}/> {property.vagas} vagas </div>}
                 </div>
                 {descricao && <div className="boxTituloNovo" style={{fontSize: "18px"}}> {descricao} </div>}
                 <h1 className="address">{ruaNum && ruaNum.length > 2 ? `${ruaNum}, ` : ""}{bairro ? `${bairro} - ` : ""}{cidade ? `${cidade}, ` : ""}{Estado ? `${Estado}` : ""}</h1>

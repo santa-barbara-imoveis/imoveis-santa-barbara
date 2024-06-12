@@ -48,7 +48,6 @@ main {
     flex-direction: column;
     display: flex;
     color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.339);
 }
 
 .boxFilter{
@@ -779,6 +778,19 @@ select{
         display: flex;
         flex-wrap: wrap;
     }
+
+    .FormSearchMain2{
+        width: 100%;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    body {
+        width: 100%;
+    }
+
     .MainBox{
         width: 100%;
         border-radius:0%;
@@ -858,7 +870,7 @@ select{
         width: 200px;
     }
     .hero{
-        background-position: bottom -25px right 0px;
+        background-position: bottom -100px right 0px;
         background-size:cover;
         height: 170px;
     }

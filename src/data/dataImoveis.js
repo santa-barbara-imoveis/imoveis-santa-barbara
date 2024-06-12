@@ -209,7 +209,7 @@ const imoveisDisp = [
       bairro:"Centro",
       cidade:city.sao_goncalo_rio_abaixo,
       Estado:"Minas Gerais",
-      quartos:amenitiesQuantity.zero,
+      quartos:amenitiesQuantity.one,
       banheiros:amenitiesQuantity.zero,
       vagas:amenitiesQuantity.zero,
       valor:"R$ 130.000,00",

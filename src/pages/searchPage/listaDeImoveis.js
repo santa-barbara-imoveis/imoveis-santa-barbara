@@ -8,7 +8,7 @@ import banho from "../../assets/icons/banheira.png";
 import vagas from "../../assets/icons/carros.png";
 import quartos from "../../assets/icons/quarto.png";
 import tpImovel from "../../assets/icons/tipoImovel.png";
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from "react-router-dom";
 
 function RenderImoveis({itens}) 
 {

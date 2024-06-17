@@ -15,6 +15,7 @@ import ffV021 from "../assets/images/V021.jpg";
 import ffV023 from "../assets/images/V023.jpg";
 import ffV035 from "../assets/images/V035.jpeg";
 import ffV047 from "../assets/images/V047.jpg";
+import ffL051 from "../assets/images/L051.jpg";
 import ffV052 from "../assets/images/V052.jpg";
 import ffV055 from "../assets/images/V055.jpg";
 import ffV058 from "../assets/images/V058.jpeg";
@@ -1123,6 +1124,25 @@ const imoveisDisp = [
     //   titulo:"Aluguel de ponto comercial na rua João Mota (em frente a Caixa Ecônomica)",
     //   descricao:"01 sala comercial com 01 banheiro (25m²). Localizado em área central de altíssima movimentação, no 1º andar."
     // },
+    {
+      fotos: importAll(require.context('../assets/images/L051', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffL051,
+      cod: "L051",
+      contrato: contractType[contractTypeParamKey.rent],
+      tipoImovel:propertyType.apartment,
+      ruaNum: "Não informado",
+      bairro:"Praia",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:amenitiesQuantity.three,
+      banheiros:amenitiesQuantity.one,
+      vagas:amenitiesQuantity.one,
+      valor:"R$ 1.560,00 + R$ 220,00 de condomínio",
+      areaTotal:"- m²",
+      areaConstruida: "120 m²",
+      titulo:"Aluga-se Apartamento Térreo – Bairro Praia.",
+      descricao:"Ótimo apartamento com área externa;sala, copa, cozinha, 3 quartos, 1 banheiro social. 01 vaga de garagem coberta. Condomínio com piscina e área de lazer."
+    },
     {
       fotos: importAll(require.context('../assets/images/L063a2', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffL063a2,

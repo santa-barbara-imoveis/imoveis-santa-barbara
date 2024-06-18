@@ -1,32 +1,20 @@
 import ffL008 from "../assets/images/L008.jpg";
-import ffL010 from "../assets/images/L010.jpg";
 import ffL048a1 from "../assets/images/L048a1.jpeg";
-import ffL048a4 from "../assets/images/L048a4.jpeg";
 import ffL063a2 from "../assets/images/L063a2.jpeg";
 import ffL063a3 from "../assets/images/L063a3.jpeg";
-import ffL070 from "../assets/images/L070.jpg";
 import ffL073 from "../assets/images/L073.jpg";
-import ffL075 from "../assets/images/L075.jpeg";
 import ffL077 from "../assets/images/L077.jpeg";
 import ffV003 from "../assets/images/V003.jpeg";
-import ffV004 from "../assets/images/V004.jpg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
-import ffV023 from "../assets/images/V023.jpg";
-import ffV035 from "../assets/images/V035.jpeg";
-import ffV047 from "../assets/images/V047.jpg";
 import ffV052 from "../assets/images/V052.jpg";
-import ffV055 from "../assets/images/V055.jpg";
 import ffV058 from "../assets/images/V058.jpeg";
-import ffV060 from "../assets/images/V060.jpg";
 import ffV062 from "../assets/images/V062.jpg";
-import ffV067 from "../assets/images/V067.jpg";
 import ffV086 from "../assets/images/V086.jpg";
 import ffV095 from "../assets/images/V095.jpg";
 import ffV108 from "../assets/images/V108.jpg";
 import ffV109a1 from "../assets/images/V109.1.jpg";
 import ffV114 from "../assets/images/V114.jpeg";
-import ffV118 from "../assets/images/V118.jpg";
 import ffV119 from "../assets/images/V119.jpeg";
 import ffV120 from "../assets/images/V120.jpeg";
 import ffV121 from "../assets/images/V121.jpeg";
@@ -38,7 +26,6 @@ import ffV127 from "../assets/images/V127.jpeg";
 import ffV129 from "../assets/images/V129.jpg";
 import ffV130 from "../assets/images/V130.jpg";
 import ffV131 from "../assets/images/V131.jpg";
-import ffV132 from "../assets/images/V132.jpg";
 import ffV133 from "../assets/images/V133.jpg";
 import ffV134 from "../assets/images/V134.jpeg";
 import ffV135 from "../assets/images/V135.jpeg";
@@ -49,8 +36,6 @@ import ffV141 from "../assets/images/V141.jpeg";
 import ffV142 from "../assets/images/V142.jpg";
 import ffV147 from "../assets/images/V147.jpeg";
 import ffV149 from "../assets/images/V149.jpeg";
-import ffV150 from "../assets/images/V150.jpeg";
-import ffV152 from "../assets/images/V152.jpeg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -142,6 +127,7 @@ const imoveisDisp = [
         titulo:"Lote à venda próximo ao trevo de Santa Bárbara",
         descricao:"Lote plano com excelente localização; 949 m². De frente para a rodovia MG129 (sentido Catas Altas)"
     },
+    
     // {
     //   fotos: importAll(require.context('../assets/images/V023', true, /\.(png|jpe?g|svg)$/)),
     //   fotoCapa: ffV023,

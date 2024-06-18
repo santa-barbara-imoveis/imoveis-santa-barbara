@@ -1,5 +1,6 @@
 import ffL008 from "../assets/images/L008.jpg";
 import ffL048a1 from "../assets/images/L048a1.jpeg";
+import ffL051 from "../assets/images/L051.jpg";
 import ffL063a2 from "../assets/images/L063a2.jpeg";
 import ffL063a3 from "../assets/images/L063a3.jpeg";
 import ffL073 from "../assets/images/L073.jpg";
@@ -1125,10 +1126,10 @@ const imoveisDisp = [
       quartos:amenitiesQuantity.three,
       banheiros:amenitiesQuantity.one,
       vagas:amenitiesQuantity.one,
-      valor:"R$ 1.560,00 + R$ 220,00 de condomínio",
-      areaTotal:"- m²",
+      valor:"R$ 1.560,00 + R$ 220,00",
+      areaTotal:"120 m²",
       areaConstruida: "120 m²",
-      titulo:"Aluga-se Apartamento Térreo – Bairro Praia.",
+      titulo:"Aluga-se Apartamento Térreo – Bairro Praia",
       descricao:"Ótimo apartamento com área externa;sala, copa, cozinha, 3 quartos, 1 banheiro social. 01 vaga de garagem coberta. Condomínio com piscina e área de lazer."
     },
     {

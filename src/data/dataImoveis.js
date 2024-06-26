@@ -4,6 +4,7 @@ import ffL051 from "../assets/images/L051.jpg";
 import ffL063a2 from "../assets/images/L063a2.jpeg";
 import ffL063a3 from "../assets/images/L063a3.jpeg";
 import ffL073 from "../assets/images/L073.jpg";
+import ffL074 from "../assets/images/L074.jpg";
 import ffL077 from "../assets/images/L077.jpeg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
@@ -1075,25 +1076,25 @@ const imoveisDisp = [
     //   titulo:"-",
     //   descricao:"01 sala comercial com 01 banheiro (20m²). Localizado em área central de altíssima movimentação, no 2º andar."
     // },
-    {
-      fotos: importAll(require.context('../assets/images/L048.1', true, /\.(png|jpe?g|svg)$/)),
-      fotoCapa: ffL048a1,
-      cod: "L048.1",
-      contrato: contractType[contractTypeParamKey.rent],
-      tipoImovel:propertyType.house,
-      ruaNum: "Não informado",
-      bairro:"Centro",
-      cidade:city.santa_barbara,
-      Estado:"Minas Gerais",
-      quartos:amenitiesQuantity.three,
-      banheiros:amenitiesQuantity.three,
-      vagas:amenitiesQuantity.five,
-      valor:"R$ 3.500,00",
-      areaTotal:"- m²",
-      areaConstruida: "- m²",
-      titulo:"Ótima casa para aluguel no centro (em frente a Caixa Econômica).",
-      descricao:"03 quartos, 3 banheiros, sala/cozinha, área de serviço, área externa com piscina, churrasqueira, jardim e garagem para 5 carros."
-    },
+    // {
+    //   fotos: importAll(require.context('../assets/images/L048.1', true, /\.(png|jpe?g|svg)$/)),
+    //   fotoCapa: ffL048a1,
+    //   cod: "L048.1",
+    //   contrato: contractType[contractTypeParamKey.rent],
+    //   tipoImovel:propertyType.house,
+    //   ruaNum: "Não informado",
+    //   bairro:"Centro",
+    //   cidade:city.santa_barbara,
+    //   Estado:"Minas Gerais",
+    //   quartos:amenitiesQuantity.three,
+    //   banheiros:amenitiesQuantity.three,
+    //   vagas:amenitiesQuantity.five,
+    //   valor:"R$ 3.500,00",
+    //   areaTotal:"- m²",
+    //   areaConstruida: "- m²",
+    //   titulo:"Ótima casa para aluguel no centro (em frente a Caixa Econômica).",
+    //   descricao:"03 quartos, 3 banheiros, sala/cozinha, área de serviço, área externa com piscina, churrasqueira, jardim e garagem para 5 carros."
+    // },
     // {
     //   fotos: importAll(require.context('../assets/images/L048.4', true, /\.(png|jpe?g|svg)$/)),
     //   fotoCapa: ffL048a4,
@@ -1113,25 +1114,25 @@ const imoveisDisp = [
     //   titulo:"Aluguel de ponto comercial na rua João Mota (em frente a Caixa Ecônomica)",
     //   descricao:"01 sala comercial com 01 banheiro (25m²). Localizado em área central de altíssima movimentação, no 1º andar."
     // },
-    {
-      fotos: importAll(require.context('../assets/images/L051', true, /\.(png|jpe?g|svg)$/)),
-      fotoCapa: ffL051,
-      cod: "L051",
-      contrato: contractType[contractTypeParamKey.rent],
-      tipoImovel:propertyType.apartment,
-      ruaNum: "Não informado",
-      bairro:"Praia",
-      cidade:city.santa_barbara,
-      Estado:"Minas Gerais",
-      quartos:amenitiesQuantity.three,
-      banheiros:amenitiesQuantity.one,
-      vagas:amenitiesQuantity.one,
-      valor:"R$ 1.560,00 + R$ 220,00",
-      areaTotal:"120 m²",
-      areaConstruida: "120 m²",
-      titulo:"Aluga-se Apartamento Térreo – Bairro Praia",
-      descricao:"Ótimo apartamento com área externa;sala, copa, cozinha, 3 quartos, 1 banheiro social. 01 vaga de garagem coberta. Condomínio com piscina e área de lazer."
-    },
+    // {
+    //   fotos: importAll(require.context('../assets/images/L051', true, /\.(png|jpe?g|svg)$/)),
+    //   fotoCapa: ffL051,
+    //   cod: "L051",
+    //   contrato: contractType[contractTypeParamKey.rent],
+    //   tipoImovel:propertyType.apartment,
+    //   ruaNum: "Não informado",
+    //   bairro:"Praia",
+    //   cidade:city.santa_barbara,
+    //   Estado:"Minas Gerais",
+    //   quartos:amenitiesQuantity.three,
+    //   banheiros:amenitiesQuantity.one,
+    //   vagas:amenitiesQuantity.one,
+    //   valor:"R$ 1.560,00 + R$ 220,00",
+    //   areaTotal:"120 m²",
+    //   areaConstruida: "120 m²",
+    //   titulo:"Aluga-se Apartamento Térreo – Bairro Praia",
+    //   descricao:"Ótimo apartamento com área externa;sala, copa, cozinha, 3 quartos, 1 banheiro social. 01 vaga de garagem coberta. Condomínio com piscina e área de lazer."
+    // },
     {
       fotos: importAll(require.context('../assets/images/L063a2', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffL063a2,
@@ -1189,24 +1190,43 @@ const imoveisDisp = [
     //   titulo:"Aluga-se apartamento no centro",
     //   descricao:"Apartamento localizado em frente ao Colégio das Irmãs.05 quartos / 02 banheiros / sala, copa, cozinha. Armários embutidos / Varanda / Terraço / Área de serviço. 01 vaga de garagem."
     // },
+    // {
+    //   fotos: importAll(require.context('../assets/images/L073', true, /\.(png|jpe?g|svg)$/)),
+    //   fotoCapa: ffL073,
+    //   cod: "L073",
+    //   contrato: contractType[contractTypeParamKey.rent],
+    //   tipoImovel:propertyType.house,
+    //   ruaNum: "Não informado",
+    //   bairro:"Centro",
+    //   cidade:city.santa_barbara,
+    //   Estado:"Minas Gerais",
+    //   quartos:3,
+    //   banheiros:1,
+    //   vagas:0,
+    //   valor:"R$ 2.000,00",
+    //   areaTotal:"- m²",
+    //   areaConstruida: "- m²",
+    //   titulo:"Casa de Aluguel no centrão de Santa Bárbara",
+    //   descricao:"Casa 3 quartos, 1 banheiro, sala, cozinha, área de serviço, sem garagem. Preferência de locação para empresas."
+    // },
     {
-      fotos: importAll(require.context('../assets/images/L073', true, /\.(png|jpe?g|svg)$/)),
-      fotoCapa: ffL073,
-      cod: "L073",
+      fotos: importAll(require.context('../assets/images/L074', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffL074,
+      cod: "L074",
       contrato: contractType[contractTypeParamKey.rent],
       tipoImovel:propertyType.house,
       ruaNum: "Não informado",
-      bairro:"Centro",
-      cidade:city.santa_barbara,
+      bairro:"Lagoa",
+      cidade:city.barao_cocais,
       Estado:"Minas Gerais",
-      quartos:3,
-      banheiros:1,
-      vagas:0,
-      valor:"R$ 2.000,00",
+      quartos:4,
+      banheiros:3,
+      vagas:4,
+      valor:"R$3.000,00",
       areaTotal:"- m²",
       areaConstruida: "- m²",
-      titulo:"Casa de Aluguel no centrão de Santa Bárbara",
-      descricao:"Casa 3 quartos, 1 banheiro, sala, cozinha, área de serviço, sem garagem. Preferência de locação para empresas."
+      titulo:"Casa de aluguel no bairro Lagoa - Barão de Cocais",
+      descricao:"Sala, copa, cozinha, 04 quartos (01 suíte), 02 banheiros sociais, área de serviço, quintal / área externa, garagem para 04 carros, casa de forro, piso de cerâmica e com aquecedor solar."
     },
     {
       fotos: importAll(require.context('../assets/images/L077', true, /\.(png|jpe?g|svg)$/)),

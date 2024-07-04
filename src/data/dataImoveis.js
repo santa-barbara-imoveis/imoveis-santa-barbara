@@ -41,6 +41,8 @@ import ffV141 from "../assets/images/V141.jpeg";
 import ffV142 from "../assets/images/V142.jpg";
 import ffV147 from "../assets/images/V147.jpeg";
 import ffV149 from "../assets/images/V149.jpeg";
+import ffV150 from "../assets/images/V150.jpeg";
+import ffV152 from "../assets/images/V152.jpeg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -873,6 +875,44 @@ const imoveisDisp = [
       areaConstruida: "93 m²",
       titulo:"Vende-se Casa Geminada no bairro Caminhos de Minas",
       descricao: "Cozinha/área serviço, 03 quartos (1 suíte), 01 banheiro social e 02 vagas de garagem."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/V150', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffV150,
+      cod: "V150",
+      contrato: contractType[contractTypeParamKey.buy],
+      tipoImovel:propertyType.house,
+      ruaNum: "-",
+      bairro:"Leão XIII",
+      cidade:city.barao_cocais,
+      Estado:"Minas Gerais",
+      quartos:4,
+      banheiros:2,
+      vagas:2,
+      valor:"R$ 281.000,00",
+      areaTotal:"- m²",
+      areaConstruida: "- m²",
+      titulo:"Vende-se casa no Bairro Leão XIII",
+      descricao: "Sala, copa, cozinha, 04 quartos, 02 banheiros sociais, 02 vagas de garagem, quintal e lavanderia."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/V152', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffV152,
+      cod: "V152",
+      contrato: contractType[contractTypeParamKey.buy],
+      tipoImovel:propertyType.house,
+      ruaNum: "-",
+      bairro:"São Miguel",
+      cidade:city.barao_cocais,
+      Estado:"Minas Gerais",
+      quartos:3,
+      banheiros:2,
+      vagas:1,
+      valor:"R$ 400.000,00",
+      areaTotal:"- m²",
+      areaConstruida: "- m²",
+      titulo:"Vende-se casa no bairro São Miguel",
+      descricao: "Sala, copa/cozinha, 03 quartos, 02 banheiros sociais, sala TV, varanda, área externa, área de serviço, garagem para 01 carro com portão eletrônico."
     },
     // {
     //   fotos: importAll(require.context('../assets/images/V150', true, /\.(png|jpe?g|svg)$/)),

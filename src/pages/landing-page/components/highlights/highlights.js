@@ -47,7 +47,7 @@ function Highlights() {
               </Link>
               <div className="boxPreco">
                 <div className="tipoContrato">Venda</div>
-                <div className="precoImovel">R$ 490.000,00</div>
+                <div className="precoImovel">R$ 460.000,00</div>
               </div>
             </div>
             <div className="imBairroCidade">Serra Vila - Barão de Cocais</div>

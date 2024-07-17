@@ -7,6 +7,7 @@ import ffL063a3 from "../assets/images/L063a3.jpeg";
 import ffL073 from "../assets/images/L073.jpg";
 import ffL074 from "../assets/images/L074.jpg";
 import ffL077 from "../assets/images/L077.jpeg";
+import ffL081 from "../assets/images/L081.jpg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -1287,6 +1288,25 @@ const imoveisDisp = [
       areaConstruida: "- m²",
       titulo:"Casa de aluguel no bairro Lagoa - Barão de Cocais",
       descricao:"Sala, copa, cozinha, 04 quartos (01 suíte), 02 banheiros sociais, área de serviço, quintal / área externa, garagem para 04 carros, casa de forro, piso de cerâmica e com aquecedor solar."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/L081', true, /\.(png|jpe?g|svg|jfif)$/)),
+      fotoCapa: ffL081,
+      cod: "L081",
+      contrato: contractType[contractTypeParamKey.rent],
+      tipoImovel:propertyType.house,
+      ruaNum: "Não informado",
+      bairro:"Mãe Catarina",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:3,
+      banheiros:1,
+      vagas:2,
+      valor:"R$5.000,00",
+      areaTotal:"- m²",
+      areaConstruida: "- m²",
+      titulo:"Ótima casa de aluguel no bairro Mãe Catarina",
+      descricao:"03 quartos (01 suíte), 01 banheiro social, sala (03 ambientes), copa / cozinha, área de serviço, área externa, jardim, garagem para 02 carros. Casa mobiliada, toda em porcelanato, armários planejados, portão eletrônico, interfone com câmera, concertina e cerca elétrica."
     },
     // {
     //   fotos: importAll(require.context('../assets/images/L077', true, /\.(png|jpe?g|svg)$/)),

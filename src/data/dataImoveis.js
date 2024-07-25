@@ -45,6 +45,7 @@ import ffV147 from "../assets/images/V147.jpeg";
 import ffV149 from "../assets/images/V149.jpeg";
 import ffV150 from "../assets/images/V150.jpeg";
 import ffV152 from "../assets/images/V152.jpeg";
+import ffV153 from "../assets/images/V153.jpeg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -915,6 +916,25 @@ const imoveisDisp = [
       areaConstruida: "- m²",
       titulo:"Vende-se casa no bairro São Miguel",
       descricao: "Sala, copa/cozinha, 03 quartos, 02 banheiros sociais, sala TV, varanda, área externa, área de serviço, garagem para 01 carro com portão eletrônico."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/V153', true, /\.(png|jpe?g|svg|jfif)$/)),
+      fotoCapa: ffV153,
+      cod: "V153",
+      contrato: contractType[contractTypeParamKey.buy],
+      tipoImovel:propertyType.chalet,
+      ruaNum: "-",
+      bairro:"Cubas",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:3,
+      banheiros:2,
+      vagas:5,
+      valor:"R$ 495.000,00",
+      areaTotal:"3000 m²",
+      areaConstruida: "190 m²",
+      titulo:"Linda chácara a venda no Cubas",
+      descricao: "03 quartos, 02 banheiros sociais, Sala/Copa/Cozinha, Área de serviço/Varanda, Piscina/Área gourmet, Jardim/Pomar e Garagem para 05 carros."
     },
     // {
     //   fotos: importAll(require.context('../assets/images/V150', true, /\.(png|jpe?g|svg)$/)),

@@ -8,6 +8,7 @@ import ffL073 from "../assets/images/L073.jpg";
 import ffL074 from "../assets/images/L074.jpg";
 import ffL077 from "../assets/images/L077.jpeg";
 import ffL081 from "../assets/images/L081.jpg";
+import ffL082 from "../assets/images/L082.jpg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -708,25 +709,25 @@ const imoveisDisp = [
       titulo:"Vende-se casa em Barão de Cocais",
       descricao: "Sala/cozinha (bancada granito).Área externa / Área de churrasqueira.Documento regular para financiamento."
     },
-    {
-      fotos: importAll(require.context('../assets/images/V134', true, /\.(png|jpe?g|svg)$/)),
-      fotoCapa: ffV134,
-      cod: "V134",
-      contrato: contractType[contractTypeParamKey.buy],
-      tipoImovel:propertyType.house,
-      ruaNum: "Rua Geraldo Aparecida Pessoa, 200",
-      bairro:"Serra Vila",
-      cidade:city.barao_cocais,
-      Estado:"Minas Gerais",
-      quartos:4,
-      banheiros:2,
-      vagas:3,
-      valor:"R$ 460.000,00",
-      areaTotal:"- m²",
-      areaConstruida: "- m²",
-      titulo:"Vende-se casa em Barão de Cocais",
-      descricao: "Casa de laje, piso de cerâmica (porcelanato), 2 suítes, telhado colonial. Área externa/Área de churrasqueira.Documento regular para financiamento."
-    },
+    // {
+    //   fotos: importAll(require.context('../assets/images/V134', true, /\.(png|jpe?g|svg)$/)),
+    //   fotoCapa: ffV134,
+    //   cod: "V134",
+    //   contrato: contractType[contractTypeParamKey.buy],
+    //   tipoImovel:propertyType.house,
+    //   ruaNum: "Rua Geraldo Aparecida Pessoa, 200",
+    //   bairro:"Serra Vila",
+    //   cidade:city.barao_cocais,
+    //   Estado:"Minas Gerais",
+    //   quartos:4,
+    //   banheiros:2,
+    //   vagas:3,
+    //   valor:"R$ 460.000,00",
+    //   areaTotal:"- m²",
+    //   areaConstruida: "- m²",
+    //   titulo:"Vende-se casa em Barão de Cocais",
+    //   descricao: "Casa de laje, piso de cerâmica (porcelanato), 2 suítes, telhado colonial. Área externa/Área de churrasqueira.Documento regular para financiamento."
+    // },
     {
       fotos: importAll(require.context('../assets/images/V135', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV135,
@@ -1327,6 +1328,25 @@ const imoveisDisp = [
       areaConstruida: "- m²",
       titulo:"Ótima casa de aluguel no bairro Mãe Catarina",
       descricao:"03 quartos (01 suíte), 01 banheiro social, sala (03 ambientes), copa / cozinha, área de serviço, área externa, jardim, garagem para 02 carros. Casa mobiliada, toda em porcelanato, armários planejados, portão eletrônico, interfone com câmera, concertina e cerca elétrica."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/L082', true, /\.(png|jpe?g|svg|jfif)$/)),
+      fotoCapa: ffL082,
+      cod: "L082",
+      contrato: contractType[contractTypeParamKey.rent],
+      tipoImovel:propertyType.commercial_property,
+      ruaNum: "Não informado",
+      bairro:"União",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:0,
+      banheiros:1,
+      vagas:0,
+      valor:"R$ 2.300,00",
+      areaTotal:"- m²",
+      areaConstruida: "90 m²",
+      titulo:"Galpão disponível para locação no bairro União",
+      descricao:"90 m² - Portão manual, piso de cimento sem laje, 1 banheiro, ponto central, seguro, ideal para depósitos, academia e oficinas; energia e água rateadas (não há padrão isolados)."
     },
     // {
     //   fotos: importAll(require.context('../assets/images/L077', true, /\.(png|jpe?g|svg)$/)),

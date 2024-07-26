@@ -9,6 +9,7 @@ import ffL074 from "../assets/images/L074.jpg";
 import ffL077 from "../assets/images/L077.jpeg";
 import ffL081 from "../assets/images/L081.jpg";
 import ffL082 from "../assets/images/L082.jpg";
+import ffL083 from "../assets/images/L083.jpg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -1347,6 +1348,25 @@ const imoveisDisp = [
       areaConstruida: "90 m²",
       titulo:"Galpão disponível para locação no bairro União",
       descricao:"90 m² - Portão manual, piso de cimento sem laje, 1 banheiro, ponto central, seguro, ideal para depósitos, academia e oficinas; energia e água rateadas (não há padrão isolados)."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/L083', true, /\.(png|jpe?g|svg|jfif)$/)),
+      fotoCapa: ffL083,
+      cod: "L083",
+      contrato: contractType[contractTypeParamKey.rent],
+      tipoImovel:propertyType.commercial_property,
+      ruaNum: "Não informado",
+      bairro:"Centro",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:4,
+      banheiros:3,
+      vagas:1,
+      valor:"R$ 3.500,00",
+      areaTotal:"- m²",
+      areaConstruida: "- m²",
+      titulo:"Casa de aluguel no Centro de Santa Bárbara",
+      descricao:"Sala/copa/cozinha, 04 quartos (01 suíte), 02 banheiros sociais, área de serviço, terraço / quintal e garagem para 01 carro."
     },
     // {
     //   fotos: importAll(require.context('../assets/images/L077', true, /\.(png|jpe?g|svg)$/)),

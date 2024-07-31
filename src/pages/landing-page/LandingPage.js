@@ -3,6 +3,7 @@ import { Hero } from './components/heroSection/Hero';
 import { Highlights } from './components/highlights/highlights';
 import { BoxContact } from './components/boxContact/BoxContact';
 import { HighlightsRent } from './components/highlights rent/highlightsRent';
+import { VideoSection } from './components/videoSection/videoSection';
 
 function LandingPage() {
   return (
@@ -10,6 +11,7 @@ function LandingPage() {
       <Hero/>
       <Highlights/>
       <BoxContact/>
+      <VideoSection/>
       <HighlightsRent/>
     </>
   )

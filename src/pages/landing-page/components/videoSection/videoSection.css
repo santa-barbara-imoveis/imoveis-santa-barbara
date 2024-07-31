@@ -1,0 +1,74 @@
+.boxVideo{
+    background-color: rgb(106, 128, 126);
+    padding: 5px;
+    min-height: 300px;
+    align-items: center;
+    text-align: center;
+    justify-content:space-around;
+    vertical-align:middle;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imVideo{ 
+    width: 305px;
+    height: 205px;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@media (max-width:680px)  { 
+    .boxContato{
+        padding: 20px;
+        flex-direction: column;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+}
+
+.logoImage2{
+    width: 230px;
+}
+
+.sloganMedio{
+    height: 65px;
+    width: 300px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    vertical-align:middle;
+    flex-direction: row;
+    display: flex;
+}
+
+.botaoContato{
+    height: 30px;
+    width: 200px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    padding: 10px;
+    padding-bottom: 15px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    vertical-align:middle;
+    flex-direction: row;
+    display: flex;
+    border: 0.5px solid white;
+    cursor: pointer;
+}
+
+.botaoContato:hover{
+    background-color: rgb(26, 95, 91);
+}

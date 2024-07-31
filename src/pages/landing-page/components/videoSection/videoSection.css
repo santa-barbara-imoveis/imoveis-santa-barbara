@@ -1,7 +1,7 @@
 .boxVideo{
-    background-color: rgb(106, 128, 126);
-    padding: 5px;
-    min-height: 300px;
+    background-color: rgb(29,70,67);
+    padding: 30px;
+    min-height: 400px;
     align-items: center;
     text-align: center;
     justify-content:space-around;
@@ -9,6 +9,11 @@
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
+}
+
+.iconVideos{ 
+    width: 80px;
+    color: white;
 }
 
 .imVideo{ 

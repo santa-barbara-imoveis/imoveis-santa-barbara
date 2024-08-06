@@ -17,7 +17,7 @@ function VideoSection() {
         <img className="iconVideos" src={icon1} />
         <video className="" src={video2} controls width={200} poster={poster2}> 
         </video>
-        <img className="iconVideos" src={icon2} />
+        <img className="iconVideos" src={icon1} />
         <video className="" src={video3} controls width={200} poster={poster3}> 
         </video>
       </article>

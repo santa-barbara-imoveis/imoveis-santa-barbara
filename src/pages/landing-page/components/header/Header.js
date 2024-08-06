@@ -63,10 +63,12 @@ function Header() {
         </div>
       </div>
     </div>
+
     <header className="head">
       <div className="logo"> 
         <img className="logoImage" src={logo}/>
       </div>
+      
       <nav className="navHead" >
         <Link className="headMain" to="/"> <p>Home</p> </Link> 
         <Link to={`imoveis?${filterSearchParams.contractType}=${contractTypeParamKey.rent}`} className="headMain"> <p>Alugar</p> </Link>

@@ -8,7 +8,20 @@
     vertical-align:middle;
     flex-direction: row;
     display: flex;
-    flex-wrap: wrap;
+}
+
+@media (max-width:481px)  { 
+    .boxVideo{
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        justify-content:space-between;
+        vertical-align:middle;
+        flex-wrap: wrap;
+    }
+    .iconVideos{ 
+        margin-block: 30px;
+    }
 }
 
 .iconVideos{ 

@@ -48,6 +48,7 @@ import ffV142 from "../assets/images/V142.jpg";
 import ffV147 from "../assets/images/V147.jpeg";
 import ffV149 from "../assets/images/V149.jpeg";
 import ffV150 from "../assets/images/V150.jpeg";
+import ffV151 from "../assets/images/V151.jpeg";
 import ffV152 from "../assets/images/V152.jpeg";
 import ffV153 from "../assets/images/V153.jpeg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
@@ -896,11 +897,30 @@ const imoveisDisp = [
       quartos:4,
       banheiros:2,
       vagas:2,
-      valor:"R$ 281.000,00",
+      valor:"R$ 280.000,00",
       areaTotal:"- m²",
       areaConstruida: "- m²",
       titulo:"Vende-se casa no Bairro Leão XIII",
       descricao: "Sala, copa, cozinha, 04 quartos, 02 banheiros sociais, 02 vagas de garagem, quintal e lavanderia."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/V151', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffV151,
+      cod: "V151",
+      contrato: contractType[contractTypeParamKey.buy],
+      tipoImovel:propertyType.land,
+      ruaNum: "-",
+      bairro:"Santa Quitéria",
+      cidade:city.catas_altas,
+      Estado:"Minas Gerais",
+      quartos:0,
+      banheiros:0,
+      vagas:0,
+      valor:"R$ 180.000,00",
+      areaTotal:"360 m²",
+      areaConstruida: "360 m²",
+      titulo:"Vende-se lote bairro Santa Quitéria",
+      descricao: "Lote plano, 12m x 30m. Vista para a Serra. Infraestrutura completa."
     },
     // {
     //   fotos: importAll(require.context('../assets/images/V152', true, /\.(png|jpe?g|svg)$/)),

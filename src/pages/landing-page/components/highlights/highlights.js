@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import "./Highlights.css";
 import fotoFrente2 from "./assets/V150.jpeg";
 import fotoFrente3 from "./assets/V153.jpeg";
-import fotoFrente from "./assets/V141.jpeg";
+import fotoFrente from "./assets/V151.jpeg";
 import area from "./assets/area.png";
 import banho from "./assets/banheira.png";
 import vagas from "./assets/carros.png";
@@ -16,26 +16,26 @@ function Highlights() {
         <div className="opcaoImoveis">
             <div className="boxImovel">
               <div className="imFotoMainV">
-                <Link to={`imovel/V141`} className='linkImage'>
+                <Link to={`imovel/V151`} className='linkImage'>
                   <img className="imFotoV" src={fotoFrente} />
                 </Link>
                 <div className="boxPreco">
                   <div className="tipoContrato">Venda</div>
-                  <div className="precoImovel">R$ 850.000,00</div>
+                  <div className="precoImovel">R$ 180.000,00</div>
                 </div>
               </div>
-              <p className="imBairroCidade"> Santa Mônica - Santa Bárbara </p>
-              <p className="imId">Código: V141</p>
+              <p className="imBairroCidade"> Santa Quitéria - Catas Altas </p>
+              <p className="imId">Código: V151</p>
               <div className="imAmenities">
                 <div className="iconsAmenities">
                   <img className="icon" src={area} />
-                  <p>186</p>
+                  <p>360</p>
                   <img className="icon" src={banho} />
-                  <p>3</p>
+                  <p>0</p>
                   <img className="icon" src={vagas} />
-                  <p>2</p>
+                  <p>0</p>
                   <img className="icon" src={quartos} />
-                  <p>3</p>
+                  <p>0</p>
                 </div>
               </div>
             </div>
@@ -47,7 +47,7 @@ function Highlights() {
               </Link>
               <div className="boxPreco">
                 <div className="tipoContrato">Venda</div>
-                <div className="precoImovel">R$ 281.000,00</div>
+                <div className="precoImovel">R$ 280.000,00</div>
               </div>
             </div>
             <div className="imBairroCidade">Leão XIII - Barão de Cocais</div>

@@ -7,6 +7,7 @@ import ffL063a3 from "../assets/images/L063a3.jpeg";
 import ffL073 from "../assets/images/L073.jpg";
 import ffL074 from "../assets/images/L074.jpg";
 import ffL077 from "../assets/images/L077.jpeg";
+import ffL080 from "../assets/images/L080.jpg";
 import ffL081 from "../assets/images/L081.jpg";
 import ffL082 from "../assets/images/L082.jpg";
 import ffL083 from "../assets/images/L083.jpg";
@@ -1332,6 +1333,25 @@ const imoveisDisp = [
       areaConstruida: "- m²",
       titulo:"Casa de aluguel no bairro Lagoa - Barão de Cocais",
       descricao:"Sala, copa, cozinha, 04 quartos (01 suíte), 02 banheiros sociais, área de serviço, quintal / área externa, garagem para 04 carros, casa de forro, piso de cerâmica e com aquecedor solar."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/L080', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffL080,
+      cod: "L080",
+      contrato: contractType[contractTypeParamKey.rent],
+      tipoImovel:propertyType.studio,
+      ruaNum: "Não informado",
+      bairro:"Centro",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:3,
+      banheiros:1,
+      vagas:0,
+      valor:"R$2.200,00",
+      areaTotal:"- m²",
+      areaConstruida: "- m²",
+      titulo:"Casa de aluguel no centro - Santa Bárbara",
+      descricao:"Sala, 3 quartos, 1 suíte, 1 banheiro social, varanda, sem garagem."
     },
     // {
     //   fotos: importAll(require.context('../assets/images/L081', true, /\.(png|jpe?g|svg|jfif)$/)),

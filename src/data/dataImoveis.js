@@ -550,7 +550,7 @@ const imoveisDisp = [
       fotoCapa: ffV155,
       cod: "V155",
       contrato: contractType[contractTypeParamKey.buy],
-      tipoImovel:propertyType.land,
+      tipoImovel:propertyType.plot,
       ruaNum: "-",
       bairro:"Brumal",
       cidade:city.santa_barbara,

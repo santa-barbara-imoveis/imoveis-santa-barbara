@@ -1,4 +1,5 @@
 import ffL008 from "../assets/images/L008.jpg";
+import ffL016a1 from "../assets/images/L016.1.jpg";
 import ffL048a1 from "../assets/images/L048a1.jpeg";
 import ffL051 from "../assets/images/L051.jpg";
 import ffL063a1 from "../assets/images/L063a1.jpeg";
@@ -620,6 +621,25 @@ const imoveisDisp = [
       areaConstruida: "- m²",
       titulo:"Aluguel de lotes próximo ao trevo de Santa Bárbara",
       descricao:"Lotes planos com excelente localização. De frente para a rodovia MG129 (sentido Catas Altas)."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/L016.1', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffL016a1,
+      cod: "L016.1",
+      contrato: contractType[contractTypeParamKey.rent],
+      tipoImovel:propertyType.house,
+      ruaNum: "Não informado",
+      bairro:"Centro",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:amenitiesQuantity.three,
+      banheiros:amenitiesQuantity.two,
+      vagas:amenitiesQuantity.one,
+      valor:"R$ 3.000,00",
+      areaTotal:"360 m²",
+      areaConstruida: "- m²",
+      titulo:"Casa no centro de Santa Bárbara",
+      descricao:"Imóvel muito conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo a rodoviária). Em um raio de apenas 300m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas."
     },
     {
       fotos: importAll(require.context('../assets/images/L063a1', true, /\.(png|jpe?g|svg)$/)),

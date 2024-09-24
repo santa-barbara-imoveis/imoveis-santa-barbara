@@ -86,8 +86,8 @@ const imoveisDisp = [
         banheiros:2,
         vagas:1,
         valor: "R$ 900.000,00",
-        areaTotal: "1.116,40 m²",
-        areaConstruida: "260 m²",
+        areaTotal: "1.116,40m²",
+        areaConstruida: "260m²",
         titulo:"Oportunidade para compra no centro de Santa Bárbara",
         descricao:"Sala de TV, sala de jantar, cozinha estilo americana, despensa, área de serviço, quintal, garagem ampla"
     },

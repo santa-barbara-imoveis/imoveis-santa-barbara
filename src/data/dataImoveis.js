@@ -56,6 +56,7 @@ import ffV153 from "../assets/images/V153.jpeg";
 import ffV155 from "../assets/images/V155.jpeg";
 import ffV156 from "../assets/images/V156.jpeg";
 import ffV157 from "../assets/images/V157.jpeg";
+import ffV159 from "../assets/images/V159.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -489,25 +490,6 @@ const imoveisDisp = [
       titulo:"Vende-se Casa Geminada no bairro Caminhos de Minas",
       descricao: "Cozinha/área serviço, 03 quartos (1 suíte), 01 banheiro social e 02 vagas de garagem."
     },
-    // {
-    //   fotos: importAll(require.context('../assets/images/V150', true, /\.(png|jpe?g|svg)$/)),
-    //   fotoCapa: ffV150,
-    //   cod: "V150",
-    //   contrato: contractType[contractTypeParamKey.buy],
-    //   tipoImovel:propertyType.house,
-    //   ruaNum: "-",
-    //   bairro:"Leão XIII",
-    //   cidade:city.barao_cocais,
-    //   Estado:"Minas Gerais",
-    //   quartos:4,
-    //   banheiros:2,
-    //   vagas:2,
-    //   valor:"R$ 280.000,00",
-    //   areaTotal:"- m²",
-    //   areaConstruida: "- m²",
-    //   titulo:"Vende-se casa no Bairro Leão XIII",
-    //   descricao: "Sala, copa, cozinha, 04 quartos, 02 banheiros sociais, 02 vagas de garagem, quintal e lavanderia."
-    // },
     {
       fotos: importAll(require.context('../assets/images/V151', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV151,
@@ -602,6 +584,25 @@ const imoveisDisp = [
       areaConstruida: "4,5 ha",
       titulo:"Vende-se terreno – bairro São Miguel",
       descricao: "Terreno com 4,5 ha; área ampla de fácil acesso; localizado em área urbana; permite fracionamento."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/V159', true, /\.(png|jpe?g|svg|jfif)$/)),
+      fotoCapa: ffV159,
+      cod: "V159",
+      contrato: contractType[contractTypeParamKey.buy],
+      tipoImovel:propertyType.house,
+      ruaNum: "-",
+      bairro:"São Benedito",
+      cidade:city.barao_cocais,
+      Estado:"Minas Gerais",
+      quartos:3,
+      banheiros:2,
+      vagas:2,
+      valor:"R$ 380.000,00",
+      areaTotal:"496m²",
+      areaConstruida: "160m²",
+      titulo:"Vende-se casa – bairro São Benedito ",
+      descricao: "Área construída: 160 m² / Lote: 496 m²; sala/cozinha e varanda; 3 quartos, 1 suíte, área gourmet; 2 vagas de garagem; não financia."
     },
     {
       fotos: importAll(require.context('../assets/images/L008', true, /\.(png|jpe?g|svg)$/)),

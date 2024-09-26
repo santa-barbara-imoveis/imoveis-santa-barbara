@@ -56,6 +56,7 @@ import ffV153 from "../assets/images/V153.jpeg";
 import ffV155 from "../assets/images/V155.jpeg";
 import ffV156 from "../assets/images/V156.jpeg";
 import ffV157 from "../assets/images/V157.jpeg";
+import ffV158 from "../assets/images/V158.jpeg";
 import ffV159 from "../assets/images/V159.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
@@ -584,6 +585,25 @@ const imoveisDisp = [
       areaConstruida: "4,5 ha",
       titulo:"Vende-se terreno – bairro São Miguel",
       descricao: "Terreno com 4,5 ha; área ampla de fácil acesso; localizado em área urbana; permite fracionamento."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/V158', true, /\.(png|jpe?g|svg|jfif)$/)),
+      fotoCapa: ffV158,
+      cod: "V158",
+      contrato: contractType[contractTypeParamKey.buy],
+      tipoImovel:propertyType.apartment,
+      ruaNum: "Rua São José, 70",
+      bairro:"Santa Terezinha",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:2,
+      banheiros:1,
+      vagas:1,
+      valor:"R$ 330.000,00",
+      areaTotal:"48,50 m²",
+      areaConstruida: "48,50 m²",
+      titulo:"Vende-se apartamento no bairro Santa Terezinha",
+      descricao: "Apartamento no 2° andar, 02 quartos, 01 banheiro, sala/copa/cozinha, área de serviço, garagem coberta para 01 carro e com portão eletrônico."
     },
     {
       fotos: importAll(require.context('../assets/images/V159', true, /\.(png|jpe?g|svg|jfif)$/)),

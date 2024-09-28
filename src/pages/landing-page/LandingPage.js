@@ -1,10 +1,11 @@
 import React from 'react';
-import { Hero } from './components/heroSection/Hero';
-import { Highlights } from './components/highlights/highlights';
 import { BoxContact } from './components/boxContact/BoxContact';
+import { Hero } from './components/heroSection/Hero';
 import { HighlightsRent } from './components/highlights rent/highlightsRent';
+import { Highlights } from './components/highlights/highlights';
 import { VideoSection } from './components/videoSection/videoSection';
 
+// testtes
 function LandingPage() {
   return (
     <>
@@ -18,5 +19,6 @@ function LandingPage() {
 }
   
 export {
-    LandingPage
-}
+  LandingPage
+};
+

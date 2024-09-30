@@ -5,7 +5,7 @@ import { HighlightsRent } from './components/highlights rent/highlightsRent';
 import { Highlights } from './components/highlights/highlights';
 import { VideoSection } from './components/videoSection/videoSection';
 
-// testtes
+// testtess
 function LandingPage() {
   return (
     <>

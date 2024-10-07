@@ -57,6 +57,7 @@ import ffV155 from "../assets/images/V155.jpeg";
 import ffV156 from "../assets/images/V156.jpeg";
 import ffV158 from "../assets/images/V158.jpeg";
 import ffV159 from "../assets/images/V159.jpg";
+import ffV160 from "../assets/images/V160.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -603,6 +604,25 @@ const imoveisDisp = [
       areaConstruida: "160m²",
       titulo:"Vende-se casa – bairro São Benedito ",
       descricao: "Área construída: 160 m² / Lote: 496 m²; sala/cozinha e varanda; 3 quartos, 1 suíte, área gourmet; 2 vagas de garagem; não financia."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/V160', true, /\.(png|jpe?g|svg|jfif)$/)),
+      fotoCapa: ffV160,
+      cod: "V160",
+      contrato: contractType[contractTypeParamKey.buy],
+      tipoImovel:propertyType.land,
+      ruaNum: "-",
+      bairro:"Sumidouro",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:0,
+      banheiros:0,
+      vagas:0,
+      valor:"R$ 115.000,00",
+      areaTotal:"420m²",
+      areaConstruida: "-m²",
+      titulo:"Vende-se lote – Sumidouro",
+      descricao: "Infraestrutura completa; lote plano e imóvel registrado."
     },
     {
       fotos: importAll(require.context('../assets/images/L008', true, /\.(png|jpe?g|svg)$/)),

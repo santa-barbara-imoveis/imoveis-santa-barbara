@@ -55,7 +55,6 @@ import ffV152 from "../assets/images/V152.jpeg";
 import ffV153 from "../assets/images/V153.jpeg";
 import ffV155 from "../assets/images/V155.jpeg";
 import ffV156 from "../assets/images/V156.jpeg";
-import ffV157 from "../assets/images/V157.jpeg";
 import ffV158 from "../assets/images/V158.jpeg";
 import ffV159 from "../assets/images/V159.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
@@ -566,25 +565,6 @@ const imoveisDisp = [
       areaConstruida: "643 m²",
       titulo:"Vende-se lotes – bairro Praia",
       descricao: "Lote com 643 m²; infraestrutura completa; ideal para investimento; com leve declive."
-    },
-    {
-      fotos: importAll(require.context('../assets/images/V157', true, /\.(png|jpe?g|svg|jfif)$/)),
-      fotoCapa: ffV157,
-      cod: "V157",
-      contrato: contractType[contractTypeParamKey.buy],
-      tipoImovel:propertyType.land,
-      ruaNum: "-",
-      bairro:"São Miguel",
-      cidade:city.barao_cocais,
-      Estado:"Minas Gerais",
-      quartos:0,
-      banheiros:0,
-      vagas:0,
-      valor:"R$ 490.000,00",
-      areaTotal:"4,5 ha",
-      areaConstruida: "4,5 ha",
-      titulo:"Vende-se terreno – bairro São Miguel",
-      descricao: "Terreno com 4,5 ha; área ampla de fácil acesso; localizado em área urbana; permite fracionamento."
     },
     {
       fotos: importAll(require.context('../assets/images/V158', true, /\.(png|jpe?g|svg|jfif)$/)),

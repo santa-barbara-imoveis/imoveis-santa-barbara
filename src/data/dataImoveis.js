@@ -2,6 +2,7 @@ import ffL008 from "../assets/images/L008.jpg";
 import ffL016a1 from "../assets/images/L016.1.jpg";
 import ffL048a1 from "../assets/images/L048a1.jpeg";
 import ffL051 from "../assets/images/L051.jpg";
+import ffL059 from "../assets/images/L059.jpg";
 import ffL063a1 from "../assets/images/L063a1.jpeg";
 import ffL063a2 from "../assets/images/L063a2.jpeg";
 import ffL063a3 from "../assets/images/L063a3.jpeg";
@@ -661,6 +662,25 @@ const imoveisDisp = [
       areaConstruida: "- m²",
       titulo:"Casa no centro de Santa Bárbara",
       descricao:"Imóvel muito conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo a rodoviária). Em um raio de apenas 300m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/L059', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffL059,
+      cod: "L059",
+      contrato: contractType[contractTypeParamKey.rent],
+      tipoImovel:propertyType.apartment,
+      ruaNum: "Rua São José, n°70",
+      bairro:"Santa Terezinha",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:amenitiesQuantity.two,
+      banheiros:amenitiesQuantity.one,
+      vagas:amenitiesQuantity.one,
+      valor:"R$ 1.330,00",
+      areaTotal:"48,50 m²",
+      areaConstruida: "- m²",
+      titulo:"Apartamento no bairro Santa Terezinha",
+      descricao:"Apartamento no 2° andar, 02 quartos, 01 banheiro, sala, copa, cozinha, área de serviço, garagem coberta para 01 carro, com portão eletrônico, valor: R$1.330,00 + condomínio."
     },
     {
       fotos: importAll(require.context('../assets/images/L063a1', true, /\.(png|jpe?g|svg)$/)),

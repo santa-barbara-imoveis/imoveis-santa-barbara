@@ -15,6 +15,8 @@ import ffL082 from "../assets/images/L082.jpg";
 import ffL083 from "../assets/images/L083.jpg";
 import ffL084 from "../assets/images/L084.jpg";
 import ffL085 from "../assets/images/L085.jpg";
+import ffL091 from "../assets/images/L091.jpg";
+import ffL092 from "../assets/images/L092.jpg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -59,6 +61,7 @@ import ffV156 from "../assets/images/V156.jpeg";
 import ffV158 from "../assets/images/V158.jpeg";
 import ffV159 from "../assets/images/V159.jpg";
 import ffV160 from "../assets/images/V160.jpg";
+import ffV161 from "../assets/images/V161.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -493,6 +496,25 @@ const imoveisDisp = [
       descricao: "Cozinha/área serviço, 03 quartos (1 suíte), 01 banheiro social e 02 vagas de garagem."
     },
     {
+      fotos: importAll(require.context('../assets/images/V150', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffV150,
+      cod: "V150",
+      contrato: contractType[contractTypeParamKey.buy],
+      tipoImovel:propertyType.house,
+      ruaNum: "-",
+      bairro:"Leão XIII",
+      cidade:city.barao_cocais,
+      Estado:"Minas Gerais",
+      quartos:4,
+      banheiros:2,
+      vagas:2,
+      valor:"R$ 280.000,00",
+      areaTotal:"- m²",
+      areaConstruida: "- m²",
+      titulo:"Vende-se Casa no bairro Leão XIII",
+      descricao: "Sala, copa, cozinha, 04 quartos, 02 banheiros sociais, 02 vagas de garagem, quintal e lavanderia."
+    },
+    {
       fotos: importAll(require.context('../assets/images/V151', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffV151,
       cod: "V151",
@@ -626,6 +648,25 @@ const imoveisDisp = [
       descricao: "Infraestrutura completa; lote plano e imóvel registrado."
     },
     {
+      fotos: importAll(require.context('../assets/images/V161', true, /\.(png|jpe?g|svg|jfif)$/)),
+      fotoCapa: ffV161,
+      cod: "V161",
+      contrato: contractType[contractTypeParamKey.buy],
+      tipoImovel:propertyType.house,
+      ruaNum: "Praça Zico Sanches, nº 4",
+      bairro:"Sumidouro",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:3,
+      banheiros:2,
+      vagas:0,
+      valor:"R$ 450.000,00",
+      areaTotal:"2.042 m²",
+      areaConstruida: "270 m²",
+      titulo:"Vende-se casa em Florália",
+      descricao: "3 quartos (1 suíte), varanda, escritório, 2 banheiros, cozinha, copa, sala, horta, infraestrutura completa / Lote plano, imóvel registrado."
+    },
+    {
       fotos: importAll(require.context('../assets/images/L008', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffL008,
       cod: "L008",
@@ -662,6 +703,25 @@ const imoveisDisp = [
       areaConstruida: "- m²",
       titulo:"Casa no centro de Santa Bárbara",
       descricao:"Imóvel muito conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo a rodoviária). Em um raio de apenas 300m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/L051', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffL051,
+      cod: "L051",
+      contrato: contractType[contractTypeParamKey.rent],
+      tipoImovel:propertyType.apartment,
+      ruaNum: "-",
+      bairro:"Praia",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:amenitiesQuantity.three,
+      banheiros:amenitiesQuantity.one,
+      vagas:amenitiesQuantity.one,
+      valor:"R$ 1.300,00",
+      areaTotal:"120 m²",
+      areaConstruida: "- m²",
+      titulo:"Apartamento no bairro Praia",
+      descricao:"Ótimo apartamento com área externa; sala, copa, cozinha; 3 quartos, 1 banheiro social; 01 vaga de garagem coberta; Condomínio com piscina e área de lazer; R$ 1.500,00 + 310,00 de condomínio (70,00 fundo de reserva), inclui conta água."
     },
     {
       fotos: importAll(require.context('../assets/images/L059', true, /\.(png|jpe?g|svg)$/)),
@@ -701,25 +761,25 @@ const imoveisDisp = [
       titulo:"Aluguel de sala comercial no Reale - 2º andar.",
       descricao:"R$ 520,00 taxa de condomínio. Sala de 46m² em ótima localização e acabamento; situado em área central de alta movimentação; recepção climatizada, com recepcionista; porta principal com acionamento eletrônico; telefones fixos / Whatsapp automatizado; internet banda larga / Espaço com copa equipada; banheiros para clientes e banheiros internos; sistema de câmeras de segurança, com monitoramento via app; alarme geral e individual por sala, com acesso exclusivo; possibilidades de adaptação de diversos projetos tais como spa day, com ducha aquecida, ou outros tipos de projetos específicos; ideal para escritórios em geral, clínicas de estética, estúdio de pilates e outros; Obs: despesas de condomínio inclui água, luz, IPTU, internet, recepção, sistema de câmeras e limpeza de áreas comuns."
     },
-    {
-      fotos: importAll(require.context('../assets/images/L063a2', true, /\.(png|jpe?g|svg)$/)),
-      fotoCapa: ffL063a2,
-      cod: "L063a2",
-      contrato: contractType[contractTypeParamKey.rent],
-      tipoImovel:propertyType.commercial_property,
-      ruaNum: "Rua Ramal dos Ferroviários, 473",
-      bairro:"Centro",
-      cidade:city.santa_barbara,
-      Estado:"Minas Gerais",
-      quartos:0,
-      banheiros:1,
-      vagas:0,
-      valor:"R$ 1.100,00",
-      areaTotal:"14 m²",
-      areaConstruida: "- m²",
-      titulo:"Aluguel de sala comercial no Reale - 2º andar.",
-      descricao:"R$ 400,00 taxa de condomínio. Sala de 14m² em ótima localização e acabamento. Situado em área central de alta movimentação. Recepção climatizada, com recepcionista. Porta principal com acionamento eletrônico. Telefones fixos / Whatsapp automatizado. Internet banda larga / Espaço com copa equipada.Banheiros para clientes e banheiros internos.Sistema de câmeras de segurança, com monitoramento via app.Alarme geral e individual por sala, com acesso exclusivo.Possibilidades de adaptação de diversos projetos tais como spa day, com ducha aquecida, ou outros tipos de projetos específicos.Ideal para escritórios em geral, clínicas de estética, estúdio de pilates e outros. Despesas de condomínio inclui água, luz, IPTU, internet, recepção, sistema de câmeras e limpeza de áreas comuns."
-    },
+    // {
+    //   fotos: importAll(require.context('../assets/images/L063a2', true, /\.(png|jpe?g|svg)$/)),
+    //   fotoCapa: ffL063a2,
+    //   cod: "L063a2",
+    //   contrato: contractType[contractTypeParamKey.rent],
+    //   tipoImovel:propertyType.commercial_property,
+    //   ruaNum: "Rua Ramal dos Ferroviários, 473",
+    //   bairro:"Centro",
+    //   cidade:city.santa_barbara,
+    //   Estado:"Minas Gerais",
+    //   quartos:0,
+    //   banheiros:1,
+    //   vagas:0,
+    //   valor:"R$ 1.100,00",
+    //   areaTotal:"14 m²",
+    //   areaConstruida: "- m²",
+    //   titulo:"Aluguel de sala comercial no Reale - 2º andar.",
+    //   descricao:"R$ 400,00 taxa de condomínio. Sala de 14m² em ótima localização e acabamento. Situado em área central de alta movimentação. Recepção climatizada, com recepcionista. Porta principal com acionamento eletrônico. Telefones fixos / Whatsapp automatizado. Internet banda larga / Espaço com copa equipada.Banheiros para clientes e banheiros internos.Sistema de câmeras de segurança, com monitoramento via app.Alarme geral e individual por sala, com acesso exclusivo.Possibilidades de adaptação de diversos projetos tais como spa day, com ducha aquecida, ou outros tipos de projetos específicos.Ideal para escritórios em geral, clínicas de estética, estúdio de pilates e outros. Despesas de condomínio inclui água, luz, IPTU, internet, recepção, sistema de câmeras e limpeza de áreas comuns."
+    // },
     {
       fotos: importAll(require.context('../assets/images/L074', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffL074,
@@ -833,6 +893,44 @@ const imoveisDisp = [
       areaConstruida: "85 m²",
       titulo:"Aluguel de ponto comercial no bairro Santa Mônica",
       descricao:"Sala ampla com 01 banheiro, portão manual ."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/L091', true, /\.(png|jpe?g|svg|jfif)$/)),
+      fotoCapa: ffL091,
+      cod: "L091",
+      contrato: contractType[contractTypeParamKey.rent],
+      tipoImovel:propertyType.apartment,
+      ruaNum: "Não informado",
+      bairro:"Caminhos de Minas",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:2,
+      banheiros:1,
+      vagas:1,
+      valor:"R$ 1.100,00",
+      areaTotal:"48 m²",
+      areaConstruida: "48 m²",
+      titulo:"Aluguel apartamento bairro Caminho de Minas",
+      descricao:"Apto 2º andar, sala/cozinha/área serviço, 02 quartos, 01 banheiro social, 01 vaga de garagem coberta, cozinha com bancada em granito e armários planejados, R$ 1.100 + condomínio (R$ 250), incluso água."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/L092', true, /\.(png|jpe?g|svg|jfif)$/)),
+      fotoCapa: ffL092,
+      cod: "L092",
+      contrato: contractType[contractTypeParamKey.rent],
+      tipoImovel:propertyType.apartment,
+      ruaNum: "Rua Turmalina, 144 (Edifício Célia Ayres)",
+      bairro:"Mãe Catarina",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:3,
+      banheiros:2,
+      vagas:2,
+      valor:"R$2.200,00 + R$150,00 condomínio",
+      areaTotal:"77 m²",
+      areaConstruida: "77 m²",
+      titulo:"Apartamento bairro Mãe Catarina - em frente Supermercado BH",
+      descricao:"Apartamento no 2° andar, 01 suíte / 02 quartos, 01 banheiro social, sala/copa, cozinha, área de serviço, varanda, garagem coberta para 02 carros, área construída: 77,00 m², condomínio não inclui água e luz, condomínio pago diretamente para o síndico, armários planejados e embutidos, portão eletrônico, interfone."
     },
   ]
 

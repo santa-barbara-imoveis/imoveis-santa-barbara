@@ -660,7 +660,7 @@ const imoveisDisp = [
       quartos:3,
       banheiros:2,
       vagas:0,
-      valor:"R$ 450.000,00",
+      valor:"R$ 270.000,00",
       areaTotal:"2.042 m²",
       areaConstruida: "270 m²",
       titulo:"Vende-se casa em Florália",

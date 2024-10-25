@@ -842,7 +842,7 @@ const imoveisDisp = [
     //   fotoCapa: ffL083,
     //   cod: "L083",
     //   contrato: contractType[contractTypeParamKey.rent],
-    //   tipoImovel:propertyType.commercial_property,
+    //   tipoImovel:propertyType.house,
     //   ruaNum: "Não informado",
     //   bairro:"Centro",
     //   cidade:city.santa_barbara,

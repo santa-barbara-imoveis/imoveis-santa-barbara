@@ -1,6 +1,6 @@
 import ffL008 from "../assets/images/L008.jpg";
 import ffL016a1 from "../assets/images/L016.1.jpg";
-import ffL033 from "../assets/images/L016.1.jpg";
+import ffL033 from "../assets/images/L033.jpg";
 import ffL048a1 from "../assets/images/L048a1.jpeg";
 import ffL051 from "../assets/images/L051.jpg";
 import ffL059 from "../assets/images/L059.jpg";

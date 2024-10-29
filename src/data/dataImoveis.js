@@ -603,7 +603,7 @@ const imoveisDisp = [
       quartos:2,
       banheiros:1,
       vagas:1,
-      valor:"R$ 330.000,00",
+      valor:"R$ 300.000,00",
       areaTotal:"48,50 m²",
       areaConstruida: "48,50 m²",
       titulo:"Vende-se apartamento no bairro Santa Terezinha",

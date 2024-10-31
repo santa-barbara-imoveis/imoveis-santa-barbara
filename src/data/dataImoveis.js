@@ -3,6 +3,7 @@ import ffL016a1 from "../assets/images/L016.1.jpg";
 import ffL033 from "../assets/images/L033.jpg";
 import ffL048a1 from "../assets/images/L048a1.jpeg";
 import ffL051 from "../assets/images/L051.jpg";
+import ffL053 from "../assets/images/L053.jpg";
 import ffL059 from "../assets/images/L059.jpg";
 import ffL063a1 from "../assets/images/L063a1.jpeg";
 import ffL063a2 from "../assets/images/L063a2.jpeg";
@@ -742,6 +743,25 @@ const imoveisDisp = [
       areaConstruida: "- m²",
       titulo:"Apartamento no bairro Praia",
       descricao:"Ótimo apartamento com área externa; sala, copa, cozinha; 3 quartos, 1 banheiro social; 01 vaga de garagem coberta; Condomínio com piscina e área de lazer; R$ 1.500,00 + 310,00 de condomínio (70,00 fundo de reserva), inclui conta água."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/L053', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffL053,
+      cod: "L053",
+      contrato: contractType[contractTypeParamKey.rent],
+      tipoImovel:propertyType.house,
+      ruaNum: "Rua Cristal, 234",
+      bairro:"Mãe Catarina",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:amenitiesQuantity.three,
+      banheiros:amenitiesQuantity.three,
+      vagas:amenitiesQuantity.five,
+      valor:"R$ 3.000,00",
+      areaTotal:"- m²",
+      areaConstruida: "- m²",
+      titulo:"Ótima casa de aluguel no bairro Mãe Catarina",
+      descricao:"Sala/copa, cozinha com bancada em granito e cooktop, 03 quartos (01 suite), 02 banheiros sociais, varanda, área de serviço, área gourmet com churrasqueira, dispensa, garagem para 05 carros, interfone, piso porcelanato, rebaixamento de gesso, portas madeira e janelas de vidro."
     },
     {
       fotos: importAll(require.context('../assets/images/L059', true, /\.(png|jpe?g|svg)$/)),

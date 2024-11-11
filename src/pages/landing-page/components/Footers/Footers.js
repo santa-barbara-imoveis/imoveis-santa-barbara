@@ -22,7 +22,7 @@ function Footers() {
         </p>
         <p>
           <img className="qkIconLocal" src={iconEmail} />
-          contato@santabarbaraimoveis.com.br
+          imoveissantabarbara@gmail.com
         </p>
         <p>
           <img className="qkIconLocal" src={iconCNPJ} />

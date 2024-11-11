@@ -49,7 +49,7 @@ function Header() {
       </div>
       <div className="qkEmail qkBox">
         <img className="qkIcon" src={iconEmail} />
-        <p>contato@santabarbaraimoveis.com.br</p>
+        <p>imoveissantabarbara@gmail.com</p>
       </div>
       <div className="qkNetwork qkBox">
         <div className="qkFace">

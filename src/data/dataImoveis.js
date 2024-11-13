@@ -5,6 +5,7 @@ import ffL048a1 from "../assets/images/L048a1.jpeg";
 import ffL051 from "../assets/images/L051.jpg";
 import ffL053 from "../assets/images/L053.jpg";
 import ffL059 from "../assets/images/L059.jpg";
+import ffL062 from "../assets/images/L062.jpg";
 import ffL063a1 from "../assets/images/L063a1.jpeg";
 import ffL063a2 from "../assets/images/L063a2.jpeg";
 import ffL063a3 from "../assets/images/L063a3.jpeg";
@@ -738,31 +739,31 @@ const imoveisDisp = [
       quartos:amenitiesQuantity.three,
       banheiros:amenitiesQuantity.one,
       vagas:amenitiesQuantity.one,
-      valor:"R$ 1.500,00",
+      valor:"R$ 1.400,00",
       areaTotal:"120 m²",
       areaConstruida: "- m²",
       titulo:"Apartamento no bairro Praia",
       descricao:"Ótimo apartamento com área externa; sala, copa, cozinha; 3 quartos, 1 banheiro social; 01 vaga de garagem coberta; Condomínio com piscina e área de lazer; R$ 1.500,00 + 310,00 de condomínio (70,00 fundo de reserva), inclui conta água."
     },
-    {
-      fotos: importAll(require.context('../assets/images/L053', true, /\.(png|jpe?g|svg)$/)),
-      fotoCapa: ffL053,
-      cod: "L053",
-      contrato: contractType[contractTypeParamKey.rent],
-      tipoImovel:propertyType.house,
-      ruaNum: "Rua Cristal, 234",
-      bairro:"Mãe Catarina",
-      cidade:city.santa_barbara,
-      Estado:"Minas Gerais",
-      quartos:amenitiesQuantity.three,
-      banheiros:amenitiesQuantity.three,
-      vagas:amenitiesQuantity.five,
-      valor:"R$ 3.000,00",
-      areaTotal:"- m²",
-      areaConstruida: "- m²",
-      titulo:"Ótima casa de aluguel no bairro Mãe Catarina",
-      descricao:"Sala/copa, cozinha com bancada em granito e cooktop, 03 quartos (01 suite), 02 banheiros sociais, varanda, área de serviço, área gourmet com churrasqueira, dispensa, garagem para 05 carros, interfone, piso porcelanato, rebaixamento de gesso, portas madeira e janelas de vidro."
-    },
+    // {
+    //   fotos: importAll(require.context('../assets/images/L053', true, /\.(png|jpe?g|svg)$/)),
+    //   fotoCapa: ffL053,
+    //   cod: "L053",
+    //   contrato: contractType[contractTypeParamKey.rent],
+    //   tipoImovel:propertyType.house,
+    //   ruaNum: "Rua Cristal, 234",
+    //   bairro:"Mãe Catarina",
+    //   cidade:city.santa_barbara,
+    //   Estado:"Minas Gerais",
+    //   quartos:amenitiesQuantity.three,
+    //   banheiros:amenitiesQuantity.three,
+    //   vagas:amenitiesQuantity.five,
+    //   valor:"R$ 3.000,00",
+    //   areaTotal:"- m²",
+    //   areaConstruida: "- m²",
+    //   titulo:"Ótima casa de aluguel no bairro Mãe Catarina",
+    //   descricao:"Sala/copa, cozinha com bancada em granito e cooktop, 03 quartos (01 suite), 02 banheiros sociais, varanda, área de serviço, área gourmet com churrasqueira, dispensa, garagem para 05 carros, interfone, piso porcelanato, rebaixamento de gesso, portas madeira e janelas de vidro."
+    // },
     {
       fotos: importAll(require.context('../assets/images/L059', true, /\.(png|jpe?g|svg)$/)),
       fotoCapa: ffL059,
@@ -781,6 +782,25 @@ const imoveisDisp = [
       areaConstruida: "- m²",
       titulo:"Apartamento no bairro Santa Terezinha",
       descricao:"Apartamento no 2° andar, 02 quartos, 01 banheiro, sala, copa, cozinha, área de serviço, garagem coberta para 01 carro, com portão eletrônico, valor: R$1.330,00 + R$100,00 de condomínio."
+    },
+    {
+      fotos: importAll(require.context('../assets/images/L062', true, /\.(png|jpe?g|svg)$/)),
+      fotoCapa: ffL062,
+      cod: "L062",
+      contrato: contractType[contractTypeParamKey.rent],
+      tipoImovel:propertyType.house,
+      ruaNum: "Ao lado do River Park",
+      bairro:"Barra Feliz",
+      cidade:city.santa_barbara,
+      Estado:"Minas Gerais",
+      quartos:amenitiesQuantity.three,
+      banheiros:amenitiesQuantity.two,
+      vagas:amenitiesQuantity.three,
+      valor:"R$ 3.000,00",
+      areaTotal:"1.670,20 m²",
+      areaConstruida: "200 m²",
+      titulo:"Aluga-se casa/chalé gourmet ao lado do River Park",
+      descricao:"Imóvel novo e aconchegante, localização privilegiada (Ao lado do River Park); chalé bem estruturado e com área ampla; portão eletrônico, quiosque com churrasqueira e piscina; banheiro social, 01 suíte, 02 quartos; sala, cozinha, área de serviço; garagem e quintal."
     },
     {
       fotos: importAll(require.context('../assets/images/L063a1', true, /\.(png|jpe?g|svg)$/)),
@@ -934,44 +954,44 @@ const imoveisDisp = [
       titulo:"Aluguel de ponto comercial no bairro Santa Mônica",
       descricao:"Sala ampla com 01 banheiro, portão manual ."
     },
-    {
-      fotos: importAll(require.context('../assets/images/L091', true, /\.(png|jpe?g|svg|jfif)$/)),
-      fotoCapa: ffL091,
-      cod: "L091",
-      contrato: contractType[contractTypeParamKey.rent],
-      tipoImovel:propertyType.apartment,
-      ruaNum: "Não informado",
-      bairro:"Caminhos de Minas",
-      cidade:city.santa_barbara,
-      Estado:"Minas Gerais",
-      quartos:2,
-      banheiros:1,
-      vagas:1,
-      valor:"R$ 1.100,00",
-      areaTotal:"48 m²",
-      areaConstruida: "48 m²",
-      titulo:"Aluguel apartamento bairro Caminho de Minas",
-      descricao:"Apto 2º andar, sala/cozinha/área serviço, 02 quartos, 01 banheiro social, 01 vaga de garagem coberta, cozinha com bancada em granito e armários planejados, R$ 1.100 + condomínio (R$ 250), incluso água."
-    },
-    {
-      fotos: importAll(require.context('../assets/images/L092', true, /\.(png|jpe?g|svg|jfif)$/)),
-      fotoCapa: ffL092,
-      cod: "L092",
-      contrato: contractType[contractTypeParamKey.rent],
-      tipoImovel:propertyType.apartment,
-      ruaNum: "Rua Turmalina, 144 (Edifício Célia Ayres)",
-      bairro:"Mãe Catarina",
-      cidade:city.santa_barbara,
-      Estado:"Minas Gerais",
-      quartos:3,
-      banheiros:2,
-      vagas:2,
-      valor:"R$2.200,00 + R$150,00 condomínio",
-      areaTotal:"77 m²",
-      areaConstruida: "77 m²",
-      titulo:"Apartamento bairro Mãe Catarina - em frente Supermercado BH",
-      descricao:"Apartamento no 2° andar, 01 suíte / 02 quartos, 01 banheiro social, sala/copa, cozinha, área de serviço, varanda, garagem coberta para 02 carros, área construída: 77,00 m², condomínio não inclui água e luz, condomínio pago diretamente para o síndico, armários planejados e embutidos, portão eletrônico, interfone."
-    },
+    // {
+    //   fotos: importAll(require.context('../assets/images/L091', true, /\.(png|jpe?g|svg|jfif)$/)),
+    //   fotoCapa: ffL091,
+    //   cod: "L091",
+    //   contrato: contractType[contractTypeParamKey.rent],
+    //   tipoImovel:propertyType.apartment,
+    //   ruaNum: "Não informado",
+    //   bairro:"Caminhos de Minas",
+    //   cidade:city.santa_barbara,
+    //   Estado:"Minas Gerais",
+    //   quartos:2,
+    //   banheiros:1,
+    //   vagas:1,
+    //   valor:"R$ 1.100,00",
+    //   areaTotal:"48 m²",
+    //   areaConstruida: "48 m²",
+    //   titulo:"Aluguel apartamento bairro Caminho de Minas",
+    //   descricao:"Apto 2º andar, sala/cozinha/área serviço, 02 quartos, 01 banheiro social, 01 vaga de garagem coberta, cozinha com bancada em granito e armários planejados, R$ 1.100 + condomínio (R$ 250), incluso água."
+    // },
+    // {
+    //   fotos: importAll(require.context('../assets/images/L092', true, /\.(png|jpe?g|svg|jfif)$/)),
+    //   fotoCapa: ffL092,
+    //   cod: "L092",
+    //   contrato: contractType[contractTypeParamKey.rent],
+    //   tipoImovel:propertyType.apartment,
+    //   ruaNum: "Rua Turmalina, 144 (Edifício Célia Ayres)",
+    //   bairro:"Mãe Catarina",
+    //   cidade:city.santa_barbara,
+    //   Estado:"Minas Gerais",
+    //   quartos:3,
+    //   banheiros:2,
+    //   vagas:2,
+    //   valor:"R$2.200,00 + R$150,00 condomínio",
+    //   areaTotal:"77 m²",
+    //   areaConstruida: "77 m²",
+    //   titulo:"Apartamento bairro Mãe Catarina - em frente Supermercado BH",
+    //   descricao:"Apartamento no 2° andar, 01 suíte / 02 quartos, 01 banheiro social, sala/copa, cozinha, área de serviço, varanda, garagem coberta para 02 carros, área construída: 77,00 m², condomínio não inclui água e luz, condomínio pago diretamente para o síndico, armários planejados e embutidos, portão eletrônico, interfone."
+    // },
   ]
 
   export { imoveisDisp };

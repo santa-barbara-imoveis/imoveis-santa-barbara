@@ -798,7 +798,7 @@ const imoveisDisp = [
     quartos: amenitiesQuantity.three,
     banheiros: amenitiesQuantity.two,
     vagas: amenitiesQuantity.one,
-    valor: "R$ 3.000,00",
+    valor: "R$ 2.800,00",
     areaTotal: "360 m²",
     areaConstruida: "- m²",
     titulo: "Casa no centro de Santa Bárbara",

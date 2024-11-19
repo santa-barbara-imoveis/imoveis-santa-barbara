@@ -674,28 +674,28 @@ const imoveisDisp = [
     descricao:
       "Lote com 643 m²; infraestrutura completa; ideal para investimento; com leve declive.",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/V158", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
-    fotoCapa: ffV158,
-    cod: "V158",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.apartment,
-    ruaNum: "Rua São José, 70",
-    bairro: "Santa Terezinha",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 2,
-    banheiros: 1,
-    vagas: 1,
-    valor: "R$ 300.000,00",
-    areaTotal: "48,50 m²",
-    areaConstruida: "48,50 m²",
-    titulo: "Vende-se apartamento no bairro Santa Terezinha",
-    descricao:
-      "Apartamento no 2° andar, 02 quartos, 01 banheiro, sala/copa/cozinha, área de serviço, garagem coberta para 01 carro e com portão eletrônico.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/V158", true, /\.(png|jpe?g|svg|jfif)$/)
+  //   ),
+  //   fotoCapa: ffV158,
+  //   cod: "V158",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.apartment,
+  //   ruaNum: "Rua São José, 70",
+  //   bairro: "Santa Terezinha",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 2,
+  //   banheiros: 1,
+  //   vagas: 1,
+  //   valor: "R$ 300.000,00",
+  //   areaTotal: "48,50 m²",
+  //   areaConstruida: "48,50 m²",
+  //   titulo: "Vende-se apartamento no bairro Santa Terezinha",
+  //   descricao:
+  //     "Apartamento no 2° andar, 02 quartos, 01 banheiro, sala/copa/cozinha, área de serviço, garagem coberta para 01 carro e com portão eletrônico.",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/V159", true, /\.(png|jpe?g|svg|jfif)$/)

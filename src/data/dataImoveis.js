@@ -66,6 +66,7 @@ import ffV158 from "../assets/images/V158.jpeg";
 import ffV159 from "../assets/images/V159.jpg";
 import ffV160 from "../assets/images/V160.jpg";
 import ffV161 from "../assets/images/V161.jpg";
+import ffV162 from "../assets/images/V162.jpeg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -760,6 +761,28 @@ const imoveisDisp = [
     titulo: "Vende-se casa em Florália",
     descricao:
       "3 quartos (1 suíte), varanda, escritório, 2 banheiros, cozinha, copa, sala, horta, infraestrutura completa / Lote plano, imóvel registrado.",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/V162", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffV162,
+    cod: "V162",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "Não informado",
+    bairro: "Santa Bárbara",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 4,
+    banheiros: 1,
+    vagas: 0,
+    valor: "R$ 240.000,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Vende-se casa no bairro São Francisco",
+    descricao:
+      "2 salas, copa, cozinha, 4 quartos, 1 banheiro social e 1 lavabo, área de serviço, quintal, varanda, sem garagem.",
   },
   {
     fotos: importAll(

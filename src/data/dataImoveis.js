@@ -828,28 +828,28 @@ const imoveisDisp = [
     descricao:
       "Imóvel muito conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo a rodoviária). Em um raio de apenas 300m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas.",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L033", true, /\.(png|jpe?g|svg)$/)
-    ),
-    fotoCapa: ffL033,
-    cod: "L033",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.house,
-    ruaNum: "Rua Madre Maria Miguel, 94",
-    bairro: "Centro",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: amenitiesQuantity.four,
-    banheiros: amenitiesQuantity.four,
-    vagas: amenitiesQuantity.two,
-    valor: "R$ 1.800,00",
-    areaTotal: "- m²",
-    areaConstruida: "- m²",
-    titulo: "Aluga-se casa no centro de Santa Bárbara",
-    descricao:
-      "Imóvel conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo à área hospitalar). Em um raio de 500m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas, 04 quartos, 04 banheiros, 03 Salas, cozinha, varanda, área de serviço, área externa, terraço, garagem para 02 carros.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L033", true, /\.(png|jpe?g|svg)$/)
+  //   ),
+  //   fotoCapa: ffL033,
+  //   cod: "L033",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "Rua Madre Maria Miguel, 94",
+  //   bairro: "Centro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: amenitiesQuantity.four,
+  //   banheiros: amenitiesQuantity.four,
+  //   vagas: amenitiesQuantity.two,
+  //   valor: "R$ 1.800,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Aluga-se casa no centro de Santa Bárbara",
+  //   descricao:
+  //     "Imóvel conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo à área hospitalar). Em um raio de 500m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas, 04 quartos, 04 banheiros, 03 Salas, cozinha, varanda, área de serviço, área externa, terraço, garagem para 02 carros.",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/L051", true, /\.(png|jpe?g|svg)$/)

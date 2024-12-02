@@ -500,28 +500,28 @@ const imoveisDisp = [
     descricao:
       "Prédio com um total de 8 apartamentos. 2 apartamentos por andar. Localização privilegiada. Qualidade de acabamento. Elevador e varandas. Garagem coberta. Sala e cozinha integradas. Banheiro social e área de tanque.",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/V138", true, /\.(png|jpe?g|svg)$/)
-    ),
-    fotoCapa: ffV138,
-    cod: "V138",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.house,
-    ruaNum: "Rua São José, 36",
-    bairro: "Capim Cheiroso",
-    cidade: city.barao_cocais,
-    Estado: "Minas Gerais",
-    quartos: 3,
-    banheiros: 2,
-    vagas: 2,
-    valor: "R$ 2.000.000,00",
-    areaTotal: "300 m²",
-    areaConstruida: "- m²",
-    titulo: "Vende-se casa de alto padrão em Barão de Cocais",
-    descricao:
-      "Casa moderna, com ar condicionado, aquecimento solar, portão eletrônico.1 suíte com closet, banheira de hidromassagem e jardim interno.2 quartos sendo um com guarda roupa embutido.1 sala de jantar, 1 sala de estar, 1 sala de TV, 1 escritório.Cozinha planejada com bancadas em granito, com fogão cooktop e forno instalados.2 banheiros sociais no primeiro pavimento.1 área de serviço.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/V138", true, /\.(png|jpe?g|svg)$/)
+  //   ),
+  //   fotoCapa: ffV138,
+  //   cod: "V138",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "Rua São José, 36",
+  //   bairro: "Capim Cheiroso",
+  //   cidade: city.barao_cocais,
+  //   Estado: "Minas Gerais",
+  //   quartos: 3,
+  //   banheiros: 2,
+  //   vagas: 2,
+  //   valor: "R$ 2.000.000,00",
+  //   areaTotal: "300 m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Vende-se casa de alto padrão em Barão de Cocais",
+  //   descricao:
+  //     "Casa moderna, com ar condicionado, aquecimento solar, portão eletrônico.1 suíte com closet, banheira de hidromassagem e jardim interno.2 quartos sendo um com guarda roupa embutido.1 sala de jantar, 1 sala de estar, 1 sala de TV, 1 escritório.Cozinha planejada com bancadas em granito, com fogão cooktop e forno instalados.2 banheiros sociais no primeiro pavimento.1 área de serviço.",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/V147", true, /\.(png|jpe?g|svg)$/)

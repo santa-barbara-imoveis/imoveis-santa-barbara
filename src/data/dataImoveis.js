@@ -21,6 +21,7 @@ import ffL084 from "../assets/images/L084.jpg";
 import ffL085 from "../assets/images/L085.jpg";
 import ffL091 from "../assets/images/L091.jpg";
 import ffL092 from "../assets/images/L092.jpg";
+import ffL094 from "../assets/images/L094.jpg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -1122,6 +1123,28 @@ const imoveisDisp = [
     areaConstruida: "85 m²",
     titulo: "Aluguel de ponto comercial no bairro Santa Mônica",
     descricao: "Sala ampla com 01 banheiro, portão manual .",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/L094", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffL094,
+    cod: "L094",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.commercial_property,
+    ruaNum: "Rua Antônio Pereira Rocha",
+    bairro: "Centro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 0,
+    banheiros: 1,
+    vagas: 0,
+    valor: "R$ 2.200,00",
+    areaTotal: "20 m²",
+    areaConstruida: "20 m²",
+    titulo: "Aluguel de ponto comercial no centro - rua Antônio Pereira Rocha",
+    descricao:
+      "Sala de 20m² com 01 banheiro, portão manual, local de grande circulação de pessoas, ideal para loja, escritório e salão de beleza.",
   },
   // {
   //   fotos: importAll(require.context('../assets/images/L091', true, /\.(png|jpe?g|svg|jfif)$/)),

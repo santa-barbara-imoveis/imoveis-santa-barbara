@@ -68,6 +68,7 @@ import ffV159 from "../assets/images/V159.jpg";
 import ffV160 from "../assets/images/V160.jpg";
 import ffV161 from "../assets/images/V161.jpg";
 import ffV162 from "../assets/images/V162.jpeg";
+import ffV163 from "../assets/images/V163.jpeg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -784,6 +785,28 @@ const imoveisDisp = [
     titulo: "Vende-se casa no bairro São Francisco",
     descricao:
       "2 salas, copa, cozinha, 4 quartos, 1 banheiro social e 1 lavabo, área de serviço, quintal, varanda, sem garagem.",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/V163", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffV163,
+    cod: "V163",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.plot,
+    ruaNum: "Não informado",
+    bairro: "Vila da Serra",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 0,
+    banheiros: 0,
+    vagas: 0,
+    valor: "R$ 70.000,00",
+    areaTotal: "240 m²",
+    areaConstruida: "240 m²",
+    titulo: "Lote a venda no bairro Vila da Serra",
+    descricao:
+      "Imóvel em área residencial, 12m frente x 20m fundo, infraestrutura completa, com boa topografia, próximo ao Espaço da Serra, financia.",
   },
   {
     fotos: importAll(

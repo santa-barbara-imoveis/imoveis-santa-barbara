@@ -22,6 +22,7 @@ import ffL085 from "../assets/images/L085.jpg";
 import ffL091 from "../assets/images/L091.jpg";
 import ffL092 from "../assets/images/L092.jpg";
 import ffL094 from "../assets/images/L094.jpeg";
+import ffL095 from "../assets/images/L095.jpeg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -1149,26 +1150,48 @@ const imoveisDisp = [
   },
   {
     fotos: importAll(
-      require.context("../assets/images/L094", true, /\.(png|jpe?g|svg|jfif)$/)
+      require.context("../assets/images/L095", true, /\.(png|jpe?g|svg|jfif)$/)
     ),
-    fotoCapa: ffL094,
-    cod: "L094",
+    fotoCapa: ffL095,
+    cod: "L095",
     contrato: contractType[contractTypeParamKey.rent],
     tipoImovel: propertyType.commercial_property,
-    ruaNum: "Rua Antônio Pereira Rocha",
+    ruaNum: "Não informado",
     bairro: "Centro",
     cidade: city.santa_barbara,
     Estado: "Minas Gerais",
     quartos: 0,
     banheiros: 1,
     vagas: 0,
-    valor: "R$ 2.200,00",
-    areaTotal: "20 m²",
-    areaConstruida: "20 m²",
-    titulo: "Aluguel de ponto comercial no centro - rua Antônio Pereira Rocha",
+    valor: "R$ 4.000,00",
+    areaTotal: "60 m²",
+    areaConstruida: "60 m²",
+    titulo: "Aluguel de ponto comercial no centro",
     descricao:
-      "Sala de 20m² com 01 banheiro, portão manual, local de grande circulação de pessoas, ideal para loja, escritório e salão de beleza.",
+      "Sala ampla com 01 banheiro, cozinha, varanda, área de 60m², sala nova, com ótimo acabamento, arejada e aconchegante. Ideal para escritório, sorveteria, cafeteria, dentre outros empreendimentos.",
   },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L094", true, /\.(png|jpe?g|svg|jfif)$/)
+  //   ),
+  //   fotoCapa: ffL094,
+  //   cod: "L094",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.commercial_property,
+  //   ruaNum: "Rua Antônio Pereira Rocha",
+  //   bairro: "Centro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 0,
+  //   banheiros: 1,
+  //   vagas: 0,
+  //   valor: "R$ 2.200,00",
+  //   areaTotal: "20 m²",
+  //   areaConstruida: "20 m²",
+  //   titulo: "Aluguel de ponto comercial no centro - rua Antônio Pereira Rocha",
+  //   descricao:
+  //     "Sala de 20m² com 01 banheiro, portão manual, local de grande circulação de pessoas, ideal para loja, escritório e salão de beleza.",
+  // },
   // {
   //   fotos: importAll(require.context('../assets/images/L091', true, /\.(png|jpe?g|svg|jfif)$/)),
   //   fotoCapa: ffL091,

@@ -2,7 +2,6 @@ import ffL008 from "../assets/images/L008.jpg";
 import ffL016a1 from "../assets/images/L016.1.jpg";
 import ffL033 from "../assets/images/L033.jpg";
 import ffL048a1 from "../assets/images/L048a1.jpeg";
-import ffL051 from "../assets/images/L051.jpg";
 import ffL053 from "../assets/images/L053.jpg";
 import ffL059 from "../assets/images/L059.jpg";
 import ffL062 from "../assets/images/L062.jpg";
@@ -875,28 +874,28 @@ const imoveisDisp = [
   //   descricao:
   //     "Imóvel conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo à área hospitalar). Em um raio de 500m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas, 04 quartos, 04 banheiros, 03 Salas, cozinha, varanda, área de serviço, área externa, terraço, garagem para 02 carros.",
   // },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L051", true, /\.(png|jpe?g|svg)$/)
-    ),
-    fotoCapa: ffL051,
-    cod: "L051",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.apartment,
-    ruaNum: "-",
-    bairro: "Praia",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: amenitiesQuantity.three,
-    banheiros: amenitiesQuantity.one,
-    vagas: amenitiesQuantity.one,
-    valor: "R$ 1.400,00",
-    areaTotal: "120 m²",
-    areaConstruida: "- m²",
-    titulo: "Apartamento no bairro Praia",
-    descricao:
-      "Ótimo apartamento com área externa; sala, copa, cozinha; 3 quartos, 1 banheiro social; 01 vaga de garagem coberta; Condomínio com piscina e área de lazer; R$ 1.500,00 + 310,00 de condomínio (70,00 fundo de reserva), inclui conta água.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L051", true, /\.(png|jpe?g|svg)$/)
+  //   ),
+  //   fotoCapa: ffL051,
+  //   cod: "L051",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.apartment,
+  //   ruaNum: "-",
+  //   bairro: "Praia",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: amenitiesQuantity.three,
+  //   banheiros: amenitiesQuantity.one,
+  //   vagas: amenitiesQuantity.one,
+  //   valor: "R$ 1.400,00",
+  //   areaTotal: "120 m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Apartamento no bairro Praia",
+  //   descricao:
+  //     "Ótimo apartamento com área externa; sala, copa, cozinha; 3 quartos, 1 banheiro social; 01 vaga de garagem coberta; Condomínio com piscina e área de lazer; R$ 1.500,00 + 310,00 de condomínio (70,00 fundo de reserva), inclui conta água.",
+  // },
   // {
   //   fotos: importAll(require.context('../assets/images/L053', true, /\.(png|jpe?g|svg)$/)),
   //   fotoCapa: ffL053,
@@ -938,28 +937,28 @@ const imoveisDisp = [
     descricao:
       "Apartamento no 2° andar, 02 quartos, 01 banheiro, sala, copa, cozinha, área de serviço, garagem coberta para 01 carro, com portão eletrônico, valor: R$1.330,00 + R$100,00 de condomínio.",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L062", true, /\.(png|jpe?g|svg)$/)
-    ),
-    fotoCapa: ffL062,
-    cod: "L062",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.house,
-    ruaNum: "Ao lado do River Park",
-    bairro: "Barra Feliz",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: amenitiesQuantity.three,
-    banheiros: amenitiesQuantity.two,
-    vagas: amenitiesQuantity.three,
-    valor: "R$ 3.000,00",
-    areaTotal: "1.670,20 m²",
-    areaConstruida: "200 m²",
-    titulo: "Aluga-se casa/chalé gourmet ao lado do River Park",
-    descricao:
-      "Imóvel novo e aconchegante, localização privilegiada (Ao lado do River Park); chalé bem estruturado e com área ampla; portão eletrônico, quiosque com churrasqueira e piscina; banheiro social, 01 suíte, 02 quartos; sala, cozinha, área de serviço; garagem e quintal.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L062", true, /\.(png|jpe?g|svg)$/)
+  //   ),
+  //   fotoCapa: ffL062,
+  //   cod: "L062",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "Ao lado do River Park",
+  //   bairro: "Barra Feliz",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: amenitiesQuantity.three,
+  //   banheiros: amenitiesQuantity.two,
+  //   vagas: amenitiesQuantity.three,
+  //   valor: "R$ 3.000,00",
+  //   areaTotal: "1.670,20 m²",
+  //   areaConstruida: "200 m²",
+  //   titulo: "Aluga-se casa/chalé gourmet ao lado do River Park",
+  //   descricao:
+  //     "Imóvel novo e aconchegante, localização privilegiada (Ao lado do River Park); chalé bem estruturado e com área ampla; portão eletrônico, quiosque com churrasqueira e piscina; banheiro social, 01 suíte, 02 quartos; sala, cozinha, área de serviço; garagem e quintal.",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/L063a1", true, /\.(png|jpe?g|svg)$/)
@@ -1001,28 +1000,28 @@ const imoveisDisp = [
   //   titulo:"Aluguel de sala comercial no Reale - 2º andar.",
   //   descricao:"R$ 400,00 taxa de condomínio. Sala de 14m² em ótima localização e acabamento. Situado em área central de alta movimentação. Recepção climatizada, com recepcionista. Porta principal com acionamento eletrônico. Telefones fixos / Whatsapp automatizado. Internet banda larga / Espaço com copa equipada.Banheiros para clientes e banheiros internos.Sistema de câmeras de segurança, com monitoramento via app.Alarme geral e individual por sala, com acesso exclusivo.Possibilidades de adaptação de diversos projetos tais como spa day, com ducha aquecida, ou outros tipos de projetos específicos.Ideal para escritórios em geral, clínicas de estética, estúdio de pilates e outros. Despesas de condomínio inclui água, luz, IPTU, internet, recepção, sistema de câmeras e limpeza de áreas comuns."
   // },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L074", true, /\.(png|jpe?g|svg)$/)
-    ),
-    fotoCapa: ffL074,
-    cod: "L074",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.house,
-    ruaNum: "Não informado",
-    bairro: "Lagoa",
-    cidade: city.barao_cocais,
-    Estado: "Minas Gerais",
-    quartos: 4,
-    banheiros: 3,
-    vagas: 4,
-    valor: "R$2.300,00",
-    areaTotal: "- m²",
-    areaConstruida: "- m²",
-    titulo: "Casa de aluguel no bairro Lagoa - Barão de Cocais",
-    descricao:
-      "Sala, copa, cozinha, 04 quartos (01 suíte), 02 banheiros sociais, área de serviço, quintal / área externa, garagem para 04 carros, casa de forro, piso de cerâmica e com aquecedor solar.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L074", true, /\.(png|jpe?g|svg)$/)
+  //   ),
+  //   fotoCapa: ffL074,
+  //   cod: "L074",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "Não informado",
+  //   bairro: "Lagoa",
+  //   cidade: city.barao_cocais,
+  //   Estado: "Minas Gerais",
+  //   quartos: 4,
+  //   banheiros: 3,
+  //   vagas: 4,
+  //   valor: "R$2.300,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Casa de aluguel no bairro Lagoa - Barão de Cocais",
+  //   descricao:
+  //     "Sala, copa, cozinha, 04 quartos (01 suíte), 02 banheiros sociais, área de serviço, quintal / área externa, garagem para 04 carros, casa de forro, piso de cerâmica e com aquecedor solar.",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/L075", true, /\.(png|jpe?g|svg)$/)

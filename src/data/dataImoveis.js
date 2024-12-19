@@ -69,6 +69,7 @@ import ffV160 from "../assets/images/V160.jpg";
 import ffV161 from "../assets/images/V161.jpg";
 import ffV162 from "../assets/images/V162.jpeg";
 import ffV163 from "../assets/images/V163.jpeg";
+import ffV164 from "../assets/images/V164.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -807,6 +808,28 @@ const imoveisDisp = [
     titulo: "Lote a venda no bairro Vila da Serra",
     descricao:
       "Imóvel em área residencial, 12m frente x 20m fundo, infraestrutura completa, com boa topografia, próximo ao Espaço da Serra, financia.",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/V164", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffV164,
+    cod: "V164",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "Não informado",
+    bairro: "São Vicente",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 2,
+    vagas: 2,
+    valor: "R$ 350.000,00",
+    areaTotal: "292 m²",
+    areaConstruida: "92 m²",
+    titulo: "Casa a venda no bairro São Vicente",
+    descricao:
+      "Sala, copa/cozinha, 2 banheiros, 3 quartos (1 suíte), quintal, 2 vagas de garagem, área do lote: 297m², área Construída: 92 m².",
   },
   {
     fotos: importAll(

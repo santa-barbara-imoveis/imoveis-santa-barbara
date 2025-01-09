@@ -22,6 +22,7 @@ import ffL091 from "../assets/images/L091.jpg";
 import ffL092 from "../assets/images/L092.jpg";
 import ffL094 from "../assets/images/L094.jpeg";
 import ffL095 from "../assets/images/L095.jpeg";
+import ffL096 from "../assets/images/L096.jpg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -70,6 +71,7 @@ import ffV161 from "../assets/images/V161.jpg";
 import ffV162 from "../assets/images/V162.jpeg";
 import ffV163 from "../assets/images/V163.jpeg";
 import ffV164 from "../assets/images/V164.jpg";
+import ffV166 from "../assets/images/V166.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -833,6 +835,29 @@ const imoveisDisp = [
   },
   {
     fotos: importAll(
+      require.context("../assets/images/V166", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffV166,
+    cod: "V166",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.country_house,
+    ruaNum: "Não informado",
+    bairro: "Barra Feliz",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 2,
+    banheiros: 1,
+    vagas: "-",
+    valor: "R$ 350.000,00",
+    areaTotal: "2.500 m²",
+    areaConstruida: "40 m²",
+    titulo:
+      "Sítio a venda em Barra Feliz (Santa Bárbara) – próximo ao River Park",
+    descricao:
+      "Terreno de 2.500 m², 1 banheiro, 2 quartos, lagos, canil e galinheiro; jardim e pomar; ambiente tranquilo e agradável. A casa é pequena, sem laje, com piso de cimento queimado e portão manual. Localizado em área rural, sem documento regular para financimento.",
+  },
+  {
+    fotos: importAll(
       require.context("../assets/images/L008", true, /\.(png|jpe?g|svg)$/)
     ),
     fotoCapa: ffL008,
@@ -1191,6 +1216,28 @@ const imoveisDisp = [
     titulo: "Aluguel de ponto comercial no centro",
     descricao:
       "Sala ampla com 01 banheiro, cozinha, varanda, área de 60m², sala nova, com ótimo acabamento, arejada e aconchegante. Ideal para escritório, sorveteria, cafeteria, dentre outros empreendimentos.",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/L096", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffL096,
+    cod: "L096",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.commercial_property,
+    ruaNum: "Rua Antônio Pereira Rocha, 121",
+    bairro: "Centro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 0,
+    banheiros: 1,
+    vagas: 0,
+    valor: "R$ 4.000,00",
+    areaTotal: "24 m²",
+    areaConstruida: "24 m²",
+    titulo: "Aluga-se de ponto comercial no centro.",
+    descricao:
+      "Localização privilegiada; piso de porcelanato e banheiro; ideal para venda de produtos e serviços.",
   },
   // {
   //   fotos: importAll(

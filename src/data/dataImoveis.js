@@ -23,6 +23,7 @@ import ffL092 from "../assets/images/L092.jpg";
 import ffL094 from "../assets/images/L094.jpeg";
 import ffL095 from "../assets/images/L095.jpeg";
 import ffL096 from "../assets/images/L096.jpg";
+import ffL098 from "../assets/images/L098.jpeg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -1232,12 +1233,34 @@ const imoveisDisp = [
     quartos: 0,
     banheiros: 1,
     vagas: 0,
-    valor: "R$ 4.000,00",
+    valor: "R$ 2.000,00",
     areaTotal: "24 m²",
     areaConstruida: "24 m²",
     titulo: "Aluga-se de ponto comercial no centro.",
     descricao:
       "Localização privilegiada; piso de porcelanato e banheiro; ideal para venda de produtos e serviços.",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/L098", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffL098,
+    cod: "L098",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.apartment,
+    ruaNum: "Centro",
+    bairro: "Centro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 2,
+    banheiros: 2,
+    vagas: 0,
+    valor: "R$ 1.700,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se apartamento no centro - em frente a escola Dom Bosco.",
+    descricao:
+      "Sala / Copa, 01 suíte, 01 quarto, 01 banheiro social, cozinha, área externa, área de serviço, sem garagem. Não tem taxa de condomínio.",
   },
   // {
   //   fotos: importAll(

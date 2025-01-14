@@ -4,6 +4,7 @@ import ffL033 from "../assets/images/L033.jpg";
 import ffL048a1 from "../assets/images/L048a1.jpeg";
 import ffL053 from "../assets/images/L053.jpg";
 import ffL059 from "../assets/images/L059.jpg";
+import ffL061 from "../assets/images/L061.jpg";
 import ffL062 from "../assets/images/L062.jpg";
 import ffL063a1 from "../assets/images/L063a1.jpeg";
 import ffL063a2 from "../assets/images/L063a2.jpeg";
@@ -979,12 +980,34 @@ const imoveisDisp = [
     quartos: amenitiesQuantity.two,
     banheiros: amenitiesQuantity.one,
     vagas: amenitiesQuantity.one,
-    valor: "R$ 1.330,00 + R$ 100,00 de condomínio",
+    valor: "R$ 1.200,00 + R$ 100,00 de condomínio",
     areaTotal: "48,50 m²",
     areaConstruida: "- m²",
     titulo: "Apartamento no bairro Santa Terezinha",
     descricao:
       "Apartamento no 2° andar, 02 quartos, 01 banheiro, sala, copa, cozinha, área de serviço, garagem coberta para 01 carro, com portão eletrônico, valor: R$1.330,00 + R$100,00 de condomínio.",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/L061", true, /\.(png|jpe?g|svg)$/)
+    ),
+    fotoCapa: ffL061,
+    cod: "L061",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Não informado",
+    bairro: "Santo Antônio",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: amenitiesQuantity.three,
+    banheiros: amenitiesQuantity.two,
+    vagas: amenitiesQuantity.two,
+    valor: "R$ 2.000,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se ótima casa no residencial Santo Antônio",
+    descricao:
+      "Imóvel com cozinha ampla, sala, copa, área de serviço, quintal, varanda, jardim. Casa de laje, piso de porcelanato e cerâmica. Imóvel seguro (todo murado).",
   },
   // {
   //   fotos: importAll(

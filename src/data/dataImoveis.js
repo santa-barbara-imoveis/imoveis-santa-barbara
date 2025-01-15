@@ -74,6 +74,7 @@ import ffV162 from "../assets/images/V162.jpeg";
 import ffV163 from "../assets/images/V163.jpeg";
 import ffV164 from "../assets/images/V164.jpg";
 import ffV166 from "../assets/images/V166.jpg";
+import ffV167 from "../assets/images/V167.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -857,6 +858,29 @@ const imoveisDisp = [
       "Sítio a venda em Barra Feliz (Santa Bárbara) – próximo ao River Park",
     descricao:
       "Terreno de 2.500 m², 1 banheiro, 2 quartos, lagos, canil e galinheiro; jardim e pomar; ambiente tranquilo e agradável. A casa é pequena, sem laje, com piso de cimento queimado e portão manual. Localizado em área rural, sem documento regular para financimento.",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/V167", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffV167,
+    cod: "V167",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "Não informado",
+    bairro: "Centro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 2,
+    vagas: 1,
+    valor: "R$ 350.000,00",
+    areaTotal: "160 m²",
+    areaConstruida: "125 m²",
+    titulo:
+      "Vende-se casa no centro (Santa Bárbara/MG) – próximo a área hospitalar",
+    descricao:
+      "Varanda, sala, copa, 01 suíte + 02 quartos, 01 banheiro social, cozinha, área de serviço, 01 vaga de garagem, casa de forro, telhado colonial, piso cerâmica e tábua corrida. Não financia.",
   },
   {
     fotos: importAll(

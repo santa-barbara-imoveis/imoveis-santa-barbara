@@ -75,6 +75,7 @@ import ffV163 from "../assets/images/V163.jpeg";
 import ffV164 from "../assets/images/V164.jpg";
 import ffV166 from "../assets/images/V166.jpg";
 import ffV167 from "../assets/images/V167.jpg";
+import ffV169 from "../assets/images/V169.jfif";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -884,6 +885,28 @@ const imoveisDisp = [
   },
   {
     fotos: importAll(
+      require.context("../assets/images/V169", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffV169,
+    cod: "V169",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house_with_land,
+    ruaNum: "Rua Panorama, 119",
+    bairro: "São Veríssimo",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 0,
+    banheiros: 0,
+    vagas: 0,
+    valor: "R$ 150.000,00",
+    areaTotal: "245 m²",
+    areaConstruida: "108 m²",
+    titulo: "Casa a venda no bairro São Verissímo - Rua Panorama, 119",
+    descricao:
+      "Área do terreno: 245 m² (7m frente x 35m fundos), área construída: 108 m², infraestrutura completa (acesso à rua calçada, água, energia).",
+  },
+  {
+    fotos: importAll(
       require.context("../assets/images/L008", true, /\.(png|jpe?g|svg)$/)
     ),
     fotoCapa: ffL008,
@@ -1011,28 +1034,28 @@ const imoveisDisp = [
     descricao:
       "Apartamento no 2° andar, 02 quartos, 01 banheiro, sala, copa, cozinha, área de serviço, garagem coberta para 01 carro, com portão eletrônico, valor: R$1.330,00 + R$100,00 de condomínio.",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L061", true, /\.(png|jpe?g|svg)$/)
-    ),
-    fotoCapa: ffL061,
-    cod: "L061",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.house,
-    ruaNum: "Não informado",
-    bairro: "Santo Antônio",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: amenitiesQuantity.three,
-    banheiros: amenitiesQuantity.two,
-    vagas: amenitiesQuantity.two,
-    valor: "R$ 2.000,00",
-    areaTotal: "- m²",
-    areaConstruida: "- m²",
-    titulo: "Aluga-se ótima casa no residencial Santo Antônio",
-    descricao:
-      "Imóvel com cozinha ampla, sala, copa, área de serviço, quintal, varanda, jardim. Casa de laje, piso de porcelanato e cerâmica. Imóvel seguro (todo murado).",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L061", true, /\.(png|jpe?g|svg)$/)
+  //   ),
+  //   fotoCapa: ffL061,
+  //   cod: "L061",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "Não informado",
+  //   bairro: "Santo Antônio",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: amenitiesQuantity.three,
+  //   banheiros: amenitiesQuantity.two,
+  //   vagas: amenitiesQuantity.two,
+  //   valor: "R$ 2.000,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Aluga-se ótima casa no residencial Santo Antônio",
+  //   descricao:
+  //     "Imóvel com cozinha ampla, sala, copa, área de serviço, quintal, varanda, jardim. Casa de laje, piso de porcelanato e cerâmica. Imóvel seguro (todo murado).",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L062", true, /\.(png|jpe?g|svg)$/)

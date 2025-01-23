@@ -877,7 +877,7 @@ const imoveisDisp = [
     vagas: 1,
     valor: "R$ 350.000,00",
     areaTotal: "160 m²",
-    areaConstruida: "125 m²",
+    areaConstruida: "246,21 m²",
     titulo:
       "Vende-se casa no centro (Santa Bárbara/MG) – próximo a área hospitalar",
     descricao:

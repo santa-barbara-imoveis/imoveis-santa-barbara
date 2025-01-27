@@ -77,6 +77,7 @@ import ffV166 from "../assets/images/V166.jpg";
 import ffV167 from "../assets/images/V167.jpg";
 import ffV169 from "../assets/images/V169.jfif";
 import ffV170 from "../assets/images/V170.jfif";
+import ffV171 from "../assets/images/V171.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -927,6 +928,28 @@ const imoveisDisp = [
     titulo: "Lote/área a venda no bairro São José",
     descricao:
       "Avenida Rodrigo de Castro, área do lote: 1.693,50 m², infraestrutura completa, próximo a escola, padaria, supermercado BH, academia e posto de saúde.",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/V171", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffV171,
+    cod: "V171",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "Ana Margarida",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 2,
+    vagas: 2,
+    valor: "R$ 1.500.000,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Vende-se ótima casa no bairro Ana Margarida",
+    descricao:
+      "Imóvel de alto padrão, sala, copa, cozinha, 03 quartos (1 suíte), 2 banheiros, 02 vagas de garagem, área Gourmet, área de serviço, varanda, piscina e portão eletrônico.",
   },
   {
     fotos: importAll(

@@ -78,6 +78,7 @@ import ffV167 from "../assets/images/V167.jpg";
 import ffV169 from "../assets/images/V169.jfif";
 import ffV170 from "../assets/images/V170.jfif";
 import ffV171 from "../assets/images/V171.jpg";
+import ffV172 from "../assets/images/V172.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -708,28 +709,28 @@ const imoveisDisp = [
   //   descricao:
   //     "Apartamento no 2° andar, 02 quartos, 01 banheiro, sala/copa/cozinha, área de serviço, garagem coberta para 01 carro e com portão eletrônico.",
   // },
-  {
-    fotos: importAll(
-      require.context("../assets/images/V159", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
-    fotoCapa: ffV159,
-    cod: "V159",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.house,
-    ruaNum: "-",
-    bairro: "São Benedito",
-    cidade: city.barao_cocais,
-    Estado: "Minas Gerais",
-    quartos: 3,
-    banheiros: 2,
-    vagas: 2,
-    valor: "R$ 350.000,00",
-    areaTotal: "496m²",
-    areaConstruida: "160m²",
-    titulo: "Vende-se casa – bairro São Benedito ",
-    descricao:
-      "Área construída: 160 m² / Lote: 496 m²; sala/cozinha e varanda; 3 quartos, 1 suíte, área gourmet; 2 vagas de garagem; não financia.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/V159", true, /\.(png|jpe?g|svg|jfif)$/)
+  //   ),
+  //   fotoCapa: ffV159,
+  //   cod: "V159",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "-",
+  //   bairro: "São Benedito",
+  //   cidade: city.barao_cocais,
+  //   Estado: "Minas Gerais",
+  //   quartos: 3,
+  //   banheiros: 2,
+  //   vagas: 2,
+  //   valor: "R$ 350.000,00",
+  //   areaTotal: "496m²",
+  //   areaConstruida: "160m²",
+  //   titulo: "Vende-se casa – bairro São Benedito ",
+  //   descricao:
+  //     "Área construída: 160 m² / Lote: 496 m²; sala/cozinha e varanda; 3 quartos, 1 suíte, área gourmet; 2 vagas de garagem; não financia.",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/V160", true, /\.(png|jpe?g|svg|jfif)$/)
@@ -950,6 +951,28 @@ const imoveisDisp = [
     titulo: "Vende-se ótima casa no bairro Ana Margarida",
     descricao:
       "Imóvel de alto padrão, sala, copa, cozinha, 03 quartos (1 suíte), 2 banheiros, 02 vagas de garagem, área Gourmet, área de serviço, varanda, piscina e portão eletrônico.",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/V172", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffV172,
+    cod: "V172",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "Vila Brandão",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 4,
+    banheiros: 2,
+    vagas: 2,
+    valor: "R$ 650.000,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Vende-se ótima casa no Vila Brandão",
+    descricao:
+      "Sala, copa, cozinha; 04 quartos (1 suíte) / 2 banheiros; 02 vagas de garagem e área de serviço e varanda.",
   },
   {
     fotos: importAll(

@@ -79,6 +79,7 @@ import ffV169 from "../assets/images/V169.jfif";
 import ffV170 from "../assets/images/V170.jfif";
 import ffV171 from "../assets/images/V171.jpg";
 import ffV172 from "../assets/images/V172.jpg";
+import ffV173 from "../assets/images/V173.jpeg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -923,7 +924,7 @@ const imoveisDisp = [
     quartos: 0,
     banheiros: 0,
     vagas: 0,
-    valor: "R$ 1.000.000,00",
+    valor: "R$ 1.100.000,00",
     areaTotal: "1.693,50 m²",
     areaConstruida: "- m²",
     titulo: "Lote/área a venda no bairro São José",
@@ -973,6 +974,29 @@ const imoveisDisp = [
     titulo: "Vende-se ótima casa no Vila Brandão",
     descricao:
       "Sala, copa, cozinha; 04 quartos (1 suíte) / 2 banheiros; 02 vagas de garagem e área de serviço e varanda.",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/V173", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffV173,
+    cod: "V173",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.plot,
+    ruaNum: "-",
+    bairro: "Morada Serra Real",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 0,
+    banheiros: 0,
+    vagas: 0,
+    valor: "R$ 320.000,00",
+    areaTotal: "1.608,73 m²",
+    areaConstruida: "- m²",
+    titulo:
+      "Lote no condomínio Morada Serra Real – próximo ao trevo de Santa Bárbara",
+    descricao:
+      "Vista para a serra, qualidade de vida e um excelente investimento. Infraestrutura completa. Imóvel com escritura, financia.",
   },
   {
     fotos: importAll(
@@ -1081,28 +1105,28 @@ const imoveisDisp = [
   //   titulo:"Ótima casa de aluguel no bairro Mãe Catarina",
   //   descricao:"Sala/copa, cozinha com bancada em granito e cooktop, 03 quartos (01 suite), 02 banheiros sociais, varanda, área de serviço, área gourmet com churrasqueira, dispensa, garagem para 05 carros, interfone, piso porcelanato, rebaixamento de gesso, portas madeira e janelas de vidro."
   // },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L059", true, /\.(png|jpe?g|svg)$/)
-    ),
-    fotoCapa: ffL059,
-    cod: "L059",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.apartment,
-    ruaNum: "Rua São José, n°70",
-    bairro: "Santa Terezinha",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: amenitiesQuantity.two,
-    banheiros: amenitiesQuantity.one,
-    vagas: amenitiesQuantity.one,
-    valor: "R$ 1.200,00 + R$ 100,00 de condomínio",
-    areaTotal: "48,50 m²",
-    areaConstruida: "- m²",
-    titulo: "Apartamento no bairro Santa Terezinha",
-    descricao:
-      "Apartamento no 2° andar, 02 quartos, 01 banheiro, sala, copa, cozinha, área de serviço, garagem coberta para 01 carro, com portão eletrônico, valor: R$1.330,00 + R$100,00 de condomínio.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L059", true, /\.(png|jpe?g|svg)$/)
+  //   ),
+  //   fotoCapa: ffL059,
+  //   cod: "L059",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.apartment,
+  //   ruaNum: "Rua São José, n°70",
+  //   bairro: "Santa Terezinha",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: amenitiesQuantity.two,
+  //   banheiros: amenitiesQuantity.one,
+  //   vagas: amenitiesQuantity.one,
+  //   valor: "R$ 1.200,00 + R$ 100,00 de condomínio",
+  //   areaTotal: "48,50 m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Apartamento no bairro Santa Terezinha",
+  //   descricao:
+  //     "Apartamento no 2° andar, 02 quartos, 01 banheiro, sala, copa, cozinha, área de serviço, garagem coberta para 01 carro, com portão eletrônico, valor: R$1.330,00 + R$100,00 de condomínio.",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L061", true, /\.(png|jpe?g|svg)$/)

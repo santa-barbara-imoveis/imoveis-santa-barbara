@@ -251,28 +251,28 @@ const imoveisDisp = [
     descricao:
       "Apartamento 2º pavimento. Copa/cozinha, área de serviço, 2 varandas. 2 quartos (2 suítes), documentação regular.",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/V108", true, /\.(png|jpe?g|svg)$/)
-    ),
-    fotoCapa: ffV108,
-    cod: "V108",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.house,
-    ruaNum: "Rua Madre Maria Miguel, 94",
-    bairro: "Centro",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 4,
-    banheiros: 4,
-    vagas: 2,
-    valor: "R$ 412.000,00",
-    areaTotal: "- m²",
-    areaConstruida: "- m²",
-    titulo: "Vende-se casa no centro de Santa Bárbara",
-    descricao:
-      "Imóvel conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo à área hospitalar). Em um raio de apenas 500m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/V108", true, /\.(png|jpe?g|svg)$/)
+  //   ),
+  //   fotoCapa: ffV108,
+  //   cod: "V108",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "Rua Madre Maria Miguel, 94",
+  //   bairro: "Centro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 4,
+  //   banheiros: 4,
+  //   vagas: 2,
+  //   valor: "R$ 412.000,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Vende-se casa no centro de Santa Bárbara",
+  //   descricao:
+  //     "Imóvel conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo à área hospitalar). Em um raio de apenas 500m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas.",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/L0109a1", true, /\.(png|jpe?g|svg)$/)
@@ -623,28 +623,28 @@ const imoveisDisp = [
     descricao:
       "Lote plano, 12m x 30m. Vista para a Serra. Infraestrutura completa.",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/V153", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
-    fotoCapa: ffV153,
-    cod: "V153",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.chalet,
-    ruaNum: "-",
-    bairro: "Cubas",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 3,
-    banheiros: 2,
-    vagas: 5,
-    valor: "R$ 495.000,00",
-    areaTotal: "3000 m²",
-    areaConstruida: "190 m²",
-    titulo: "Linda chácara a venda no Cubas",
-    descricao:
-      "03 quartos, 02 banheiros sociais, Sala/Copa/Cozinha, Área de serviço/Varanda, Piscina/Área gourmet, Jardim/Pomar e Garagem para 05 carros.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/V153", true, /\.(png|jpe?g|svg|jfif)$/)
+  //   ),
+  //   fotoCapa: ffV153,
+  //   cod: "V153",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.chalet,
+  //   ruaNum: "-",
+  //   bairro: "Cubas",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 3,
+  //   banheiros: 2,
+  //   vagas: 5,
+  //   valor: "R$ 495.000,00",
+  //   areaTotal: "3000 m²",
+  //   areaConstruida: "190 m²",
+  //   titulo: "Linda chácara a venda no Cubas",
+  //   descricao:
+  //     "03 quartos, 02 banheiros sociais, Sala/Copa/Cozinha, Área de serviço/Varanda, Piscina/Área gourmet, Jardim/Pomar e Garagem para 05 carros.",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/V155", true, /\.(png|jpe?g|svg|jfif)$/)

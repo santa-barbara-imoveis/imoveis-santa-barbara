@@ -732,27 +732,27 @@ const imoveisDisp = [
   //   descricao:
   //     "Área construída: 160 m² / Lote: 496 m²; sala/cozinha e varanda; 3 quartos, 1 suíte, área gourmet; 2 vagas de garagem; não financia.",
   // },
-  {
-    fotos: importAll(
-      require.context("../assets/images/V160", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
-    fotoCapa: ffV160,
-    cod: "V160",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.plot,
-    ruaNum: "-",
-    bairro: "Sumidouro",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 0,
-    banheiros: 0,
-    vagas: 0,
-    valor: "R$ 115.000,00",
-    areaTotal: "420m²",
-    areaConstruida: "-m²",
-    titulo: "Vende-se lote – Sumidouro",
-    descricao: "Infraestrutura completa; lote plano e imóvel registrado.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/V160", true, /\.(png|jpe?g|svg|jfif)$/)
+  //   ),
+  //   fotoCapa: ffV160,
+  //   cod: "V160",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.plot,
+  //   ruaNum: "-",
+  //   bairro: "Sumidouro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 0,
+  //   banheiros: 0,
+  //   vagas: 0,
+  //   valor: "R$ 115.000,00",
+  //   areaTotal: "420m²",
+  //   areaConstruida: "-m²",
+  //   titulo: "Vende-se lote – Sumidouro",
+  //   descricao: "Infraestrutura completa; lote plano e imóvel registrado.",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/V161", true, /\.(png|jpe?g|svg|jfif)$/)
@@ -1338,27 +1338,27 @@ const imoveisDisp = [
     descricao:
       "370 m² - Portão manual – Piso de cimento, Área de escritório / 1 banheiro, Ponto central e seguro. Ideal para depósitos, oficinas e garagem.",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L085", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
-    fotoCapa: ffL085,
-    cod: "L085",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.commercial_property,
-    ruaNum: "Não informado",
-    bairro: "Santa Mônica",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 0,
-    banheiros: 1,
-    vagas: 0,
-    valor: "R$ 1.300,00",
-    areaTotal: "85 m²",
-    areaConstruida: "85 m²",
-    titulo: "Aluguel de ponto comercial no bairro Santa Mônica",
-    descricao: "Sala ampla com 01 banheiro, portão manual .",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L085", true, /\.(png|jpe?g|svg|jfif)$/)
+  //   ),
+  //   fotoCapa: ffL085,
+  //   cod: "L085",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.commercial_property,
+  //   ruaNum: "Não informado",
+  //   bairro: "Santa Mônica",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 0,
+  //   banheiros: 1,
+  //   vagas: 0,
+  //   valor: "R$ 1.300,00",
+  //   areaTotal: "85 m²",
+  //   areaConstruida: "85 m²",
+  //   titulo: "Aluguel de ponto comercial no bairro Santa Mônica",
+  //   descricao: "Sala ampla com 01 banheiro, portão manual .",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/L095", true, /\.(png|jpe?g|svg|jfif)$/)
@@ -1381,28 +1381,28 @@ const imoveisDisp = [
     descricao:
       "Sala ampla com 01 banheiro, cozinha, varanda, área de 60m², sala nova, com ótimo acabamento, arejada e aconchegante. Ideal para escritório, sorveteria, cafeteria, dentre outros empreendimentos.",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L096", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
-    fotoCapa: ffL096,
-    cod: "L096",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.commercial_property,
-    ruaNum: "Rua Antônio Pereira Rocha, 121",
-    bairro: "Centro",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 0,
-    banheiros: 1,
-    vagas: 0,
-    valor: "R$ 2.000,00",
-    areaTotal: "24 m²",
-    areaConstruida: "24 m²",
-    titulo: "Aluga-se de ponto comercial no centro.",
-    descricao:
-      "Localização privilegiada; piso de porcelanato e banheiro; ideal para venda de produtos e serviços.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L096", true, /\.(png|jpe?g|svg|jfif)$/)
+  //   ),
+  //   fotoCapa: ffL096,
+  //   cod: "L096",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.commercial_property,
+  //   ruaNum: "Rua Antônio Pereira Rocha, 121",
+  //   bairro: "Centro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 0,
+  //   banheiros: 1,
+  //   vagas: 0,
+  //   valor: "R$ 2.000,00",
+  //   areaTotal: "24 m²",
+  //   areaConstruida: "24 m²",
+  //   titulo: "Aluga-se de ponto comercial no centro.",
+  //   descricao:
+  //     "Localização privilegiada; piso de porcelanato e banheiro; ideal para venda de produtos e serviços.",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/L098", true, /\.(png|jpe?g|svg|jfif)$/)

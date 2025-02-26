@@ -968,7 +968,7 @@ const imoveisDisp = [
     quartos: 4,
     banheiros: 2,
     vagas: 2,
-    valor: "R$ 650.000,00",
+    valor: "R$ 630.000,00",
     areaTotal: "300 m²",
     areaConstruida: "108 m²",
     titulo: "Vende-se ótima casa no Vila Brandão",

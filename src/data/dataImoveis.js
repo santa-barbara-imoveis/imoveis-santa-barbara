@@ -1359,28 +1359,28 @@ const imoveisDisp = [
   //   titulo: "Aluguel de ponto comercial no bairro Santa Mônica",
   //   descricao: "Sala ampla com 01 banheiro, portão manual .",
   // },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L095", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
-    fotoCapa: ffL095,
-    cod: "L095",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.commercial_property,
-    ruaNum: "Não informado",
-    bairro: "Centro",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 0,
-    banheiros: 1,
-    vagas: 0,
-    valor: "R$ 4.000,00",
-    areaTotal: "60 m²",
-    areaConstruida: "60 m²",
-    titulo: "Aluguel de ponto comercial no centro",
-    descricao:
-      "Sala ampla com 01 banheiro, cozinha, varanda, área de 60m², sala nova, com ótimo acabamento, arejada e aconchegante. Ideal para escritório, sorveteria, cafeteria, dentre outros empreendimentos.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L095", true, /\.(png|jpe?g|svg|jfif)$/)
+  //   ),
+  //   fotoCapa: ffL095,
+  //   cod: "L095",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.commercial_property,
+  //   ruaNum: "Não informado",
+  //   bairro: "Centro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 0,
+  //   banheiros: 1,
+  //   vagas: 0,
+  //   valor: "R$ 4.000,00",
+  //   areaTotal: "60 m²",
+  //   areaConstruida: "60 m²",
+  //   titulo: "Aluguel de ponto comercial no centro",
+  //   descricao:
+  //     "Sala ampla com 01 banheiro, cozinha, varanda, área de 60m², sala nova, com ótimo acabamento, arejada e aconchegante. Ideal para escritório, sorveteria, cafeteria, dentre outros empreendimentos.",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L096", true, /\.(png|jpe?g|svg|jfif)$/)

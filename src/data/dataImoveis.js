@@ -909,28 +909,28 @@ const imoveisDisp = [
     descricao:
       "Área do terreno: 245 m² (7m frente x 35m fundos), área construída: 108 m², infraestrutura completa (acesso à rua calçada, água, energia).",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/V170", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
-    fotoCapa: ffV170,
-    cod: "V170",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.plot,
-    ruaNum: "Avenida Rodrigo de Castro",
-    bairro: "São José",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 0,
-    banheiros: 0,
-    vagas: 0,
-    valor: "R$ 1.100.000,00",
-    areaTotal: "1.693,50 m²",
-    areaConstruida: "- m²",
-    titulo: "Lote/área a venda no bairro São José",
-    descricao:
-      "Avenida Rodrigo de Castro, área do lote: 1.693,50 m², infraestrutura completa, próximo a escola, padaria, supermercado BH, academia e posto de saúde.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/V170", true, /\.(png|jpe?g|svg|jfif)$/)
+  //   ),
+  //   fotoCapa: ffV170,
+  //   cod: "V170",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.plot,
+  //   ruaNum: "Avenida Rodrigo de Castro",
+  //   bairro: "São José",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 0,
+  //   banheiros: 0,
+  //   vagas: 0,
+  //   valor: "R$ 1.100.000,00",
+  //   areaTotal: "1.693,50 m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Lote/área a venda no bairro São José",
+  //   descricao:
+  //     "Avenida Rodrigo de Castro, área do lote: 1.693,50 m², infraestrutura completa, próximo a escola, padaria, supermercado BH, academia e posto de saúde.",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/V171", true, /\.(png|jpe?g|svg|jfif)$/)

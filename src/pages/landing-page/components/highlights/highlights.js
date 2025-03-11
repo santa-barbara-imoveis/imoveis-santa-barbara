@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Highlights.css";
-import fotoFrente2 from "./assets/V159.jpg";
-import fotoFrente3 from "./assets/V153.jpeg";
+import fotoFrente2 from "./assets/V164.jpg";
+import fotoFrente3 from "./assets/V147.jpeg";
 import fotoFrente from "./assets/V151.jpeg";
 import area from "./assets/area.png";
 import banho from "./assets/banheira.png";
@@ -44,7 +44,7 @@ function Highlights() {
 
         <div className="boxImovel">
           <div className="imFotoMainV">
-            <Link to={`imovel/V159`} className="linkImage">
+            <Link to={`imovel/V164`} className="linkImage">
               <img className="imFotoV" src={fotoFrente2} />
             </Link>
             <div className="boxPreco">
@@ -52,12 +52,12 @@ function Highlights() {
               <div className="precoImovel">R$ 350.000,00</div>
             </div>
           </div>
-          <div className="imBairroCidade">São Benedito - Barão de Cocais</div>
-          <div className="imId">Código: V159</div>
+          <div className="imBairroCidade">São Vicente - Santa Bárbara</div>
+          <div className="imId">Código: V164</div>
           <div className="imAmenities">
             <div className="iconsAmenities">
               <img className="icon" src={area} />
-              160
+              92
               <img className="icon" src={banho} />
               2
               <img className="icon" src={vagas} />
@@ -69,24 +69,24 @@ function Highlights() {
 
         <div className="boxImovel">
           <div className="imFotoMainV">
-            <Link to={`imovel/V153`} className="linkImage">
+            <Link to={`imovel/V147`} className="linkImage">
               <img className="imFotoV" src={fotoFrente3} />
             </Link>
             <div className="boxPreco">
               <div className="tipoContrato">Venda</div>
-              <div className="precoImovel">R$ 495.000,00</div>
+              <div className="precoImovel">R$ 925.000,00</div>
             </div>
           </div>
-          <div className="imBairroCidade">Cubas - Santa Bárbara</div>
-          <div className="imId">Código: V153</div>
+          <div className="imBairroCidade">Santa Mônica - Santa Bárbara</div>
+          <div className="imId">Código: V147</div>
           <div className="imAmenities">
             <div className="iconsAmenities">
               <img className="icon" src={area} />
-              190
+              254
               <img className="icon" src={banho} />
               2
               <img className="icon" src={vagas} />
-              5
+              3
               <img className="icon" src={quartos} />3
             </div>
           </div>

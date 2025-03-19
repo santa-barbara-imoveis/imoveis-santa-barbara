@@ -80,6 +80,7 @@ import ffV170 from "../assets/images/V170.jfif";
 import ffV171 from "../assets/images/V171.jpg";
 import ffV172 from "../assets/images/V172.jpg";
 import ffV173 from "../assets/images/V173.jpeg";
+import ffV174 from "../assets/images/V174.jpeg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -997,6 +998,29 @@ const imoveisDisp = [
       "Lote no condomínio Morada Serra Real – próximo ao trevo de Santa Bárbara",
     descricao:
       "Vista para a serra, qualidade de vida e um excelente investimento. Infraestrutura completa. Imóvel com escritura, financia.",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/V174", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffV174,
+    cod: "V174",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.chalet,
+    ruaNum: "-",
+    bairro: "Cubas - Condomínio Bela Vista",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 0,
+    banheiros: 0,
+    vagas: 0,
+    valor: "R$ 170.000,00",
+    areaTotal: "2.620,34 m²",
+    areaConstruida: "- m²",
+    titulo:
+      "Chácara a venda no Cubas – Condomínio Bela Vista (Santa Bárbara/MG)",
+    descricao:
+      "Excelente opção para quem busca tranquilidade e qualidade de vida. Vista parcial para o Caraça; chácara toda cercada, com água e luz na porta; ótimos imóveis no entorno; área do terreno: 2.620,34 m²; área construída: 0,00 m².",
   },
   {
     fotos: importAll(

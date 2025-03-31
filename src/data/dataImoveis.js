@@ -1,6 +1,7 @@
 import ffL008 from "../assets/images/L008.jpg";
 import ffL016a1 from "../assets/images/L016.1.jpg";
 import ffL033 from "../assets/images/L033.jpg";
+import ffL039 from "../assets/images/L039.jpg";
 import ffL048a1 from "../assets/images/L048a1.jpeg";
 import ffL053 from "../assets/images/L053.jpg";
 import ffL059 from "../assets/images/L059.jpg";
@@ -1065,6 +1066,28 @@ const imoveisDisp = [
     titulo: "Casa no centro de Santa Bárbara",
     descricao:
       "Imóvel muito conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo a rodoviária). Em um raio de apenas 300m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas.",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/L039", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffL039,
+    cod: "L039",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua Vereador João Paulino, 242",
+    bairro: "Centro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: amenitiesQuantity.three,
+    banheiros: amenitiesQuantity.one,
+    vagas: amenitiesQuantity.zero,
+    valor: "R$ 1.300,00",
+    areaTotal: "- m²",
+    areaConstruida: "80 m²",
+    titulo: "Aluga-se casa bem localizada no centro – Santa Bárbara",
+    descricao:
+      "Casa fundos, acesso comum; sala, copa, cozinha, área de serviço, 03 quartos, 01 banheiro e sem garagem. Área construída: 80 m².",
   },
   // {
   //   fotos: importAll(

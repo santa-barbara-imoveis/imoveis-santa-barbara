@@ -1493,7 +1493,8 @@ const imoveisDisp = [
     areaTotal: "- m²",
     areaConstruida: "- m²",
     titulo: "Casa de aluguel no bairro São José",
-    descricao: "",
+    descricao:
+      "Varanda, sala, copa, cozinha, 03 quartos (01 suíte), 02 banheiros sociais, lavanderia, área de serviço, área externa, piscina e garagem 03 carros.",
   },
   {
     fotos: importAll(

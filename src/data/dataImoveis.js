@@ -26,6 +26,7 @@ import ffL094 from "../assets/images/L094.jpeg";
 import ffL095 from "../assets/images/L095.jpeg";
 import ffL096 from "../assets/images/L096.jpg";
 import ffL098 from "../assets/images/L098.jpeg";
+import ffL100 from "../assets/images/L100.jpeg";
 import ffL109 from "../assets/images/L109.jpeg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
@@ -1472,6 +1473,27 @@ const imoveisDisp = [
     titulo: "Aluga-se apartamento no centro - em frente a escola Dom Bosco.",
     descricao:
       "Sala / Copa, 01 suíte, 01 quarto, 01 banheiro social, cozinha, área externa, área de serviço, sem garagem. Não tem taxa de condomínio.",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/L100", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffL100,
+    cod: "L100",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "São José",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 2,
+    vagas: 3,
+    valor: "R$ 2.500,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Casa de aluguel no bairro São José",
+    descricao: "",
   },
   {
     fotos: importAll(

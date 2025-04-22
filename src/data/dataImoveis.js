@@ -27,6 +27,7 @@ import ffL095 from "../assets/images/L095.jpeg";
 import ffL096 from "../assets/images/L096.jpg";
 import ffL098 from "../assets/images/L098.jpeg";
 import ffL100 from "../assets/images/L100.jpeg";
+import ffL103 from "../assets/images/L103.jpeg";
 import ffL109 from "../assets/images/L109.jpeg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
@@ -1069,28 +1070,28 @@ const imoveisDisp = [
     descricao:
       "Imóvel muito conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo a rodoviária). Em um raio de apenas 300m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas.",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L039", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
-    fotoCapa: ffL039,
-    cod: "L039",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.house,
-    ruaNum: "Rua Vereador João Paulino, 242",
-    bairro: "Centro",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: amenitiesQuantity.three,
-    banheiros: amenitiesQuantity.one,
-    vagas: amenitiesQuantity.zero,
-    valor: "R$ 1.300,00",
-    areaTotal: "- m²",
-    areaConstruida: "80 m²",
-    titulo: "Aluga-se casa bem localizada no centro – Santa Bárbara",
-    descricao:
-      "Casa fundos, acesso comum; sala, copa, cozinha, área de serviço, 03 quartos, 01 banheiro e sem garagem. Área construída: 80 m².",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L039", true, /\.(png|jpe?g|svg|jfif)$/)
+  //   ),
+  //   fotoCapa: ffL039,
+  //   cod: "L039",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "Rua Vereador João Paulino, 242",
+  //   bairro: "Centro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: amenitiesQuantity.three,
+  //   banheiros: amenitiesQuantity.one,
+  //   vagas: amenitiesQuantity.zero,
+  //   valor: "R$ 1.300,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "80 m²",
+  //   titulo: "Aluga-se casa bem localizada no centro – Santa Bárbara",
+  //   descricao:
+  //     "Casa fundos, acesso comum; sala, copa, cozinha, área de serviço, 03 quartos, 01 banheiro e sem garagem. Área construída: 80 m².",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L033", true, /\.(png|jpe?g|svg)$/)
@@ -1495,6 +1496,28 @@ const imoveisDisp = [
     titulo: "Casa de aluguel no bairro São José",
     descricao:
       "Varanda, sala, copa, cozinha, 03 quartos (01 suíte), 02 banheiros sociais, lavanderia, área de serviço, área externa, piscina e garagem 03 carros.",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/L103", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffL103,
+    cod: "L103",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua Copacabana, nº 24",
+    bairro: "Ipanema",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 2,
+    banheiros: 2,
+    vagas: 3,
+    valor: "R$ 2.200,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se ótima casa no bairro Ipanema",
+    descricao:
+      "Sala, cozinha, 01 suíte, 01 quarto, 01 banheiro social, área externa, área de serviço e garagem coberta para 3 carros",
   },
   {
     fotos: importAll(

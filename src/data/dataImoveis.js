@@ -1307,28 +1307,28 @@ const imoveisDisp = [
   //   descricao:
   //     "Sala, copa, cozinha, 04 quartos (01 suíte), 02 banheiros sociais, área de serviço, quintal / área externa, garagem para 04 carros, casa de forro, piso de cerâmica e com aquecedor solar.",
   // },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L075", true, /\.(png|jpe?g|svg)$/)
-    ),
-    fotoCapa: ffL075,
-    cod: "L075",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.house,
-    ruaNum: "Não informado",
-    bairro: "Sol Nascente",
-    cidade: city.catas_altas,
-    Estado: "Minas Gerais",
-    quartos: 5,
-    banheiros: 3,
-    vagas: 2,
-    valor: "R$3.500,00",
-    areaTotal: "- m²",
-    areaConstruida: "- m²",
-    titulo: "Casa de aluguel no bairro Sol Nascente - Catas Altas",
-    descricao:
-      "Sala, copa, cozinha, 01 suíte, 04 quartos, 02 banheiros sociais, área de serviço, quintal e garagem para 02 carros.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L075", true, /\.(png|jpe?g|svg)$/)
+  //   ),
+  //   fotoCapa: ffL075,
+  //   cod: "L075",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "Não informado",
+  //   bairro: "Sol Nascente",
+  //   cidade: city.catas_altas,
+  //   Estado: "Minas Gerais",
+  //   quartos: 5,
+  //   banheiros: 3,
+  //   vagas: 2,
+  //   valor: "R$3.500,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Casa de aluguel no bairro Sol Nascente - Catas Altas",
+  //   descricao:
+  //     "Sala, copa, cozinha, 01 suíte, 04 quartos, 02 banheiros sociais, área de serviço, quintal e garagem para 02 carros.",
+  // },
   // {
   //   fotos: importAll(require.context('../assets/images/L080', true, /\.(png|jpe?g|svg)$/)),
   //   fotoCapa: ffL080,

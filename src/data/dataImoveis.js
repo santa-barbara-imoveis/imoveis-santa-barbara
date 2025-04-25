@@ -85,6 +85,7 @@ import ffV171 from "../assets/images/V171.jpg";
 import ffV172 from "../assets/images/V172.jpg";
 import ffV173 from "../assets/images/V173.jpeg";
 import ffV174 from "../assets/images/V174.jpeg";
+import ffV175 from "../assets/images/V175.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -1025,6 +1026,28 @@ const imoveisDisp = [
       "Chácara a venda no Cubas – Condomínio Bela Vista (Santa Bárbara/MG)",
     descricao:
       "Excelente opção para quem busca tranquilidade e qualidade de vida. Vista parcial para o Caraça; chácara toda cercada, com água e luz na porta; ótimos imóveis no entorno; área do terreno: 2.620,34 m²; área construída: 0,00 m².",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/V175", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffV175,
+    cod: "V175",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.plot,
+    ruaNum: "-",
+    bairro: "Monte Carlo",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 0,
+    banheiros: 0,
+    vagas: 0,
+    valor: "R$ 400.000,00",
+    areaTotal: "720 m²",
+    areaConstruida: "- m²",
+    titulo: "02 lotes a venda no Bairro Monte Carlo (Santa Bárbara/MG)",
+    descricao:
+      "Excelente opção para quem busca tranquilidade e qualidade de vida, lotes planos de 12x30m cada, com escritura e murado nas divisas, bairro com infraestrutura completa; vista para a Serra; ótimos imóveis no entorno; área do terreno: 720 m², sem área construída. Interesse de vender os dois juntos.",
   },
   {
     fotos: importAll(

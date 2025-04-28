@@ -541,28 +541,28 @@ const imoveisDisp = [
   //   descricao:
   //     "Casa moderna, com ar condicionado, aquecimento solar, portão eletrônico.1 suíte com closet, banheira de hidromassagem e jardim interno.2 quartos sendo um com guarda roupa embutido.1 sala de jantar, 1 sala de estar, 1 sala de TV, 1 escritório.Cozinha planejada com bancadas em granito, com fogão cooktop e forno instalados.2 banheiros sociais no primeiro pavimento.1 área de serviço.",
   // },
-  {
-    fotos: importAll(
-      require.context("../assets/images/V147", true, /\.(png|jpe?g|svg)$/)
-    ),
-    fotoCapa: ffV147,
-    cod: "V147",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.house,
-    ruaNum: "Rua Oscar Rodrigues Martins, 114",
-    bairro: "Santa Mônica",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 3,
-    banheiros: 2,
-    vagas: 3,
-    valor: "R$ 925.000,00",
-    areaTotal: "360 m²",
-    areaConstruida: "254 m²",
-    titulo: "Vende-se casa no bairro Santa Mônica",
-    descricao:
-      "Sala de estar, jantar e tv;Copa/cozinha (bancada granito); 3 quartos sendo uma suíte; 2 banheiros sociais, área de serviço; Espaço gourmet com churrasqueira e área livre; Banho externo e ducha; Documento regular para financiamento.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/V147", true, /\.(png|jpe?g|svg)$/)
+  //   ),
+  //   fotoCapa: ffV147,
+  //   cod: "V147",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "Rua Oscar Rodrigues Martins, 114",
+  //   bairro: "Santa Mônica",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 3,
+  //   banheiros: 2,
+  //   vagas: 3,
+  //   valor: "R$ 925.000,00",
+  //   areaTotal: "360 m²",
+  //   areaConstruida: "254 m²",
+  //   titulo: "Vende-se casa no bairro Santa Mônica",
+  //   descricao:
+  //     "Sala de estar, jantar e tv;Copa/cozinha (bancada granito); 3 quartos sendo uma suíte; 2 banheiros sociais, área de serviço; Espaço gourmet com churrasqueira e área livre; Banho externo e ducha; Documento regular para financiamento.",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/V149", true, /\.(png|jpe?g|svg)$/)
@@ -1071,28 +1071,28 @@ const imoveisDisp = [
     descricao:
       "Lotes planos com excelente localização. De frente para a rodovia MG129 (sentido Catas Altas).",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L016.1", true, /\.(png|jpe?g|svg)$/)
-    ),
-    fotoCapa: ffL016a1,
-    cod: "L016.1",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.house,
-    ruaNum: "Não informado",
-    bairro: "Centro",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: amenitiesQuantity.three,
-    banheiros: amenitiesQuantity.two,
-    vagas: amenitiesQuantity.one,
-    valor: "R$ 2.800,00",
-    areaTotal: "360 m²",
-    areaConstruida: "- m²",
-    titulo: "Casa no centro de Santa Bárbara",
-    descricao:
-      "Imóvel muito conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo a rodoviária). Em um raio de apenas 300m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L016.1", true, /\.(png|jpe?g|svg)$/)
+  //   ),
+  //   fotoCapa: ffL016a1,
+  //   cod: "L016.1",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "Não informado",
+  //   bairro: "Centro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: amenitiesQuantity.three,
+  //   banheiros: amenitiesQuantity.two,
+  //   vagas: amenitiesQuantity.one,
+  //   valor: "R$ 2.800,00",
+  //   areaTotal: "360 m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Casa no centro de Santa Bárbara",
+  //   descricao:
+  //     "Imóvel muito conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo a rodoviária). Em um raio de apenas 300m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas.",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L039", true, /\.(png|jpe?g|svg|jfif)$/)

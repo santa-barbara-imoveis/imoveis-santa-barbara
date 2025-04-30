@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Highlights.css";
 import fotoFrente2 from "./assets/V164.jpg";
-import fotoFrente3 from "./assets/V147.jpeg";
+import fotoFrente3 from "./assets/V171.jpg";
 import fotoFrente from "./assets/V151.jpeg";
 import area from "./assets/area.png";
 import banho from "./assets/banheira.png";
@@ -23,7 +23,7 @@ function Highlights() {
             </Link>
             <div className="boxPreco">
               <div className="tipoContrato">Venda</div>
-              <div className="precoImovel">R$ 180.000,00</div>
+              <div className="precoImovel">R$ 165.000,00</div>
             </div>
           </div>
           <p className="imBairroCidade"> Santa Quitéria - Catas Altas </p>
@@ -69,24 +69,24 @@ function Highlights() {
 
         <div className="boxImovel">
           <div className="imFotoMainV">
-            <Link to={`imovel/V147`} className="linkImage">
+            <Link to={`imovel/V171`} className="linkImage">
               <img className="imFotoV" src={fotoFrente3} />
             </Link>
             <div className="boxPreco">
               <div className="tipoContrato">Venda</div>
-              <div className="precoImovel">R$ 925.000,00</div>
+              <div className="precoImovel">R$ 1.500.000,00</div>
             </div>
           </div>
-          <div className="imBairroCidade">Santa Mônica - Santa Bárbara</div>
-          <div className="imId">Código: V147</div>
+          <div className="imBairroCidade">Ana Margarida - Santa Bárbara</div>
+          <div className="imId">Código: V171</div>
           <div className="imAmenities">
             <div className="iconsAmenities">
               <img className="icon" src={area} />
-              254
+              -
               <img className="icon" src={banho} />
               2
               <img className="icon" src={vagas} />
-              3
+              2
               <img className="icon" src={quartos} />3
             </div>
           </div>

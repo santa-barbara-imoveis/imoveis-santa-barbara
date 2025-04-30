@@ -622,7 +622,7 @@ const imoveisDisp = [
     quartos: 0,
     banheiros: 0,
     vagas: 0,
-    valor: "R$ 180.000,00",
+    valor: "R$ 165.000,00",
     areaTotal: "360 m²",
     areaConstruida: "360 m²",
     titulo: "Vende-se lote bairro Santa Quitéria",

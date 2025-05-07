@@ -454,27 +454,27 @@ const imoveisDisp = [
     descricao:
       "Localização privilegiada.Infraestrutura completa (acesso a rua calçada, água, energia, esgoto e passeio).Espaço pode ser utilizado para fim comercial e residencial. ",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/V131", true, /\.(png|jpe?g|svg)$/)
-    ),
-    fotoCapa: ffV131,
-    cod: "V131",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.plot,
-    ruaNum: "Chácara 2",
-    bairro: "Chácara 2",
-    cidade: city.barao_cocais,
-    Estado: "Minas Gerais",
-    quartos: amenitiesQuantity.zero,
-    banheiros: amenitiesQuantity.zero,
-    vagas: amenitiesQuantity.zero,
-    valor: "R$ 120.000,00",
-    areaTotal: "710 m²",
-    areaConstruida: "- m²",
-    titulo: "Oportunidade para compra em Barão de Cocais",
-    descricao: "Lote plano. Não financia.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/V131", true, /\.(png|jpe?g|svg)$/)
+  //   ),
+  //   fotoCapa: ffV131,
+  //   cod: "V131",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.plot,
+  //   ruaNum: "Chácara 2",
+  //   bairro: "Chácara 2",
+  //   cidade: city.barao_cocais,
+  //   Estado: "Minas Gerais",
+  //   quartos: amenitiesQuantity.zero,
+  //   banheiros: amenitiesQuantity.zero,
+  //   vagas: amenitiesQuantity.zero,
+  //   valor: "R$ 120.000,00",
+  //   areaTotal: "710 m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Oportunidade para compra em Barão de Cocais",
+  //   descricao: "Lote plano. Não financia.",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/V133", true, /\.(png|jpe?g|svg)$/)
@@ -585,28 +585,28 @@ const imoveisDisp = [
     descricao:
       "Cozinha/área serviço, 03 quartos (1 suíte), 01 banheiro social e 02 vagas de garagem.",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/V150", true, /\.(png|jpe?g|svg)$/)
-    ),
-    fotoCapa: ffV150,
-    cod: "V150",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.house,
-    ruaNum: "-",
-    bairro: "Leão XIII",
-    cidade: city.barao_cocais,
-    Estado: "Minas Gerais",
-    quartos: 4,
-    banheiros: 2,
-    vagas: 2,
-    valor: "R$ 280.000,00",
-    areaTotal: "- m²",
-    areaConstruida: "- m²",
-    titulo: "Vende-se Casa no bairro Leão XIII",
-    descricao:
-      "Sala, copa, cozinha, 04 quartos, 02 banheiros sociais, 02 vagas de garagem, quintal e lavanderia.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/V150", true, /\.(png|jpe?g|svg)$/)
+  //   ),
+  //   fotoCapa: ffV150,
+  //   cod: "V150",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "-",
+  //   bairro: "Leão XIII",
+  //   cidade: city.barao_cocais,
+  //   Estado: "Minas Gerais",
+  //   quartos: 4,
+  //   banheiros: 2,
+  //   vagas: 2,
+  //   valor: "R$ 280.000,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Vende-se Casa no bairro Leão XIII",
+  //   descricao:
+  //     "Sala, copa, cozinha, 04 quartos, 02 banheiros sociais, 02 vagas de garagem, quintal e lavanderia.",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/V151", true, /\.(png|jpe?g|svg)$/)
@@ -694,28 +694,28 @@ const imoveisDisp = [
     descricao:
       "Lote com 643 m²; infraestrutura completa; ideal para investimento; com leve declive.",
   },
-  // {
-  //   fotos: importAll(
-  //     require.context("../assets/images/V158", true, /\.(png|jpe?g|svg|jfif)$/)
-  //   ),
-  //   fotoCapa: ffV158,
-  //   cod: "V158",
-  //   contrato: contractType[contractTypeParamKey.buy],
-  //   tipoImovel: propertyType.apartment,
-  //   ruaNum: "Rua São José, 70",
-  //   bairro: "Santa Terezinha",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: 2,
-  //   banheiros: 1,
-  //   vagas: 1,
-  //   valor: "R$ 300.000,00",
-  //   areaTotal: "48,50 m²",
-  //   areaConstruida: "48,50 m²",
-  //   titulo: "Vende-se apartamento no bairro Santa Terezinha",
-  //   descricao:
-  //     "Apartamento no 2° andar, 02 quartos, 01 banheiro, sala/copa/cozinha, área de serviço, garagem coberta para 01 carro e com portão eletrônico.",
-  // },
+  {
+    fotos: importAll(
+      require.context("../assets/images/V158", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffV158,
+    cod: "V158",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.apartment,
+    ruaNum: "Rua São José, 70",
+    bairro: "Santa Terezinha",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 2,
+    banheiros: 1,
+    vagas: 1,
+    valor: "R$ 280.000,00",
+    areaTotal: "48,50 m²",
+    areaConstruida: "48,50 m²",
+    titulo: "Vende-se apartamento no bairro Santa Terezinha",
+    descricao:
+      "Apartamento no 2° andar, 02 quartos, 01 banheiro, sala/copa/cozinha, área de serviço, garagem coberta para 01 carro e com portão eletrônico.",
+  },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/V159", true, /\.(png|jpe?g|svg|jfif)$/)

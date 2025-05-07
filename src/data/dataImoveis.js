@@ -147,28 +147,28 @@ const imoveisDisp = [
     descricao:
       "Imóvel com área total de 736,10 m² no centro (em frente ao Posto Shell). Localização privilegiada. Infraestrutura completa (acesso a rua calçada, água, energia, esgoto e passeio). Espaço pode ser utilizado para fim comercial e residencial. Lote todo murado.",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/V021", true, /\.(png|jpe?g|svg)$/)
-    ),
-    fotoCapa: ffV021,
-    cod: "V021",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.plot,
-    ruaNum: "Retiro Córrego do Sena, s/n",
-    bairro: "Trevo de Santa Bárbara",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: amenitiesQuantity.zero,
-    banheiros: amenitiesQuantity.zero,
-    vagas: amenitiesQuantity.zero,
-    valor: "R$ 570.000,00",
-    areaTotal: "949 m²",
-    areaConstruida: "0 m²",
-    titulo: "Lote à venda próximo ao trevo de Santa Bárbara",
-    descricao:
-      "Lote plano com excelente localização; 949 m². De frente para a rodovia MG129 (sentido Catas Altas)",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/V021", true, /\.(png|jpe?g|svg)$/)
+  //   ),
+  //   fotoCapa: ffV021,
+  //   cod: "V021",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.plot,
+  //   ruaNum: "Retiro Córrego do Sena, s/n",
+  //   bairro: "Trevo de Santa Bárbara",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: amenitiesQuantity.zero,
+  //   banheiros: amenitiesQuantity.zero,
+  //   vagas: amenitiesQuantity.zero,
+  //   valor: "R$ 570.000,00",
+  //   areaTotal: "949 m²",
+  //   areaConstruida: "0 m²",
+  //   titulo: "Lote à venda próximo ao trevo de Santa Bárbara",
+  //   descricao:
+  //     "Lote plano com excelente localização; 949 m². De frente para a rodovia MG129 (sentido Catas Altas)",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/V052", true, /\.(png|jpe?g|svg)$/)

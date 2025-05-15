@@ -25,9 +25,11 @@ import ffL092 from "../assets/images/L092.jpg";
 import ffL094 from "../assets/images/L094.jpeg";
 import ffL095 from "../assets/images/L095.jpeg";
 import ffL096 from "../assets/images/L096.jpg";
+import ffL097 from "../assets/images/L097.jpg";
 import ffL098 from "../assets/images/L098.jpeg";
 import ffL100 from "../assets/images/L100.jpeg";
 import ffL103 from "../assets/images/L103.jpeg";
+import ffL104 from "../assets/images/L104.jpeg";
 import ffL109 from "../assets/images/L109.jpeg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
@@ -1500,6 +1502,28 @@ const imoveisDisp = [
   // },
   {
     fotos: importAll(
+      require.context("../assets/images/L097", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffL097,
+    cod: "L097",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.apartment,
+    ruaNum: "Rua Maria Carolina, 405, apto 103 (primeiro andar)",
+    bairro: "Centro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 2,
+    banheiros: 2,
+    vagas: 1,
+    valor: "R$ 2.400,00",
+    areaTotal: "- m²",
+    areaConstruida: "90 m²",
+    titulo: "Aluga-se apartamento novo de 90m² no centro de Santa Bárbara",
+    descricao:
+      "01 suíte + 01 quarto, 01 banheiro social, sala, copa, cozinha, área de serviço, varanda, sacada, 01 vaga de garagem coberta, valor: R$2.200,00/mês + R$200,00 de condomínio, interfone e portão eletrônico.",
+  },
+  {
+    fotos: importAll(
       require.context("../assets/images/L100", true, /\.(png|jpe?g|svg|jfif)$/)
     ),
     fotoCapa: ffL100,
@@ -1520,27 +1544,49 @@ const imoveisDisp = [
     descricao:
       "Varanda, sala, copa, cozinha, 03 quartos (01 suíte), 02 banheiros sociais, lavanderia, área de serviço, área externa, piscina e garagem 03 carros.",
   },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L103", true, /\.(png|jpe?g|svg|jfif)$/)
+  //   ),
+  //   fotoCapa: ffL103,
+  //   cod: "L103",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "Rua Copacabana, nº 24",
+  //   bairro: "Ipanema",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 2,
+  //   banheiros: 2,
+  //   vagas: 3,
+  //   valor: "R$ 2.200,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Aluga-se ótima casa no bairro Ipanema",
+  //   descricao:
+  //     "Sala, cozinha, 01 suíte, 01 quarto, 01 banheiro social, área externa, área de serviço e garagem coberta para 3 carros",
+  // },
   {
     fotos: importAll(
-      require.context("../assets/images/L103", true, /\.(png|jpe?g|svg|jfif)$/)
+      require.context("../assets/images/L104", true, /\.(png|jpe?g|svg|jfif)$/)
     ),
-    fotoCapa: ffL103,
-    cod: "L103",
+    fotoCapa: ffL104,
+    cod: "L104",
     contrato: contractType[contractTypeParamKey.rent],
     tipoImovel: propertyType.house,
-    ruaNum: "Rua Copacabana, nº 24",
-    bairro: "Ipanema",
+    ruaNum: "Rua Palmital, nº 55, Bairro Tenente Carlos",
+    bairro: "Tenente Carlos",
     cidade: city.santa_barbara,
     Estado: "Minas Gerais",
-    quartos: 2,
-    banheiros: 2,
-    vagas: 3,
-    valor: "R$ 2.200,00",
+    quartos: 5,
+    banheiros: 3,
+    vagas: 0,
+    valor: "R$ 2.500,00",
     areaTotal: "- m²",
     areaConstruida: "- m²",
-    titulo: "Aluga-se ótima casa no bairro Ipanema",
+    titulo: "Aluga-se casa no bairro Tenente Carlos",
     descricao:
-      "Sala, cozinha, 01 suíte, 01 quarto, 01 banheiro social, área externa, área de serviço e garagem coberta para 3 carros",
+      "02 pavimentos, sala, 05 quartos, 03 banheiros, copa, cozinha, varanda frente, 02 áreas de serviço amplas, sem garagem. Valor de aluguel inclui IPTU.",
   },
   {
     fotos: importAll(

@@ -1581,12 +1581,12 @@ const imoveisDisp = [
     quartos: 5,
     banheiros: 3,
     vagas: 0,
-    valor: "R$ 2.500,00",
+    valor: "R$ 2.000,00/R$ 3.000,00",
     areaTotal: "- m²",
     areaConstruida: "- m²",
     titulo: "Aluga-se casa no bairro Tenente Carlos",
     descricao:
-      "02 pavimentos, sala, 05 quartos, 03 banheiros, copa, cozinha, varanda frente, 02 áreas de serviço amplas, sem garagem. Valor de aluguel inclui IPTU.",
+      "02 pavimentos, sala, 05 quartos, 03 banheiros, copa, cozinha, varanda frente, 02 áreas de serviço amplas, sem garagem. Valor de aluguel inclui IPTU. Valor: R$ 2.000,00 (pessoa física) e R$ 3.000,00 (pessoa jurídica)",
   },
   {
     fotos: importAll(

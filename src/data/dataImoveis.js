@@ -88,6 +88,7 @@ import ffV172 from "../assets/images/V172.jpg";
 import ffV173 from "../assets/images/V173.jpeg";
 import ffV174 from "../assets/images/V174.jpeg";
 import ffV175 from "../assets/images/V175.jpg";
+import ffV177 from "../assets/images/V177.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -1053,6 +1054,28 @@ const imoveisDisp = [
   },
   {
     fotos: importAll(
+      require.context("../assets/images/V177", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffV177,
+    cod: "V177",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.plot,
+    ruaNum: "Rua Leme",
+    bairro: "Ipanema",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 0,
+    banheiros: 0,
+    vagas: 0,
+    valor: "R$ 210.000,00 ",
+    areaTotal: "360 m²",
+    areaConstruida: "- m²",
+    titulo: "Vende-se lote no bairro Ipanema",
+    descricao:
+      "Ótima topografia (plano); infraestrutura completa; murado nas divisas; 360 m²; imóvel com escritura, mas NÃO FINANCIA.",
+  },
+  {
+    fotos: importAll(
       require.context("../assets/images/L008", true, /\.(png|jpe?g|svg)$/)
     ),
     fotoCapa: ffL008,
@@ -1603,7 +1626,7 @@ const imoveisDisp = [
     quartos: 2,
     banheiros: 1,
     vagas: 1,
-    valor: "R$ 1.600,00",
+    valor: "R$ 1.500,00",
     areaTotal: "- m²",
     areaConstruida: "50 m²",
     titulo: "Aluga-se ótimo apartamento no bairro São Francisco.",

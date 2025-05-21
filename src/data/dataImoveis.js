@@ -1537,7 +1537,7 @@ const imoveisDisp = [
     Estado: "Minas Gerais",
     quartos: 2,
     banheiros: 2,
-    vagas: 1,
+    vagas: 2,
     valor: "R$ 2.400,00",
     areaTotal: "- m²",
     areaConstruida: "90 m²",

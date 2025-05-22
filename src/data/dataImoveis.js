@@ -10,6 +10,7 @@ import ffL062 from "../assets/images/L062.jpg";
 import ffL063a1 from "../assets/images/L063a1.jpeg";
 import ffL063a2 from "../assets/images/L063a2.jpeg";
 import ffL063a3 from "../assets/images/L063a3.jpeg";
+import ffL065 from "../assets/images/L065.jpg";
 import ffL073 from "../assets/images/L073.jpg";
 import ffL074 from "../assets/images/L074.jpg";
 import ffL075 from "../assets/images/L075.jpeg";
@@ -1310,6 +1311,28 @@ const imoveisDisp = [
   //   titulo:"Aluguel de sala comercial no Reale - 2º andar.",
   //   descricao:"R$ 400,00 taxa de condomínio. Sala de 14m² em ótima localização e acabamento. Situado em área central de alta movimentação. Recepção climatizada, com recepcionista. Porta principal com acionamento eletrônico. Telefones fixos / Whatsapp automatizado. Internet banda larga / Espaço com copa equipada.Banheiros para clientes e banheiros internos.Sistema de câmeras de segurança, com monitoramento via app.Alarme geral e individual por sala, com acesso exclusivo.Possibilidades de adaptação de diversos projetos tais como spa day, com ducha aquecida, ou outros tipos de projetos específicos.Ideal para escritórios em geral, clínicas de estética, estúdio de pilates e outros. Despesas de condomínio inclui água, luz, IPTU, internet, recepção, sistema de câmeras e limpeza de áreas comuns."
   // },
+  {
+    fotos: importAll(
+      require.context("../assets/images/L065", true, /\.(png|jpe?g|svg)$/)
+    ),
+    fotoCapa: ffL065,
+    cod: "L065",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua Jasmim, 118",
+    bairro: "Santo Antônio",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 2,
+    banheiros: 2,
+    vagas: 1,
+    valor: "R$1.600,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se casa geminada no residencial Santo Antônio",
+    descricao:
+      "02 quartos, 02 banheiros sociais, sala, copa, cozinha, área de serviço, varanda, garagem para 01 carro, casa ampla, de forro e piso de cerâmica. Imóvel seguro, no segundo pavimento.",
+  },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L074", true, /\.(png|jpe?g|svg)$/)

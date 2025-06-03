@@ -89,6 +89,7 @@ import ffV172 from "../assets/images/V172.jpg";
 import ffV173 from "../assets/images/V173.jpeg";
 import ffV174 from "../assets/images/V174.jpeg";
 import ffV175 from "../assets/images/V175.jpg";
+import ffV176 from "../assets/images/V176.jpg";
 import ffV177 from "../assets/images/V177.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
@@ -239,28 +240,28 @@ const imoveisDisp = [
     descricao:
       "Imóvel novo, rústico e aconchegante. Localização privilegiada (Rodovia do Caraça). Casa bem estruturada e com amplo terreno. Infraestrutura completa.",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/V095", true, /\.(png|jpe?g|svg)$/)
-    ),
-    fotoCapa: ffV095,
-    cod: "V095",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.apartment,
-    ruaNum: "Rua das Flores, 44, Ap. 302",
-    bairro: "São Francisco",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 2,
-    banheiros: 2,
-    vagas: 1,
-    valor: "R$ 440.000,00",
-    areaTotal: "540 m²",
-    areaConstruida: "70 m²",
-    titulo: "Vende-se apartamento no bairro São Francisco",
-    descricao:
-      "Apartamento 2º pavimento. Copa/cozinha, área de serviço, 2 varandas. 2 quartos (2 suítes), documentação regular.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/V095", true, /\.(png|jpe?g|svg)$/)
+  //   ),
+  //   fotoCapa: ffV095,
+  //   cod: "V095",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.apartment,
+  //   ruaNum: "Rua das Flores, 44, Ap. 302",
+  //   bairro: "São Francisco",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 2,
+  //   banheiros: 2,
+  //   vagas: 1,
+  //   valor: "R$ 440.000,00",
+  //   areaTotal: "540 m²",
+  //   areaConstruida: "70 m²",
+  //   titulo: "Vende-se apartamento no bairro São Francisco",
+  //   descricao:
+  //     "Apartamento 2º pavimento. Copa/cozinha, área de serviço, 2 varandas. 2 quartos (2 suítes), documentação regular.",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/V108", true, /\.(png|jpe?g|svg)$/)
@@ -1052,6 +1053,28 @@ const imoveisDisp = [
     titulo: "02 lotes a venda no Bairro Monte Carlo (Santa Bárbara/MG)",
     descricao:
       "Excelente opção para quem busca tranquilidade e qualidade de vida, lotes planos de 12x30m cada, com escritura e murado nas divisas, bairro com infraestrutura completa; vista para a Serra; ótimos imóveis no entorno; área do terreno: 720 m², sem área construída. Interesse de vender os dois juntos.",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/V176", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffV176,
+    cod: "V176",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "Lagoa",
+    cidade: city.barao_cocais,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 3,
+    vagas: 3,
+    valor: "R$ 1.050.000,00",
+    areaTotal: "390 m²",
+    areaConstruida: "110 m²",
+    titulo: "Casa a venda no bairro Lagoa (Barão de Cocais/MG)",
+    descricao:
+      "Sala, copa/cozinha; ótimo acabamento; 02 quartos, 01 suíte, portão eletrônico, câmera de segurança, bairro com infraestrutura completa, área do terreno: 390 m², área construída: 110 m² + 150 m² não averbada. Valor total dos dois lotes: R$ 1.050.000,00.",
   },
   {
     fotos: importAll(

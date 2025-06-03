@@ -1606,7 +1606,7 @@ const imoveisDisp = [
     quartos: 3,
     banheiros: 2,
     vagas: 3,
-    valor: "R$ 2.500,00",
+    valor: "R$ 2.200,00",
     areaTotal: "- m²",
     areaConstruida: "- m²",
     titulo: "Casa de aluguel no bairro São José",

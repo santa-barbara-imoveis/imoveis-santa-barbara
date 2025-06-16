@@ -852,29 +852,29 @@ const imoveisDisp = [
     descricao:
       "Sala, copa/cozinha, 2 banheiros, 3 quartos (1 suíte), quintal, 2 vagas de garagem, área do lote: 297m², área Construída: 92 m².",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/V166", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
-    fotoCapa: ffV166,
-    cod: "V166",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.country_house,
-    ruaNum: "Não informado",
-    bairro: "Barra Feliz",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 2,
-    banheiros: 1,
-    vagas: "-",
-    valor: "R$ 350.000,00",
-    areaTotal: "2.500 m²",
-    areaConstruida: "40 m²",
-    titulo:
-      "Sítio a venda em Barra Feliz (Santa Bárbara) – próximo ao River Park",
-    descricao:
-      "Terreno de 2.500 m², 1 banheiro, 2 quartos, lagos, canil e galinheiro; jardim e pomar; ambiente tranquilo e agradável. A casa é pequena, sem laje, com piso de cimento queimado e portão manual. Localizado em área rural, sem documento regular para financimento.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/V166", true, /\.(png|jpe?g|svg|jfif)$/)
+  //   ),
+  //   fotoCapa: ffV166,
+  //   cod: "V166",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.country_house,
+  //   ruaNum: "Não informado",
+  //   bairro: "Barra Feliz",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 2,
+  //   banheiros: 1,
+  //   vagas: "-",
+  //   valor: "R$ 350.000,00",
+  //   areaTotal: "2.500 m²",
+  //   areaConstruida: "40 m²",
+  //   titulo:
+  //     "Sítio a venda em Barra Feliz (Santa Bárbara) – próximo ao River Park",
+  //   descricao:
+  //     "Terreno de 2.500 m², 1 banheiro, 2 quartos, lagos, canil e galinheiro; jardim e pomar; ambiente tranquilo e agradável. A casa é pequena, sem laje, com piso de cimento queimado e portão manual. Localizado em área rural, sem documento regular para financimento.",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/V167", true, /\.(png|jpe?g|svg|jfif)$/)

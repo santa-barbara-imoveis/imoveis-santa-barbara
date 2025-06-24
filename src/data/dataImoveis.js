@@ -583,7 +583,7 @@ const imoveisDisp = [
     quartos: 3,
     banheiros: 1,
     vagas: 2,
-    valor: "R$ 490.000,00",
+    valor: "R$ 460.000,00",
     areaTotal: "180 m²",
     areaConstruida: "93 m²",
     titulo: "Vende-se Casa Geminada no bairro Caminhos de Minas",

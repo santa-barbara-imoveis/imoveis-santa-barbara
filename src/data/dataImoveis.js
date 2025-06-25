@@ -1569,28 +1569,28 @@ const imoveisDisp = [
   //   descricao:
   //     "Sala / Copa, 01 suíte, 01 quarto, 01 banheiro social, cozinha, área externa, área de serviço, sem garagem. Não tem taxa de condomínio.",
   // },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L097", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
-    fotoCapa: ffL097,
-    cod: "L097",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.apartment,
-    ruaNum: "Rua Maria Carolina, 405, apto 103 (primeiro andar)",
-    bairro: "Centro",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 2,
-    banheiros: 2,
-    vagas: 2,
-    valor: "R$ 2.400,00",
-    areaTotal: "- m²",
-    areaConstruida: "90 m²",
-    titulo: "Aluga-se apartamento novo de 90m² no centro de Santa Bárbara",
-    descricao:
-      "01 suíte + 01 quarto, 01 banheiro social, sala, copa, cozinha, área de serviço, varanda, sacada, 01 vaga de garagem coberta, valor: R$2.200,00/mês + R$200,00 de condomínio, interfone e portão eletrônico.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L097", true, /\.(png|jpe?g|svg|jfif)$/)
+  //   ),
+  //   fotoCapa: ffL097,
+  //   cod: "L097",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.apartment,
+  //   ruaNum: "Rua Maria Carolina, 405, apto 103 (primeiro andar)",
+  //   bairro: "Centro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 2,
+  //   banheiros: 2,
+  //   vagas: 2,
+  //   valor: "R$ 2.400,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "90 m²",
+  //   titulo: "Aluga-se apartamento novo de 90m² no centro de Santa Bárbara",
+  //   descricao:
+  //     "01 suíte + 01 quarto, 01 banheiro social, sala, copa, cozinha, área de serviço, varanda, sacada, 01 vaga de garagem coberta, valor: R$2.200,00/mês + R$200,00 de condomínio, interfone e portão eletrônico.",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/L100", true, /\.(png|jpe?g|svg|jfif)$/)

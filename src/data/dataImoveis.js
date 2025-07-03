@@ -1657,28 +1657,28 @@ const imoveisDisp = [
     descricao:
       "02 pavimentos, sala, 05 quartos, 03 banheiros, copa, cozinha, varanda frente, 02 áreas de serviço amplas, sem garagem. Valor de aluguel inclui IPTU. Valor: R$ 2.000,00 (pessoa física) e R$ 3.000,00 (pessoa jurídica)",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L109", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
-    fotoCapa: ffL109,
-    cod: "L109",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.apartment,
-    ruaNum: "Rua das Vertentes, 177, apto 102.",
-    bairro: "Centro",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 2,
-    banheiros: 1,
-    vagas: 1,
-    valor: "R$ 1.500,00",
-    areaTotal: "- m²",
-    areaConstruida: "50 m²",
-    titulo: "Aluga-se ótimo apartamento no bairro São Francisco.",
-    descricao:
-      "Rua das Vertentes, 177, apto 102 (segundo andar), sala, varanda, 02 quartos, 01 banheiro, copa, cozinha, área de serviço, 01 vaga garagem, área construída: 50m², R$1.600,00/mês, garagem coberta e com portão eletrônico.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L109", true, /\.(png|jpe?g|svg|jfif)$/)
+  //   ),
+  //   fotoCapa: ffL109,
+  //   cod: "L109",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.apartment,
+  //   ruaNum: "Rua das Vertentes, 177, apto 102.",
+  //   bairro: "Centro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 2,
+  //   banheiros: 1,
+  //   vagas: 1,
+  //   valor: "R$ 1.500,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "50 m²",
+  //   titulo: "Aluga-se ótimo apartamento no bairro São Francisco.",
+  //   descricao:
+  //     "Rua das Vertentes, 177, apto 102 (segundo andar), sala, varanda, 02 quartos, 01 banheiro, copa, cozinha, área de serviço, 01 vaga garagem, área construída: 50m², R$1.600,00/mês, garagem coberta e com portão eletrônico.",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L094", true, /\.(png|jpe?g|svg|jfif)$/)

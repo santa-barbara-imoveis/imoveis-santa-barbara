@@ -568,28 +568,28 @@ const imoveisDisp = [
   //   descricao:
   //     "Sala de estar, jantar e tv;Copa/cozinha (bancada granito); 3 quartos sendo uma suíte; 2 banheiros sociais, área de serviço; Espaço gourmet com churrasqueira e área livre; Banho externo e ducha; Documento regular para financiamento.",
   // },
-  {
-    fotos: importAll(
-      require.context("../assets/images/V149", true, /\.(png|jpe?g|svg)$/)
-    ),
-    fotoCapa: ffV149,
-    cod: "V149",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.house,
-    ruaNum: "-",
-    bairro: "Caminhos de Minas",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 3,
-    banheiros: 1,
-    vagas: 2,
-    valor: "R$ 460.000,00",
-    areaTotal: "180 m²",
-    areaConstruida: "93 m²",
-    titulo: "Vende-se Casa Geminada no bairro Caminhos de Minas",
-    descricao:
-      "Cozinha/área serviço, 03 quartos (1 suíte), 01 banheiro social e 02 vagas de garagem.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/V149", true, /\.(png|jpe?g|svg)$/)
+  //   ),
+  //   fotoCapa: ffV149,
+  //   cod: "V149",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "-",
+  //   bairro: "Caminhos de Minas",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 3,
+  //   banheiros: 1,
+  //   vagas: 2,
+  //   valor: "R$ 460.000,00",
+  //   areaTotal: "180 m²",
+  //   areaConstruida: "93 m²",
+  //   titulo: "Vende-se Casa Geminada no bairro Caminhos de Minas",
+  //   descricao:
+  //     "Cozinha/área serviço, 03 quartos (1 suíte), 01 banheiro social e 02 vagas de garagem.",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/V150", true, /\.(png|jpe?g|svg)$/)

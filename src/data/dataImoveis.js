@@ -677,28 +677,28 @@ const imoveisDisp = [
     titulo: "Vende-se lote na rua da Paciência",
     descricao: "Lote com boa topografia, 12 m x 50 m, infraestrutura completa.",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/V156", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
-    fotoCapa: ffV156,
-    cod: "V156",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.plot,
-    ruaNum: "-",
-    bairro: "Praia",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 0,
-    banheiros: 0,
-    vagas: 0,
-    valor: "R$ 120.000,00",
-    areaTotal: "643 m²",
-    areaConstruida: "643 m²",
-    titulo: "Vende-se lotes – bairro Praia",
-    descricao:
-      "Lote com 643 m²; infraestrutura completa; ideal para investimento; com leve declive.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/V156", true, /\.(png|jpe?g|svg|jfif)$/)
+  //   ),
+  //   fotoCapa: ffV156,
+  //   cod: "V156",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.plot,
+  //   ruaNum: "-",
+  //   bairro: "Praia",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 0,
+  //   banheiros: 0,
+  //   vagas: 0,
+  //   valor: "R$ 120.000,00",
+  //   areaTotal: "643 m²",
+  //   areaConstruida: "643 m²",
+  //   titulo: "Vende-se lotes – bairro Praia",
+  //   descricao:
+  //     "Lote com 643 m²; infraestrutura completa; ideal para investimento; com leve declive.",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/V158", true, /\.(png|jpe?g|svg|jfif)$/)

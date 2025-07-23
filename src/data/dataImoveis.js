@@ -91,6 +91,7 @@ import ffV174 from "../assets/images/V174.jpeg";
 import ffV175 from "../assets/images/V175.jpg";
 import ffV176 from "../assets/images/V176.jpg";
 import ffV177 from "../assets/images/V177.jpg";
+import ffV178 from "../assets/images/V178.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -979,7 +980,7 @@ const imoveisDisp = [
     quartos: 4,
     banheiros: 2,
     vagas: 2,
-    valor: "R$ 630.000,00",
+    valor: "R$ 610.000,00",
     areaTotal: "300 m²",
     areaConstruida: "108 m²",
     titulo: "Vende-se ótima casa no Vila Brandão",
@@ -1097,6 +1098,28 @@ const imoveisDisp = [
     titulo: "Vende-se lote no bairro Ipanema",
     descricao:
       "Ótima topografia (plano); infraestrutura completa; murado nas divisas; 360 m²; imóvel com escritura, mas NÃO FINANCIA.",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/V178", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffV178,
+    cod: "V178",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "Mãe Catarina",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 2,
+    vagas: 2,
+    valor: "R$ 850.000,00 ",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Ótima casa no bairro Mãe Catarina",
+    descricao:
+      "03 quartos (01 suíte), 01 banheiro social, sala (03 ambientes), copa / cozinha, área de serviço, área externa, jardim, garagem para 02 carros. Ótimo acabamento, armários planejados, portão eletrônico, interfone com câmera, concertina e cerca elétrica.",
   },
   {
     fotos: importAll(

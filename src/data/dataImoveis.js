@@ -1372,7 +1372,7 @@ const imoveisDisp = [
     quartos: 2,
     banheiros: 2,
     vagas: 1,
-    valor: "R$1.600,00",
+    valor: "R$1.500,00",
     areaTotal: "- m²",
     areaConstruida: "- m²",
     titulo: "Aluga-se casa geminada no residencial Santo Antônio",
@@ -1464,28 +1464,28 @@ const imoveisDisp = [
   //   titulo:"Casa de aluguel no centro - Santa Bárbara",
   //   descricao:"Sala, 3 quartos, 1 suíte, 1 banheiro social, varanda, sem garagem."
   // },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L082", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
-    fotoCapa: ffL082,
-    cod: "L082",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.commercial_property,
-    ruaNum: "Não informado",
-    bairro: "União",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 0,
-    banheiros: 1,
-    vagas: 0,
-    valor: "R$ 2.300,00",
-    areaTotal: "- m²",
-    areaConstruida: "90 m²",
-    titulo: "Galpão disponível para locação no bairro União",
-    descricao:
-      "90 m² - Portão manual, piso de cimento sem laje, 1 banheiro, ponto central, seguro, ideal para depósitos, academia e oficinas; energia e água rateadas (não há padrão isolados).",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L082", true, /\.(png|jpe?g|svg|jfif)$/)
+  //   ),
+  //   fotoCapa: ffL082,
+  //   cod: "L082",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.commercial_property,
+  //   ruaNum: "Não informado",
+  //   bairro: "União",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 0,
+  //   banheiros: 1,
+  //   vagas: 0,
+  //   valor: "R$ 2.300,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "90 m²",
+  //   titulo: "Galpão disponível para locação no bairro União",
+  //   descricao:
+  //     "90 m² - Portão manual, piso de cimento sem laje, 1 banheiro, ponto central, seguro, ideal para depósitos, academia e oficinas; energia e água rateadas (não há padrão isolados).",
+  // },
   // {
   //   fotos: importAll(require.context('../assets/images/L083', true, /\.(png|jpe?g|svg|jfif)$/)),
   //   fotoCapa: ffL083,
@@ -1520,7 +1520,7 @@ const imoveisDisp = [
     quartos: 0,
     banheiros: 1,
     vagas: 0,
-    valor: "R$ 4.000,00",
+    valor: "R$ 3.300,00",
     areaTotal: "370 m²",
     areaConstruida: "370 m²",
     titulo: "Galpão disponível para locação no bairro Santa Mônica",
@@ -1680,28 +1680,28 @@ const imoveisDisp = [
   //   descricao:
   //     "Sala, cozinha, 01 suíte, 01 quarto, 01 banheiro social, área externa, área de serviço e garagem coberta para 3 carros",
   // },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L104", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
-    fotoCapa: ffL104,
-    cod: "L104",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.house,
-    ruaNum: "Rua Palmital, nº 55, Bairro Tenente Carlos",
-    bairro: "Tenente Carlos",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 5,
-    banheiros: 3,
-    vagas: 0,
-    valor: "R$ 2.000,00/R$ 3.000,00",
-    areaTotal: "- m²",
-    areaConstruida: "- m²",
-    titulo: "Aluga-se casa no bairro Tenente Carlos",
-    descricao:
-      "02 pavimentos, sala, 05 quartos, 03 banheiros, copa, cozinha, varanda frente, 02 áreas de serviço amplas, sem garagem. Valor de aluguel inclui IPTU. Valor: R$ 2.000,00 (pessoa física) e R$ 3.000,00 (pessoa jurídica)",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L104", true, /\.(png|jpe?g|svg|jfif)$/)
+  //   ),
+  //   fotoCapa: ffL104,
+  //   cod: "L104",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "Rua Palmital, nº 55, Bairro Tenente Carlos",
+  //   bairro: "Tenente Carlos",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 5,
+  //   banheiros: 3,
+  //   vagas: 0,
+  //   valor: "R$ 2.000,00/R$ 3.000,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Aluga-se casa no bairro Tenente Carlos",
+  //   descricao:
+  //     "02 pavimentos, sala, 05 quartos, 03 banheiros, copa, cozinha, varanda frente, 02 áreas de serviço amplas, sem garagem. Valor de aluguel inclui IPTU. Valor: R$ 2.000,00 (pessoa física) e R$ 3.000,00 (pessoa jurídica)",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L109", true, /\.(png|jpe?g|svg|jfif)$/)

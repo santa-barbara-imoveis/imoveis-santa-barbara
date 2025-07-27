@@ -31,6 +31,7 @@ import ffL098 from "../assets/images/L098.jpeg";
 import ffL100 from "../assets/images/L100.jpeg";
 import ffL103 from "../assets/images/L103.jpeg";
 import ffL104 from "../assets/images/L104.jpeg";
+import ffL105 from "../assets/images/L105.jpeg";
 import ffL109 from "../assets/images/L109.jpeg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
@@ -1724,6 +1725,29 @@ const imoveisDisp = [
   //   descricao:
   //     "02 pavimentos, sala, 05 quartos, 03 banheiros, copa, cozinha, varanda frente, 02 áreas de serviço amplas, sem garagem. Valor de aluguel inclui IPTU. Valor: R$ 2.000,00 (pessoa física) e R$ 3.000,00 (pessoa jurídica)",
   // },
+  {
+    fotos: importAll(
+      require.context("../assets/images/L105", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffL105,
+    cod: "L105",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.apartment,
+    ruaNum: "-",
+    bairro: "Praia",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 1,
+    vagas: 0,
+    valor: "R$ 1.400,00 + R$ 250,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo:
+      "Aluga-se apto no edifício Morada do Ouro (Bairro Praia) - Bloco 2, apto 201",
+    descricao:
+      "Sala, cozinha/área de serviço (armários planejados e suggar), 03 quartos, 01 banheiro social (armários planejados), 01 vaga de garagem, R$1.400,00 + R$250,00 condomínio.Taxa de condomínio inclui conta de água.",
+  },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L109", true, /\.(png|jpe?g|svg|jfif)$/)

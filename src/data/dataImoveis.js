@@ -93,6 +93,7 @@ import ffV175 from "../assets/images/V175.jpg";
 import ffV176 from "../assets/images/V176.jpg";
 import ffV177 from "../assets/images/V177.jpg";
 import ffV178 from "../assets/images/V178.jpg";
+import ffV179 from "../assets/images/V179.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -1124,6 +1125,28 @@ const imoveisDisp = [
   },
   {
     fotos: importAll(
+      require.context("../assets/images/V179", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffV179,
+    cod: "V179",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua Visconde do Rio Branco, 465",
+    bairro: "São Francisco",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 4,
+    banheiros: 2,
+    vagas: 1,
+    valor: "R$ 500.000,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Casa a venda no bairro São Francisco",
+    descricao:
+      "Sala, copa/cozinha; 01 banheiro social; 04 quartos (1 suíte); varanda / área de serviço; quintal / 01 vaga de garagem; área do lote: 360 m²; área Construída: 127 m². Obs: tem escritura do lote, mas casa não está averbada.",
+  },
+  {
+    fotos: importAll(
       require.context("../assets/images/L008", true, /\.(png|jpe?g|svg)$/)
     ),
     fotoCapa: ffL008,
@@ -1739,7 +1762,7 @@ const imoveisDisp = [
     Estado: "Minas Gerais",
     quartos: 3,
     banheiros: 1,
-    vagas: 0,
+    vagas: 1,
     valor: "R$ 1.400,00 + R$ 250,00",
     areaTotal: "- m²",
     areaConstruida: "- m²",

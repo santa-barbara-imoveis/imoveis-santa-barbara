@@ -1139,8 +1139,8 @@ const imoveisDisp = [
     banheiros: 2,
     vagas: 1,
     valor: "R$ 500.000,00",
-    areaTotal: "- m²",
-    areaConstruida: "- m²",
+    areaTotal: "360 m²",
+    areaConstruida: "127 m²",
     titulo: "Casa a venda no bairro São Francisco",
     descricao:
       "Sala, copa/cozinha; 01 banheiro social; 04 quartos (1 suíte); varanda / área de serviço; quintal / 01 vaga de garagem; área do lote: 360 m²; área Construída: 127 m². Obs: tem escritura do lote, mas casa não está averbada.",

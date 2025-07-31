@@ -503,7 +503,7 @@ const imoveisDisp = [
     areaConstruida: "166 m²",
     titulo: "Vende-se casa em Barão de Cocais",
     descricao:
-      "Sala/cozinha (bancada granito).Área externa / Área de churrasqueira.Documento regular para financiamento.",
+      "Sala/cozinha (bancada granito).Área externa / Área de churrasqueira.",
   },
   {
     fotos: importAll(
@@ -1682,28 +1682,28 @@ const imoveisDisp = [
   //   descricao:
   //     "01 suíte + 01 quarto, 01 banheiro social, sala, copa, cozinha, área de serviço, varanda, sacada, 01 vaga de garagem coberta, valor: R$2.200,00/mês + R$200,00 de condomínio, interfone e portão eletrônico.",
   // },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L100", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
-    fotoCapa: ffL100,
-    cod: "L100",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.house,
-    ruaNum: "-",
-    bairro: "São José",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 3,
-    banheiros: 2,
-    vagas: 3,
-    valor: "R$ 2.200,00",
-    areaTotal: "- m²",
-    areaConstruida: "- m²",
-    titulo: "Casa de aluguel no bairro São José",
-    descricao:
-      "Varanda, sala, copa, cozinha, 03 quartos (01 suíte), 02 banheiros sociais, lavanderia, área de serviço, área externa, piscina e garagem 03 carros.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L100", true, /\.(png|jpe?g|svg|jfif)$/)
+  //   ),
+  //   fotoCapa: ffL100,
+  //   cod: "L100",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "-",
+  //   bairro: "São José",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 3,
+  //   banheiros: 2,
+  //   vagas: 3,
+  //   valor: "R$ 2.200,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Casa de aluguel no bairro São José",
+  //   descricao:
+  //     "Varanda, sala, copa, cozinha, 03 quartos (01 suíte), 02 banheiros sociais, lavanderia, área de serviço, área externa, piscina e garagem 03 carros.",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L103", true, /\.(png|jpe?g|svg|jfif)$/)

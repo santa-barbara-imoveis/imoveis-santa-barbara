@@ -804,7 +804,7 @@ const imoveisDisp = [
     quartos: 4,
     banheiros: 1,
     vagas: 0,
-    valor: "R$ 240.000,00",
+    valor: "R$ 213.000,00",
     areaTotal: "302 m²",
     areaConstruida: "145 m²",
     titulo: "Vende-se casa no bairro São Francisco",

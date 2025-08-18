@@ -94,6 +94,7 @@ import ffV176 from "../assets/images/V176.jpg";
 import ffV177 from "../assets/images/V177.jpg";
 import ffV178 from "../assets/images/V178.jpg";
 import ffV179 from "../assets/images/V179.jpg";
+import ffV180 from "../assets/images/V180.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -112,9 +113,7 @@ const importAll = (r) => {
 
 const imoveisDisp = [
   {
-    fotos: importAll(
-      require.context("../assets/images/V003", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V003", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffV003,
     cod: "V003",
     contrato: contractType[contractTypeParamKey.buy],
@@ -134,9 +133,7 @@ const imoveisDisp = [
       "Sala de TV, sala de jantar, cozinha estilo americana, despensa, área de serviço, quintal, garagem ampla",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V006", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V006", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffV006,
     cod: "V006",
     contrato: contractType[contractTypeParamKey.buy],
@@ -178,9 +175,7 @@ const imoveisDisp = [
   //     "Lote plano com excelente localização; 949 m². De frente para a rodovia MG129 (sentido Catas Altas)",
   // },
   {
-    fotos: importAll(
-      require.context("../assets/images/V052", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V052", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffV052,
     cod: "V052",
     contrato: contractType[contractTypeParamKey.buy],
@@ -200,9 +195,7 @@ const imoveisDisp = [
       "Excelente opção para quem busca tranquilidade e qualidade de vida. Chácaras de 3.000m² (ao lado do Retiro dos Chalés). 11 km de Santa Bárbara. 10km de São Gonçalo. 25km de João Monlevade. Infraestrutura completa e fácil acesso!",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V058", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V058", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffV058,
     cod: "V058",
     contrato: contractType[contractTypeParamKey.buy],
@@ -222,9 +215,7 @@ const imoveisDisp = [
       "Imóvel em lote de 1008m² próximo à Igreja Nossa Senhora do Rosário.Imóvel possui 03 casas e 01 kitnet. Área comum com jardim, churrasqueira, sinuca. Infraestrutura completa (acesso a rua calçada, água, energia, esgoto).",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V086", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V086", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffV086,
     cod: "V086",
     contrato: contractType[contractTypeParamKey.buy],
@@ -288,9 +279,7 @@ const imoveisDisp = [
   //     "Imóvel conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo à área hospitalar). Em um raio de apenas 500m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas.",
   // },
   {
-    fotos: importAll(
-      require.context("../assets/images/L0109a1", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/L0109a1", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffV109a1,
     cod: "V109a1",
     contrato: contractType[contractTypeParamKey.buy],
@@ -310,9 +299,7 @@ const imoveisDisp = [
       "Imóvel novo e aconchegante. Localização privilegiada (Ao lado do River Park). Chalé bem estruturado e com área ampla. Portão eletrônico/quiosque com churrasqueira e piscina. Banheiro social/ 01 suíte / 02 quartos. Sala / Cozinha / Área de serviço. Garagem / Quintal.",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V114", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V114", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffV114,
     cod: "V114",
     contrato: contractType[contractTypeParamKey.buy],
@@ -332,9 +319,7 @@ const imoveisDisp = [
       "Sala / Copa, 02 Quartos (01 suíte), 02 banheiros. Cozinha. Área de serviço. Garagem para 02 carros. Quintal, 410 m² de área total / 100 m² de área construída. Localização privilegiada (próximo ao Colégio das Irmãs). Infraestrutura completa.",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V119", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V119", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffV119,
     cod: "V119",
     contrato: contractType[contractTypeParamKey.buy],
@@ -350,13 +335,10 @@ const imoveisDisp = [
     areaTotal: "1,5 hectares",
     areaConstruida: "200 m²",
     titulo: "Sítio de 1,5 hectares à venda em Santa Bárbara",
-    descricao:
-      "Já com estrutura de água e luz. Cercado e com porteiras. Pomar formado com vários tipos de frutas.",
+    descricao: "Já com estrutura de água e luz. Cercado e com porteiras. Pomar formado com vários tipos de frutas.",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V120", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V120", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffV120,
     cod: "V120",
     contrato: contractType[contractTypeParamKey.buy],
@@ -376,9 +358,7 @@ const imoveisDisp = [
       "Apartamento localizado em frente ao Colégio das Irmãs.05 quartos / 02 banheiros / sala, copa, cozinha.Armários embutidos / Varanda / Terraço / Área de serviço. Documentação regular.",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V122", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V122", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffV122,
     cod: "V122",
     contrato: contractType[contractTypeParamKey.buy],
@@ -398,9 +378,7 @@ const imoveisDisp = [
       "Viva em conexão com a natureza exuberante na região de Catas Altas. Desfrute de um condomínio diferenciado, com segurança e bem estar, unindo-se ao estilo da vida cultural que somente a região pode oferecer.",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V123", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V123", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffV123,
     cod: "V123",
     contrato: contractType[contractTypeParamKey.buy],
@@ -416,13 +394,10 @@ const imoveisDisp = [
     areaTotal: "10,6 ha",
     areaConstruida: "- m²",
     titulo: "Vende-se terreno de 10,6 ha em área urbana",
-    descricao:
-      "Localizado na entrada de Santa Bárbara. Propriedade com escritura. Zona de Diversificação Econômica.",
+    descricao: "Localizado na entrada de Santa Bárbara. Propriedade com escritura. Zona de Diversificação Econômica.",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V125", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V125", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffV125,
     cod: "V125",
     contrato: contractType[contractTypeParamKey.buy],
@@ -441,9 +416,7 @@ const imoveisDisp = [
     descricao: "Ótima Localização. Documentação regular para financiamento.",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V129", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V129", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffV129,
     cod: "V129",
     contrato: contractType[contractTypeParamKey.buy],
@@ -484,9 +457,7 @@ const imoveisDisp = [
   //   descricao: "Lote plano. Não financia.",
   // },
   {
-    fotos: importAll(
-      require.context("../assets/images/V133", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V133", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffV133,
     cod: "V133",
     contrato: contractType[contractTypeParamKey.buy],
@@ -502,13 +473,10 @@ const imoveisDisp = [
     areaTotal: "303 m²",
     areaConstruida: "166 m²",
     titulo: "Vende-se casa em Barão de Cocais",
-    descricao:
-      "Sala/cozinha (bancada granito).Área externa / Área de churrasqueira.",
+    descricao: "Sala/cozinha (bancada granito).Área externa / Área de churrasqueira.",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V135", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V135", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffV135,
     cod: "V135",
     contrato: contractType[contractTypeParamKey.buy],
@@ -616,9 +584,7 @@ const imoveisDisp = [
   //     "Sala, copa, cozinha, 04 quartos, 02 banheiros sociais, 02 vagas de garagem, quintal e lavanderia.",
   // },
   {
-    fotos: importAll(
-      require.context("../assets/images/V151", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V151", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffV151,
     cod: "V151",
     contrato: contractType[contractTypeParamKey.buy],
@@ -634,8 +600,7 @@ const imoveisDisp = [
     areaTotal: "360 m²",
     areaConstruida: "360 m²",
     titulo: "Vende-se lote bairro Santa Quitéria",
-    descricao:
-      "Lote plano, 12m x 30m. Vista para a Serra. Infraestrutura completa.",
+    descricao: "Lote plano, 12m x 30m. Vista para a Serra. Infraestrutura completa.",
   },
   // {
   //   fotos: importAll(
@@ -660,9 +625,7 @@ const imoveisDisp = [
   //     "03 quartos, 02 banheiros sociais, Sala/Copa/Cozinha, Área de serviço/Varanda, Piscina/Área gourmet, Jardim/Pomar e Garagem para 05 carros.",
   // },
   {
-    fotos: importAll(
-      require.context("../assets/images/V155", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V155", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffV155,
     cod: "V155",
     contrato: contractType[contractTypeParamKey.buy],
@@ -703,9 +666,7 @@ const imoveisDisp = [
   //     "Lote com 643 m²; infraestrutura completa; ideal para investimento; com leve declive.",
   // },
   {
-    fotos: importAll(
-      require.context("../assets/images/V158", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V158", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffV158,
     cod: "V158",
     contrato: contractType[contractTypeParamKey.buy],
@@ -768,9 +729,7 @@ const imoveisDisp = [
   //   descricao: "Infraestrutura completa; lote plano e imóvel registrado.",
   // },
   {
-    fotos: importAll(
-      require.context("../assets/images/V161", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V161", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffV161,
     cod: "V161",
     contrato: contractType[contractTypeParamKey.buy],
@@ -790,9 +749,7 @@ const imoveisDisp = [
       "3 quartos (1 suíte), varanda, escritório, 2 banheiros, cozinha, copa, sala, horta, infraestrutura completa / Lote plano, imóvel registrado.",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V162", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V162", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffV162,
     cod: "V162",
     contrato: contractType[contractTypeParamKey.buy],
@@ -812,9 +769,7 @@ const imoveisDisp = [
       "2 salas, copa, cozinha, 4 quartos, 1 banheiro social e 1 lavabo, área de serviço, quintal, varanda, sem garagem.",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V163", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V163", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffV163,
     cod: "V163",
     contrato: contractType[contractTypeParamKey.buy],
@@ -834,9 +789,7 @@ const imoveisDisp = [
       "Imóvel em área residencial, 12m frente x 20m fundo, infraestrutura completa, com boa topografia, próximo ao Espaço da Serra, financia.",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V164", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V164", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffV164,
     cod: "V164",
     contrato: contractType[contractTypeParamKey.buy],
@@ -902,9 +855,7 @@ const imoveisDisp = [
   //     "Varanda, sala, copa, 01 suíte + 02 quartos, 01 banheiro social, cozinha, área de serviço, 01 vaga de garagem, casa de forro, telhado colonial, piso cerâmica e tábua corrida. Não financia.",
   // },
   {
-    fotos: importAll(
-      require.context("../assets/images/V169", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V169", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffV169,
     cod: "V169",
     contrato: contractType[contractTypeParamKey.buy],
@@ -946,9 +897,7 @@ const imoveisDisp = [
   //     "Avenida Rodrigo de Castro, área do lote: 1.693,50 m², infraestrutura completa, próximo a escola, padaria, supermercado BH, academia e posto de saúde.",
   // },
   {
-    fotos: importAll(
-      require.context("../assets/images/V171", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V171", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffV171,
     cod: "V171",
     contrato: contractType[contractTypeParamKey.buy],
@@ -968,9 +917,7 @@ const imoveisDisp = [
       "Imóvel de alto padrão, sala, copa, cozinha, 03 quartos (1 suíte), 2 banheiros, 02 vagas de garagem, área Gourmet, área de serviço, varanda, piscina e portão eletrônico.",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V172", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V172", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffV172,
     cod: "V172",
     contrato: contractType[contractTypeParamKey.buy],
@@ -990,9 +937,7 @@ const imoveisDisp = [
       "Sala, copa, cozinha; 04 quartos (1 suíte) / 2 banheiros; 02 vagas de garagem e área de serviço e varanda.",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V173", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V173", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffV173,
     cod: "V173",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1007,15 +952,12 @@ const imoveisDisp = [
     valor: "R$ 320.000,00",
     areaTotal: "1.608,73 m²",
     areaConstruida: "- m²",
-    titulo:
-      "Lote no condomínio Morada Serra Real – próximo ao trevo de Santa Bárbara",
+    titulo: "Lote no condomínio Morada Serra Real – próximo ao trevo de Santa Bárbara",
     descricao:
       "Vista para a serra, qualidade de vida e um excelente investimento. Infraestrutura completa. Imóvel com escritura, financia.",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V174", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V174", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffV174,
     cod: "V174",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1030,15 +972,12 @@ const imoveisDisp = [
     valor: "R$ 170.000,00",
     areaTotal: "2.620,34 m²",
     areaConstruida: "- m²",
-    titulo:
-      "Chácara a venda no Cubas – Condomínio Bela Vista (Santa Bárbara/MG)",
+    titulo: "Chácara a venda no Cubas – Condomínio Bela Vista (Santa Bárbara/MG)",
     descricao:
       "Excelente opção para quem busca tranquilidade e qualidade de vida. Vista parcial para o Caraça; chácara toda cercada, com água e luz na porta; ótimos imóveis no entorno; área do terreno: 2.620,34 m²; área construída: 0,00 m².",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V175", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V175", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffV175,
     cod: "V175",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1058,9 +997,7 @@ const imoveisDisp = [
       "Excelente opção para quem busca tranquilidade e qualidade de vida, lotes planos de 12x30m cada, com escritura e murado nas divisas, bairro com infraestrutura completa; vista para a Serra; ótimos imóveis no entorno; área do terreno: 720 m², sem área construída. Interesse de vender os dois juntos.",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V176", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V176", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffV176,
     cod: "V176",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1080,9 +1017,7 @@ const imoveisDisp = [
       "Sala, copa/cozinha; ótimo acabamento; 02 quartos, 01 suíte, portão eletrônico, câmera de segurança, bairro com infraestrutura completa, área do terreno: 390 m², área construída: 110 m² + 150 m² não averbada. Valor total dos dois lotes: R$ 1.050.000,00.",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V177", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V177", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffV177,
     cod: "V177",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1102,9 +1037,7 @@ const imoveisDisp = [
       "Ótima topografia (plano); infraestrutura completa; murado nas divisas; 360 m²; imóvel com escritura, mas NÃO FINANCIA.",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V178", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V178", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffV178,
     cod: "V178",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1124,9 +1057,7 @@ const imoveisDisp = [
       "03 quartos (01 suíte), 01 banheiro social, sala (03 ambientes), copa / cozinha, área de serviço, área externa, jardim, garagem para 02 carros. Ótimo acabamento, armários planejados, portão eletrônico, interfone com câmera, concertina e cerca elétrica.",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/V179", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V179", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffV179,
     cod: "V179",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1146,9 +1077,27 @@ const imoveisDisp = [
       "Sala, copa/cozinha; 01 banheiro social; 04 quartos (1 suíte); varanda / área de serviço; quintal / 01 vaga de garagem; área do lote: 360 m²; área Construída: 127 m². Obs: tem escritura do lote, mas casa não está averbada.",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/L008", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/V180", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV180,
+    cod: "V180",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua Santos Dumond, 267",
+    bairro: "São Francisco",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 2,
+    banheiros: 2,
+    vagas: 2,
+    valor: "R$ 410.000,00",
+    areaTotal: "450 m²",
+    areaConstruida: "90 m²",
+    titulo: "Casa a venda no bairro Progresso",
+    descricao:
+      "Sala/cozinha; 01 banheiro social; 02 quartos (1 suíte); área de serviço; quintal; 02 vagas de garagem; área do lote: 450 m²; área construída: 90 m².",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/L008", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffL008,
     cod: "L008",
     contrato: contractType[contractTypeParamKey.rent],
@@ -1164,8 +1113,7 @@ const imoveisDisp = [
     areaTotal: "1.000 m²",
     areaConstruida: "- m²",
     titulo: "Aluguel de lotes próximo ao trevo de Santa Bárbara",
-    descricao:
-      "Lotes planos com excelente localização. De frente para a rodovia MG129 (sentido Catas Altas).",
+    descricao: "Lotes planos com excelente localização. De frente para a rodovia MG129 (sentido Catas Altas).",
   },
   // {
   //   fotos: importAll(
@@ -1234,9 +1182,7 @@ const imoveisDisp = [
   //     "Imóvel conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo à área hospitalar). Em um raio de 500m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas, 04 quartos, 04 banheiros, 03 Salas, cozinha, varanda, área de serviço, área externa, terraço, garagem para 02 carros.",
   // },
   {
-    fotos: importAll(
-      require.context("../assets/images/L048_1", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/L048_1", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffL048_1,
     cod: "L048_1",
     contrato: contractType[contractTypeParamKey.rent],
@@ -1363,9 +1309,7 @@ const imoveisDisp = [
   //     "Imóvel novo e aconchegante, localização privilegiada (Ao lado do River Park); chalé bem estruturado e com área ampla; portão eletrônico, quiosque com churrasqueira e piscina; banheiro social, 01 suíte, 02 quartos; sala, cozinha, área de serviço; garagem e quintal.",
   // },
   {
-    fotos: importAll(
-      require.context("../assets/images/L063a1", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/L063a1", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffL063a1,
     cod: "L063a1",
     contrato: contractType[contractTypeParamKey.rent],
@@ -1404,9 +1348,7 @@ const imoveisDisp = [
   //   descricao:"R$ 400,00 taxa de condomínio. Sala de 14m² em ótima localização e acabamento. Situado em área central de alta movimentação. Recepção climatizada, com recepcionista. Porta principal com acionamento eletrônico. Telefones fixos / Whatsapp automatizado. Internet banda larga / Espaço com copa equipada.Banheiros para clientes e banheiros internos.Sistema de câmeras de segurança, com monitoramento via app.Alarme geral e individual por sala, com acesso exclusivo.Possibilidades de adaptação de diversos projetos tais como spa day, com ducha aquecida, ou outros tipos de projetos específicos.Ideal para escritórios em geral, clínicas de estética, estúdio de pilates e outros. Despesas de condomínio inclui água, luz, IPTU, internet, recepção, sistema de câmeras e limpeza de áreas comuns."
   // },
   {
-    fotos: importAll(
-      require.context("../assets/images/L065", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/L065", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffL065,
     cod: "L065",
     contrato: contractType[contractTypeParamKey.rent],
@@ -1426,9 +1368,7 @@ const imoveisDisp = [
       "02 quartos, 02 banheiros sociais, sala, copa, cozinha, área de serviço, varanda, garagem para 01 carro, casa ampla, de forro e piso de cerâmica. Imóvel seguro, no segundo pavimento.",
   },
   {
-    fotos: importAll(
-      require.context("../assets/images/L073", true, /\.(png|jpe?g|svg)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/L073", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffL073,
     cod: "L073",
     contrato: contractType[contractTypeParamKey.rent],
@@ -1552,9 +1492,7 @@ const imoveisDisp = [
   //   descricao:"Sala/copa/cozinha, 04 quartos (01 suíte), 02 banheiros sociais, área de serviço, terraço / quintal e garagem para 01 carro."
   // },
   {
-    fotos: importAll(
-      require.context("../assets/images/L084", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/L084", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffL084,
     cod: "L084",
     contrato: contractType[contractTypeParamKey.rent],
@@ -1749,9 +1687,7 @@ const imoveisDisp = [
   //     "02 pavimentos, sala, 05 quartos, 03 banheiros, copa, cozinha, varanda frente, 02 áreas de serviço amplas, sem garagem. Valor de aluguel inclui IPTU. Valor: R$ 2.000,00 (pessoa física) e R$ 3.000,00 (pessoa jurídica)",
   // },
   {
-    fotos: importAll(
-      require.context("../assets/images/L105", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
+    fotos: importAll(require.context("../assets/images/L105", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffL105,
     cod: "L105",
     contrato: contractType[contractTypeParamKey.rent],
@@ -1766,8 +1702,7 @@ const imoveisDisp = [
     valor: "R$ 1.400,00 + R$ 250,00",
     areaTotal: "- m²",
     areaConstruida: "- m²",
-    titulo:
-      "Aluga-se apto no edifício Morada do Ouro (Bairro Praia) - Bloco 2, apto 201",
+    titulo: "Aluga-se apto no edifício Morada do Ouro (Bairro Praia) - Bloco 2, apto 201",
     descricao:
       "Sala, cozinha/área de serviço (armários planejados e suggar), 03 quartos, 01 banheiro social (armários planejados), 01 vaga de garagem, R$1.400,00 + R$250,00 condomínio.Taxa de condomínio inclui conta de água.",
   },

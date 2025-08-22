@@ -32,6 +32,7 @@ import ffL100 from "../assets/images/L100.jpeg";
 import ffL103 from "../assets/images/L103.jpeg";
 import ffL104 from "../assets/images/L104.jpeg";
 import ffL105 from "../assets/images/L105.jpeg";
+import ffL106 from "../assets/images/L106.jpg";
 import ffL109 from "../assets/images/L109.jpeg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
@@ -1705,6 +1706,26 @@ const imoveisDisp = [
     titulo: "Aluga-se apto no edifício Morada do Ouro (Bairro Praia) - Bloco 2, apto 201",
     descricao:
       "Sala, cozinha/área de serviço (armários planejados e suggar), 03 quartos, 01 banheiro social (armários planejados), 01 vaga de garagem, R$1.400,00 + R$250,00 condomínio.Taxa de condomínio inclui conta de água.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/L106", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL106,
+    cod: "L106",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.apartment,
+    ruaNum: "Rua Piúma, nº 105",
+    bairro: "Ipanema",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 4,
+    banheiros: 2,
+    vagas: 4,
+    valor: "R$ 3.000,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se ótima casa no bairro Ipanema",
+    descricao:
+      "Casa de 02 pavimentos; sala de estar; copa; cozinha; 04 quartos (01 suíte); 02 banheiros sociais; área externa; jardim; quintal; pomar; área de serviço; garagem para 4 carros, com portão eletrônico; ótima casa com linda vista para a serra.",
   },
   // {
   //   fotos: importAll(

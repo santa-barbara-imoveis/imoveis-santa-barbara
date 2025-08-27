@@ -1182,26 +1182,26 @@ const imoveisDisp = [
   //   descricao:
   //     "Imóvel conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo à área hospitalar). Em um raio de 500m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas, 04 quartos, 04 banheiros, 03 Salas, cozinha, varanda, área de serviço, área externa, terraço, garagem para 02 carros.",
   // },
-  {
-    fotos: importAll(require.context("../assets/images/L048_1", true, /\.(png|jpe?g|svg)$/)),
-    fotoCapa: ffL048_1,
-    cod: "L048_1",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.house,
-    ruaNum: "-",
-    bairro: "Centro",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: amenitiesQuantity.three,
-    banheiros: amenitiesQuantity.three,
-    vagas: amenitiesQuantity.five,
-    valor: "R$ 3.500,00",
-    areaTotal: "- m²",
-    areaConstruida: "- m²",
-    titulo: "Ótima casa para Aluguel no Centro (em frente a Caixa Econômica",
-    descricao:
-      "03 quartos, 03 banheiros, sala/cozinha, área de serviço, área externa com piscina, churrasqueira, jardim, garagem para 5 carros.",
-  },
+  // {
+  //   fotos: importAll(require.context("../assets/images/L048_1", true, /\.(png|jpe?g|svg)$/)),
+  //   fotoCapa: ffL048_1,
+  //   cod: "L048_1",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "-",
+  //   bairro: "Centro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: amenitiesQuantity.three,
+  //   banheiros: amenitiesQuantity.three,
+  //   vagas: amenitiesQuantity.five,
+  //   valor: "R$ 3.500,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Ótima casa para Aluguel no Centro (em frente a Caixa Econômica",
+  //   descricao:
+  //     "03 quartos, 03 banheiros, sala/cozinha, área de serviço, área externa com piscina, churrasqueira, jardim, garagem para 5 carros.",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L051", true, /\.(png|jpe?g|svg)$/)

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Highlights.css";
 import fotoFrente2 from "./assets/V164.jpg";
-import fotoFrente3 from "./assets/V172.jpg";
+import fotoFrente3 from "./assets/V176.jpg";
 import fotoFrente from "./assets/V151.jpeg";
 import area from "./assets/area.png";
 import banho from "./assets/banheira.png";
@@ -69,25 +69,25 @@ function Highlights() {
 
         <div className="boxImovel">
           <div className="imFotoMainV">
-            <Link to={`imovel/V172`} className="linkImage">
+            <Link to={`imovel/V176`} className="linkImage">
               <img className="imFotoV" src={fotoFrente3} />
             </Link>
             <div className="boxPreco">
               <div className="tipoContrato">Venda</div>
-              <div className="precoImovel">R$ 610.000,00</div>
+              <div className="precoImovel">R$ 1.050.000,00</div>
             </div>
           </div>
-          <div className="imBairroCidade">Vila Brandão - Barão de Cocais</div>
-          <div className="imId">Código: V172</div>
+          <div className="imBairroCidade">Bairro Lagoa - Barão de Cocais</div>
+          <div className="imId">Código: V176</div>
           <div className="imAmenities">
             <div className="iconsAmenities">
               <img className="icon" src={area} />
-              300
+              390
               <img className="icon" src={banho} />
-              2
+              3
               <img className="icon" src={vagas} />
-              2
-              <img className="icon" src={quartos} />4
+              3
+              <img className="icon" src={quartos} />3
             </div>
           </div>
         </div>

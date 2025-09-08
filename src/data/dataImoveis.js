@@ -1720,7 +1720,7 @@ const imoveisDisp = [
     quartos: 4,
     banheiros: 3,
     vagas: 4,
-    valor: "R$ 3.000,00",
+    valor: "R$ 2.500,00",
     areaTotal: "- m²",
     areaConstruida: "- m²",
     titulo: "Aluga-se ótima casa no bairro Ipanema",

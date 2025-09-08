@@ -215,26 +215,26 @@ const imoveisDisp = [
     descricao:
       "Imóvel em lote de 1008m² próximo à Igreja Nossa Senhora do Rosário.Imóvel possui 03 casas e 01 kitnet. Área comum com jardim, churrasqueira, sinuca. Infraestrutura completa (acesso a rua calçada, água, energia, esgoto).",
   },
-  {
-    fotos: importAll(require.context("../assets/images/V086", true, /\.(png|jpe?g|svg)$/)),
-    fotoCapa: ffV086,
-    cod: "V086",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.house,
-    ruaNum: "Rodovia do Caraça",
-    bairro: "Sumidouro",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 3,
-    banheiros: 2,
-    vagas: 3,
-    valor: "R$ 370.000,00",
-    areaTotal: "684 m²",
-    areaConstruida: "80 m²",
-    titulo: "Vende-se ótima casa no sumidouro",
-    descricao:
-      "Imóvel novo, rústico e aconchegante. Localização privilegiada (Rodovia do Caraça). Casa bem estruturada e com amplo terreno. Infraestrutura completa.",
-  },
+  // {
+  //   fotos: importAll(require.context("../assets/images/V086", true, /\.(png|jpe?g|svg)$/)),
+  //   fotoCapa: ffV086,
+  //   cod: "V086",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "Rodovia do Caraça",
+  //   bairro: "Sumidouro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 3,
+  //   banheiros: 2,
+  //   vagas: 3,
+  //   valor: "R$ 370.000,00",
+  //   areaTotal: "684 m²",
+  //   areaConstruida: "80 m²",
+  //   titulo: "Vende-se ótima casa no sumidouro",
+  //   descricao:
+  //     "Imóvel novo, rústico e aconchegante. Localização privilegiada (Rodovia do Caraça). Casa bem estruturada e com amplo terreno. Infraestrutura completa.",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/V095", true, /\.(png|jpe?g|svg)$/)

@@ -96,6 +96,7 @@ import ffV177 from "../assets/images/V177.jpg";
 import ffV178 from "../assets/images/V178.jpg";
 import ffV179 from "../assets/images/V179.jpg";
 import ffV180 from "../assets/images/V180.jpg";
+import ffV181 from "../assets/images/V181.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -789,26 +790,26 @@ const imoveisDisp = [
     descricao:
       "Imóvel em área residencial, 12m frente x 20m fundo, infraestrutura completa, com boa topografia, próximo ao Espaço da Serra, financia.",
   },
-  {
-    fotos: importAll(require.context("../assets/images/V164", true, /\.(png|jpe?g|svg|jfif)$/)),
-    fotoCapa: ffV164,
-    cod: "V164",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.house,
-    ruaNum: "Não informado",
-    bairro: "São Vicente",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 3,
-    banheiros: 2,
-    vagas: 2,
-    valor: "R$ 350.000,00",
-    areaTotal: "292 m²",
-    areaConstruida: "92 m²",
-    titulo: "Casa a venda no bairro São Vicente",
-    descricao:
-      "Sala, copa/cozinha, 2 banheiros, 3 quartos (1 suíte), quintal, 2 vagas de garagem, área do lote: 297m², área Construída: 92 m².",
-  },
+  // {
+  //   fotos: importAll(require.context("../assets/images/V164", true, /\.(png|jpe?g|svg|jfif)$/)),
+  //   fotoCapa: ffV164,
+  //   cod: "V164",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "Não informado",
+  //   bairro: "São Vicente",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 3,
+  //   banheiros: 2,
+  //   vagas: 2,
+  //   valor: "R$ 350.000,00",
+  //   areaTotal: "292 m²",
+  //   areaConstruida: "92 m²",
+  //   titulo: "Casa a venda no bairro São Vicente",
+  //   descricao:
+  //     "Sala, copa/cozinha, 2 banheiros, 3 quartos (1 suíte), quintal, 2 vagas de garagem, área do lote: 297m², área Construída: 92 m².",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/V166", true, /\.(png|jpe?g|svg|jfif)$/)
@@ -1096,6 +1097,26 @@ const imoveisDisp = [
     titulo: "Casa a venda no bairro Progresso",
     descricao:
       "Sala/cozinha; 01 banheiro social; 02 quartos (1 suíte); área de serviço; quintal; 02 vagas de garagem; área do lote: 450 m²; área construída: 90 m².",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/V181", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV181,
+    cod: "V181",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.plot,
+    ruaNum: "Lote 22 da quadra C",
+    bairro: "Condomínio Colonial",
+    cidade: city.catas_altas,
+    Estado: "Minas Gerais",
+    quartos: 0,
+    banheiros: 0,
+    vagas: 0,
+    valor: "R$ 190.000,00",
+    areaTotal: "1000 m²",
+    areaConstruida: "0 m²",
+    titulo: "Vende-se lote no condomínio colonial em Catas Altas",
+    descricao:
+      "Viva em conexão com a natureza exuberante na região de Catas Altas. Desfrute de um condomínio diferenciado, com segurança e bem-estar, unindo-se ao estilo da vida cultural que somente a região pode oferecer. Lote 22 da Quadra C ;área: 1.000m² (20mx50m); vista privilegiada para a serra; ótima topografia; imóvel já com certidão de matrícula.",
   },
   {
     fotos: importAll(require.context("../assets/images/L008", true, /\.(png|jpe?g|svg)$/)),

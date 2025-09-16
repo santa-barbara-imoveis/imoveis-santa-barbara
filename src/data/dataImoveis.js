@@ -1122,7 +1122,7 @@ const imoveisDisp = [
   {
     fotos: importAll(require.context("../assets/images/L001", true, /\.(png|jpe?g|svg)$/)),
     fotoCapa: ffL001,
-    cod: "L008",
+    cod: "L001",
     contrato: contractType[contractTypeParamKey.rent],
     tipoImovel: propertyType.house,
     ruaNum: "Rua Maria Carolina, 114",

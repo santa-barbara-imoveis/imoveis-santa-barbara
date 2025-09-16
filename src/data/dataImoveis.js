@@ -1,3 +1,4 @@
+import ffL001 from "../assets/images/L001.jpg";
 import ffL008 from "../assets/images/L008.jpg";
 import ffL016a1 from "../assets/images/L016.1.jpg";
 import ffL033 from "../assets/images/L033.jpg";
@@ -196,26 +197,26 @@ const imoveisDisp = [
     descricao:
       "Excelente opção para quem busca tranquilidade e qualidade de vida. Chácaras de 3.000m² (ao lado do Retiro dos Chalés). 11 km de Santa Bárbara. 10km de São Gonçalo. 25km de João Monlevade. Infraestrutura completa e fácil acesso!",
   },
-  {
-    fotos: importAll(require.context("../assets/images/V058", true, /\.(png|jpe?g|svg)$/)),
-    fotoCapa: ffV058,
-    cod: "V058",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.house,
-    ruaNum: "Avenida Petrina de Castro Chaves, 92",
-    bairro: "Centro",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: amenitiesQuantity.zero,
-    banheiros: amenitiesQuantity.zero,
-    vagas: amenitiesQuantity.zero,
-    valor: "R$ 1.600.000,00",
-    areaTotal: "1008 m²",
-    areaConstruida: "- m²",
-    titulo: "Imóvel  à venda no centro de Santa Bárbara",
-    descricao:
-      "Imóvel em lote de 1008m² próximo à Igreja Nossa Senhora do Rosário.Imóvel possui 03 casas e 01 kitnet. Área comum com jardim, churrasqueira, sinuca. Infraestrutura completa (acesso a rua calçada, água, energia, esgoto).",
-  },
+  // {
+  //   fotos: importAll(require.context("../assets/images/V058", true, /\.(png|jpe?g|svg)$/)),
+  //   fotoCapa: ffV058,
+  //   cod: "V058",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "Avenida Petrina de Castro Chaves, 92",
+  //   bairro: "Centro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: amenitiesQuantity.zero,
+  //   banheiros: amenitiesQuantity.zero,
+  //   vagas: amenitiesQuantity.zero,
+  //   valor: "R$ 1.600.000,00",
+  //   areaTotal: "1008 m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Imóvel  à venda no centro de Santa Bárbara",
+  //   descricao:
+  //     "Imóvel em lote de 1008m² próximo à Igreja Nossa Senhora do Rosário.Imóvel possui 03 casas e 01 kitnet. Área comum com jardim, churrasqueira, sinuca. Infraestrutura completa (acesso a rua calçada, água, energia, esgoto).",
+  // },
   // {
   //   fotos: importAll(require.context("../assets/images/V086", true, /\.(png|jpe?g|svg)$/)),
   //   fotoCapa: ffV086,
@@ -1117,6 +1118,26 @@ const imoveisDisp = [
     titulo: "Vende-se lote no condomínio colonial em Catas Altas",
     descricao:
       "Viva em conexão com a natureza exuberante na região de Catas Altas. Desfrute de um condomínio diferenciado, com segurança e bem-estar, unindo-se ao estilo da vida cultural que somente a região pode oferecer. Lote 22 da Quadra C ;área: 1.000m² (20mx50m); vista privilegiada para a serra; ótima topografia; imóvel já com certidão de matrícula.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/L001", true, /\.(png|jpe?g|svg)$/)),
+    fotoCapa: ffL001,
+    cod: "L008",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua Maria Carolina, 114",
+    bairro: "Centro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: amenitiesQuantity.five,
+    banheiros: amenitiesQuantity.two,
+    vagas: amenitiesQuantity.two,
+    valor: "R$ 2.500,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Casa para locação no Centro",
+    descricao:
+      "Imóvel muito conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo a rodoviária). Em um raio de apenas 300m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas; 05 quartos; 02 banheiros; 02 salas; copa; cozinha; varanda; pátio; área de serviço, quintal; garagem para 02 carros com portão eletrônico e aquecedor solar.",
   },
   {
     fotos: importAll(require.context("../assets/images/L008", true, /\.(png|jpe?g|svg)$/)),

@@ -115,26 +115,26 @@ const importAll = (r) => {
 };
 
 const imoveisDisp = [
-  //   {
-  //     fotos: importAll(require.context("../assets/images/V003", true, /\.(png|jpe?g|svg)$/)),
-  //     fotoCapa: ffV003,
-  //     cod: "V003",
-  //     contrato: contractType[contractTypeParamKey.buy],
-  //     tipoImovel: propertyType.house_with_land,
-  //     ruaNum: "Domingos Pena, s/n",
-  //     bairro: "Centro",
-  //     cidade: city.santa_barbara,
-  //     Estado: "Minas Gerais",
-  //     quartos: 3,
-  //     banheiros: 2,
-  //     vagas: 1,
-  //     valor: "R$ 900.000,00",
-  //     areaTotal: "1.116,40m²",
-  //     areaConstruida: "260m²",
-  //     titulo: "Oportunidade para compra no centro de Santa Bárbara",
-  //     descricao:
-  //       "Sala de TV, sala de jantar, cozinha estilo americana, despensa, área de serviço, quintal, garagem ampla",
-  //   },
+  // {
+  //   fotos: importAll(require.context("../assets/images/V003", true, /\.(png|jpe?g|svg)$/)),
+  //   fotoCapa: ffV003,
+  //   cod: "V003",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.house_with_land,
+  //   ruaNum: "Domingos Pena, s/n",
+  //   bairro: "Centro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 3,
+  //   banheiros: 2,
+  //   vagas: 1,
+  //   valor: "R$ 900.000,00",
+  //   areaTotal: "1.116,40m²",
+  //   areaConstruida: "260m²",
+  //   titulo: "Oportunidade para compra no centro de Santa Bárbara",
+  //   descricao:
+  //     "Sala de TV, sala de jantar, cozinha estilo americana, despensa, área de serviço, quintal, garagem ampla",
+  // },
   // {
   //   fotos: importAll(require.context("../assets/images/V006", true, /\.(png|jpe?g|svg)$/)),
   //   fotoCapa: ffV006,

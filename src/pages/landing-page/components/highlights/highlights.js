@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Highlights.css";
-import fotoFrente2 from "./assets/V164.jpg";
+import fotoFrente2 from "./assets/V178.jpg";
 import fotoFrente3 from "./assets/V176.jpg";
 import fotoFrente from "./assets/V151.jpeg";
 import area from "./assets/area.png";
@@ -44,20 +44,20 @@ function Highlights() {
 
         <div className="boxImovel">
           <div className="imFotoMainV">
-            <Link to={`imovel/V164`} className="linkImage">
+            <Link to={`imovel/V178`} className="linkImage">
               <img className="imFotoV" src={fotoFrente2} />
             </Link>
             <div className="boxPreco">
               <div className="tipoContrato">Venda</div>
-              <div className="precoImovel">R$ 350.000,00</div>
+              <div className="precoImovel">R$ 850.000,00</div>
             </div>
           </div>
-          <div className="imBairroCidade">São Vicente - Santa Bárbara</div>
-          <div className="imId">Código: V164</div>
+          <div className="imBairroCidade">Mãe Catarina - Santa Bárbara</div>
+          <div className="imId">Código: V178</div>
           <div className="imAmenities">
             <div className="iconsAmenities">
               <img className="icon" src={area} />
-              92
+              -
               <img className="icon" src={banho} />
               2
               <img className="icon" src={vagas} />
@@ -74,7 +74,7 @@ function Highlights() {
             </Link>
             <div className="boxPreco">
               <div className="tipoContrato">Venda</div>
-              <div className="precoImovel">R$ 1.050.000,00</div>
+              <div className="precoImovel">R$ 980.000,00</div>
             </div>
           </div>
           <div className="imBairroCidade">Bairro Lagoa - Barão de Cocais</div>

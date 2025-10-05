@@ -99,6 +99,7 @@ import ffV178 from "../assets/images/V178.jpg";
 import ffV179 from "../assets/images/V179.jpg";
 import ffV180 from "../assets/images/V180.jpg";
 import ffV181 from "../assets/images/V181.jpg";
+import ffV182 from "../assets/images/V182.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -1119,6 +1120,26 @@ const imoveisDisp = [
     titulo: "Vende-se lote no condomínio colonial em Catas Altas",
     descricao:
       "Viva em conexão com a natureza exuberante na região de Catas Altas. Desfrute de um condomínio diferenciado, com segurança e bem-estar, unindo-se ao estilo da vida cultural que somente a região pode oferecer. Lote 22 da Quadra C ;área: 1.000m² (20mx50m); vista privilegiada para a serra; ótima topografia; imóvel já com certidão de matrícula.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/V182", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV182,
+    cod: "V182",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.plot,
+    ruaNum: "-",
+    bairro: "Santo Antônio",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 3,
+    vagas: 1,
+    valor: "R$ 690.000,00",
+    areaTotal: "360 m²",
+    areaConstruida: "103 m²",
+    titulo: "Vende-se casa no bairro residencial Santo Antônio",
+    descricao:
+      "Sala, ⁠copa/cozinha; 03 quartos (01 suíte com closet e banheira hidromassagem); ⁠02 banheiros, ⁠01 banho social; ⁠01 lavabo na área de churrasco; ⁠área externa, ⁠área serviço, ⁠varanda; ⁠02 vagas de garagem.",
   },
   {
     fotos: importAll(require.context("../assets/images/L001", true, /\.(png|jpe?g|svg)$/)),

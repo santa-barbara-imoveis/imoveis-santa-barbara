@@ -100,6 +100,7 @@ import ffV179 from "../assets/images/V179.jpg";
 import ffV180 from "../assets/images/V180.jpg";
 import ffV181 from "../assets/images/V181.jpg";
 import ffV182 from "../assets/images/V182.jpg";
+import ffV183 from "../assets/images/V183.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -1140,6 +1141,26 @@ const imoveisDisp = [
     titulo: "Vende-se casa no bairro residencial Santo Antônio",
     descricao:
       "Sala, ⁠copa/cozinha; 03 quartos (01 suíte com closet e banheira hidromassagem); ⁠02 banheiros, ⁠01 banho social; ⁠01 lavabo na área de churrasco; ⁠área externa, ⁠área serviço, ⁠varanda; ⁠02 vagas de garagem.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/V183", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV183,
+    cod: "V183",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.apartment,
+    ruaNum: "-",
+    bairro: "Caminhos de Minas",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 2,
+    banheiros: 1,
+    vagas: 1,
+    valor: "R$ 240.000,00",
+    areaTotal: "48 m²",
+    areaConstruida: "48 m²",
+    titulo: "Vende-se apartamento no bairro Caminho de Minas",
+    descricao:
+      "Apto 2° andar, sala, cozinha, área serviço, 02 quartos, 01 banho social, 01 vaga de garagem coberta e cozinha com bancada em granito e armários planejados.",
   },
   {
     fotos: importAll(require.context("../assets/images/L001", true, /\.(png|jpe?g|svg)$/)),

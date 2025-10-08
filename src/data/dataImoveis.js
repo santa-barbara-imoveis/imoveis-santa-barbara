@@ -1813,26 +1813,26 @@ const imoveisDisp = [
   //   descricao:
   //     "Casa de 02 pavimentos; sala de estar; copa; cozinha; 04 quartos (01 suíte); 03 banheiros sociais; área externa; jardim; quintal; pomar; área de serviço; garagem para 4 carros, com portão eletrônico; ótima casa com linda vista para a serra.",
   // },
-  {
-    fotos: importAll(require.context("../assets/images/L108", true, /\.(png|jpe?g|svg|jfif)$/)),
-    fotoCapa: ffL108,
-    cod: "L108",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.house,
-    ruaNum: "Rua Joana Henrique de Castro, 98, São Francisco",
-    bairro: "São Francisco",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 3,
-    banheiros: 2,
-    vagas: 2,
-    valor: "R$ 3.400,00",
-    areaTotal: "- m²",
-    areaConstruida: "- m²",
-    titulo: "Aluga-se ótima casa no bairro São Francisco",
-    descricao:
-      "02 pavimentos; sala TV; sala estar; copa/cozinha; 03 quartos (01 suíte com hidromassagem); 02 banheiros sociais; área de serviço; varanda; área de churrasco com banheiro; quintal; garagem para 02 carros com portão eletrônico.Obs: interfone e aquecedor solar (água quente para os banheiros).",
-  },
+  // {
+  //   fotos: importAll(require.context("../assets/images/L108", true, /\.(png|jpe?g|svg|jfif)$/)),
+  //   fotoCapa: ffL108,
+  //   cod: "L108",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "Rua Joana Henrique de Castro, 98, São Francisco",
+  //   bairro: "São Francisco",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 3,
+  //   banheiros: 2,
+  //   vagas: 2,
+  //   valor: "R$ 3.400,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Aluga-se ótima casa no bairro São Francisco",
+  //   descricao:
+  //     "02 pavimentos; sala TV; sala estar; copa/cozinha; 03 quartos (01 suíte com hidromassagem); 02 banheiros sociais; área de serviço; varanda; área de churrasco com banheiro; quintal; garagem para 02 carros com portão eletrônico.Obs: interfone e aquecedor solar (água quente para os banheiros).",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L109", true, /\.(png|jpe?g|svg|jfif)$/)

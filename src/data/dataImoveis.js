@@ -1578,26 +1578,26 @@ const imoveisDisp = [
     descricao:
       "Sala/copa/cozinha, 04 quartos (01 suíte), 02 banheiros sociais, área de serviço, terraço / quintal e garagem para 01 carro.",
   },
-  {
-    fotos: importAll(require.context("../assets/images/L084", true, /\.(png|jpe?g|svg|jfif)$/)),
-    fotoCapa: ffL084,
-    cod: "L084",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.commercial_property,
-    ruaNum: "Não informado",
-    bairro: "Santa Mônica",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 0,
-    banheiros: 1,
-    vagas: 0,
-    valor: "R$ 3.300,00",
-    areaTotal: "370 m²",
-    areaConstruida: "370 m²",
-    titulo: "Galpão disponível para locação no bairro Santa Mônica",
-    descricao:
-      "370 m² - Portão manual – Piso de cimento, Área de escritório / 1 banheiro, Ponto central e seguro. Ideal para depósitos, oficinas e garagem.",
-  },
+  // {
+  //   fotos: importAll(require.context("../assets/images/L084", true, /\.(png|jpe?g|svg|jfif)$/)),
+  //   fotoCapa: ffL084,
+  //   cod: "L084",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.commercial_property,
+  //   ruaNum: "Não informado",
+  //   bairro: "Santa Mônica",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 0,
+  //   banheiros: 1,
+  //   vagas: 0,
+  //   valor: "R$ 3.300,00",
+  //   areaTotal: "370 m²",
+  //   areaConstruida: "370 m²",
+  //   titulo: "Galpão disponível para locação no bairro Santa Mônica",
+  //   descricao:
+  //     "370 m² - Portão manual – Piso de cimento, Área de escritório / 1 banheiro, Ponto central e seguro. Ideal para depósitos, oficinas e garagem.",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L085", true, /\.(png|jpe?g|svg|jfif)$/)

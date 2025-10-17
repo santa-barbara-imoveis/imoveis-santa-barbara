@@ -43,6 +43,7 @@ import ffV023 from "../assets/images/V023.jpg";
 import ffV035 from "../assets/images/V035.jpeg";
 import ffV047 from "../assets/images/V047.jpg";
 import ffV052 from "../assets/images/V052.jpg";
+import ffV052a from "../assets/images/V052a.jpg";
 import ffV058 from "../assets/images/V058.jpeg";
 import ffV062 from "../assets/images/V062.jpg";
 import ffV086 from "../assets/images/V086.jpg";
@@ -199,6 +200,26 @@ const imoveisDisp = [
     titulo: "Vende-se chácaras em frente a represa do Peti",
     descricao:
       "Excelente opção para quem busca tranquilidade e qualidade de vida. Chácaras de 3.000m² (ao lado do Retiro dos Chalés). 11 km de Santa Bárbara. 10km de São Gonçalo. 25km de João Monlevade. Infraestrutura completa e fácil acesso!",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/V052a", true, /\.(png|jpe?g|svg)$/)),
+    fotoCapa: ffV052a,
+    cod: "V052a",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.farmhouse,
+    ruaNum: "-",
+    bairro: "Rural",
+    cidade: city.sao_goncalo_rio_abaixo,
+    Estado: "Minas Gerais",
+    quartos: amenitiesQuantity.five,
+    banheiros: amenitiesQuantity.two,
+    vagas: amenitiesQuantity.five,
+    valor: "R$ 2.000.000,00",
+    areaTotal: "25.000 m²",
+    areaConstruida: "340 m²",
+    titulo: "Vende-se retiro dos chalés - Pousada em frente a represa do Peti",
+    descricao:
+      "Ambiente aconchegante e com asfalto chegando na porta. Infraestrutura completa e fácil acesso. O empreendimento possui: 01 chalé de 71m², 02 chalés de 58m², 03 chalés de 27m², área gourmet com cozinha e dois banheiros, piscina 22.000L, playground, quadra de Vôlei, pergolado, jardim, pomar, internet Starlink e câmera, mobília, 11 km de Santa Bárbara, 10km de São Gonçalo, 25km de João Monlevade, área do terreno: 25.000 m², área construída: 340 m², Obs) chalés de madeira grapia com estrutura de alvenaria nas áreas frias (cozinha e banheiro), forrados e com telhado colonial. Água de poço artesiano e energia com transformador bifásico. Piso dos chalés de cerâmica, box nos banheiros, pia e bancadas em granito. Valor de venda inclui a mobília.",
   },
   // {
   //   fotos: importAll(require.context("../assets/images/V058", true, /\.(png|jpe?g|svg)$/)),

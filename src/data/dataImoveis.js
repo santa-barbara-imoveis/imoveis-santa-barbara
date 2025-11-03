@@ -1148,7 +1148,7 @@ const imoveisDisp = [
     fotoCapa: ffV182,
     cod: "V182",
     contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.plot,
+    tipoImovel: propertyType.house,
     ruaNum: "-",
     bairro: "Santo Antônio",
     cidade: city.santa_barbara,

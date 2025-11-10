@@ -5,7 +5,7 @@ import banho from "./assets/banheira.png";
 import area from "./assets/area.png";
 import vagas from "./assets/carros.png";
 import quartos from "./assets/quarto.png";
-import fotoFrente4 from "./assets/L105.jpeg";
+import fotoFrente4 from "./assets/L073.jpg";
 import fotoFrente5 from "./assets/L065.jpg";
 import fotoFrente6 from "./assets/L100.jpeg";
 import setaE from "./assets/seta-esquerda.png";
@@ -70,16 +70,16 @@ function HighlightsRent() {
 
         <div className="boxImovel">
           <div className="imFotoMainR">
-            <Link to={`imovel/L105`} className="linkImage">
+            <Link to={`imovel/L073`} className="linkImage">
               <img className="imFoto2" src={fotoFrente4} />
             </Link>
             <div className="boxPreco">
               <div className="tipoContrato">Locação - Residencial</div>
-              <div className="precoImovel">R$ 1.400,00</div>
+              <div className="precoImovel">R$ 2.000,00</div>
             </div>
           </div>
-          <div className="imBairroCidade">Praia - Santa Bárbara</div>
-          <div className="imId">Código: L105</div>
+          <div className="imBairroCidade">Centro - Santa Bárbara</div>
+          <div className="imId">Código: L073</div>
           <div className="imAmenities">
             <div className="iconsAmenities">
               <img className="icon" src={area} />

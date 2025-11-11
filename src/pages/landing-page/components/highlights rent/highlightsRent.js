@@ -58,7 +58,7 @@ function HighlightsRent() {
           <div className="imAmenities">
             <div className="iconsAmenities">
               <img className="icon" src={area} />
-              -
+              100
               <img className="icon" src={banho} />
               2
               <img className="icon" src={vagas} />

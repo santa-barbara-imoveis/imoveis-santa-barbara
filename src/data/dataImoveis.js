@@ -1152,7 +1152,7 @@ const imoveisDisp = [
     ruaNum: "-",
     bairro: "Santo Antônio",
     cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
+    Estado: "Minas Gerais - MG",
     quartos: 3,
     banheiros: 3,
     vagas: 1,

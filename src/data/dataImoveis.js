@@ -13,6 +13,7 @@ import ffL063a2 from "../assets/images/L063a2.jpeg";
 import ffL063a3 from "../assets/images/L063a3.jpeg";
 import ffL065 from "../assets/images/L065.jpg";
 import ffL073 from "../assets/images/L073.jpg";
+import ffL093 from "../assets/images/L093.jpg";
 import ffL074 from "../assets/images/L074.jpg";
 import ffL075 from "../assets/images/L075.jpeg";
 import ffL077 from "../assets/images/L077.jpeg";
@@ -1493,6 +1494,26 @@ const imoveisDisp = [
     titulo: "Casa de aluguel no centrão de Santa Bárbara",
     descricao:
       "03 quartos, 01 banheiro social, sala, cozinha, área de serviço, sem garagem. Preferência de locação para empresa.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/L093", true, /\.(png|jpe?g|svg)$/)),
+    fotoCapa: ffL093,
+    cod: "L093",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua Geraldo Aparecida Pessoa, nº 200",
+    bairro: "Serra Vila",
+    cidade: city.barao_cocais,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 2,
+    vagas: 1,
+    valor: "R$1.800,00",
+    areaTotal: "303,58 m²",
+    areaConstruida: "166 m²",
+    titulo: "Aluga-se casa no bairro Serra Vila em Barão de Cocais",
+    descricao:
+      "1° andar (01 quarto, Sala/copa, Cozinha com bancada em granito, 01 banheiro social, Área de serviço, Área externa, Área de churrasqueira, Garagem para 01 carro 2° andar  (02 quartos - varanda, 01 banheiro social, Sala de escritório). Obs) casa de laje, piso de cerâmica, telhado colonial. - Sala/cozinha (bancada granito).",
   },
   // {
   //   fotos: importAll(

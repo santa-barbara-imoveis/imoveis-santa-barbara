@@ -3,8 +3,8 @@
     height: 250px;
 }
 .heroSomos{
-    width: 100%;
-    height: 250px;
+    width: 70%;
+    height: 50px;
     background-position: bottom -100px right 0px;
     background-size: cover;
     align-items: center;
@@ -29,13 +29,3 @@
     color: rgb(255, 255, 255);
 }
 
-@media (max-width:481px)  { 
-    .heroSomos{
-        background-position: bottom -8px right 0px;
-        background-size:cover;
-        height: 170px;
-    }
-    .MainSomos{
-        height: 170px;
-    }
-}

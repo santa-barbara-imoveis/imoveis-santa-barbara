@@ -1,11 +1,12 @@
-import React from 'react';
+import "../../assets/style/brand.css";
+import { appWebVitals } from '../../reportWebVitals';
 import "./Empresa.css";
 import juliano from "./assets/juliano2.jpg";
 import rodolpho from "./assets/rodolpho2.jpg";
-import "../../assets/style/brand.css";
-import {HeroSomos} from './heroSection/HeroSomos';
+import { HeroSomos } from './heroSection/HeroSomos';
 
 function Empresa() {
+  appWebVitals()
   return (
       <main className='aEmpresa'>
         <HeroSomos/>
@@ -51,4 +52,5 @@ function Empresa() {
   );
 }
   
-export { Empresa }
+export { Empresa };
+

@@ -516,7 +516,7 @@ const imoveisDisp = [
     quartos: 2,
     banheiros: 2,
     vagas: 1,
-    valor: "R$ 385.000,00",
+    valor: "R$ 390.000,00",
     areaTotal: "70 m²",
     areaConstruida: "70 m²",
     titulo: "Apartamento na planta",

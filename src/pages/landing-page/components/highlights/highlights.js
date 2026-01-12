@@ -18,12 +18,12 @@ function Highlights() {
       <div className="opcaoImoveis">
         <div className="boxImovel">
           <div className="imFotoMainV">
-            <Link to={`imovel/V151`} className="linkImage">
+            <Link to={`imovel/V184`} className="linkImage">
               <img className="imFotoV" src={fotoFrente} />
             </Link>
             <div className="boxPreco">
               <div className="tipoContrato">Venda</div>
-              <div className="precoImovel">R$ 165.000,00</div>
+              <div className="precoImovel">R$ 900.000,00</div>
             </div>
           </div>
           <p className="imBairroCidade"> Sol Nascente - Catas Altas </p>

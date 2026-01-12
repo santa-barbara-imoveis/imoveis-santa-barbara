@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Highlights.css";
 import fotoFrente2 from "./assets/V178.jpg";
 import fotoFrente3 from "./assets/V182.jpg";
-import fotoFrente from "./assets/V151.jpeg";
+import fotoFrente from "./assets/V184.jpg";
 import area from "./assets/area.png";
 import banho from "./assets/banheira.png";
 import vagas from "./assets/carros.png";
@@ -26,12 +26,12 @@ function Highlights() {
               <div className="precoImovel">R$ 165.000,00</div>
             </div>
           </div>
-          <p className="imBairroCidade"> Santa Quitéria - Catas Altas </p>
-          <p className="imId">Código: V151</p>
+          <p className="imBairroCidade"> Sol Nascente - Catas Altas </p>
+          <p className="imId">Código: V184</p>
           <div className="imAmenities">
             <div className="iconsAmenities">
               <img className="icon" src={area} />
-              <p>360</p>
+              <p>5850</p>
               <img className="icon" src={banho} />
               <p>0</p>
               <img className="icon" src={vagas} />

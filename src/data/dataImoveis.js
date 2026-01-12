@@ -103,6 +103,7 @@ import ffV180 from "../assets/images/V180.jpg";
 import ffV181 from "../assets/images/V181.jpg";
 import ffV182 from "../assets/images/V182.jpg";
 import ffV183 from "../assets/images/V183.jpg";
+import ffV184 from "../assets/images/V184.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -611,25 +612,25 @@ const imoveisDisp = [
   //   descricao:
   //     "Sala, copa, cozinha, 04 quartos, 02 banheiros sociais, 02 vagas de garagem, quintal e lavanderia.",
   // },
-  {
-    fotos: importAll(require.context("../assets/images/V151", true, /\.(png|jpe?g|svg)$/)),
-    fotoCapa: ffV151,
-    cod: "V151",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.plot,
-    ruaNum: "-",
-    bairro: "Santa Quitéria",
-    cidade: city.catas_altas,
-    Estado: "Minas Gerais",
-    quartos: 0,
-    banheiros: 0,
-    vagas: 0,
-    valor: "R$ 165.000,00",
-    areaTotal: "360 m²",
-    areaConstruida: "360 m²",
-    titulo: "Vende-se lote bairro Santa Quitéria",
-    descricao: "Lote plano, 12m x 30m. Vista para a Serra. Infraestrutura completa.",
-  },
+  // {
+  //   fotos: importAll(require.context("../assets/images/V151", true, /\.(png|jpe?g|svg)$/)),
+  //   fotoCapa: ffV151,
+  //   cod: "V151",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.plot,
+  //   ruaNum: "-",
+  //   bairro: "Santa Quitéria",
+  //   cidade: city.catas_altas,
+  //   Estado: "Minas Gerais",
+  //   quartos: 0,
+  //   banheiros: 0,
+  //   vagas: 0,
+  //   valor: "R$ 165.000,00",
+  //   areaTotal: "360 m²",
+  //   areaConstruida: "360 m²",
+  //   titulo: "Vende-se lote bairro Santa Quitéria",
+  //   descricao: "Lote plano, 12m x 30m. Vista para a Serra. Infraestrutura completa.",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/V153", true, /\.(png|jpe?g|svg|jfif)$/)
@@ -796,26 +797,26 @@ const imoveisDisp = [
     descricao:
       "2 salas, copa, cozinha, 4 quartos, 1 banheiro social e 1 lavabo, área de serviço, quintal, varanda, sem garagem.",
   },
-  {
-    fotos: importAll(require.context("../assets/images/V163", true, /\.(png|jpe?g|svg|jfif)$/)),
-    fotoCapa: ffV163,
-    cod: "V163",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.plot,
-    ruaNum: "Não informado",
-    bairro: "Vila da Serra",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 0,
-    banheiros: 0,
-    vagas: 0,
-    valor: "R$ 70.000,00",
-    areaTotal: "240 m²",
-    areaConstruida: "240 m²",
-    titulo: "Lote a venda no bairro Vila da Serra",
-    descricao:
-      "Imóvel em área residencial, 12m frente x 20m fundo, infraestrutura completa, com boa topografia, próximo ao Espaço da Serra, financia.",
-  },
+  // {
+  //   fotos: importAll(require.context("../assets/images/V163", true, /\.(png|jpe?g|svg|jfif)$/)),
+  //   fotoCapa: ffV163,
+  //   cod: "V163",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.plot,
+  //   ruaNum: "Não informado",
+  //   bairro: "Vila da Serra",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 0,
+  //   banheiros: 0,
+  //   vagas: 0,
+  //   valor: "R$ 70.000,00",
+  //   areaTotal: "240 m²",
+  //   areaConstruida: "240 m²",
+  //   titulo: "Lote a venda no bairro Vila da Serra",
+  //   descricao:
+  //     "Imóvel em área residencial, 12m frente x 20m fundo, infraestrutura completa, com boa topografia, próximo ao Espaço da Serra, financia.",
+  // },
   // {
   //   fotos: importAll(require.context("../assets/images/V164", true, /\.(png|jpe?g|svg|jfif)$/)),
   //   fotoCapa: ffV164,
@@ -1163,6 +1164,25 @@ const imoveisDisp = [
     titulo: "Vende-se casa no bairro residencial Santo Antônio",
     descricao:
       "Sala, ⁠copa/cozinha; 03 quartos (01 suíte com closet e banheira hidromassagem); ⁠02 banheiros, ⁠01 banho social; ⁠01 lavabo na área de churrasco; ⁠área externa, ⁠área serviço, ⁠varanda; ⁠02 vagas de garagem.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/V184", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV184,
+    cod: "V184",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.plot,
+    ruaNum: "-",
+    bairro: "Sol Nascente",
+    cidade: city.catas_altas,
+    Estado: "Minas Gerais - MG",
+    quartos: 0,
+    banheiros: 0,
+    vagas: 0,
+    valor: "R$ 900.000,00",
+    areaTotal: "5.850 m²",
+    areaConstruida: "180 m²",
+    titulo: "Casa + terreno a venda em Catas Altas",
+    descricao: "Infraestrutura completa;duas casas de morada;documento regular;imóvel financiável;lote com escritura.",
   },
   // {
   //   fotos: importAll(require.context("../assets/images/V183", true, /\.(png|jpe?g|svg|jfif)$/)),

@@ -31,7 +31,7 @@ function Highlights() {
           <div className="imAmenities">
             <div className="iconsAmenities">
               <img className="icon" src={area} />
-              <p>5850</p>
+              <p>5.850</p>
               <img className="icon" src={banho} />
               <p>0</p>
               <img className="icon" src={vagas} />

@@ -50,7 +50,6 @@ import ffV062 from "../assets/images/V062.jpg";
 import ffV086 from "../assets/images/V086.jpg";
 import ffV095 from "../assets/images/V095.jpg";
 import ffV108 from "../assets/images/V108.jpg";
-import ffV109a1 from "../assets/images/V109.1.jpg";
 import ffV114 from "../assets/images/V114.jpeg";
 import ffV119 from "../assets/images/V119.jpeg";
 import ffV120 from "../assets/images/V120.jpeg";
@@ -1895,28 +1894,26 @@ const imoveisDisp = [
   //   descricao:
   //     "02 pavimentos; sala TV; sala estar; copa/cozinha; 03 quartos (01 suíte com hidromassagem); 02 banheiros sociais; área de serviço; varanda; área de churrasco com banheiro; quintal; garagem para 02 carros com portão eletrônico.Obs: interfone e aquecedor solar (água quente para os banheiros).",
   // },
-  // {
-  //   fotos: importAll(
-  //     require.context("../assets/images/L109", true, /\.(png|jpe?g|svg|jfif)$/)
-  //   ),
-  //   fotoCapa: ffL109,
-  //   cod: "L109",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.apartment,
-  //   ruaNum: "Rua das Vertentes, 177, apto 102.",
-  //   bairro: "Centro",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: 2,
-  //   banheiros: 1,
-  //   vagas: 1,
-  //   valor: "R$ 1.500,00",
-  //   areaTotal: "- m²",
-  //   areaConstruida: "50 m²",
-  //   titulo: "Aluga-se ótimo apartamento no bairro São Francisco.",
-  //   descricao:
-  //     "Rua das Vertentes, 177, apto 102 (segundo andar), sala, varanda, 02 quartos, 01 banheiro, copa, cozinha, área de serviço, 01 vaga garagem, área construída: 50m², R$1.600,00/mês, garagem coberta e com portão eletrônico.",
-  // },
+  {
+    fotos: importAll(require.context("../assets/images/L109", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL109,
+    cod: "L109",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua Maria Carneiro Filho, 89",
+    bairro: "Santa Mônica",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 2,
+    vagas: 5,
+    valor: "R$ 3.500,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Casa para aluguel no bairro Santa Mônica (Santa Bárbara).",
+    descricao:
+      "Casa ampla de 03 quartos com ótima localização; 03 quartos (1 suíte); 01 banheiro social; sala; copa; cozinha; área de serviço; 05 vagas de garagem; espaço social com jardim e churrasqueira. Interfone e portão eletrônico.Energia solar.",
+  },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L094", true, /\.(png|jpe?g|svg|jfif)$/)

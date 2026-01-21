@@ -977,7 +977,7 @@ const imoveisDisp = [
     quartos: 0,
     banheiros: 0,
     vagas: 0,
-    valor: "R$ 320.000,00",
+    valor: "R$ 350.000,00",
     areaTotal: "1.608,73 m²",
     areaConstruida: "- m²",
     titulo: "Lote no condomínio Morada Serra Real – próximo ao trevo de Santa Bárbara",

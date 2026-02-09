@@ -1507,7 +1507,7 @@ const imoveisDisp = [
     quartos: 3,
     banheiros: 1,
     vagas: 0,
-    valor: "R$2.000,00",
+    valor: "R$1.700,00",
     areaTotal: "- m²",
     areaConstruida: "- m²",
     titulo: "Casa de aluguel no centrão de Santa Bárbara",

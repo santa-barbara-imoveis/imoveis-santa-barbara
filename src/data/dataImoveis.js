@@ -1907,7 +1907,7 @@ const imoveisDisp = [
     quartos: 3,
     banheiros: 2,
     vagas: 5,
-    valor: "R$ 3.500,00",
+    valor: "R$ 3.000,00",
     areaTotal: "- m²",
     areaConstruida: "- m²",
     titulo: "Casa para aluguel no bairro Santa Mônica (Santa Bárbara).",

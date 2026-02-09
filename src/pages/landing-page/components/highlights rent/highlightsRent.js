@@ -75,7 +75,7 @@ function HighlightsRent() {
             </Link>
             <div className="boxPreco">
               <div className="tipoContrato">Locação - Residencial</div>
-              <div className="precoImovel">R$ 2.000,00</div>
+              <div className="precoImovel">R$ 1.700,00</div>
             </div>
           </div>
           <div className="imBairroCidade">Centro - Santa Bárbara</div>

@@ -882,26 +882,26 @@ const imoveisDisp = [
   //   descricao:
   //     "Varanda, sala, copa, 01 suíte + 02 quartos, 01 banheiro social, cozinha, área de serviço, 01 vaga de garagem, casa de forro, telhado colonial, piso cerâmica e tábua corrida. Não financia.",
   // },
-  {
-    fotos: importAll(require.context("../assets/images/V169", true, /\.(png|jpe?g|svg|jfif)$/)),
-    fotoCapa: ffV169,
-    cod: "V169",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.house_with_land,
-    ruaNum: "Rua Panorama, 119",
-    bairro: "São Veríssimo",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 0,
-    banheiros: 0,
-    vagas: 0,
-    valor: "R$ 150.000,00",
-    areaTotal: "245 m²",
-    areaConstruida: "108 m²",
-    titulo: "Casa a venda no bairro São Verissímo - Rua Panorama, 119",
-    descricao:
-      "Área do terreno: 245 m² (7m frente x 35m fundos), área construída: 108 m², infraestrutura completa (acesso à rua calçada, água, energia).",
-  },
+  // {
+  //   fotos: importAll(require.context("../assets/images/V169", true, /\.(png|jpe?g|svg|jfif)$/)),
+  //   fotoCapa: ffV169,
+  //   cod: "V169",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.house_with_land,
+  //   ruaNum: "Rua Panorama, 119",
+  //   bairro: "São Veríssimo",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 0,
+  //   banheiros: 0,
+  //   vagas: 0,
+  //   valor: "R$ 150.000,00",
+  //   areaTotal: "245 m²",
+  //   areaConstruida: "108 m²",
+  //   titulo: "Casa a venda no bairro São Verissímo - Rua Panorama, 119",
+  //   descricao:
+  //     "Área do terreno: 245 m² (7m frente x 35m fundos), área construída: 108 m², infraestrutura completa (acesso à rua calçada, água, energia).",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/V170", true, /\.(png|jpe?g|svg|jfif)$/)

@@ -35,6 +35,7 @@ import ffL103 from "../assets/images/L103.jpeg";
 import ffL104 from "../assets/images/L104.jpeg";
 import ffL105 from "../assets/images/L105.jpeg";
 import ffL106 from "../assets/images/L106.jpg";
+import ffL107 from "../assets/images/L107.jpg";
 import ffL108 from "../assets/images/L108.jpg";
 import ffL109 from "../assets/images/L109.jpeg";
 import ffV003 from "../assets/images/V003.jpeg";
@@ -1874,6 +1875,26 @@ const imoveisDisp = [
   //   descricao:
   //     "Casa de 02 pavimentos; sala de estar; copa; cozinha; 04 quartos (01 suíte); 03 banheiros sociais; área externa; jardim; quintal; pomar; área de serviço; garagem para 4 carros, com portão eletrônico; ótima casa com linda vista para a serra.",
   // },
+    {
+    fotos: importAll(require.context("../assets/images/L107", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL107,
+    cod: "L107",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua Domingos Pena, 337",
+    bairro: "Centro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 2,
+    vagas: 0,
+    valor: "R$ 2.800,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se casa no bairro centro",
+    descricao:
+      "Sala, copa, cozinha, área de serviço, 03 quartos, 02 banheiros sociais, jardim e sem garagem.",
+  },
   // {
   //   fotos: importAll(require.context("../assets/images/L108", true, /\.(png|jpe?g|svg|jfif)$/)),
   //   fotoCapa: ffL108,

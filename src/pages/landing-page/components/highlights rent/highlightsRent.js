@@ -7,7 +7,7 @@ import vagas from "./assets/carros.png";
 import quartos from "./assets/quarto.png";
 import fotoFrente4 from "./assets/L073.jpg";
 import fotoFrente5 from "./assets/L063a1.jpeg";
-import fotoFrente6 from "./assets/L093.jpg";
+import fotoFrente6 from "./assets/L097.jpg";
 import setaE from "./assets/seta-esquerda.png";
 import setaD from "./assets//seta-direita.png";
 

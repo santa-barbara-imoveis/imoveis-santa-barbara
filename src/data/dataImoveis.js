@@ -38,6 +38,7 @@ import ffL106 from "../assets/images/L106.jpg";
 import ffL107 from "../assets/images/L107.jpg";
 import ffL108 from "../assets/images/L108.jpg";
 import ffL109 from "../assets/images/L109.jpeg";
+import ffL111 from "../assets/images/L111.jpeg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -1747,28 +1748,28 @@ const imoveisDisp = [
   //   descricao:
   //     "Sala / Copa, 01 suíte, 01 quarto, 01 banheiro social, cozinha, área externa, área de serviço, sem garagem. Não tem taxa de condomínio.",
   // },
-  // {
-  //   fotos: importAll(
-  //     require.context("../assets/images/L097", true, /\.(png|jpe?g|svg|jfif)$/)
-  //   ),
-  //   fotoCapa: ffL097,
-  //   cod: "L097",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.apartment,
-  //   ruaNum: "Rua Maria Carolina, 405, apto 103 (primeiro andar)",
-  //   bairro: "Centro",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: 2,
-  //   banheiros: 2,
-  //   vagas: 2,
-  //   valor: "R$ 2.400,00",
-  //   areaTotal: "- m²",
-  //   areaConstruida: "90 m²",
-  //   titulo: "Aluga-se apartamento novo de 90m² no centro de Santa Bárbara",
-  //   descricao:
-  //     "01 suíte + 01 quarto, 01 banheiro social, sala, copa, cozinha, área de serviço, varanda, sacada, 01 vaga de garagem coberta, valor: R$2.200,00/mês + R$200,00 de condomínio, interfone e portão eletrônico.",
-  // },
+  {
+    fotos: importAll(
+      require.context("../assets/images/L097", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffL097,
+    cod: "L097",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.apartment,
+    ruaNum: "Rua Maria Carolina, 405, apto 103 (primeiro andar)",
+    bairro: "Centro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 2,
+    banheiros: 2,
+    vagas: 2,
+    valor: "R$ 2.400,00",
+    areaTotal: "- m²",
+    areaConstruida: "90 m²",
+    titulo: "Aluga-se apartamento novo de 90m² no centro de Santa Bárbara",
+    descricao:
+      "01 suíte + 01 quarto, 01 banheiro social, sala, copa, cozinha, área de serviço, varanda, sacada, 01 vaga de garagem coberta, valor: R$2.200,00/mês + R$200,00 de condomínio, interfone e portão eletrônico.",
+  },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L100", true, /\.(png|jpe?g|svg|jfif)$/)
@@ -1934,6 +1935,26 @@ const imoveisDisp = [
     titulo: "Casa para aluguel no bairro Santa Mônica (Santa Bárbara).",
     descricao:
       "Casa ampla de 03 quartos com ótima localização; 03 quartos (1 suíte); 01 banheiro social; sala; copa; cozinha; área de serviço; 05 vagas de garagem; espaço social com jardim e churrasqueira. Interfone e portão eletrônico.Energia solar.",
+  },
+    {
+    fotos: importAll(require.context("../assets/images/L111", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL111,
+    cod: "L111",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "Santo Antônio",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 2,
+    vagas: 2,
+    valor: "R$ 3.000,00",
+    areaTotal: "360 m²",
+    areaConstruida: "103 m²",
+    titulo: "Aluga-se casa no residencial Santo Antonio.",
+    descricao:
+      "Lote: 360 m², casa de 103 m²; sala, ⁠copa; cozinha; 03 quartos (01 suíte com closet e banheira hidromassagem); ⁠01 banheiro social; área de churrasco; área externa, ⁠área serviço; ⁠varanda; ⁠02 vagas de garagem com portão eletrônico; R$3.000,00.",
   },
   // {
   //   fotos: importAll(

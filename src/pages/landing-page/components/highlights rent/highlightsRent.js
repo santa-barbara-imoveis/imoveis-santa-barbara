@@ -20,25 +20,25 @@ function HighlightsRent() {
       <div className="opcaoImoveis">
         <div className="boxImovel">
           <div className="imFotoMainR">
-            <Link to={`imovel/L093`} className="linkImage">
+            <Link to={`imovel/L097`} className="linkImage">
               <img className="imFoto2" src={fotoFrente6} />
             </Link>
             <div className="boxPreco">
               <div className="tipoContrato">Locação - Residencial</div>
-              <div className="precoImovel">R$ 1.800,00</div>
+              <div className="precoImovel">R$ 2.400,00</div>
             </div>
           </div>
-          <div className="imBairroCidade">Serra Vila - Barão de Cocais</div>
-          <div className="imId">Código: L093</div>
+          <div className="imBairroCidade">Centro - Santa Bárbara</div>
+          <div className="imId">Código: L097</div>
           <div className="imAmenities">
             <div className="iconsAmenities">
               <img className="icon" src={area} />
-              166 m²
+              90 m²
               <img className="icon" src={banho} />
               2
               <img className="icon" src={vagas} />
-              1
-              <img className="icon" src={quartos} />3
+              2
+              <img className="icon" src={quartos} />2
             </div>
           </div>
         </div>

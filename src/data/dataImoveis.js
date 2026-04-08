@@ -105,6 +105,7 @@ import ffV181 from "../assets/images/V181.jpg";
 import ffV182 from "../assets/images/V182.jpg";
 import ffV183 from "../assets/images/V183.jpg";
 import ffV184 from "../assets/images/V184.jpg";
+import ffV187 from "../assets/images/V187.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -1184,6 +1185,25 @@ const imoveisDisp = [
     areaConstruida: "180 m²",
     titulo: "Casa + terreno a venda em Catas Altas",
     descricao: "Infraestrutura completa;duas casas de morada;documento regular;imóvel financiável;lote com escritura.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/V187", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV187,
+    cod: "V187",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.plot,
+    ruaNum: "Rua Lúcia dos Santos Fonseca",
+    bairro: "Santa Mônica",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais - MG",
+    quartos: 0,
+    banheiros: 0,
+    vagas: 0,
+    valor: "R$ 230.000,00",
+    areaTotal: "360 m²",
+    areaConstruida: "- m²",
+    titulo: "Vende-se lote no bairro Santa Mônica",
+    descricao: "Lote com 360,00 m², frente: 12m, fundos: 30m; boa localização; parcialmente murado; infraestrutura completa; ótimas casas no entorno.",
   },
   // {
   //   fotos: importAll(require.context("../assets/images/V183", true, /\.(png|jpe?g|svg|jfif)$/)),

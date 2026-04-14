@@ -2015,7 +2015,7 @@ const imoveisDisp = [
     areaConstruida: "100 m²",
     titulo: "Aluga-se casa no bairro caminho de minas",
     descricao:
-      ".",
+      "Sala, cozinha, 03 quartos (1 suíte), 01 banheiro social, área serviço / Quintal e 02 vagas de garagem..",
   },
   // {
   //   fotos: importAll(

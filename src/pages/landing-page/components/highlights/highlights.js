@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Highlights.css";
 import fotoFrente2 from "./assets/V178.jpg";
-import fotoFrente3 from "./assets/V182.jpg";
+import fotoFrente3 from "./assets/V161.jpg";
 import fotoFrente from "./assets/V184.jpg";
 import area from "./assets/area.png";
 import banho from "./assets/banheira.png";

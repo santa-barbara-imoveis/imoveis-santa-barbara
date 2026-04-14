@@ -106,7 +106,7 @@ import ffV181 from "../assets/images/V181.jpg";
 import ffV182 from "../assets/images/V182.jpg";
 import ffV183 from "../assets/images/V183.jpg";
 import ffV184 from "../assets/images/V184.jpg";
-import ffV185 from "../assets/images/V185.jpeg";
+import ffV185 from "../assets/images/V185.jpg";
 import ffV187 from "../assets/images/V187.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";

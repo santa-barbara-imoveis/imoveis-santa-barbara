@@ -69,24 +69,24 @@ function Highlights() {
 
         <div className="boxImovel">
           <div className="imFotoMainV">
-            <Link to={`imovel/V182`} className="linkImage">
+            <Link to={`imovel/V161`} className="linkImage">
               <img className="imFotoV" src={fotoFrente3} />
             </Link>
             <div className="boxPreco">
               <div className="tipoContrato">Venda</div>
-              <div className="precoImovel">R$ 690.000,00</div>
+              <div className="precoImovel">R$ 450.000,00</div>
             </div>
           </div>
-          <div className="imBairroCidade">Santo Antônio - Santa Bárbara</div>
-          <div className="imId">Código: V182</div>
+          <div className="imBairroCidade">Florália - Santa Bárbara</div>
+          <div className="imId">Código: V161</div>
           <div className="imAmenities">
             <div className="iconsAmenities">
               <img className="icon" src={area} />
-              103
+              270
               <img className="icon" src={banho} />
-              3
+              2
               <img className="icon" src={vagas} />
-              1
+              0
               <img className="icon" src={quartos} />3
             </div>
           </div>

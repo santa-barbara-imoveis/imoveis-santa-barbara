@@ -39,6 +39,7 @@ import ffL107 from "../assets/images/L107.jpg";
 import ffL108 from "../assets/images/L108.jpg";
 import ffL109 from "../assets/images/L109.jpeg";
 import ffL111 from "../assets/images/L111.jpeg";
+import ffL112 from "../assets/images/L112.jpeg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -105,6 +106,7 @@ import ffV181 from "../assets/images/V181.jpg";
 import ffV182 from "../assets/images/V182.jpg";
 import ffV183 from "../assets/images/V183.jpg";
 import ffV184 from "../assets/images/V184.jpg";
+import ffV185 from "../assets/images/V185.jpeg";
 import ffV187 from "../assets/images/V187.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
@@ -1186,6 +1188,25 @@ const imoveisDisp = [
     titulo: "Casa + terreno a venda em Catas Altas",
     descricao: "Infraestrutura completa;duas casas de morada;documento regular;imóvel financiável;lote com escritura.",
   },
+  {
+    fotos: importAll(require.context("../assets/images/V185", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV185,
+    cod: "V185",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua São Geraldo, 102",
+    bairro: "Centro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais - MG",
+    quartos: 5,
+    banheiros: 2,
+    vagas: 0,
+    valor: "R$ 600.000,00",
+    areaTotal: "173 m²",
+    areaConstruida: "135 m²",
+    titulo: "Vende-se casa no bairro centro",
+    descricao: "Varanda, sala, copa, cozinha, área de serviço, 5 quartos, 2 banheiros sociais, jardim, sem garagem.",
+  },
   // {
   //   fotos: importAll(require.context("../assets/images/V187", true, /\.(png|jpe?g|svg|jfif)$/)),
   //   fotoCapa: ffV187,
@@ -1975,6 +1996,26 @@ const imoveisDisp = [
     titulo: "Aluga-se casa no residencial Santo Antonio.",
     descricao:
       "Lote: 360 m², casa de 103 m²; sala, ⁠copa; cozinha; 03 quartos (01 suíte com closet e banheira hidromassagem); ⁠01 banheiro social; área de churrasco; área externa, ⁠área serviço; ⁠varanda; ⁠02 vagas de garagem com portão eletrônico; R$3.000,00.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/L112", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL112,
+    cod: "L112",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "Caminho de minas",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 2,
+    vagas: 2,
+    valor: "R$ 2.000,00",
+    areaTotal: "180 m²",
+    areaConstruida: "100 m²",
+    titulo: "Aluga-se casa no bairro caminho de minas",
+    descricao:
+      ".",
   },
   // {
   //   fotos: importAll(

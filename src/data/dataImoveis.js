@@ -40,6 +40,7 @@ import ffL108 from "../assets/images/L108.jpg";
 import ffL109 from "../assets/images/L109.jpeg";
 import ffL111 from "../assets/images/L111.jpeg";
 import ffL112 from "../assets/images/L112.jpeg";
+import ffL115 from "../assets/images/L115.jpg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -107,6 +108,7 @@ import ffV182 from "../assets/images/V182.jpg";
 import ffV183 from "../assets/images/V183.jpg";
 import ffV184 from "../assets/images/V184.jpg";
 import ffV185 from "../assets/images/V185.jpg";
+import ffV186 from "../assets/images/V186.png";
 import ffV187 from "../assets/images/V187.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
@@ -1207,6 +1209,25 @@ const imoveisDisp = [
     titulo: "Vende-se casa no bairro centro",
     descricao: "Varanda, sala, copa, cozinha, área de serviço, 5 quartos, 2 banheiros sociais, jardim, sem garagem.",
   },
+  {
+    fotos: importAll(require.context("../assets/images/V186", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV186,
+    cod: "V186",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.plot,
+    ruaNum: "Rua tenente Carlos",
+    bairro: "Centro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais - MG",
+    quartos: 0,
+    banheiros: 0,
+    vagas: 0,
+    valor: "R$ 210.000,00",
+    areaTotal: "301,52 m²",
+    areaConstruida: "- m²",
+    titulo: "Vende-se lote no centro",
+    descricao: "Lote com 301,52m²; frente: 22,40m; fundos: 25,70m; lado direito: 6,90m; lado esquerdo: 19,00m. Ótima Localização; documentação regular.",
+  },
   // {
   //   fotos: importAll(require.context("../assets/images/V187", true, /\.(png|jpe?g|svg|jfif)$/)),
   //   fotoCapa: ffV187,
@@ -1789,28 +1810,28 @@ const imoveisDisp = [
   //   descricao:
   //     "Sala / Copa, 01 suíte, 01 quarto, 01 banheiro social, cozinha, área externa, área de serviço, sem garagem. Não tem taxa de condomínio.",
   // },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L097", true, /\.(png|jpe?g|svg|jfif)$/)
-    ),
-    fotoCapa: ffL097,
-    cod: "L097",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.apartment,
-    ruaNum: "Rua Maria Carolina, 405, apto 103 (primeiro andar)",
-    bairro: "Centro",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 2,
-    banheiros: 2,
-    vagas: 2,
-    valor: "R$ 2.400,00",
-    areaTotal: "- m²",
-    areaConstruida: "90 m²",
-    titulo: "Aluga-se apartamento novo de 90m² no centro de Santa Bárbara",
-    descricao:
-      "01 suíte + 01 quarto, 01 banheiro social, sala, copa, cozinha, área de serviço, varanda, sacada, 01 vaga de garagem coberta, valor: R$2.200,00/mês + R$200,00 de condomínio, interfone e portão eletrônico.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L097", true, /\.(png|jpe?g|svg|jfif)$/)
+  //   ),
+  //   fotoCapa: ffL097,
+  //   cod: "L097",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.apartment,
+  //   ruaNum: "Rua Maria Carolina, 405, apto 103 (primeiro andar)",
+  //   bairro: "Centro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 2,
+  //   banheiros: 2,
+  //   vagas: 2,
+  //   valor: "R$ 2.400,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "90 m²",
+  //   titulo: "Aluga-se apartamento novo de 90m² no centro de Santa Bárbara",
+  //   descricao:
+  //     "01 suíte + 01 quarto, 01 banheiro social, sala, copa, cozinha, área de serviço, varanda, sacada, 01 vaga de garagem coberta, valor: R$2.200,00/mês + R$200,00 de condomínio, interfone e portão eletrônico.",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L100", true, /\.(png|jpe?g|svg|jfif)$/)
@@ -2016,6 +2037,26 @@ const imoveisDisp = [
     titulo: "Aluga-se casa no bairro caminho de minas",
     descricao:
       "Sala, cozinha, 03 quartos (1 suíte), 01 banheiro social, área serviço / Quintal e 02 vagas de garagem.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/L115", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL115,
+    cod: "L115",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.apartment,
+    ruaNum: "-",
+    bairro: "Garcia",
+    cidade: city.barao_cocais,
+    Estado: "Minas Gerais",
+    quartos: 2,
+    banheiros: 1,
+    vagas: 1,
+    valor: "R$ 1.700,00",
+    areaTotal: "- m²",
+    areaConstruida: "48 m²",
+    titulo: "Aluga-se apartamento no bairro Garcia",
+    descricao:
+      "Apto 2° andar, sala, cozinha, área serviço, 02 quartos, 01 banheiro social, 01 vaga de garagem, cozinha com bancada em granito e guarda roupas nos quartos, área construída: 48 m², incluso água e condomínio.",
   },
   // {
   //   fotos: importAll(

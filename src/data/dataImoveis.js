@@ -41,6 +41,7 @@ import ffL109 from "../assets/images/L109.jpeg";
 import ffL111 from "../assets/images/L111.jpeg";
 import ffL112 from "../assets/images/L112.jpeg";
 import ffL115 from "../assets/images/L115.jpg";
+import ffL117 from "../assets/images/L117.jpg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -1044,7 +1045,7 @@ const imoveisDisp = [
     quartos: 3,
     banheiros: 3,
     vagas: 3,
-    valor: "R$ 980.000,00",
+    valor: "R$ 900.000,00",
     areaTotal: "390 m²",
     areaConstruida: "110 m²",
     titulo: "Casa a venda no bairro Lagoa (Barão de Cocais/MG)",
@@ -2057,6 +2058,26 @@ const imoveisDisp = [
     titulo: "Aluga-se apartamento no bairro Garcia",
     descricao:
       "Apto 2° andar, sala, cozinha, área serviço, 02 quartos, 01 banheiro social, 01 vaga de garagem, cozinha com bancada em granito e guarda roupas nos quartos, área construída: 48 m², incluso água e condomínio.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/L117", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL117,
+    cod: "L117",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua São Geraldo, 102",
+    bairro: "Centro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 5,
+    banheiros: 2,
+    vagas: 0,
+    valor: "R$ 1.800,00",
+    areaTotal: "173 m²",
+    areaConstruida: "135 m²",
+    titulo: "Aluga-se casa no bairro centro",
+    descricao:
+      "Varanda, sala, copa, cozinha, área de serviço, 05 quartos, 02 banheiros sociais, jardim, sem garagem.",
   },
   // {
   //   fotos: importAll(

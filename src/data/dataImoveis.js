@@ -1204,7 +1204,7 @@ const imoveisDisp = [
     quartos: 5,
     banheiros: 2,
     vagas: 0,
-    valor: "R$ 600.000,00",
+    valor: "R$ 550.000,00",
     areaTotal: "173 m²",
     areaConstruida: "135 m²",
     titulo: "Vende-se casa no bairro centro",

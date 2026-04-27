@@ -75,6 +75,7 @@ import ffV138 from "../assets/images/V138.jpg";
 import ffV139 from "../assets/images/V139.jpeg";
 import ffV141 from "../assets/images/V141.jpeg";
 import ffV142 from "../assets/images/V142.jpg";
+import ffV146 from "../assets/images/V146.jfif";
 import ffV147 from "../assets/images/V147.jpeg";
 import ffV149 from "../assets/images/V149.jpeg";
 import ffV150 from "../assets/images/V150.jpeg";
@@ -764,6 +765,26 @@ const imoveisDisp = [
   //   titulo: "Vende-se lote – Sumidouro",
   //   descricao: "Infraestrutura completa; lote plano e imóvel registrado.",
   // },
+  {
+    fotos: importAll(require.context("../assets/images/V146", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV146,
+    cod: "V146",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "Santa Quitéria",
+    cidade: city.catas_altas,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 2,
+    vagas: 5,
+    valor: "R$ 1.300.000,00",
+    areaTotal: "400 m²",
+    areaConstruida: "346 m²",
+    titulo: "Vende-se casa de alto padrão em Catas Altas",
+    descricao:
+      "Garagem 5 carros, ponto comercial, sala, copa, cozinha, 3 quartos, 2 suítes, closet e varanda, espaço gourmet, sauna e piscina com hidromassagem, vista definitiva para Serra, área do terreno: 400 m², área construída da casa: 290m² e área construída do ponto comercial: 56m².",
+  },
   {
     fotos: importAll(require.context("../assets/images/V161", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffV161,

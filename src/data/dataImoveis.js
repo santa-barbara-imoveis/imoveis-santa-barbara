@@ -112,6 +112,7 @@ import ffV184 from "../assets/images/V184.jpg";
 import ffV185 from "../assets/images/V185.jpg";
 import ffV186 from "../assets/images/V186.png";
 import ffV187 from "../assets/images/V187.jpg";
+import ffV188 from "../assets/images/V188.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -1249,6 +1250,25 @@ const imoveisDisp = [
     areaConstruida: "- m²",
     titulo: "Vende-se lote no centro",
     descricao: "Lote com 301,52m²; frente: 22,40m; fundos: 25,70m; lado direito: 6,90m; lado esquerdo: 19,00m. Ótima Localização; documentação regular.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/V188", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV188,
+    cod: "V188",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.plot,
+    ruaNum: "-",
+    bairro: "Cidade Nova",
+    cidade: city.barao_cocais,
+    Estado: "Minas Gerais - MG",
+    quartos: 0,
+    banheiros: 0,
+    vagas: 0,
+    valor: "R$ 145.000,00",
+    areaTotal: "300 m²",
+    areaConstruida: "- m²",
+    titulo: "Vende-se lote no bairro Cidade Nova em Barão de Cocais",
+    descricao: "Lote com 300m²; frente: 12m; fundos: 25m, lote plano, infraestrutura completa, ótimas casas no entorno.",
   },
   // {
   //   fotos: importAll(require.context("../assets/images/V187", true, /\.(png|jpe?g|svg|jfif)$/)),

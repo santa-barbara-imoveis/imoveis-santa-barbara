@@ -40,6 +40,7 @@ import ffL108 from "../assets/images/L108.jpg";
 import ffL109 from "../assets/images/L109.jpeg";
 import ffL111 from "../assets/images/L111.jpeg";
 import ffL112 from "../assets/images/L112.jpeg";
+import ffL113 from "../assets/images/L113.jpg";
 import ffL115 from "../assets/images/L115.jpg";
 import ffL117 from "../assets/images/L117.jpg";
 import ffV003 from "../assets/images/V003.jpeg";
@@ -2079,6 +2080,26 @@ const imoveisDisp = [
     titulo: "Aluga-se casa no bairro caminho de minas",
     descricao:
       "Sala, cozinha, 03 quartos (1 suíte), 01 banheiro social, área serviço / Quintal e 02 vagas de garagem.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/L113", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL113,
+    cod: "L113",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "Sumidouro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 4,
+    banheiros: 4,
+    vagas: 5,
+    valor: "R$ 3.500,00",
+    areaTotal: "6.000 m²",
+    areaConstruida: "120 m²",
+    titulo: "Aluga-se casa no sumidouro",
+    descricao:
+      "Lote com 6.000 m², casa com 120 m², sala, copa e cozinha, 4 quartos sendo 2 suítes, 1 banheiro social e 1 banheiro externo, área de churrasco com 2 fornos, área externa, área de serviço, varanda, piscina com aquecedor, valor de R$ 3.500,00.",
   },
   {
     fotos: importAll(require.context("../assets/images/L115", true, /\.(png|jpe?g|svg|jfif)$/)),

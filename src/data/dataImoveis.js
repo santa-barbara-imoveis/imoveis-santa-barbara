@@ -4,6 +4,7 @@ import ffL016a1 from "../assets/images/L016.1.jpg";
 import ffL033 from "../assets/images/L033.jpg";
 import ffL039 from "../assets/images/L039.jpg";
 import ffL048_1 from "../assets/images/L048_1.jpeg";
+import ffL049 from "../assets/images/L049.jpg";
 import ffL053 from "../assets/images/L053.jpg";
 import ffL059 from "../assets/images/L059.jpg";
 import ffL061 from "../assets/images/L061.jpg";
@@ -1435,6 +1436,28 @@ const imoveisDisp = [
   //   descricao:
   //     "03 quartos, 03 banheiros, sala/cozinha, área de serviço, área externa com piscina, churrasqueira, jardim, garagem para 5 carros.",
   // },
+  {
+    fotos: importAll(
+      require.context("../assets/images/L049", true, /\.(png|jpe?g|svg)$/)
+    ),
+    fotoCapa: ffL049,
+    cod: "L049",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua Joana Henrique de Castro, 133",
+    bairro: "São Francisco",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: amenitiesQuantity.three,
+    banheiros: amenitiesQuantity.two,
+    vagas: amenitiesQuantity.two,
+    valor: "R$ 3.100,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Casa para aluguel no bairro São Francisco",
+    descricao:
+      "Sala, copa, cozinha, 03 quartos, 01 suíte, garagem coberta para 2 carros, portão eletrônico, amplo quintal com churrasqueira, próximo a escola, supermercado, posto de saúde e padaria, valor de aluguel: R$ 3.100,00/mês.",
+  },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L051", true, /\.(png|jpe?g|svg)$/)
@@ -2061,26 +2084,26 @@ const imoveisDisp = [
   //   descricao:
   //     "Lote: 360 m², casa de 103 m²; sala, ⁠copa; cozinha; 03 quartos (01 suíte com closet e banheira hidromassagem); ⁠01 banheiro social; área de churrasco; área externa, ⁠área serviço; ⁠varanda; ⁠02 vagas de garagem com portão eletrônico; R$3.000,00.",
   // },
-  {
-    fotos: importAll(require.context("../assets/images/L112", true, /\.(png|jpe?g|svg|jfif)$/)),
-    fotoCapa: ffL112,
-    cod: "L112",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.house,
-    ruaNum: "-",
-    bairro: "Caminho de minas",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 3,
-    banheiros: 2,
-    vagas: 2,
-    valor: "R$ 2.000,00",
-    areaTotal: "180 m²",
-    areaConstruida: "100 m²",
-    titulo: "Aluga-se casa no bairro caminho de minas",
-    descricao:
-      "Sala, cozinha, 03 quartos (1 suíte), 01 banheiro social, área serviço / Quintal e 02 vagas de garagem.",
-  },
+  // {
+  //   fotos: importAll(require.context("../assets/images/L112", true, /\.(png|jpe?g|svg|jfif)$/)),
+  //   fotoCapa: ffL112,
+  //   cod: "L112",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "-",
+  //   bairro: "Caminho de minas",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 3,
+  //   banheiros: 2,
+  //   vagas: 2,
+  //   valor: "R$ 2.000,00",
+  //   areaTotal: "180 m²",
+  //   areaConstruida: "100 m²",
+  //   titulo: "Aluga-se casa no bairro caminho de minas",
+  //   descricao:
+  //     "Sala, cozinha, 03 quartos (1 suíte), 01 banheiro social, área serviço / Quintal e 02 vagas de garagem.",
+  // },
   {
     fotos: importAll(require.context("../assets/images/L113", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffL113,

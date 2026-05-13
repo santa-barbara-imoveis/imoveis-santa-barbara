@@ -1451,7 +1451,7 @@ const imoveisDisp = [
     quartos: amenitiesQuantity.three,
     banheiros: amenitiesQuantity.two,
     vagas: amenitiesQuantity.two,
-    valor: "R$ 3.100,00",
+    valor: "R$ 3.000,00",
     areaTotal: "- m²",
     areaConstruida: "- m²",
     titulo: "Casa para aluguel no bairro São Francisco",

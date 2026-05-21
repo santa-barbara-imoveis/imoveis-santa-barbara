@@ -1436,28 +1436,28 @@ const imoveisDisp = [
   //   descricao:
   //     "03 quartos, 03 banheiros, sala/cozinha, área de serviço, área externa com piscina, churrasqueira, jardim, garagem para 5 carros.",
   // },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L049", true, /\.(png|jpe?g|svg)$/)
-    ),
-    fotoCapa: ffL049,
-    cod: "L049",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.house,
-    ruaNum: "Rua Joana Henrique de Castro, 133",
-    bairro: "São Francisco",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: amenitiesQuantity.three,
-    banheiros: amenitiesQuantity.two,
-    vagas: amenitiesQuantity.two,
-    valor: "R$ 3.000,00",
-    areaTotal: "- m²",
-    areaConstruida: "- m²",
-    titulo: "Casa para aluguel no bairro São Francisco",
-    descricao:
-      "Sala, copa, cozinha, 03 quartos, 01 suíte, garagem coberta para 2 carros, portão eletrônico, amplo quintal com churrasqueira, próximo a escola, supermercado, posto de saúde e padaria, valor de aluguel: R$ 3.100,00/mês.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L049", true, /\.(png|jpe?g|svg)$/)
+  //   ),
+  //   fotoCapa: ffL049,
+  //   cod: "L049",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "Rua Joana Henrique de Castro, 133",
+  //   bairro: "São Francisco",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: amenitiesQuantity.three,
+  //   banheiros: amenitiesQuantity.two,
+  //   vagas: amenitiesQuantity.two,
+  //   valor: "R$ 3.000,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Casa para aluguel no bairro São Francisco",
+  //   descricao:
+  //     "Sala, copa, cozinha, 03 quartos, 01 suíte, garagem coberta para 2 carros, portão eletrônico, amplo quintal com churrasqueira, próximo a escola, supermercado, posto de saúde e padaria, valor de aluguel: R$ 3.100,00/mês.",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L051", true, /\.(png|jpe?g|svg)$/)

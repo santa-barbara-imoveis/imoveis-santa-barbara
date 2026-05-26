@@ -1299,7 +1299,7 @@ const imoveisDisp = [
     contrato: contractType[contractTypeParamKey.buy],
     tipoImovel: propertyType.house,
     ruaNum: "Rua das Margaridas, 149",
-    bairro: "Cidade Nova",
+    bairro: "Santo Antônio",
     cidade: city.santa_barbara,
     Estado: "Minas Gerais - MG",
     quartos: 3,

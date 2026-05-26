@@ -115,6 +115,7 @@ import ffV185 from "../assets/images/V185.jpg";
 import ffV186 from "../assets/images/V186.png";
 import ffV187 from "../assets/images/V187.jpg";
 import ffV188 from "../assets/images/V188.jpg";
+import ffV189 from "../assets/images/V189.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -1290,6 +1291,25 @@ const imoveisDisp = [
     areaConstruida: "- m²",
     titulo: "Vende-se lote no bairro Cidade Nova em Barão de Cocais",
     descricao: "Lote com 300m²; frente: 12m; fundos: 25m, lote plano, infraestrutura completa, ótimas casas no entorno.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/V189", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV189,
+    cod: "V189",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua das Margaridas, 149",
+    bairro: "Cidade Nova",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais - MG",
+    quartos: 3,
+    banheiros: 1,
+    vagas: 5,
+    valor: "R$ 600.000,00",
+    areaTotal: "360 m²",
+    areaConstruida: "103 m²",
+    titulo: "Ótima casa à venda no bairro Residencial Santo Antônio (Santa Bárbara/MG)",
+    descricao: "Sala, copa e cozinha, 03 quartos, 01 banheiro social, área de serviço e dispensa, área externa e jardim, garagem para 05 carros, portão eletrônico e câmera de segurança.",
   },
   // {
   //   fotos: importAll(require.context("../assets/images/V183", true, /\.(png|jpe?g|svg|jfif)$/)),

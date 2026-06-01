@@ -116,6 +116,8 @@ import ffV186 from "../assets/images/V186.png";
 import ffV187 from "../assets/images/V187.jpg";
 import ffV188 from "../assets/images/V188.jpg";
 import ffV189 from "../assets/images/V189.jpg";
+import ffV190 from "../assets/images/V190.png";
+import ffV191 from "../assets/images/V191.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -1310,6 +1312,44 @@ const imoveisDisp = [
     areaConstruida: "103 m²",
     titulo: "Ótima casa à venda no bairro Residencial Santo Antônio (Santa Bárbara/MG)",
     descricao: "Sala, copa e cozinha, 03 quartos, 01 banheiro social, área de serviço e dispensa, área externa e jardim, garagem para 05 carros, portão eletrônico e câmera de segurança.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/V190", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV190,
+    cod: "V190",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.plot,
+    ruaNum: "-",
+    bairro: "Cidade Nova",
+    cidade: city.barao_cocais,
+    Estado: "Minas Gerais - MG",
+    quartos: 0,
+    banheiros: 0,
+    vagas: 0,
+    valor: "R$ 150.000,00",
+    areaTotal: "300 m²",
+    areaConstruida: "- m²",
+    titulo: "Vende-se lote no bairro Cidade Nova (Barão de Cocais/MG)",
+    descricao: "Terreno com área total de 300,00 m² (12 x 25 metros), plano e financiável, parcialmente murado e com infraestrutura completa. Possui documentação regular, proporcionando segurança na negociação. Excelente oportunidade para construção residencial ou investimento. Valor: R$ 150.000,00.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/V191", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV191,
+    cod: "V191",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.plot,
+    ruaNum: "-",
+    bairro: "Vistas da Serra",
+    cidade: city.catas_altas,
+    Estado: "Minas Gerais - MG",
+    quartos: 0,
+    banheiros: 0,
+    vagas: 0,
+    valor: "R$ 190.000,00",
+    areaTotal: "481,85 m²",
+    areaConstruida: "- m²",
+    titulo: "Vende-se lote no bairro Vistas da Serra (Catas Altas/MG)",
+    descricao: "Viva em conexão com a natureza exuberante da região de Catas Altas e desfrute de um local diferenciado, que une bem-estar, tranquilidade e o estilo de vida cultural que somente a região pode oferecer. Trata-se do Lote 10 da Quadra 4, localizado na Rua 4, com área total de 481,85 m². O imóvel possui ótima topografia e vista privilegiada para a serra e para a Igreja Matriz, proporcionando um cenário único e encantador. Uma excelente oportunidade para construir sua residência ou investir em uma das regiões mais valorizadas da cidade. Valor de venda: R$ 190.000,00. Observação: imóvel já possui certidão de matrícula.",
   },
   // {
   //   fotos: importAll(require.context("../assets/images/V183", true, /\.(png|jpe?g|svg|jfif)$/)),

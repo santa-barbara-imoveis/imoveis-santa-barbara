@@ -11,7 +11,7 @@ function Empresa() {
         <HeroSomos/>
         <div className='valores'>
           <h2>MISSÃO</h2>
-          <p>Realizar negócios imobiliários com inovação.teste</p>
+          <p>Realizar negócios imobiliários com inovação</p>
           <br></br>  
           <h2>VISÃO</h2>
           <p>Ser a Imobiliária referência em Santa Bárbara e região, reconhecida como a melhor opção por clientes, colaboradores, comunidade, fornecedores e investidores, pela qualidade de nossos produtos, serviços e relacionamento.</p>

@@ -1,6 +1,7 @@
 import ffL001 from "../assets/images/L001.jpg";
 import ffL008 from "../assets/images/L008.jpg";
 import ffL016a1 from "../assets/images/L016.1.jpg";
+import ffL031 from "../assets/images/L031.jpg";
 import ffL033 from "../assets/images/L033.jpg";
 import ffL039 from "../assets/images/L039.jpg";
 import ffL048_1 from "../assets/images/L048_1.jpeg";
@@ -118,6 +119,7 @@ import ffV188 from "../assets/images/V188.jpg";
 import ffV189 from "../assets/images/V189.jpg";
 import ffV190 from "../assets/images/V190.png";
 import ffV191 from "../assets/images/V191.jpg";
+import ffV192 from "../assets/images/V192.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -1351,6 +1353,25 @@ const imoveisDisp = [
     titulo: "Vende-se lote no bairro Vistas da Serra (Catas Altas/MG)",
     descricao: "Viva em conexão com a natureza exuberante da região de Catas Altas e desfrute de um local diferenciado, que une bem-estar, tranquilidade e o estilo de vida cultural que somente a região pode oferecer. Trata-se do Lote 10 da Quadra 4, localizado na Rua 4, com área total de 481,85 m². O imóvel possui ótima topografia e vista privilegiada para a serra e para a Igreja Matriz, proporcionando um cenário único e encantador. Uma excelente oportunidade para construir sua residência ou investir em uma das regiões mais valorizadas da cidade. Valor de venda: R$ 190.000,00. Observação: imóvel já possui certidão de matrícula.",
   },
+    {
+    fotos: importAll(require.context("../assets/images/V192", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV192,
+    cod: "V192",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "Lagoa",
+    cidade: city.barao_cocais,
+    Estado: "Minas Gerais - MG",
+    quartos: 3,
+    banheiros: 2,
+    vagas: 4,
+    valor: "R$ 520.000,00",
+    areaTotal: "300 m²",
+    areaConstruida: "130 m²",
+    titulo: "Vende-se casa no bairro Lagoa (Barão de Cocais/MG)",
+    descricao: "Excelente imóvel disponível para venda, composto por sala ampla, copa integrada à cozinha, 03 quartos, sendo 01 suíte, além de 02 banheiros sociais. Conta ainda com área de serviço, quintal e área externa, proporcionando conforto e praticidade para toda a família. Possui garagem com capacidade para até 04 carros. O imóvel está situado em um lote de 300m² e possui 130m² de área construída. Valor de venda: R$ 520.000,00. Aceita financiamento.",
+  },
   // {
   //   fotos: importAll(require.context("../assets/images/V183", true, /\.(png|jpe?g|svg|jfif)$/)),
   //   fotoCapa: ffV183,
@@ -1454,6 +1475,26 @@ const imoveisDisp = [
   //   descricao:
   //     "Casa fundos, acesso comum; sala, copa, cozinha, área de serviço, 03 quartos, 01 banheiro e sem garagem. Área construída: 80 m².",
   // },
+    {
+    fotos: importAll(require.context("../assets/images/L031", true, /\.(png|jpe?g|svg)$/)),
+    fotoCapa: ffL031,
+    cod: "L031",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua Rio Doce, 221",
+    bairro: "Tenente Carlos",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: amenitiesQuantity.two,
+    banheiros: amenitiesQuantity.one,
+    vagas: amenitiesQuantity.two,
+    valor: "R$ 1.800,00",
+    areaTotal: "- m²",
+    areaConstruida: "70 m²",
+    titulo: "Aluga-se casa no bairro Tenente Carlos",
+    descricao:
+      "Casa para locação no bairro Tenente Carlos, em Santa Bárbara/MG. O imóvel possui 70 m² de área construída, distribuídos em 02 quartos, 01 banheiro, sala, cozinha e demais dependências, oferecendo conforto e praticidade para o dia a dia. Conta ainda com garagem para 02 veículos. Valor do aluguel: R$ 1.800,00 mensais.",
+  },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L033", true, /\.(png|jpe?g|svg)$/)

@@ -120,6 +120,7 @@ import ffV189 from "../assets/images/V189.jpg";
 import ffV190 from "../assets/images/V190.png";
 import ffV191 from "../assets/images/V191.jpg";
 import ffV192 from "../assets/images/V192.jpg";
+import ffV193 from "../assets/images/V193.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -1371,6 +1372,25 @@ const imoveisDisp = [
     areaConstruida: "130 m²",
     titulo: "Vende-se casa no bairro Lagoa (Barão de Cocais/MG)",
     descricao: "Excelente imóvel disponível para venda, composto por sala ampla, copa integrada à cozinha, 03 quartos, sendo 01 suíte, além de 02 banheiros sociais. Conta ainda com área de serviço, quintal e área externa, proporcionando conforto e praticidade para toda a família. Possui garagem com capacidade para até 04 carros. O imóvel está situado em um lote de 300m² e possui 130m² de área construída. Valor de venda: R$ 520.000,00. Aceita financiamento.",
+  },
+      {
+    fotos: importAll(require.context("../assets/images/V193", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV193,
+    cod: "V193",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "Sumidouro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais - MG",
+    quartos: 4,
+    banheiros: 4,
+    vagas: 5,
+    valor: "R$ 2.100.000,00",
+    areaTotal: "4.980 m²",
+    areaConstruida: "890 m²",
+    titulo: "Vende-se casa no sumidouro com linda vista para a Serra",
+    descricao: "Excelente imóvel de alto padrão, com área construída de 890 m² em um amplo terreno de 4.980 m². A residência conta com sala de jantar integrada à sala de TV, cozinha espaçosa, despensa e adega. Na área íntima, dispõe de 01 suíte com closet, 04 quartos adicionais e 03 banheiros sociais. Possui ainda área de serviço, varanda, garagem ampla, além de uma completa área de lazer com piscina e espaço gourmet. O imóvel está inserido em um ambiente privilegiado, cercado por bosque, pomar e jardins, proporcionando conforto, privacidade e contato com a natureza. Conta também com aquecedor solar, ar-condicionado, reservatório de água com capacidade para 6.000 litros, padrão elétrico 220V e sistema de fossa séptica. Valor de venda: R$ 2.100.000,00. Taxa de condomínio: R$ 350,00 por mês.",
   },
   // {
   //   fotos: importAll(require.context("../assets/images/V183", true, /\.(png|jpe?g|svg|jfif)$/)),

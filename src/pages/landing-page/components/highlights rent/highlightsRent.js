@@ -7,7 +7,7 @@ import vagas from "./assets/carros.png";
 import quartos from "./assets/quarto.png";
 import fotoFrente4 from "./assets/L073.jpg";
 import fotoFrente5 from "./assets/L063a1.jpeg";
-import fotoFrente6 from "./assets/L097.jpg";
+import fotoFrente6 from "./assets/L113.jpg";
 import setaE from "./assets/seta-esquerda.png";
 import setaD from "./assets//seta-direita.png";
 
@@ -20,25 +20,25 @@ function HighlightsRent() {
       <div className="opcaoImoveis">
         <div className="boxImovel">
           <div className="imFotoMainR">
-            <Link to={`imovel/L097`} className="linkImage">
+            <Link to={`imovel/L113`} className="linkImage">
               <img className="imFoto2" src={fotoFrente6} />
             </Link>
             <div className="boxPreco">
               <div className="tipoContrato">Locação - Residencial</div>
-              <div className="precoImovel">R$ 2.400,00</div>
+              <div className="precoImovel">R$ 3.500,00</div>
             </div>
           </div>
-          <div className="imBairroCidade">Centro - Santa Bárbara</div>
-          <div className="imId">Código: L097</div>
+          <div className="imBairroCidade">Sumidouro - Santa Bárbara</div>
+          <div className="imId">Código: L113</div>
           <div className="imAmenities">
             <div className="iconsAmenities">
               <img className="icon" src={area} />
-              90 m²
+              120 m²
               <img className="icon" src={banho} />
-              2
+              4
               <img className="icon" src={vagas} />
-              2
-              <img className="icon" src={quartos} />2
+              5
+              <img className="icon" src={quartos} />4
             </div>
           </div>
         </div>

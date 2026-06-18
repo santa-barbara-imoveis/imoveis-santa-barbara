@@ -1495,26 +1495,26 @@ const imoveisDisp = [
   //   descricao:
   //     "Casa fundos, acesso comum; sala, copa, cozinha, área de serviço, 03 quartos, 01 banheiro e sem garagem. Área construída: 80 m².",
   // },
-    {
-    fotos: importAll(require.context("../assets/images/L031", true, /\.(png|jpe?g|svg)$/)),
-    fotoCapa: ffL031,
-    cod: "L031",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.house,
-    ruaNum: "Rua Rio Doce, 221",
-    bairro: "Tenente Carlos",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: amenitiesQuantity.two,
-    banheiros: amenitiesQuantity.one,
-    vagas: amenitiesQuantity.two,
-    valor: "R$ 1.800,00",
-    areaTotal: "- m²",
-    areaConstruida: "70 m²",
-    titulo: "Aluga-se casa no bairro Tenente Carlos",
-    descricao:
-      "Casa para locação no bairro Tenente Carlos, em Santa Bárbara/MG. O imóvel possui 70 m² de área construída, distribuídos em 02 quartos, 01 banheiro, sala, cozinha e demais dependências, oferecendo conforto e praticidade para o dia a dia. Conta ainda com garagem para 02 veículos. Valor do aluguel: R$ 1.800,00 mensais.",
-  },
+  //   {
+  //   fotos: importAll(require.context("../assets/images/L031", true, /\.(png|jpe?g|svg)$/)),
+  //   fotoCapa: ffL031,
+  //   cod: "L031",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "Rua Rio Doce, 221",
+  //   bairro: "Tenente Carlos",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: amenitiesQuantity.two,
+  //   banheiros: amenitiesQuantity.one,
+  //   vagas: amenitiesQuantity.two,
+  //   valor: "R$ 1.800,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "70 m²",
+  //   titulo: "Aluga-se casa no bairro Tenente Carlos",
+  //   descricao:
+  //     "Casa para locação no bairro Tenente Carlos, em Santa Bárbara/MG. O imóvel possui 70 m² de área construída, distribuídos em 02 quartos, 01 banheiro, sala, cozinha e demais dependências, oferecendo conforto e praticidade para o dia a dia. Conta ainda com garagem para 02 veículos. Valor do aluguel: R$ 1.800,00 mensais.",
+  // },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L033", true, /\.(png|jpe?g|svg)$/)

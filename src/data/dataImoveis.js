@@ -45,6 +45,7 @@ import ffL112 from "../assets/images/L112.jpeg";
 import ffL113 from "../assets/images/L113.jpg";
 import ffL115 from "../assets/images/L115.jpg";
 import ffL117 from "../assets/images/L117.jpg";
+import ffL118 from "../assets/images/L118.jpg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -2284,6 +2285,26 @@ const imoveisDisp = [
     titulo: "Aluga-se casa no bairro centro",
     descricao:
       "Varanda, sala, copa, cozinha, área de serviço, 05 quartos, 02 banheiros sociais, jardim, sem garagem.",
+  },
+    {
+    fotos: importAll(require.context("../assets/images/L118", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL118,
+    cod: "L118",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua Boa Esperança, 398",
+    bairro: "Tenente Carlos",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 2,
+    banheiros: 3,
+    vagas: 2,
+    valor: "R$ 3.500,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluguel de casa em Santa Bárbara",
+    descricao:
+      "Sala, copa, cozinha/área de serviço, hall, 02 suítes, 02 quartos, 01 banheiro social, varanda, garagem para 02 carros, com portão eletrônico. Aquecedor solar.",
   },
   // {
   //   fotos: importAll(

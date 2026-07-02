@@ -46,6 +46,7 @@ import ffL113 from "../assets/images/L113.jpg";
 import ffL115 from "../assets/images/L115.jpg";
 import ffL117 from "../assets/images/L117.jpg";
 import ffL118 from "../assets/images/L118.jpg";
+import ffL119 from "../assets/images/L119.jpg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -2305,6 +2306,26 @@ const imoveisDisp = [
     titulo: "Aluguel de casa em Santa Bárbara",
     descricao:
       "Sala, copa, cozinha/área de serviço, hall, 02 suítes, 02 quartos, 01 banheiro social, varanda, garagem para 02 carros, com portão eletrônico. Aquecedor solar.",
+  },
+      {
+    fotos: importAll(require.context("../assets/images/L119", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL119,
+    cod: "L119",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua Domingos Pena, 308",
+    bairro: "Centro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 1,
+    vagas: 1,
+    valor: "R$ 2.300,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluguel de casa no centro",
+    descricao:
+      "Casa com varanda, sala, copa, cozinha e área de serviço. Possui 03 quartos, 01 banheiro social, quintal e 01 vaga de garagem. Construída em laje, conta com pisos em cerâmica e tábua corrida, além de cômodos amplos e bem distribuídos, proporcionando conforto e praticidade.",
   },
   // {
   //   fotos: importAll(

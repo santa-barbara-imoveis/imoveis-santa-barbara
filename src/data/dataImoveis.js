@@ -2300,12 +2300,12 @@ const imoveisDisp = [
     quartos: 2,
     banheiros: 3,
     vagas: 2,
-    valor: "R$ 3.500,00",
+    valor: "R$ 3.000,00",
     areaTotal: "- m²",
     areaConstruida: "- m²",
     titulo: "Aluguel de casa em Santa Bárbara",
     descricao:
-      "Sala, copa, cozinha/área de serviço, hall, 02 suítes, 02 quartos, 01 banheiro social, varanda, garagem para 02 carros, com portão eletrônico. Aquecedor solar.",
+      "Sala, copa, cozinha/área de serviço, hall, 02 suítes, 02 quartos, 02 banheiro social, varanda, garagem para 02 carros, com portão eletrônico. Aquecedor solar.",
   },
       {
     fotos: importAll(require.context("../assets/images/L119", true, /\.(png|jpe?g|svg|jfif)$/)),

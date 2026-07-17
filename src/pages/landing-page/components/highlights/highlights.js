@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Highlights.css";
-import fotoFrente2 from "./assets/V178.jpg";
-import fotoFrente3 from "./assets/V161.jpg";
+import fotoFrente2 from "./assets/V192.jpg";
+import fotoFrente3 from "./assets/V176.jpg";
 import fotoFrente from "./assets/V184.jpg";
 import area from "./assets/area.png";
 import banho from "./assets/banheira.png";
@@ -44,16 +44,16 @@ function Highlights() {
 
         <div className="boxImovel">
           <div className="imFotoMainV">
-            <Link to={`imovel/V178`} className="linkImage">
+            <Link to={`imovel/V192`} className="linkImage">
               <img className="imFotoV" src={fotoFrente2} />
             </Link>
             <div className="boxPreco">
               <div className="tipoContrato">Venda</div>
-              <div className="precoImovel">R$ 850.000,00</div>
+              <div className="precoImovel">R$ 520.000,00</div>
             </div>
           </div>
-          <div className="imBairroCidade">Mãe Catarina - Santa Bárbara</div>
-          <div className="imId">Código: V178</div>
+          <div className="imBairroCidade">Lagoa - Barão de Cocais</div>
+          <div className="imId">Código: V192</div>
           <div className="imAmenities">
             <div className="iconsAmenities">
               <img className="icon" src={area} />
@@ -61,7 +61,7 @@ function Highlights() {
               <img className="icon" src={banho} />
               2
               <img className="icon" src={vagas} />
-              2
+              4
               <img className="icon" src={quartos} />3
             </div>
           </div>
@@ -69,24 +69,24 @@ function Highlights() {
 
         <div className="boxImovel">
           <div className="imFotoMainV">
-            <Link to={`imovel/V161`} className="linkImage">
+            <Link to={`imovel/V176`} className="linkImage">
               <img className="imFotoV" src={fotoFrente3} />
             </Link>
             <div className="boxPreco">
               <div className="tipoContrato">Venda</div>
-              <div className="precoImovel">R$ 450.000,00</div>
+              <div className="precoImovel">R$ 900.000,00</div>
             </div>
           </div>
-          <div className="imBairroCidade">Florália - Santa Bárbara</div>
-          <div className="imId">Código: V161</div>
+          <div className="imBairroCidade">Lagoa - Barão de Cocais</div>
+          <div className="imId">Código: V176</div>
           <div className="imAmenities">
             <div className="iconsAmenities">
               <img className="icon" src={area} />
-              270
+              110
               <img className="icon" src={banho} />
-              2
+              3
               <img className="icon" src={vagas} />
-              0
+              3
               <img className="icon" src={quartos} />3
             </div>
           </div>

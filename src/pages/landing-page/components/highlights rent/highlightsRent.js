@@ -6,8 +6,8 @@ import area from "./assets/area.png";
 import vagas from "./assets/carros.png";
 import quartos from "./assets/quarto.png";
 import fotoFrente4 from "./assets/L073.jpg";
-import fotoFrente5 from "./assets/L063a1.jpeg";
-import fotoFrente6 from "./assets/L113.jpg";
+import fotoFrente5 from "./assets/L119.jpeg";
+import fotoFrente6 from "./assets/L115.jpg";
 import setaE from "./assets/seta-esquerda.png";
 import setaD from "./assets//seta-direita.png";
 
@@ -20,41 +20,41 @@ function HighlightsRent() {
       <div className="opcaoImoveis">
         <div className="boxImovel">
           <div className="imFotoMainR">
-            <Link to={`imovel/L113`} className="linkImage">
+            <Link to={`imovel/L115`} className="linkImage">
               <img className="imFoto2" src={fotoFrente6} />
             </Link>
             <div className="boxPreco">
               <div className="tipoContrato">Locação - Residencial</div>
-              <div className="precoImovel">R$ 3.500,00</div>
+              <div className="precoImovel">R$ 1.300,00</div>
             </div>
           </div>
-          <div className="imBairroCidade">Sumidouro - Santa Bárbara</div>
-          <div className="imId">Código: L113</div>
+          <div className="imBairroCidade">Sumidouro - Barão de Cocais</div>
+          <div className="imId">Código: L115</div>
           <div className="imAmenities">
             <div className="iconsAmenities">
               <img className="icon" src={area} />
-              120 m²
+              48 m²
               <img className="icon" src={banho} />
-              4
+              1
               <img className="icon" src={vagas} />
-              5
-              <img className="icon" src={quartos} />4
+              1
+              <img className="icon" src={quartos} />2
             </div>
           </div>
         </div>
 
         <div className="boxImovel">
           <div className="imFotoMainR">
-            <Link to={`imovel/L063a1`} className="linkImage">
+            <Link to={`imovel/L119`} className="linkImage">
               <img className="imFoto2" src={fotoFrente5} />
             </Link>
             <div className="boxPreco">
-              <div className="tipoContrato">Locação</div>
-              <div className="precoImovel">R$ 2.200,00</div>
+              <div className="tipoContrato">Locação - Residencial</div>
+              <div className="precoImovel">R$ 2.300,00</div>
             </div>
           </div>
           <div className="imBairroCidade">Centro - Santa Bárbara</div>
-          <div className="imId">Código: L063a1</div>
+          <div className="imId">Código: L119</div>
           <div className="imAmenities">
             <div className="iconsAmenities">
               <img className="icon" src={area} />
@@ -62,8 +62,8 @@ function HighlightsRent() {
               <img className="icon" src={banho} />
               1
               <img className="icon" src={vagas} />
-              0
-              <img className="icon" src={quartos} />0
+              1
+              <img className="icon" src={quartos} />3
             </div>
           </div>
         </div>

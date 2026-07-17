@@ -47,6 +47,7 @@ import ffL115 from "../assets/images/L115.jpg";
 import ffL117 from "../assets/images/L117.jpg";
 import ffL118 from "../assets/images/L118.jpg";
 import ffL119 from "../assets/images/L119.jpg";
+import ffL121 from "../assets/images/L121.jpg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -1688,26 +1689,26 @@ const imoveisDisp = [
   //   descricao:
   //     "Imóvel novo e aconchegante, localização privilegiada (Ao lado do River Park); chalé bem estruturado e com área ampla; portão eletrônico, quiosque com churrasqueira e piscina; banheiro social, 01 suíte, 02 quartos; sala, cozinha, área de serviço; garagem e quintal.",
   // },
-  {
-    fotos: importAll(require.context("../assets/images/L063a1", true, /\.(png|jpe?g|svg)$/)),
-    fotoCapa: ffL063a1,
-    cod: "L063a1",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.commercial_property,
-    ruaNum: "Rua Ramal dos Ferroviários, 473",
-    bairro: "Centro",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 0,
-    banheiros: 1,
-    vagas: 0,
-    valor: "R$ 2.200,00",
-    areaTotal: "46 m²",
-    areaConstruida: "- m²",
-    titulo: "Aluguel de sala comercial no Reale - 2º andar.",
-    descricao:
-      "R$ 520,00 taxa de condomínio. Sala de 46m² em ótima localização e acabamento; situado em área central de alta movimentação; recepção climatizada, com recepcionista; porta principal com acionamento eletrônico; telefones fixos / Whatsapp automatizado; internet banda larga / Espaço com copa equipada; banheiros para clientes e banheiros internos; sistema de câmeras de segurança, com monitoramento via app; alarme geral e individual por sala, com acesso exclusivo; possibilidades de adaptação de diversos projetos tais como spa day, com ducha aquecida, ou outros tipos de projetos específicos; ideal para escritórios em geral, clínicas de estética, estúdio de pilates e outros; Obs: despesas de condomínio inclui água, luz, IPTU, internet, recepção, sistema de câmeras e limpeza de áreas comuns.",
-  },
+  // {
+  //   fotos: importAll(require.context("../assets/images/L063a1", true, /\.(png|jpe?g|svg)$/)),
+  //   fotoCapa: ffL063a1,
+  //   cod: "L063a1",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.commercial_property,
+  //   ruaNum: "Rua Ramal dos Ferroviários, 473",
+  //   bairro: "Centro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 0,
+  //   banheiros: 1,
+  //   vagas: 0,
+  //   valor: "R$ 2.200,00",
+  //   areaTotal: "46 m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Aluguel de sala comercial no Reale - 2º andar.",
+  //   descricao:
+  //     "R$ 520,00 taxa de condomínio. Sala de 46m² em ótima localização e acabamento; situado em área central de alta movimentação; recepção climatizada, com recepcionista; porta principal com acionamento eletrônico; telefones fixos / Whatsapp automatizado; internet banda larga / Espaço com copa equipada; banheiros para clientes e banheiros internos; sistema de câmeras de segurança, com monitoramento via app; alarme geral e individual por sala, com acesso exclusivo; possibilidades de adaptação de diversos projetos tais como spa day, com ducha aquecida, ou outros tipos de projetos específicos; ideal para escritórios em geral, clínicas de estética, estúdio de pilates e outros; Obs: despesas de condomínio inclui água, luz, IPTU, internet, recepção, sistema de câmeras e limpeza de áreas comuns.",
+  // },
   // {
   //   fotos: importAll(require.context('../assets/images/L063a2', true, /\.(png|jpe?g|svg)$/)),
   //   fotoCapa: ffL063a2,
@@ -2227,26 +2228,26 @@ const imoveisDisp = [
   //   descricao:
   //     "Sala, cozinha, 03 quartos (1 suíte), 01 banheiro social, área serviço / Quintal e 02 vagas de garagem.",
   // },
-  {
-    fotos: importAll(require.context("../assets/images/L113", true, /\.(png|jpe?g|svg|jfif)$/)),
-    fotoCapa: ffL113,
-    cod: "L113",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.house,
-    ruaNum: "-",
-    bairro: "Sumidouro",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 4,
-    banheiros: 4,
-    vagas: 5,
-    valor: "R$ 3.500,00",
-    areaTotal: "6.000 m²",
-    areaConstruida: "120 m²",
-    titulo: "Aluga-se casa no sumidouro",
-    descricao:
-      "Lote com 6.000 m², casa com 120 m², sala, copa e cozinha, 4 quartos sendo 2 suítes, 1 banheiro social e 1 banheiro externo, área de churrasco com 2 fornos, área externa, área de serviço, varanda, piscina com aquecedor, valor de R$ 3.500,00.",
-  },
+  // {
+  //   fotos: importAll(require.context("../assets/images/L113", true, /\.(png|jpe?g|svg|jfif)$/)),
+  //   fotoCapa: ffL113,
+  //   cod: "L113",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "-",
+  //   bairro: "Sumidouro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 4,
+  //   banheiros: 4,
+  //   vagas: 5,
+  //   valor: "R$ 3.500,00",
+  //   areaTotal: "6.000 m²",
+  //   areaConstruida: "120 m²",
+  //   titulo: "Aluga-se casa no sumidouro",
+  //   descricao:
+  //     "Lote com 6.000 m², casa com 120 m², sala, copa e cozinha, 4 quartos sendo 2 suítes, 1 banheiro social e 1 banheiro externo, área de churrasco com 2 fornos, área externa, área de serviço, varanda, piscina com aquecedor, valor de R$ 3.500,00.",
+  // },
   {
     fotos: importAll(require.context("../assets/images/L115", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffL115,
@@ -2326,6 +2327,26 @@ const imoveisDisp = [
     titulo: "Aluguel de casa no centro",
     descricao:
       "Casa com varanda, sala, copa, cozinha e área de serviço. Possui 03 quartos, 01 banheiro social, quintal e 01 vaga de garagem. Construída em laje, conta com pisos em cerâmica e tábua corrida, além de cômodos amplos e bem distribuídos, proporcionando conforto e praticidade.",
+  },
+        {
+    fotos: importAll(require.context("../assets/images/L121", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL121,
+    cod: "L121",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.apartment,
+    ruaNum: "Avenida Rodrigo de Castro, 72",
+    bairro: "São José",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 1,
+    vagas: 1,
+    valor: "R$ 1.800,00 + condomínio",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluguel de apartamento em Santa Bárbara",
+    descricao:
+      "Sala, copa, cozinha/área de serviço, 02 quartos, 01 banheiro social, garagem para 01 carro, prédio com 4 (quatro) apartamentos; existe área comum, permite animais de pequeno porte; aguardando ligação de água e energia separados; pegar as contas de água e energia para transferência, IPTU ao Locador, chaves pendentes assim como motor do portão eletrônico, taxa de condomínio a combinar.",
   },
   // {
   //   fotos: importAll(

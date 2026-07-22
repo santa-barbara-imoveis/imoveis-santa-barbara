@@ -47,7 +47,10 @@ import ffL115 from "../assets/images/L115.jpg";
 import ffL117 from "../assets/images/L117.jpg";
 import ffL118 from "../assets/images/L118.jpg";
 import ffL119 from "../assets/images/L119.jpg";
+import ffL120 from "../assets/images/L120.jpg";
 import ffL121 from "../assets/images/L121.jpg";
+import ffL122 from "../assets/images/L122.jpeg";
+import ffL123 from "../assets/images/L123.jpeg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -978,7 +981,7 @@ const imoveisDisp = [
     quartos: 3,
     banheiros: 2,
     vagas: 2,
-    valor: "R$ 1.500.000,00",
+    valor: "R$ 1.400.000,00",
     areaTotal: "385 m²",
     areaConstruida: "150 m²",
     titulo: "Vende-se ótima casa no bairro Ana Margarida",
@@ -2329,6 +2332,26 @@ const imoveisDisp = [
       "Casa com varanda, sala, copa, cozinha e área de serviço. Possui 03 quartos, 01 banheiro social, quintal e 01 vaga de garagem. Construída em laje, conta com pisos em cerâmica e tábua corrida, além de cômodos amplos e bem distribuídos, proporcionando conforto e praticidade.",
   },
         {
+    fotos: importAll(require.context("../assets/images/L120", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL120,
+    cod: "L120",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua Oito, 84",
+    bairro: "Monte Carlo",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 2,
+    banheiros: 1,
+    vagas: 1,
+    valor: "R$ 1.800,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se de casa geminada no bairro Monte Carlo",
+    descricao:
+      "Sala e cozinha, 02 quartos, 01 banheiro social, área de serviço, garagem e valor de R$ 1.800,00.",
+  },
+        {
     fotos: importAll(require.context("../assets/images/L121", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffL121,
     cod: "L121",
@@ -2347,6 +2370,46 @@ const imoveisDisp = [
     titulo: "Aluguel de apartamento em Santa Bárbara",
     descricao:
       "Sala, copa, cozinha/área de serviço, 02 quartos, 01 banheiro social, garagem para 01 carro, prédio com 4 (quatro) apartamentos; existe área comum, permite animais de pequeno porte; aguardando ligação de água e energia separados; pegar as contas de água e energia para transferência, IPTU ao Locador, chaves pendentes assim como motor do portão eletrônico, taxa de condomínio a combinar.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/L122", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL122,
+    cod: "L122",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua Campos Altos, 275",
+    bairro: "Tenente Carlos",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 1,
+    vagas: 2,
+    valor: "R$ 1.800,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se casa no bairro Tenente Carlos",
+    descricao:
+      "Varanda, sala, copa, cozinha, área de serviço, 03 quartos, 01 banheiro social, 02 vagas de garagem. Valor de R$ 1.800,00. Obs.: casa de laje, com piso em cerâmica e tábua corrida, cômodos espaçosos.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/L123", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL123,
+    cod: "L123",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua Campos Altos, 275b",
+    bairro: "Tenente Carlos",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 1,
+    vagas: 1,
+    valor: "R$ 1.600,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se casa no bairro Tenente Carlos",
+    descricao:
+      "Sala, copa, cozinha, área de serviço, 03 quartos, 01 banheiro social, 01 vagas de garagem. Valor de R$ 1.800,00. Obs.: casa de forro de madeira, com piso em cerâmica, cômodos espaçosos.",
   },
   // {
   //   fotos: importAll(

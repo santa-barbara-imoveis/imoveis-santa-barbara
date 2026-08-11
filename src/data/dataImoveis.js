@@ -51,6 +51,7 @@ import ffL120 from "../assets/images/L120.jpg";
 import ffL121 from "../assets/images/L121.jpg";
 import ffL122 from "../assets/images/L122.jpeg";
 import ffL123 from "../assets/images/L123.jpeg";
+import ffL125 from "../assets/images/L125.png";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -2410,6 +2411,25 @@ const imoveisDisp = [
     titulo: "Aluga-se casa no bairro Tenente Carlos",
     descricao:
       "Sala, copa, cozinha, área de serviço, 03 quartos, 01 banheiro social, 01 vagas de garagem. Valor de R$ 1.800,00. Obs.: casa de forro de madeira, com piso em cerâmica, cômodos espaçosos.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/L125", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL125,
+    cod: "L125",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua Maria Carneiro Filho, 168",
+    bairro: "Santa Mônica",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 2,
+    vagas: 2,
+    valor: "R$ 3.000,00",
+    areaTotal: "160 m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se casa no bairro bairro Santa Mônica",
+    descricao:"Sala, copa e cozinha, área de serviço, 03 quartos (sendo 01 suíte), 01 banheiro social, 02 vagas de garagem, varanda e quintal, área gourmet com churrasqueira, 160 m² de área construída, casa de laje, piso de cerâmica, câmeras de vigilância, cômodos espaçosos, sem portão eletrônico, cozinha com armários, valor de R$ 3.000,00.",
   },
   // {
   //   fotos: importAll(

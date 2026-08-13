@@ -1,10 +1,12 @@
 import ffL001 from "../assets/images/L001.jpg";
 import ffL008 from "../assets/images/L008.jpg";
+import ffL009_3 from "../assets/images/L009_3.jpg";
 import ffL016a1 from "../assets/images/L016.1.jpg";
 import ffL031 from "../assets/images/L031.jpg";
 import ffL033 from "../assets/images/L033.jpg";
 import ffL039 from "../assets/images/L039.jpg";
 import ffL048_1 from "../assets/images/L048_1.jpeg";
+import ffL048_4 from "../assets/images/L048_4.jpg";
 import ffL049 from "../assets/images/L049.jpg";
 import ffL053 from "../assets/images/L053.jpg";
 import ffL059 from "../assets/images/L059.jpg";
@@ -1458,6 +1460,25 @@ const imoveisDisp = [
     titulo: "Aluguel de lotes próximo ao trevo de Santa Bárbara",
     descricao: "Lotes planos com excelente localização. De frente para a rodovia MG129 (sentido Catas Altas).",
   },
+    {
+    fotos: importAll(require.context("../assets/images/L009_3", true, /\.(png|jpe?g|svg)$/)),
+    fotoCapa: ffL009_3,
+    cod: "L009_3",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.studio,
+    ruaNum: "Av. Petrina de Castro Chaves, 92",
+    bairro: "Centro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: amenitiesQuantity.one,
+    banheiros: amenitiesQuantity.one,
+    vagas: amenitiesQuantity.one,
+    valor: "R$ 750,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Kitnet para aluguel no centrão de Santa Bárbara",
+    descricao: "01 quarto, 01 banheiro social, cozinha, área de serviço, 01 vaga de garagem, ótima localização, em frente à Igreja do Rosário, espaço social com jardim e churrasqueira.",
+  },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L016.1", true, /\.(png|jpe?g|svg)$/)
@@ -1564,6 +1585,26 @@ const imoveisDisp = [
   //   descricao:
   //     "03 quartos, 03 banheiros, sala/cozinha, área de serviço, área externa com piscina, churrasqueira, jardim, garagem para 5 carros.",
   // },
+    {
+    fotos: importAll(require.context("../assets/images/L048_4", true, /\.(png|jpe?g|svg)$/)),
+    fotoCapa: ffL048_4,
+    cod: "L048_4",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.commercial_property,
+    ruaNum: "Rua João Mota, 339",
+    bairro: "Centro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: amenitiesQuantity.zero,
+    banheiros: amenitiesQuantity.one,
+    vagas: amenitiesQuantity.zero,
+    valor: "R$ 2.000,00",
+    areaTotal: "25 m²",
+    areaConstruida: "- m²",
+    titulo: "Aluguel de ponto comercial na rua João Mota (Em frente a Caixa Econômica)",
+    descricao:
+      "01 Sala comercial com 01 banheiro (25m²), localizado em área central de altíssima movimentação, 1º andar, fachada.",
+  },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L049", true, /\.(png|jpe?g|svg)$/)

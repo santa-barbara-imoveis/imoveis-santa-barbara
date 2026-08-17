@@ -17,14 +17,19 @@ function Hero() {
     const selectInteresse = document.getElementById('selectInteresse').value;
     const sltTipoImovel = document.getElementById('sltTipoImovel').value;
     const sltTipoCidade = document.getElementById('sltTipoCidade').value;
-    const selectQuartos = document.getElementById('selectQuartos').value;
-    const vagas = document.getElementById('sltVagas').value;
-    const bathRooms = document.getElementById('sltBathrooms').value
+    // const selectQuartos = document.getElementById('selectQuartos').value;
+    // const vagas = document.getElementById('sltVagas').value;
+    // const bathRooms = document.getElementById('sltBathrooms').value
 
     navigate({
       pathname: "/imoveis",
-      search: `?${filterSearchParams.propertyType}=${sltTipoImovel}&${filterSearchParams.city}=${sltTipoCidade}&${filterSearchParams.rooms}=${selectQuartos}&${filterSearchParams.contractType}=${selectInteresse}&${filterSearchParams.parking}=${vagas}&${filterSearchParams.bathroom}=${bathRooms}`,
+      search: `?${filterSearchParams.propertyType}=${sltTipoImovel}&${filterSearchParams.city}=${sltTipoCidade}&${filterSearchParams.contractType}`,
     })
+
+    //     navigate({
+    //   pathname: "/imoveis",
+    //   search: `?${filterSearchParams.propertyType}=${sltTipoImovel}&${filterSearchParams.city}=${sltTipoCidade}&${filterSearchParams.rooms}=${selectQuartos}&${filterSearchParams.contractType}=${selectInteresse}&${filterSearchParams.parking}=${vagas}&${filterSearchParams.bathroom}=${bathRooms}`,
+    // })
   }
     
   function getAmenityLabelName(label, sufix) {
@@ -66,7 +71,7 @@ function Hero() {
                   ))}
                 </select>
         </div>
-        <div className='sltModeLandContainer barraSelect'>
+        {/* <div className='sltModeLandContainer barraSelect'>
               <label htmlFor='sltVagas'><p>Quartos</p></label>
               <select className="sltModeLand" name="selectQuartos" id="selectQuartos">
                 {[[allFiltersSelectedPlaceholderFilter, allFiltersSelectedPlaceholder], ...Object.entries(amenitiesQuantity)].map(([key, value]) => (
@@ -76,8 +81,8 @@ function Hero() {
                   </option>
                 ))}
               </select>
-        </div>
-        <div className='sltModeLandContainer barraSelect'>
+        </div> */}
+        {/* <div className='sltModeLandContainer barraSelect'>
                 <label htmlFor='sltVagas'><p>Vagas</p></label>
                 <select className="sltModeLand" name="sltVagas" id="sltVagas">
                   {[[allFiltersSelectedPlaceholderFilter, allFiltersSelectedPlaceholder], ...Object.entries(amenitiesQuantity)].map(([key, value]) => (
@@ -87,8 +92,8 @@ function Hero() {
                       </option>
                   ))}
                 </select>
-        </div>
-        <div className='sltModeLandContainer barraSelect'>
+        </div> */}
+        {/* <div className='sltModeLandContainer barraSelect'>
                 <label htmlFor='sltVagas'><p>Banheiros</p></label>
                 <select className="sltModeLand" name="sltBathrooms" id="sltBathrooms">
                   {[[allFiltersSelectedPlaceholderFilter, allFiltersSelectedPlaceholder], ...Object.entries(amenitiesQuantity)].map(([key, value]) => (
@@ -98,7 +103,7 @@ function Hero() {
                     </option>
                   ))}
                 </select>
-        </div>
+        </div> */}
       </article>
       <button className="botaoBuscarLand" onClick={searchAction}> 
           <p>Buscar</p>

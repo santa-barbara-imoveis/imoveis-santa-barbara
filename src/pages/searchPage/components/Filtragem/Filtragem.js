@@ -233,7 +233,7 @@ function Filtragem({ mudarImoveisAtuais, itens, initialFilters }) {
                   </option>
                 </select>
               </div>
-              <div className="mSltFilter">
+              {/* <div className="mSltFilter">
                 <label className="lbQuartos"> Quartos </label>
                 <select
                   defaultValue={allFiltersSelectedPlaceholder}
@@ -267,8 +267,8 @@ function Filtragem({ mudarImoveisAtuais, itens, initialFilters }) {
                     {" "}
                   </option>
                 </select>
-              </div>
-              <div className="mSltFilter">
+              </div> */}
+              {/* <div className="mSltFilter">
                 <label className="lbVagas"> Vagas </label>
                 <select
                   defaultValue={allFiltersSelectedPlaceholder}
@@ -302,8 +302,8 @@ function Filtragem({ mudarImoveisAtuais, itens, initialFilters }) {
                     {" "}
                   </option>
                 </select>
-              </div>
-              <div className="mSltFilter">
+              </div> */}
+              {/* <div className="mSltFilter">
                 <label className="lbBanhos"> Banheiros </label>
                 <select
                   defaultValue={allFiltersSelectedPlaceholder}
@@ -337,7 +337,7 @@ function Filtragem({ mudarImoveisAtuais, itens, initialFilters }) {
                     {" "}
                   </option>
                 </select>
-              </div>
+              </div> */}
               <div className="divBt">
                 <button onClick={(e) => filtrarImoveisPorSelecao()} className="btBuscarIm" name="btBuscarIm">
                   {" "}

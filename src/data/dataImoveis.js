@@ -130,6 +130,7 @@ import ffV190 from "../assets/images/V190.png";
 import ffV191 from "../assets/images/V191.jpg";
 import ffV192 from "../assets/images/V192.jpg";
 import ffV193 from "../assets/images/V193.jpg";
+import ffV194 from "../assets/images/V194.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -1151,26 +1152,26 @@ const imoveisDisp = [
   //   descricao:
   //     "Sala, copa/cozinha; 01 banheiro social; 04 quartos (1 suíte); varanda / área de serviço; quintal / 01 vaga de garagem; área do lote: 360 m²; área Construída: 127 m². Obs: tem escritura do lote, mas casa não está averbada.",
   // },
-  {
-    fotos: importAll(require.context("../assets/images/V180", true, /\.(png|jpe?g|svg|jfif)$/)),
-    fotoCapa: ffV180,
-    cod: "V180",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.house,
-    ruaNum: "Rua Santos Dumond, 267",
-    bairro: "Progresso",
-    cidade: city.barao_cocais,
-    Estado: "Minas Gerais",
-    quartos: 2,
-    banheiros: 2,
-    vagas: 2,
-    valor: "R$ 410.000,00",
-    areaTotal: "450 m²",
-    areaConstruida: "90 m²",
-    titulo: "Casa a venda no bairro Progresso",
-    descricao:
-      "Sala/cozinha; 01 banheiro social; 02 quartos (1 suíte); área de serviço; quintal; 02 vagas de garagem; área do lote: 450 m²; área construída: 90 m².",
-  },
+  // {
+  //   fotos: importAll(require.context("../assets/images/V180", true, /\.(png|jpe?g|svg|jfif)$/)),
+  //   fotoCapa: ffV180,
+  //   cod: "V180",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "Rua Santos Dumond, 267",
+  //   bairro: "Progresso",
+  //   cidade: city.barao_cocais,
+  //   Estado: "Minas Gerais",
+  //   quartos: 2,
+  //   banheiros: 2,
+  //   vagas: 2,
+  //   valor: "R$ 410.000,00",
+  //   areaTotal: "450 m²",
+  //   areaConstruida: "90 m²",
+  //   titulo: "Casa a venda no bairro Progresso",
+  //   descricao:
+  //     "Sala/cozinha; 01 banheiro social; 02 quartos (1 suíte); área de serviço; quintal; 02 vagas de garagem; área do lote: 450 m²; área construída: 90 m².",
+  // },
   {
     fotos: importAll(require.context("../assets/images/V181", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffV181,
@@ -1381,6 +1382,25 @@ const imoveisDisp = [
     areaConstruida: "130 m²",
     titulo: "Vende-se casa no bairro Lagoa (Barão de Cocais/MG)",
     descricao: "Excelente imóvel disponível para venda, composto por sala ampla, copa integrada à cozinha, 03 quartos, sendo 01 suíte, além de 02 banheiros sociais. Conta ainda com área de serviço, quintal e área externa, proporcionando conforto e praticidade para toda a família. Possui garagem com capacidade para até 04 carros. O imóvel está situado em um lote de 300m² e possui 130m² de área construída. Valor de venda: R$ 520.000,00. Aceita financiamento.",
+  },
+    {
+    fotos: importAll(require.context("../assets/images/V194", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV194,
+    cod: "V194",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.apartment,
+    ruaNum: "-",
+    bairro: "Praia",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais - MG",
+    quartos: 3,
+    banheiros: 1,
+    vagas: 1,
+    valor: "R$ 390.000,00",
+    areaTotal: "- m²",
+    areaConstruida: " m²",
+    titulo: "Vende-se apartamento no bairro Praia (Santa Bárbara/MG)",
+    descricao: "Sala, copa, cozinha, três quartos, um banheiro social, área de serviço, área externa, garagem coberta para um carro.",
   },
   //     {
   //   fotos: importAll(require.context("../assets/images/V193", true, /\.(png|jpe?g|svg|jfif)$/)),

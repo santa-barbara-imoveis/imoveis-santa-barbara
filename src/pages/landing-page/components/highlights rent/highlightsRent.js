@@ -6,7 +6,7 @@ import area from "./assets/area.png";
 import vagas from "./assets/carros.png";
 import quartos from "./assets/quarto.png";
 import fotoFrente4 from "./assets/L073.jpg";
-import fotoFrente5 from "./assets/L119.jpeg";
+import fotoFrente5 from "./assets/L048_4.jpg";
 import fotoFrente6 from "./assets/L115.jpg";
 import setaE from "./assets/seta-esquerda.png";
 import setaD from "./assets//seta-direita.png";
@@ -25,7 +25,7 @@ function HighlightsRent() {
             </Link>
             <div className="boxPreco">
               <div className="tipoContrato">Locação - Residencial</div>
-              <div className="precoImovel">R$ 1.300,00</div>
+              <div className="precoImovel">R$ 1.100,00</div>
             </div>
           </div>
           <div className="imBairroCidade">Sumidouro - Barão de Cocais</div>
@@ -45,16 +45,16 @@ function HighlightsRent() {
 
         <div className="boxImovel">
           <div className="imFotoMainR">
-            <Link to={`imovel/L119`} className="linkImage">
+            <Link to={`imovel/L048_4`} className="linkImage">
               <img className="imFoto2" src={fotoFrente5} />
             </Link>
             <div className="boxPreco">
-              <div className="tipoContrato">Locação - Residencial</div>
-              <div className="precoImovel">R$ 2.300,00</div>
+              <div className="tipoContrato">Locação - Comercial</div>
+              <div className="precoImovel">R$ 2.000,00</div>
             </div>
           </div>
           <div className="imBairroCidade">Centro - Santa Bárbara</div>
-          <div className="imId">Código: L119</div>
+          <div className="imId">Código: L048_4</div>
           <div className="imAmenities">
             <div className="iconsAmenities">
               <img className="icon" src={area} />
@@ -62,8 +62,8 @@ function HighlightsRent() {
               <img className="icon" src={banho} />
               1
               <img className="icon" src={vagas} />
-              1
-              <img className="icon" src={quartos} />3
+              -
+              <img className="icon" src={quartos} />-
             </div>
           </div>
         </div>

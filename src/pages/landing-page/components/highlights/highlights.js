@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Highlights.css";
 import fotoFrente2 from "./assets/V192.jpg";
 import fotoFrente3 from "./assets/V176.jpg";
-import fotoFrente from "./assets/V184.jpg";
+import fotoFrente from "./assets/V195.jfif";
 import area from "./assets/area.png";
 import banho from "./assets/banheira.png";
 import vagas from "./assets/carros.png";
@@ -18,26 +18,26 @@ function Highlights() {
       <div className="opcaoImoveis">
         <div className="boxImovel">
           <div className="imFotoMainV">
-            <Link to={`imovel/V184`} className="linkImage">
+            <Link to={`imovel/V194`} className="linkImage">
               <img className="imFotoV" src={fotoFrente} />
             </Link>
             <div className="boxPreco">
               <div className="tipoContrato">Venda</div>
-              <div className="precoImovel">R$ 900.000,00</div>
+              <div className="precoImovel">R$ 590.000,00</div>
             </div>
           </div>
-          <p className="imBairroCidade"> Sol Nascente - Catas Altas </p>
-          <p className="imId">Código: V184</p>
+          <p className="imBairroCidade"> Tenente Carlos - Santa Bárbara </p>
+          <p className="imId">Código: V195</p>
           <div className="imAmenities">
             <div className="iconsAmenities">
               <img className="icon" src={area} />
-              <p>5.850</p>
+              <p>-</p>
               <img className="icon" src={banho} />
-              <p>0</p>
+              <p>2</p>
               <img className="icon" src={vagas} />
-              <p>0</p>
+              <p>2</p>
               <img className="icon" src={quartos} />
-              <p>0</p>
+              <p>3</p>
             </div>
           </div>
         </div>

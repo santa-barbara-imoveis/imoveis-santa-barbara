@@ -28,7 +28,7 @@ function HighlightsRent() {
               <div className="precoImovel">R$ 1.100,00</div>
             </div>
           </div>
-          <div className="imBairroCidade">Sumidouro - Barão de Cocais</div>
+          <div className="imBairroCidade">Praia - Barão de Cocais</div>
           <div className="imId">Código: L115</div>
           <div className="imAmenities">
             <div className="iconsAmenities">

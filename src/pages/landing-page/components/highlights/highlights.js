@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Highlights.css";
 import fotoFrente2 from "./assets/V192.jpg";
 import fotoFrente3 from "./assets/V176.jpg";
-import fotoFrente from "./assets/V195.jfif";
+import fotoFrente from "./assets/V194.jpg";
 import area from "./assets/area.png";
 import banho from "./assets/banheira.png";
 import vagas from "./assets/carros.png";
@@ -23,19 +23,19 @@ function Highlights() {
             </Link>
             <div className="boxPreco">
               <div className="tipoContrato">Venda</div>
-              <div className="precoImovel">R$ 590.000,00</div>
+              <div className="precoImovel">R$ 390.000,00</div>
             </div>
           </div>
-          <p className="imBairroCidade"> Tenente Carlos - Santa Bárbara </p>
-          <p className="imId">Código: V195</p>
+          <p className="imBairroCidade"> Praia - Santa Bárbara </p>
+          <p className="imId">Código: V194</p>
           <div className="imAmenities">
             <div className="iconsAmenities">
               <img className="icon" src={area} />
               <p>-</p>
               <img className="icon" src={banho} />
-              <p>2</p>
+              <p>1</p>
               <img className="icon" src={vagas} />
-              <p>2</p>
+              <p>1</p>
               <img className="icon" src={quartos} />
               <p>3</p>
             </div>

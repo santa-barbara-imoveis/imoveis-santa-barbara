@@ -15,7 +15,7 @@ function Hero() {
   function searchAction(e) {
     e.preventDefault()
     const selectInteresse = document.getElementById('selectInteresse').value;
-    const sltTipoImovel = document.getElementById('sltTipoImovel').value;
+    // const sltTipoImovel = document.getElementById('sltTipoImovel').value;
     const sltTipoCidade = document.getElementById('sltTipoCidade').value;
     // const selectQuartos = document.getElementById('selectQuartos').value;
     // const vagas = document.getElementById('sltVagas').value;
@@ -23,7 +23,7 @@ function Hero() {
 
     navigate({
       pathname: "/imoveis",
-      search: `?${filterSearchParams.propertyType}=${sltTipoImovel}&${filterSearchParams.city}=${sltTipoCidade}&${filterSearchParams.contractType}`,
+      search: `?${filterSearchParams.city}=${sltTipoCidade}&${filterSearchParams.contractType}`,
     })
 
     //     navigate({
@@ -55,14 +55,14 @@ function Hero() {
                     ))}
                 </select>
         </div>
-        <div className="sltModeLandContainer barraSelect">
+        {/* <div className="sltModeLandContainer barraSelect">
                 <label htmlFor='sltVagas'><p>Tipo</p></label>
                 <select className="sltModeLand" name="sltTipoImovel" id="sltTipoImovel">
                     {Object.entries(propertyType).map(([key, value]) => (
                       <option value={key} label={value}> </option>
                     ))}
                 </select>
-        </div>
+        </div> */}
         <div className="sltModeLandContainer barraSelect">
                 <label htmlFor='sltVagas'><p>Cidade</p></label>
                 <select className="sltModeLand" name="sltTipoCidade" id="sltTipoCidade">

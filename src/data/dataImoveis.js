@@ -2346,7 +2346,7 @@ const imoveisDisp = [
     quartos: 2,
     banheiros: 1,
     vagas: 1,
-    valor: "R$ 1.100,00",
+    valor: "R$ 1.300,00",
     areaTotal: "- m²",
     areaConstruida: "48 m²",
     titulo: "Aluga-se apartamento no bairro Garcia",

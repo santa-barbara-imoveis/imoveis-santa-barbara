@@ -23,7 +23,7 @@ function Hero() {
 
     navigate({
       pathname: "/imoveis",
-      search: `?${filterSearchParams.city}=${sltTipoCidade}&${filterSearchParams.contractType}`,
+      search: `?${filterSearchParams.city}=${sltTipoCidade}&${filterSearchParams.contractType}=${selectInteresse}`,
     })
 
     //     navigate({

@@ -54,6 +54,8 @@ import ffL121 from "../assets/images/L121.jpg";
 import ffL122 from "../assets/images/L122.jpeg";
 import ffL123 from "../assets/images/L123.jpeg";
 import ffL125 from "../assets/images/L125.png";
+import ffL128 from "../assets/images/L128.jpg";
+import ffL129 from "../assets/images/L129.jpg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -2452,6 +2454,46 @@ const imoveisDisp = [
     titulo: "Aluguel de apartamento em Santa Bárbara",
     descricao:
       "Sala, copa, cozinha/área de serviço, 02 quartos, 01 banheiro social, garagem para 01 carro, prédio com 4 (quatro) apartamentos; existe área comum, permite animais de pequeno porte; aguardando ligação de água e energia separados; pegar as contas de água e energia para transferência, IPTU ao Locador, chaves pendentes assim como motor do portão eletrônico, taxa de condomínio a combinar.",
+  },
+          {
+    fotos: importAll(require.context("../assets/images/L128", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL128,
+    cod: "L128",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua Edmundo Pena, 146",
+    bairro: "Centro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 4,
+    banheiros: 2,
+    vagas: 1,
+    valor: "R$ 2.200,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se casa no bairro centro",
+    descricao:
+      "Fundos com 02 pavimentos, composto por varanda, sala, copa, cozinha, área de serviço, 04 quartos, 02 banheiros sociais, jardim, quintal, área externa e 01 vaga de garagem. Aceita somente animais de pequeno porte.O valor do aluguel é diferente para empresas.",
+  },
+            {
+    fotos: importAll(require.context("../assets/images/L129", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL129,
+    cod: "L129",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua Leme, nº 83",
+    bairro: "Ipanema",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 1,
+    vagas: 2,
+    valor: "R$ 2.800,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se casa no bairro ipanema",
+    descricao:
+      "Casa de laje, com piso de cerâmica, composta por sala e cozinha, área de serviço, 03 quartos, sendo 01 suíte, 01 banheiro social, varanda, quintal e 02 vagas de garagem. Possui cômodos espaçosos, quarto e cozinha com armários. O imóvel não conta com portão eletrônico.O valor do aluguel é diferente para empresas.",
   },
   // {
   //   fotos: importAll(require.context("../assets/images/L122", true, /\.(png|jpe?g|svg|jfif)$/)),

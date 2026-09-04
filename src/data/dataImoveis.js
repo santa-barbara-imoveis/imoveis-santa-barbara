@@ -134,6 +134,8 @@ import ffV192 from "../assets/images/V192.jpg";
 import ffV193 from "../assets/images/V193.jpg";
 import ffV194 from "../assets/images/V194.jpg";
 import ffV195 from "../assets/images/V195.jfif";
+import ffV196 from "../assets/images/V196.jpg";
+import ffV197 from "../assets/images/V197.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -1404,6 +1406,44 @@ const imoveisDisp = [
     areaConstruida: " m²",
     titulo: "Vende-se apartamento no bairro Praia (Santa Bárbara/MG)",
     descricao: "Sala, copa, cozinha, três quartos, um banheiro social, área de serviço, área externa, garagem coberta para um carro.",
+  },
+      {
+    fotos: importAll(require.context("../assets/images/V196", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV196,
+    cod: "V196",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "Santana do Morro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais - MG",
+    quartos: 3,
+    banheiros: 2,
+    vagas: 1,
+    valor: "R$ 350.000,00",
+    areaTotal: "995 m²",
+    areaConstruida: " m²",
+    titulo: "Vende-se casa no bairro Santana do Morro (Santa Bárbara/MG)",
+    descricao: "Copa e cozinha, três quartos, sendo uma suíte, um banheiro social, área de serviço e área total de 995 metros quadrados.Não financia.",
+  },
+        {
+    fotos: importAll(require.context("../assets/images/V197", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV197,
+    cod: "V197",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.apartment,
+    ruaNum: "-",
+    bairro: "Caminho de Minas",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais - MG",
+    quartos: 2,
+    banheiros: 1,
+    vagas: 1,
+    valor: "R$ 250.000,00",
+    areaTotal: "- m²",
+    areaConstruida: " m²",
+    titulo: "Vende-se apartamento no 4º andar - bairro Caminho de Minas (Santa Bárbara/MG)",
+    descricao: "Copa e cozinha, dois quartos, um banheiro social, área de serviço e garagem coberta para um carro.",
   },
   //     {
   //   fotos: importAll(require.context("../assets/images/V195", true, /\.(png|jpe?g|svg|jfif)$/)),

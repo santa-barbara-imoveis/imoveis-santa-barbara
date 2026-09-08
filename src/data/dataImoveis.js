@@ -54,6 +54,9 @@ import ffL121 from "../assets/images/L121.jpg";
 import ffL122 from "../assets/images/L122.jpeg";
 import ffL123 from "../assets/images/L123.jpeg";
 import ffL125 from "../assets/images/L125.png";
+import ffL127_1 from "../assets/images/L127_1.jpg";
+import ffL127_2 from "../assets/images/L127_2.jpg";
+import ffL127_3 from "../assets/images/L127_3.jpg";
 import ffL128 from "../assets/images/L128.jpg";
 import ffL129 from "../assets/images/L129.jpg";
 import ffV003 from "../assets/images/V003.jpeg";
@@ -77,7 +80,6 @@ import ffV122 from "../assets/images/V122.jpg";
 import ffV123 from "../assets/images/V123.jpeg";
 import ffV124 from "../assets/images/V124.jpeg";
 import ffV125 from "../assets/images/V125.jpg";
-import ffV127 from "../assets/images/V127.jpeg";
 import ffV129 from "../assets/images/V129.jpg";
 import ffV130 from "../assets/images/V130.jpg";
 import ffV131 from "../assets/images/V131.jpg";
@@ -136,6 +138,7 @@ import ffV194 from "../assets/images/V194.jpg";
 import ffV195 from "../assets/images/V195.jfif";
 import ffV196 from "../assets/images/V196.jpg";
 import ffV197 from "../assets/images/V197.jpg";
+import ffV198 from "../assets/images/V198.jpeg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -1445,6 +1448,25 @@ const imoveisDisp = [
     titulo: "Vende-se apartamento no 4º andar - bairro Caminho de Minas (Santa Bárbara/MG)",
     descricao: "Copa e cozinha, dois quartos, um banheiro social, área de serviço e garagem coberta para um carro.",
   },
+          {
+    fotos: importAll(require.context("../assets/images/V198", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV198,
+    cod: "V198",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "Mirante da lagoa",
+    cidade: city.barao_cocais,
+    Estado: "Minas Gerais - MG",
+    quartos: 4,
+    banheiros: 3,
+    vagas: 3,
+    valor: "R$ 600.000,00",
+    areaTotal: "- m²",
+    areaConstruida: " m²",
+    titulo: "Vende-se casa no bairro Mirante da lagoa (Barão de Cocais/MG)",
+    descricao: "Sala e cozinha, 4 quartos, 3 banheiros, área de serviço e garagem coberta para três carros.Não financia. Usucapião em andamento.",
+  },
   //     {
   //   fotos: importAll(require.context("../assets/images/V195", true, /\.(png|jpe?g|svg|jfif)$/)),
   //   fotoCapa: ffV195,
@@ -2495,7 +2517,67 @@ const imoveisDisp = [
     descricao:
       "Sala, copa, cozinha/área de serviço, 02 quartos, 01 banheiro social, garagem para 01 carro, prédio com 4 (quatro) apartamentos; existe área comum, permite animais de pequeno porte; aguardando ligação de água e energia separados; pegar as contas de água e energia para transferência, IPTU ao Locador, chaves pendentes assim como motor do portão eletrônico, taxa de condomínio a combinar.",
   },
-          {
+  {
+    fotos: importAll(require.context("../assets/images/L127_1", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL127_1,
+    cod: "L127_1",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.commercial_property,
+    ruaNum: "-",
+    bairro: "Viúva",
+    cidade: city.barao_cocais,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 1,
+    vagas: 1,
+    valor: "R$ 4.000,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se ponto comercial no bairro Viúva em Barão de Cocais",
+    descricao:
+      "Local onde funciona a clinica menino jesus, próximo da APAE e ao Hospital. Recepção com balcão e sala de espera. 3 salas de atendimento com 1 banheiro em cada. 2 banheiros sociais. Cozinha e área de serviço. Jardim. Ideal para clínica médica, odontológica ou escritório.", 
+    },
+    {
+    fotos: importAll(require.context("../assets/images/L127_2", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL127_2,
+    cod: "L127_2",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.apartment,
+    ruaNum: "-",
+    bairro: "Viúva",
+    cidade: city.barao_cocais,
+    Estado: "Minas Gerais",
+    quartos: 4,
+    banheiros: 4,
+    vagas: 3,
+    valor: "R$ 7.000,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se apartamento no bairro Viúva em Barão de Cocais",
+    descricao:
+      "Local onde funciona a clinica menino jesus, próximo da APAE e ao Hospital.O imóvel conta com quatro suítes, varanda/sacada, sala de estar e sala de jantar, sala de TV, cozinha com área de serviço e garagem para três carros.", 
+    },
+    {
+    fotos: importAll(require.context("../assets/images/L127_3", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL127_3,
+    cod: "L127_3",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.apartment,
+    ruaNum: "-",
+    bairro: "Viúva",
+    cidade: city.barao_cocais,
+    Estado: "Minas Gerais",
+    quartos: 1,
+    banheiros: 1,
+    vagas: 0,
+    valor: "R$ 2.500,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se apartamento no bairro Viúva em Barão de Cocais",
+    descricao:
+      "Local onde funciona a clinica menino jesus, próximo da APAE e ao Hospital.O imóvel conta com sala de TV, uma suíte, um banheiro social, área gourmet com piscina e churrasqueira, cozinha com área de serviço e varanda/sacada.", 
+    },
+    {
     fotos: importAll(require.context("../assets/images/L128", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffL128,
     cod: "L128",

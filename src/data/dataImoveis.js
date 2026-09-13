@@ -1,6 +1,7 @@
 import ffL001 from "../assets/images/L001.jpg";
 import ffL008 from "../assets/images/L008.jpg";
 import ffL009_3 from "../assets/images/L009_3.jpg";
+import ffL010 from "../assets/images/L010.jpg";
 import ffL016a1 from "../assets/images/L016.1.jpg";
 import ffL031 from "../assets/images/L031.jpg";
 import ffL033 from "../assets/images/L033.jpg";
@@ -54,11 +55,13 @@ import ffL121 from "../assets/images/L121.jpg";
 import ffL122 from "../assets/images/L122.jpeg";
 import ffL123 from "../assets/images/L123.jpeg";
 import ffL125 from "../assets/images/L125.png";
+import ffL126 from "../assets/images/L126.jpg";
 import ffL127_1 from "../assets/images/L127_1.jpg";
 import ffL127_2 from "../assets/images/L127_2.jpg";
 import ffL127_3 from "../assets/images/L127_3.jpg";
 import ffL128 from "../assets/images/L128.jpg";
 import ffL129 from "../assets/images/L129.jpg";
+import ffL130 from "../assets/images/L130.jpg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -139,6 +142,7 @@ import ffV195 from "../assets/images/V195.jfif";
 import ffV196 from "../assets/images/V196.jpg";
 import ffV197 from "../assets/images/V197.jpg";
 import ffV198 from "../assets/images/V198.jpeg";
+import ffV199 from "../assets/images/V199.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -1385,7 +1389,7 @@ const imoveisDisp = [
     quartos: 3,
     banheiros: 2,
     vagas: 4,
-    valor: "R$ 520.000,00",
+    valor: "R$ 490.000,00",
     areaTotal: "300 m²",
     areaConstruida: "130 m²",
     titulo: "Vende-se casa no bairro Lagoa (Barão de Cocais/MG)",
@@ -1448,7 +1452,7 @@ const imoveisDisp = [
     titulo: "Vende-se apartamento no 4º andar - bairro Caminho de Minas (Santa Bárbara/MG)",
     descricao: "Copa e cozinha, dois quartos, um banheiro social, área de serviço e garagem coberta para um carro.",
   },
-          {
+  {
     fotos: importAll(require.context("../assets/images/V198", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffV198,
     cod: "V198",
@@ -1466,6 +1470,25 @@ const imoveisDisp = [
     areaConstruida: " m²",
     titulo: "Vende-se casa no bairro Mirante da lagoa (Barão de Cocais/MG)",
     descricao: "Sala e cozinha, 4 quartos, 3 banheiros, área de serviço e garagem coberta para três carros.Não financia. Usucapião em andamento.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/V199", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV199,
+    cod: "V199",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "Ipanema",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais - MG",
+    quartos: 2,
+    banheiros: 1,
+    vagas: 1,
+    valor: "R$ 320.000,00",
+    areaTotal: "65 m²",
+    areaConstruida: " m²",
+    titulo: "Vende-se casa geminada no bairro Ipanema.",
+    descricao: "Imóvel composto por sala e cozinha, 02 quartos, 01 banheiro social, garagem para 1 veículo e área de serviço. Casa com 65 m². Valor: R$ 320 mil. Financia.",
   },
   //     {
   //   fotos: importAll(require.context("../assets/images/V195", true, /\.(png|jpe?g|svg|jfif)$/)),
@@ -1564,24 +1587,43 @@ const imoveisDisp = [
   //   titulo: "Aluguel de lotes próximo ao trevo de Santa Bárbara",
   //   descricao: "Lotes planos com excelente localização. De frente para a rodovia MG129 (sentido Catas Altas).",
   // },
-    {
-    fotos: importAll(require.context("../assets/images/L009_3", true, /\.(png|jpe?g|svg)$/)),
-    fotoCapa: ffL009_3,
-    cod: "L009_3",
+  //   {
+  //   fotos: importAll(require.context("../assets/images/L009_3", true, /\.(png|jpe?g|svg)$/)),
+  //   fotoCapa: ffL009_3,
+  //   cod: "L009_3",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.studio,
+  //   ruaNum: "Av. Petrina de Castro Chaves, 92",
+  //   bairro: "Centro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: amenitiesQuantity.one,
+  //   banheiros: amenitiesQuantity.one,
+  //   vagas: amenitiesQuantity.one,
+  //   valor: "R$ 750,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Kitnet para aluguel no centrão de Santa Bárbara",
+  //   descricao: "01 quarto, 01 banheiro social, cozinha, área de serviço, 01 vaga de garagem, ótima localização, em frente à Igreja do Rosário, espaço social com jardim e churrasqueira.",
+  // },
+      {
+    fotos: importAll(require.context("../assets/images/L010", true, /\.(png|jpe?g|svg)$/)),
+    fotoCapa: ffL010,
+    cod: "L010",
     contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.studio,
-    ruaNum: "Av. Petrina de Castro Chaves, 92",
+    tipoImovel: propertyType.commercial_property,
+    ruaNum: "Rua João Mota, 381",
     bairro: "Centro",
     cidade: city.santa_barbara,
     Estado: "Minas Gerais",
-    quartos: amenitiesQuantity.one,
-    banheiros: amenitiesQuantity.one,
-    vagas: amenitiesQuantity.one,
-    valor: "R$ 750,00",
+    quartos: amenitiesQuantity.zero,
+    banheiros: amenitiesQuantity.two,
+    vagas: amenitiesQuantity.zero,
+    valor: "R$ 2.600,00",
     areaTotal: "- m²",
     areaConstruida: "- m²",
-    titulo: "Kitnet para aluguel no centrão de Santa Bárbara",
-    descricao: "01 quarto, 01 banheiro social, cozinha, área de serviço, 01 vaga de garagem, ótima localização, em frente à Igreja do Rosário, espaço social com jardim e churrasqueira.",
+    titulo: "Aluguel ponto comercial rua João Mota",
+    descricao: "Localizado em área central de altíssima movimentação; ideal para loja, escritório, consultório e salão de beleza.",
   },
   // {
   //   fotos: importAll(
@@ -2497,7 +2539,7 @@ const imoveisDisp = [
   //   descricao:
   //     "Sala e cozinha, 02 quartos, 01 banheiro social, área de serviço, garagem e valor de R$ 1.800,00.",
   // },
-        {
+    {
     fotos: importAll(require.context("../assets/images/L121", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffL121,
     cod: "L121",
@@ -2516,6 +2558,26 @@ const imoveisDisp = [
     titulo: "Aluguel de apartamento em Santa Bárbara",
     descricao:
       "Sala, copa, cozinha/área de serviço, 02 quartos, 01 banheiro social, garagem para 01 carro, prédio com 4 (quatro) apartamentos; existe área comum, permite animais de pequeno porte; aguardando ligação de água e energia separados; pegar as contas de água e energia para transferência, IPTU ao Locador, chaves pendentes assim como motor do portão eletrônico, taxa de condomínio a combinar.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/L126", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL126,
+    cod: "L126",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "Centro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 2,
+    banheiros: 2,
+    vagas: 2,
+    valor: "R$ 1.800,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluguel de casa em Santa Bárbara",
+    descricao:
+      "Imóvel composto por 01 suíte, 01 quarto, 01 banheiro social, sala, copa, cozinha, área de serviço e garagem para 02 carros. R$ 1.800,00. Casa de laje e portão manual. O valor do aluguel é diferente para empresas."
   },
   {
     fotos: importAll(require.context("../assets/images/L127_1", true, /\.(png|jpe?g|svg|jfif)$/)),
@@ -2597,7 +2659,7 @@ const imoveisDisp = [
     descricao:
       "Fundos com 02 pavimentos, composto por varanda, sala, copa, cozinha, área de serviço, 04 quartos, 02 banheiros sociais, jardim, quintal, área externa e 01 vaga de garagem. Aceita somente animais de pequeno porte.O valor do aluguel é diferente para empresas.",
   },
-            {
+  {
     fotos: importAll(require.context("../assets/images/L129", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffL129,
     cod: "L129",
@@ -2616,6 +2678,26 @@ const imoveisDisp = [
     titulo: "Aluga-se casa no bairro ipanema",
     descricao:
       "Casa de laje, com piso de cerâmica, composta por sala e cozinha, área de serviço, 03 quartos, sendo 01 suíte, 01 banheiro social, varanda, quintal e 02 vagas de garagem. Possui cômodos espaçosos, quarto e cozinha com armários. O imóvel não conta com portão eletrônico.O valor do aluguel é diferente para empresas.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/L130", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL130,
+    cod: "L130",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Rua Peruípe, nº 209",
+    bairro: "Ipanema",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 2,
+    banheiros: 1,
+    vagas: 1,
+    valor: "R$ 1.800,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se casa geminada no bairro ipanema",
+    descricao:
+      "Imóvel composto por sala e cozinha, área de serviço, 02 quartos, 01 banheiro social, 01 vaga de garagem e área externa. Casa de laje, com piso de cerâmica, cômodos espaçosos e portão eletrônico. Valor do aluguel: R$ 1.800,00.O valor do aluguel é diferente para empresas.",
   },
   // {
   //   fotos: importAll(require.context("../assets/images/L122", true, /\.(png|jpe?g|svg|jfif)$/)),

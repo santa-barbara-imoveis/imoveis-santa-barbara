@@ -143,6 +143,7 @@ import ffV196 from "../assets/images/V196.jpg";
 import ffV197 from "../assets/images/V197.jpg";
 import ffV198 from "../assets/images/V198.jpeg";
 import ffV199 from "../assets/images/V199.jpg";
+import ffV201 from "../assets/images/V201.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -1490,6 +1491,25 @@ const imoveisDisp = [
     titulo: "Vende-se casa geminada no bairro Ipanema.",
     descricao: "Imóvel composto por sala e cozinha, 02 quartos, 01 banheiro social, garagem para 1 veículo e área de serviço. Casa com 65 m². Valor: R$ 320 mil. Financia.",
   },
+  {
+    fotos: importAll(require.context("../assets/images/V201", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV201,
+    cod: "V201",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "Garcia",
+    cidade: city.barao_cocais,
+    Estado: "Minas Gerais - MG",
+    quartos: 2,
+    banheiros: 1,
+    vagas: 1,
+    valor: "R$ 210.000,00",
+    areaTotal: "48 m²",
+    areaConstruida: " m²",
+    titulo: "Vende-se apartamento do bairro Garcia - Barão de Cocais",
+    descricao: "Apartamento no 2° andar, com sala, cozinha, área de serviço, 02 quartos, 01 banheiro social e 01 vaga de garagem. Possui cozinha com bancada em granito e guarda-roupas nos quartos. Área construída de 48 m². Valor: R$ 210 mil.",
+  },
   //     {
   //   fotos: importAll(require.context("../assets/images/V195", true, /\.(png|jpe?g|svg|jfif)$/)),
   //   fotoCapa: ffV195,
@@ -1959,6 +1979,28 @@ const imoveisDisp = [
     descricao:
       "03 quartos, 01 banheiro social, sala, cozinha, área de serviço, sem garagem. Preferência de locação para empresa.",
   },
+  {
+    fotos: importAll(
+      require.context("../assets/images/L074", true, /\.(png|jpe?g|svg)$/)
+    ),
+    fotoCapa: ffL074,
+    cod: "L074",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Não informado",
+    bairro: "Lagoa",
+    cidade: city.barao_cocais,
+    Estado: "Minas Gerais",
+    quartos: 4,
+    banheiros: 3,
+    vagas: 4,
+    valor: "R$2.000,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Casa de aluguel no bairro Lagoa - Barão de Cocais",
+    descricao:
+      "Sala, copa, cozinha, 04 quartos (01 suíte), 02 banheiros sociais, área de serviço, quintal / área externa, garagem para 04 carros, casa de forro, piso de cerâmica e com aquecedor solar.",
+  },
   // {
   //   fotos: importAll(require.context("../assets/images/L093", true, /\.(png|jpe?g|svg)$/)),
   //   fotoCapa: ffL093,
@@ -1978,28 +2020,6 @@ const imoveisDisp = [
   //   titulo: "Aluga-se casa no bairro Serra Vila em Barão de Cocais",
   //   descricao:
   //     "1° andar (01 quarto, Sala/copa, Cozinha com bancada em granito, 01 banheiro social, Área de serviço, Área externa, Área de churrasqueira, Garagem para 01 carro 2° andar  (02 quartos - varanda, 01 banheiro social, Sala de escritório). Obs) casa de laje, piso de cerâmica, telhado colonial. - Sala/cozinha (bancada granito).",
-  // },
-  // {
-  //   fotos: importAll(
-  //     require.context("../assets/images/L074", true, /\.(png|jpe?g|svg)$/)
-  //   ),
-  //   fotoCapa: ffL074,
-  //   cod: "L074",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.house,
-  //   ruaNum: "Não informado",
-  //   bairro: "Lagoa",
-  //   cidade: city.barao_cocais,
-  //   Estado: "Minas Gerais",
-  //   quartos: 4,
-  //   banheiros: 3,
-  //   vagas: 4,
-  //   valor: "R$2.300,00",
-  //   areaTotal: "- m²",
-  //   areaConstruida: "- m²",
-  //   titulo: "Casa de aluguel no bairro Lagoa - Barão de Cocais",
-  //   descricao:
-  //     "Sala, copa, cozinha, 04 quartos (01 suíte), 02 banheiros sociais, área de serviço, quintal / área externa, garagem para 04 carros, casa de forro, piso de cerâmica e com aquecedor solar.",
   // },
   // {
   //   fotos: importAll(

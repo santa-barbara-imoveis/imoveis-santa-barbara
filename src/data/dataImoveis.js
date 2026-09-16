@@ -1496,7 +1496,7 @@ const imoveisDisp = [
     fotoCapa: ffV201,
     cod: "V201",
     contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.house,
+    tipoImovel: propertyType.apartment,
     ruaNum: "-",
     bairro: "Garcia",
     cidade: city.barao_cocais,

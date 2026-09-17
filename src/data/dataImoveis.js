@@ -1959,26 +1959,26 @@ const imoveisDisp = [
   //   descricao:
   //     "02 quartos, 02 banheiros sociais, sala, copa, cozinha, área de serviço, varanda, garagem para 01 carro, casa ampla, de forro e piso de cerâmica. Imóvel seguro, no segundo pavimento.",
   // },
-  {
-    fotos: importAll(require.context("../assets/images/L073", true, /\.(png|jpe?g|svg)$/)),
-    fotoCapa: ffL073,
-    cod: "L073",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.house,
-    ruaNum: "-",
-    bairro: "Centro",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 3,
-    banheiros: 1,
-    vagas: 0,
-    valor: "R$1.700,00",
-    areaTotal: "- m²",
-    areaConstruida: "- m²",
-    titulo: "Casa de aluguel no centrão de Santa Bárbara",
-    descricao:
-      "03 quartos, 01 banheiro social, sala, cozinha, área de serviço, sem garagem. Preferência de locação para empresa.",
-  },
+  // {
+  //   fotos: importAll(require.context("../assets/images/L073", true, /\.(png|jpe?g|svg)$/)),
+  //   fotoCapa: ffL073,
+  //   cod: "L073",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "-",
+  //   bairro: "Centro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 3,
+  //   banheiros: 1,
+  //   vagas: 0,
+  //   valor: "R$1.700,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Casa de aluguel no centrão de Santa Bárbara",
+  //   descricao:
+  //     "03 quartos, 01 banheiro social, sala, cozinha, área de serviço, sem garagem. Preferência de locação para empresa.",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/L074", true, /\.(png|jpe?g|svg)$/)
@@ -2579,26 +2579,26 @@ const imoveisDisp = [
     descricao:
       "Sala, copa, cozinha/área de serviço, 02 quartos, 01 banheiro social, garagem para 01 carro, prédio com 4 (quatro) apartamentos; existe área comum, permite animais de pequeno porte; aguardando ligação de água e energia separados; pegar as contas de água e energia para transferência, IPTU ao Locador, chaves pendentes assim como motor do portão eletrônico, taxa de condomínio a combinar.",
   },
-  {
-    fotos: importAll(require.context("../assets/images/L126", true, /\.(png|jpe?g|svg|jfif)$/)),
-    fotoCapa: ffL126,
-    cod: "L126",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.house,
-    ruaNum: "-",
-    bairro: "Centro",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 2,
-    banheiros: 2,
-    vagas: 2,
-    valor: "R$ 1.800,00",
-    areaTotal: "- m²",
-    areaConstruida: "- m²",
-    titulo: "Aluguel de casa em Santa Bárbara",
-    descricao:
-      "Imóvel composto por 01 suíte, 01 quarto, 01 banheiro social, sala, copa, cozinha, área de serviço e garagem para 02 carros. R$ 1.800,00. Casa de laje e portão manual. O valor do aluguel é diferente para empresas."
-  },
+  // {
+  //   fotos: importAll(require.context("../assets/images/L126", true, /\.(png|jpe?g|svg|jfif)$/)),
+  //   fotoCapa: ffL126,
+  //   cod: "L126",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "-",
+  //   bairro: "Centro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 2,
+  //   banheiros: 2,
+  //   vagas: 2,
+  //   valor: "R$ 1.800,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Aluguel de casa em Santa Bárbara",
+  //   descricao:
+  //     "Imóvel composto por 01 suíte, 01 quarto, 01 banheiro social, sala, copa, cozinha, área de serviço e garagem para 02 carros. R$ 1.800,00. Casa de laje e portão manual. O valor do aluguel é diferente para empresas."
+  // },
   {
     fotos: importAll(require.context("../assets/images/L127_1", true, /\.(png|jpe?g|svg|jfif)$/)),
     fotoCapa: ffL127_1,

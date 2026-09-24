@@ -62,6 +62,7 @@ import ffL127_3 from "../assets/images/L127_3.jpg";
 import ffL128 from "../assets/images/L128.jpg";
 import ffL129 from "../assets/images/L129.jpg";
 import ffL130 from "../assets/images/L130.jpg";
+import ffL131 from "../assets/images/L131.jpg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -144,6 +145,8 @@ import ffV197 from "../assets/images/V197.jpg";
 import ffV198 from "../assets/images/V198.jpeg";
 import ffV199 from "../assets/images/V199.jpg";
 import ffV201 from "../assets/images/V201.jpg";
+import ffV202 from "../assets/images/V202.jpg";
+import ffV203 from "../assets/images/V203.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -1409,7 +1412,7 @@ const imoveisDisp = [
     quartos: 3,
     banheiros: 1,
     vagas: 1,
-    valor: "R$ 390.000,00",
+    valor: "R$ 365.000,00",
     areaTotal: "- m²",
     areaConstruida: " m²",
     titulo: "Vende-se apartamento no bairro Praia (Santa Bárbara/MG)",
@@ -1499,7 +1502,7 @@ const imoveisDisp = [
     tipoImovel: propertyType.apartment,
     ruaNum: "-",
     bairro: "Garcia",
-    cidade: city.barao_cocais,
+    cidade: city.santa_barbara,
     Estado: "Minas Gerais - MG",
     quartos: 2,
     banheiros: 1,
@@ -1509,6 +1512,44 @@ const imoveisDisp = [
     areaConstruida: " m²",
     titulo: "Vende-se apartamento do bairro Garcia - Barão de Cocais",
     descricao: "Apartamento no 2° andar, com sala, cozinha, área de serviço, 02 quartos, 01 banheiro social e 01 vaga de garagem. Possui cozinha com bancada em granito e guarda-roupas nos quartos. Área construída de 48 m². Valor: R$ 210 mil.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/V202", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV202,
+    cod: "V202",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.plot,
+    ruaNum: "-",
+    bairro: "Santa Quitéria",
+    cidade: city.catas_altas,
+    Estado: "Minas Gerais - MG",
+    quartos: 0,
+    banheiros: 0,
+    vagas: 0,
+    valor: "R$ 165.000,00",
+    areaTotal: "360 m²",
+    areaConstruida: " m²",
+    titulo: "Vende-se lote - Santa Quitéria",
+    descricao: "Área:360 m², R$ 165 mil, água e energia disponíveis, sem escritura.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/V203", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffV203,
+    cod: "V203",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.apartment,
+    ruaNum: "-",
+    bairro: "Garcia",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais - MG",
+    quartos: 0,
+    banheiros: 0,
+    vagas: 0,
+    valor: "R$ 240.000,00",
+    areaTotal: "- m²",
+    areaConstruida: "48 m²",
+    titulo: "Vende-se apartamento térreo no bairro Garcia - Santa Bárbara",
+    descricao: "Apartamento térreo com sala, cozinha e área de serviço, 02 quartos, 01 banheiro social e 01 vaga de garagem. A cozinha possui bancada em granito. Área construída de 48 m². Valor: R$ 240 mil.",
   },
   //     {
   //   fotos: importAll(require.context("../assets/images/V195", true, /\.(png|jpe?g|svg|jfif)$/)),
@@ -2467,7 +2508,7 @@ const imoveisDisp = [
     tipoImovel: propertyType.apartment,
     ruaNum: "-",
     bairro: "Garcia",
-    cidade: city.barao_cocais,
+    cidade: city.santa_barbara,
     Estado: "Minas Gerais",
     quartos: 2,
     banheiros: 1,
@@ -2718,6 +2759,26 @@ const imoveisDisp = [
     titulo: "Aluga-se casa geminada no bairro ipanema",
     descricao:
       "Imóvel composto por sala e cozinha, área de serviço, 02 quartos, 01 banheiro social, 01 vaga de garagem e área externa. Casa de laje, com piso de cerâmica, cômodos espaçosos e portão eletrônico. Valor do aluguel: R$ 1.800,00.O valor do aluguel é diferente para empresas.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/L131", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL131,
+    cod: "L131",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.apartment,
+    ruaNum: "-",
+    bairro: "Praia",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 2,
+    banheiros: 1,
+    vagas: 1,
+    valor: "R$ 1.500,00",
+    areaTotal: "- m²",
+    areaConstruida: "48 m²",
+    titulo: "Aluga-se apartamento térreo no bairro Praia",
+    descricao:
+      "Apartamento térreo com área construída de 48 m², composto por sala, cozinha com bancada em granito, área de serviço integrada, 02 quartos, 01 banheiro social e 01 vaga de garagem. Valor de locação por R$ 1.500 mil.",
   },
   // {
   //   fotos: importAll(require.context("../assets/images/L122", true, /\.(png|jpe?g|svg|jfif)$/)),

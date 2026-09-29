@@ -28,6 +28,7 @@ import ffL082 from "../assets/images/L082.jpg";
 import ffL083 from "../assets/images/L083.jpg";
 import ffL084 from "../assets/images/L084.jpg";
 import ffL085 from "../assets/images/L085.jpg";
+import ffL086 from "../assets/images/L086.jpg";
 import ffL091 from "../assets/images/L091.jpg";
 import ffL092 from "../assets/images/L092.jpg";
 import ffL094 from "../assets/images/L094.jpeg";
@@ -2186,6 +2187,27 @@ const imoveisDisp = [
   //   titulo: "Aluguel de ponto comercial no bairro Santa Mônica",
   //   descricao: "Sala ampla com 01 banheiro, portão manual .",
   // },
+  {
+    fotos: importAll(
+      require.context("../assets/images/L086", true, /\.(png|jpe?g|svg|jfif)$/)
+    ),
+    fotoCapa: ffL086,
+    cod: "L086",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.commercial_property,
+    ruaNum: "Rua Maria Carolina, 164",
+    bairro: "Centro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 0,
+    banheiros: 1,
+    vagas: 0,
+    valor: "R$ 2.700,00",
+    areaTotal: "- m²",
+    areaConstruida: "70 m²",
+    titulo: "Aluguel de ponto comercial no centro",
+    descricao: "Imóvel comercial com recepção, área de depósito e 01 banheiro social, situado em área central de alta movimentação. Ideal para lojas e escritórios em geral. Valor: R$2.700,00.",
+  },
   // {
   //   fotos: importAll(
   //     require.context("../assets/images/L095", true, /\.(png|jpe?g|svg|jfif)$/)

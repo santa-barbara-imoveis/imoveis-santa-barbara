@@ -64,6 +64,7 @@ import ffL128 from "../assets/images/L128.jpg";
 import ffL129 from "../assets/images/L129.jpg";
 import ffL130 from "../assets/images/L130.jpg";
 import ffL131 from "../assets/images/L131.jpg";
+import ffL132 from "../assets/images/L132.jpg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -1540,16 +1541,16 @@ const imoveisDisp = [
     contrato: contractType[contractTypeParamKey.buy],
     tipoImovel: propertyType.apartment,
     ruaNum: "-",
-    bairro: "Garcia",
+    bairro: "Praia",
     cidade: city.santa_barbara,
     Estado: "Minas Gerais - MG",
-    quartos: 0,
-    banheiros: 0,
-    vagas: 0,
+    quartos: 2,
+    banheiros: 1,
+    vagas: 1,
     valor: "R$ 240.000,00",
     areaTotal: "- m²",
     areaConstruida: "48 m²",
-    titulo: "Vende-se apartamento térreo no bairro Garcia - Santa Bárbara",
+    titulo: "Vende-se apartamento térreo no bairro Praia - Santa Bárbara",
     descricao: "Apartamento térreo com sala, cozinha e área de serviço, 02 quartos, 01 banheiro social e 01 vaga de garagem. A cozinha possui bancada em granito. Área construída de 48 m². Valor: R$ 240 mil.",
   },
   //     {
@@ -2801,6 +2802,26 @@ const imoveisDisp = [
     titulo: "Aluga-se apartamento térreo no bairro Praia",
     descricao:
       "Apartamento térreo com área construída de 48 m², composto por sala, cozinha com bancada em granito, área de serviço integrada, 02 quartos, 01 banheiro social e 01 vaga de garagem. Valor de locação por R$ 1.500 mil.",
+  },
+  {
+    fotos: importAll(require.context("../assets/images/L132", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL132,
+    cod: "L132",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.apartment,
+    ruaNum: "Rua XV de Novembro, 16",
+    bairro: "Centro",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 1,
+    vagas: 1,
+    valor: "R$ 2.100,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se apartamento térreo no bairro Centro",
+    descricao:
+      "Imóvel composto por sala, copa, cozinha, 03 quartos (01 suíte), 01 banheiro social, terraço e área de serviço, além de 01 vaga de garagem com portão manual. Valor do aluguel: R$2.100,00, incluindo IPTU.",
   },
   // {
   //   fotos: importAll(require.context("../assets/images/L122", true, /\.(png|jpe?g|svg|jfif)$/)),

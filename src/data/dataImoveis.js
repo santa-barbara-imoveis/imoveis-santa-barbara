@@ -148,7 +148,7 @@ import ffV198 from "../assets/images/V198.jpeg";
 import ffV199 from "../assets/images/V199.jpg";
 import ffV201 from "../assets/images/V201.jpg";
 import ffV202 from "../assets/images/V202.jpg";
-import ffV203 from "../assets/images/V203.jpg";
+import ffV204 from "../assets/images/V204.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -249,7 +249,9 @@ const imoveisDisp = [
   //     "Excelente opção para quem busca tranquilidade e qualidade de vida. Chácaras de 3.000m² (ao lado do Retiro dos Chalés). 11 km de Santa Bárbara. 10km de São Gonçalo. 25km de João Monlevade. Infraestrutura completa e fácil acesso!",
   // },
   {
-    fotos: importAll(require.context("../assets/images/V052a", true, /\.(png|jpe?g|svg)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V052a", true, /\.(png|jpe?g|svg)$/),
+    ),
     fotoCapa: ffV052a,
     cod: "V052a",
     contrato: contractType[contractTypeParamKey.buy],
@@ -452,7 +454,9 @@ const imoveisDisp = [
   //     "Viva em conexão com a natureza exuberante na região de Catas Altas. Desfrute de um condomínio diferenciado, com segurança e bem estar, unindo-se ao estilo da vida cultural que somente a região pode oferecer.",
   // },
   {
-    fotos: importAll(require.context("../assets/images/V123", true, /\.(png|jpe?g|svg)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V123", true, /\.(png|jpe?g|svg)$/),
+    ),
     fotoCapa: ffV123,
     cod: "V123",
     contrato: contractType[contractTypeParamKey.buy],
@@ -468,10 +472,13 @@ const imoveisDisp = [
     areaTotal: "10,6 ha",
     areaConstruida: "- m²",
     titulo: "Vende-se terreno de 10,6 ha em área urbana",
-    descricao: "Localizado na entrada de Santa Bárbara. Propriedade com escritura. Zona de Diversificação Econômica.",
+    descricao:
+      "Localizado na entrada de Santa Bárbara. Propriedade com escritura. Zona de Diversificação Econômica.",
   },
   {
-    fotos: importAll(require.context("../assets/images/V125", true, /\.(png|jpe?g|svg)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V125", true, /\.(png|jpe?g|svg)$/),
+    ),
     fotoCapa: ffV125,
     cod: "V125",
     contrato: contractType[contractTypeParamKey.buy],
@@ -490,7 +497,9 @@ const imoveisDisp = [
     descricao: "Ótima Localização. Documentação regular para financiamento.",
   },
   {
-    fotos: importAll(require.context("../assets/images/V129", true, /\.(png|jpe?g|svg)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V129", true, /\.(png|jpe?g|svg)$/),
+    ),
     fotoCapa: ffV129,
     cod: "V129",
     contrato: contractType[contractTypeParamKey.buy],
@@ -550,7 +559,9 @@ const imoveisDisp = [
   //   descricao: "Sala/cozinha (bancada granito).Área externa / Área de churrasqueira.",
   // },
   {
-    fotos: importAll(require.context("../assets/images/V135", true, /\.(png|jpe?g|svg)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V135", true, /\.(png|jpe?g|svg)$/),
+    ),
     fotoCapa: ffV135,
     cod: "V135",
     contrato: contractType[contractTypeParamKey.buy],
@@ -803,7 +814,9 @@ const imoveisDisp = [
   //   descricao: "Infraestrutura completa; lote plano e imóvel registrado.",
   // },
   {
-    fotos: importAll(require.context("../assets/images/V146", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V146", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffV146,
     cod: "V146",
     contrato: contractType[contractTypeParamKey.buy],
@@ -823,7 +836,9 @@ const imoveisDisp = [
       "Garagem 5 carros, ponto comercial, sala, copa, cozinha, 3 quartos, 2 suítes, closet e varanda, espaço gourmet, sauna e piscina com hidromassagem, vista definitiva para Serra, área do terreno: 400 m², área construída da casa: 290m² e área construída do ponto comercial: 56m².",
   },
   {
-    fotos: importAll(require.context("../assets/images/V161", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V161", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffV161,
     cod: "V161",
     contrato: contractType[contractTypeParamKey.buy],
@@ -991,7 +1006,9 @@ const imoveisDisp = [
   //     "Avenida Rodrigo de Castro, área do lote: 1.693,50 m², infraestrutura completa, próximo a escola, padaria, supermercado BH, academia e posto de saúde.",
   // },
   {
-    fotos: importAll(require.context("../assets/images/V171", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V171", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffV171,
     cod: "V171",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1071,7 +1088,9 @@ const imoveisDisp = [
   //     "Excelente opção para quem busca tranquilidade e qualidade de vida. Vista parcial para o Caraça; chácara toda cercada, com água e luz na porta; ótimos imóveis no entorno; área do terreno: 2.620,34 m²; área construída: 0,00 m².",
   // },
   {
-    fotos: importAll(require.context("../assets/images/V175", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V175", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffV175,
     cod: "V175",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1091,7 +1110,9 @@ const imoveisDisp = [
       "Excelente opção para quem busca tranquilidade e qualidade de vida, lotes planos de 12x30m cada, com escritura e murado nas divisas, bairro com infraestrutura completa; vista para a Serra; ótimos imóveis no entorno; área do terreno: 720 m², sem área construída. Interesse de vender os dois juntos.",
   },
   {
-    fotos: importAll(require.context("../assets/images/V176", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V176", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffV176,
     cod: "V176",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1191,7 +1212,9 @@ const imoveisDisp = [
   //     "Sala/cozinha; 01 banheiro social; 02 quartos (1 suíte); área de serviço; quintal; 02 vagas de garagem; área do lote: 450 m²; área construída: 90 m².",
   // },
   {
-    fotos: importAll(require.context("../assets/images/V181", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V181", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffV181,
     cod: "V181",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1231,7 +1254,9 @@ const imoveisDisp = [
   //     "Sala, ⁠copa/cozinha; 03 quartos (01 suíte com closet e banheira hidromassagem); ⁠02 banheiros, ⁠01 banho social; ⁠01 lavabo na área de churrasco; ⁠área externa, ⁠área serviço, ⁠varanda; ⁠02 vagas de garagem.",
   // },
   {
-    fotos: importAll(require.context("../assets/images/V184", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V184", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffV184,
     cod: "V184",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1247,10 +1272,13 @@ const imoveisDisp = [
     areaTotal: "5.850 m²",
     areaConstruida: "180 m²",
     titulo: "Casa + terreno a venda em Catas Altas",
-    descricao: "Infraestrutura completa;duas casas de morada;documento regular;imóvel financiável;lote com escritura.",
+    descricao:
+      "Infraestrutura completa;duas casas de morada;documento regular;imóvel financiável;lote com escritura.",
   },
   {
-    fotos: importAll(require.context("../assets/images/V185", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V185", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffV185,
     cod: "V185",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1266,10 +1294,13 @@ const imoveisDisp = [
     areaTotal: "173 m²",
     areaConstruida: "135 m²",
     titulo: "Vende-se casa no bairro centro",
-    descricao: "Varanda, sala, copa, cozinha, área de serviço, 5 quartos, 2 banheiros sociais, jardim, sem garagem.",
+    descricao:
+      "Varanda, sala, copa, cozinha, área de serviço, 5 quartos, 2 banheiros sociais, jardim, sem garagem.",
   },
   {
-    fotos: importAll(require.context("../assets/images/V186", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V186", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffV186,
     cod: "V186",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1285,10 +1316,13 @@ const imoveisDisp = [
     areaTotal: "301,52 m²",
     areaConstruida: "- m²",
     titulo: "Vende-se lote no centro",
-    descricao: "Lote com 301,52m²; frente: 22,40m; fundos: 25,70m; lado direito: 6,90m; lado esquerdo: 19,00m. Ótima Localização; documentação regular.",
+    descricao:
+      "Lote com 301,52m²; frente: 22,40m; fundos: 25,70m; lado direito: 6,90m; lado esquerdo: 19,00m. Ótima Localização; documentação regular.",
   },
   {
-    fotos: importAll(require.context("../assets/images/V187", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V187", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffV187,
     cod: "V187",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1304,7 +1338,8 @@ const imoveisDisp = [
     areaTotal: "360 m²",
     areaConstruida: "- m²",
     titulo: "Vende-se lote no bairro Santa Mônica",
-    descricao: "Lote com 360,00 m², frente: 12m, fundos: 30m; boa localização; parcialmente murado; infraestrutura completa; ótimas casas no entorno.",
+    descricao:
+      "Lote com 360,00 m², frente: 12m, fundos: 30m; boa localização; parcialmente murado; infraestrutura completa; ótimas casas no entorno.",
   },
   // {
   //   fotos: importAll(require.context("../assets/images/V188", true, /\.(png|jpe?g|svg|jfif)$/)),
@@ -1345,7 +1380,9 @@ const imoveisDisp = [
   //   descricao: "Sala, copa e cozinha, 03 quartos, 01 banheiro social, área de serviço e dispensa, área externa e jardim, garagem para 05 carros, portão eletrônico e câmera de segurança.",
   // },
   {
-    fotos: importAll(require.context("../assets/images/V190", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V190", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffV190,
     cod: "V190",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1361,10 +1398,13 @@ const imoveisDisp = [
     areaTotal: "300 m²",
     areaConstruida: "- m²",
     titulo: "Vende-se lote no bairro Cidade Nova (Barão de Cocais/MG)",
-    descricao: "Terreno com área total de 300,00 m² (12 x 25 metros), plano e financiável, parcialmente murado e com infraestrutura completa. Possui documentação regular, proporcionando segurança na negociação. Excelente oportunidade para construção residencial ou investimento. Valor: R$ 150.000,00.",
+    descricao:
+      "Terreno com área total de 300,00 m² (12 x 25 metros), plano e financiável, parcialmente murado e com infraestrutura completa. Possui documentação regular, proporcionando segurança na negociação. Excelente oportunidade para construção residencial ou investimento. Valor: R$ 150.000,00.",
   },
   {
-    fotos: importAll(require.context("../assets/images/V191", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V191", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffV191,
     cod: "V191",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1380,10 +1420,13 @@ const imoveisDisp = [
     areaTotal: "481,85 m²",
     areaConstruida: "- m²",
     titulo: "Vende-se lote no bairro Vistas da Serra (Catas Altas/MG)",
-    descricao: "Viva em conexão com a natureza exuberante da região de Catas Altas e desfrute de um local diferenciado, que une bem-estar, tranquilidade e o estilo de vida cultural que somente a região pode oferecer. Trata-se do Lote 10 da Quadra 4, localizado na Rua 4, com área total de 481,85 m². O imóvel possui ótima topografia e vista privilegiada para a serra e para a Igreja Matriz, proporcionando um cenário único e encantador. Uma excelente oportunidade para construir sua residência ou investir em uma das regiões mais valorizadas da cidade. Valor de venda: R$ 190.000,00. Observação: imóvel já possui certidão de matrícula.",
+    descricao:
+      "Viva em conexão com a natureza exuberante da região de Catas Altas e desfrute de um local diferenciado, que une bem-estar, tranquilidade e o estilo de vida cultural que somente a região pode oferecer. Trata-se do Lote 10 da Quadra 4, localizado na Rua 4, com área total de 481,85 m². O imóvel possui ótima topografia e vista privilegiada para a serra e para a Igreja Matriz, proporcionando um cenário único e encantador. Uma excelente oportunidade para construir sua residência ou investir em uma das regiões mais valorizadas da cidade. Valor de venda: R$ 190.000,00. Observação: imóvel já possui certidão de matrícula.",
   },
-    {
-    fotos: importAll(require.context("../assets/images/V192", true, /\.(png|jpe?g|svg|jfif)$/)),
+  {
+    fotos: importAll(
+      require.context("../assets/images/V192", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffV192,
     cod: "V192",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1399,10 +1442,13 @@ const imoveisDisp = [
     areaTotal: "300 m²",
     areaConstruida: "130 m²",
     titulo: "Vende-se casa no bairro Lagoa (Barão de Cocais/MG)",
-    descricao: "Excelente imóvel disponível para venda, composto por sala ampla, copa integrada à cozinha, 03 quartos, sendo 01 suíte, além de 02 banheiros sociais. Conta ainda com área de serviço, quintal e área externa, proporcionando conforto e praticidade para toda a família. Possui garagem com capacidade para até 04 carros. O imóvel está situado em um lote de 300m² e possui 130m² de área construída. Valor de venda: R$ 520.000,00. Aceita financiamento.",
+    descricao:
+      "Excelente imóvel disponível para venda, composto por sala ampla, copa integrada à cozinha, 03 quartos, sendo 01 suíte, além de 02 banheiros sociais. Conta ainda com área de serviço, quintal e área externa, proporcionando conforto e praticidade para toda a família. Possui garagem com capacidade para até 04 carros. O imóvel está situado em um lote de 300m² e possui 130m² de área construída. Valor de venda: R$ 520.000,00. Aceita financiamento.",
   },
-    {
-    fotos: importAll(require.context("../assets/images/V194", true, /\.(png|jpe?g|svg|jfif)$/)),
+  {
+    fotos: importAll(
+      require.context("../assets/images/V194", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffV194,
     cod: "V194",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1418,10 +1464,13 @@ const imoveisDisp = [
     areaTotal: "- m²",
     areaConstruida: " m²",
     titulo: "Vende-se apartamento no bairro Praia (Santa Bárbara/MG)",
-    descricao: "Sala, copa, cozinha, três quartos, um banheiro social, área de serviço, área externa, garagem coberta para um carro.",
+    descricao:
+      "Sala, copa, cozinha, três quartos, um banheiro social, área de serviço, área externa, garagem coberta para um carro.",
   },
-      {
-    fotos: importAll(require.context("../assets/images/V196", true, /\.(png|jpe?g|svg|jfif)$/)),
+  {
+    fotos: importAll(
+      require.context("../assets/images/V196", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffV196,
     cod: "V196",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1437,7 +1486,8 @@ const imoveisDisp = [
     areaTotal: "995 m²",
     areaConstruida: " m²",
     titulo: "Vende-se casa no bairro Santana do Morro (Santa Bárbara/MG)",
-    descricao: "Copa e cozinha, três quartos, sendo uma suíte, um banheiro social, área de serviço e área total de 995 metros quadrados.Não financia.",
+    descricao:
+      "Copa e cozinha, três quartos, sendo uma suíte, um banheiro social, área de serviço e área total de 995 metros quadrados.Não financia.",
   },
   //       {
   //   fotos: importAll(require.context("../assets/images/V197", true, /\.(png|jpe?g|svg|jfif)$/)),
@@ -1459,7 +1509,9 @@ const imoveisDisp = [
   //   descricao: "Copa e cozinha, dois quartos, um banheiro social, área de serviço e garagem coberta para um carro.",
   // },
   {
-    fotos: importAll(require.context("../assets/images/V198", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V198", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffV198,
     cod: "V198",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1475,10 +1527,13 @@ const imoveisDisp = [
     areaTotal: "- m²",
     areaConstruida: " m²",
     titulo: "Vende-se casa no bairro Mirante da lagoa (Barão de Cocais/MG)",
-    descricao: "Sala e cozinha, 4 quartos, 3 banheiros, área de serviço e garagem coberta para três carros.Não financia. Usucapião em andamento.",
+    descricao:
+      "Sala e cozinha, 4 quartos, 3 banheiros, área de serviço e garagem coberta para três carros.Não financia. Usucapião em andamento.",
   },
   {
-    fotos: importAll(require.context("../assets/images/V199", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V199", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffV199,
     cod: "V199",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1494,10 +1549,13 @@ const imoveisDisp = [
     areaTotal: "65 m²",
     areaConstruida: " m²",
     titulo: "Vende-se casa geminada no bairro Ipanema.",
-    descricao: "Imóvel composto por sala e cozinha, 02 quartos, 01 banheiro social, garagem para 1 veículo e área de serviço. Casa com 65 m². Valor: R$ 320 mil. Financia.",
+    descricao:
+      "Imóvel composto por sala e cozinha, 02 quartos, 01 banheiro social, garagem para 1 veículo e área de serviço. Casa com 65 m². Valor: R$ 320 mil. Financia.",
   },
   {
-    fotos: importAll(require.context("../assets/images/V201", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V201", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffV201,
     cod: "V201",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1513,10 +1571,13 @@ const imoveisDisp = [
     areaTotal: "48 m²",
     areaConstruida: " m²",
     titulo: "Vende-se apartamento do bairro Garcia - Barão de Cocais",
-    descricao: "Apartamento no 2° andar, com sala, cozinha, área de serviço, 02 quartos, 01 banheiro social e 01 vaga de garagem. Possui cozinha com bancada em granito e guarda-roupas nos quartos. Área construída de 48 m². Valor: R$ 210 mil.",
+    descricao:
+      "Apartamento no 2° andar, com sala, cozinha, área de serviço, 02 quartos, 01 banheiro social e 01 vaga de garagem. Possui cozinha com bancada em granito e guarda-roupas nos quartos. Área construída de 48 m². Valor: R$ 210 mil.",
   },
   {
-    fotos: importAll(require.context("../assets/images/V202", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context("../assets/images/V202", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffV202,
     cod: "V202",
     contrato: contractType[contractTypeParamKey.buy],
@@ -1532,145 +1593,35 @@ const imoveisDisp = [
     areaTotal: "360 m²",
     areaConstruida: " m²",
     titulo: "Vende-se lote - Santa Quitéria",
-    descricao: "Área:360 m², R$ 165 mil, água e energia disponíveis, sem escritura.",
+    descricao:
+      "Área:360 m², R$ 165 mil, água e energia disponíveis, sem escritura.",
   },
-  // {
-  //   fotos: importAll(require.context("../assets/images/V203", true, /\.(png|jpe?g|svg|jfif)$/)),
-  //   fotoCapa: ffV203,
-  //   cod: "V203",
-  //   contrato: contractType[contractTypeParamKey.buy],
-  //   tipoImovel: propertyType.apartment,
-  //   ruaNum: "-",
-  //   bairro: "Praia",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais - MG",
-  //   quartos: 2,
-  //   banheiros: 1,
-  //   vagas: 1,
-  //   valor: "R$ 240.000,00",
-  //   areaTotal: "- m²",
-  //   areaConstruida: "48 m²",
-  //   titulo: "Vende-se apartamento térreo no bairro Praia - Santa Bárbara",
-  //   descricao: "Apartamento térreo com sala, cozinha e área de serviço, 02 quartos, 01 banheiro social e 01 vaga de garagem. A cozinha possui bancada em granito. Área construída de 48 m². Valor: R$ 240 mil.",
-  // },
-  //     {
-  //   fotos: importAll(require.context("../assets/images/V195", true, /\.(png|jpe?g|svg|jfif)$/)),
-  //   fotoCapa: ffV195,
-  //   cod: "V195",
-  //   contrato: contractType[contractTypeParamKey.buy],
-  //   tipoImovel: propertyType.house,
-  //   ruaNum: "-",
-  //   bairro: "Tenente Carlos",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais - MG",
-  //   quartos: 3,
-  //   banheiros: 2,
-  //   vagas: 2,
-  //   valor: "R$ 590.000,00",
-  //   areaTotal: "- m²",
-  //   areaConstruida: " m²",
-  //   titulo: "Vende-se casa no bairro Tenente Carlos (Santa Bárbara/MG)",
-  //   descricao: "Sala e cozinha integradas, três quartos, sendo uma suíte, um banheiro social, área de serviço, área externa e garagem coberta para dois carros.",
-  // },
-  //     {
-  //   fotos: importAll(require.context("../assets/images/V193", true, /\.(png|jpe?g|svg|jfif)$/)),
-  //   fotoCapa: ffV193,
-  //   cod: "V193",
-  //   contrato: contractType[contractTypeParamKey.buy],
-  //   tipoImovel: propertyType.house,
-  //   ruaNum: "-",
-  //   bairro: "Sumidouro",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais - MG",
-  //   quartos: 4,
-  //   banheiros: 4,
-  //   vagas: 5,
-  //   valor: "R$ 2.100.000,00",
-  //   areaTotal: "4.980 m²",
-  //   areaConstruida: "890 m²",
-  //   titulo: "Vende-se casa no sumidouro com linda vista para a Serra",
-  //   descricao: "Excelente imóvel de alto padrão, com área construída de 890 m² em um amplo terreno de 4.980 m². A residência conta com sala de jantar integrada à sala de TV, cozinha espaçosa, despensa e adega. Na área íntima, dispõe de 01 suíte com closet, 04 quartos adicionais e 03 banheiros sociais. Possui ainda área de serviço, varanda, garagem ampla, além de uma completa área de lazer com piscina e espaço gourmet. O imóvel está inserido em um ambiente privilegiado, cercado por bosque, pomar e jardins, proporcionando conforto, privacidade e contato com a natureza. Conta também com aquecedor solar, ar-condicionado, reservatório de água com capacidade para 6.000 litros, padrão elétrico 220V e sistema de fossa séptica. Valor de venda: R$ 2.100.000,00. Taxa de condomínio: R$ 350,00 por mês.",
-  // },
-  // {
-  //   fotos: importAll(require.context("../assets/images/V183", true, /\.(png|jpe?g|svg|jfif)$/)),
-  //   fotoCapa: ffV183,
-  //   cod: "V183",
-  //   contrato: contractType[contractTypeParamKey.buy],
-  //   tipoImovel: propertyType.apartment,
-  //   ruaNum: "-",
-  //   bairro: "Caminhos de Minas",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: 2,
-  //   banheiros: 1,
-  //   vagas: 1,
-  //   valor: "R$ 240.000,00",
-  //   areaTotal: "48 m²",
-  //   areaConstruida: "48 m²",
-  //   titulo: "Vende-se apartamento no bairro Caminho de Minas",
-  //   descricao:
-  //     "Apto 2° andar, sala, cozinha, área serviço, 02 quartos, 01 banho social, 01 vaga de garagem coberta e cozinha com bancada em granito e armários planejados.",
-  // },
-  // {
-  //   fotos: importAll(require.context("../assets/images/L001", true, /\.(png|jpe?g|svg)$/)),
-  //   fotoCapa: ffL001,
-  //   cod: "L001",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.house,
-  //   ruaNum: "Rua Maria Carolina, 114",
-  //   bairro: "Centro",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: amenitiesQuantity.five,
-  //   banheiros: amenitiesQuantity.two,
-  //   vagas: amenitiesQuantity.two,
-  //   valor: "R$ 2.500,00",
-  //   areaTotal: "- m²",
-  //   areaConstruida: "- m²",
-  //   titulo: "Casa para locação no Centro",
-  //   descricao:
-  //     "Imóvel muito conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo a rodoviária). Em um raio de apenas 300m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas; 05 quartos; 02 banheiros; 02 salas; copa; cozinha; varanda; pátio; área de serviço, quintal; garagem para 02 carros com portão eletrônico e aquecedor solar.",
-  // },
-  // {
-  //   fotos: importAll(require.context("../assets/images/L008", true, /\.(png|jpe?g|svg)$/)),
-  //   fotoCapa: ffL008,
-  //   cod: "L008",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.plot,
-  //   ruaNum: "Trevo de Santa Bárbara",
-  //   bairro: "Trevo de Santa Bárbara",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: amenitiesQuantity.zero,
-  //   banheiros: amenitiesQuantity.zero,
-  //   vagas: amenitiesQuantity.zero,
-  //   valor: "R$ 4.900,00",
-  //   areaTotal: "1.000 m²",
-  //   areaConstruida: "- m²",
-  //   titulo: "Aluguel de lotes próximo ao trevo de Santa Bárbara",
-  //   descricao: "Lotes planos com excelente localização. De frente para a rodovia MG129 (sentido Catas Altas).",
-  // },
-  //   {
-  //   fotos: importAll(require.context("../assets/images/L009_3", true, /\.(png|jpe?g|svg)$/)),
-  //   fotoCapa: ffL009_3,
-  //   cod: "L009_3",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.studio,
-  //   ruaNum: "Av. Petrina de Castro Chaves, 92",
-  //   bairro: "Centro",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: amenitiesQuantity.one,
-  //   banheiros: amenitiesQuantity.one,
-  //   vagas: amenitiesQuantity.one,
-  //   valor: "R$ 750,00",
-  //   areaTotal: "- m²",
-  //   areaConstruida: "- m²",
-  //   titulo: "Kitnet para aluguel no centrão de Santa Bárbara",
-  //   descricao: "01 quarto, 01 banheiro social, cozinha, área de serviço, 01 vaga de garagem, ótima localização, em frente à Igreja do Rosário, espaço social com jardim e churrasqueira.",
-  // },
-      {
-    fotos: importAll(require.context("../assets/images/L010", true, /\.(png|jpe?g|svg)$/)),
+  {
+    fotos: importAll(
+      require.context("../assets/images/V204", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
+    fotoCapa: ffV204,
+    cod: "V204",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "Campestre",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais - MG",
+    quartos: 2,
+    banheiros: 1,
+    vagas: 2,
+    valor: "R$ 490.000,00",
+    areaTotal: "200 m²",
+    areaConstruida: " m²",
+    titulo: "Vende-se casa - bairro Campestre",
+    descricao:
+      "Lote com área de 200 m², no valor de R$ 490 mil. O imóvel possui 2 quartos, 1 banheiro, 2 vagas de garagem, sala e cozinha.",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/L010", true, /\.(png|jpe?g|svg)$/),
+    ),
     fotoCapa: ffL010,
     cod: "L010",
     contrato: contractType[contractTypeParamKey.rent],
@@ -1686,116 +1637,13 @@ const imoveisDisp = [
     areaTotal: "- m²",
     areaConstruida: "- m²",
     titulo: "Aluguel ponto comercial rua João Mota",
-    descricao: "Localizado em área central de altíssima movimentação; ideal para loja, escritório, consultório e salão de beleza.",
+    descricao:
+      "Localizado em área central de altíssima movimentação; ideal para loja, escritório, consultório e salão de beleza.",
   },
-  // {
-  //   fotos: importAll(
-  //     require.context("../assets/images/L016.1", true, /\.(png|jpe?g|svg)$/)
-  //   ),
-  //   fotoCapa: ffL016a1,
-  //   cod: "L016.1",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.house,
-  //   ruaNum: "Não informado",
-  //   bairro: "Centro",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: amenitiesQuantity.three,
-  //   banheiros: amenitiesQuantity.two,
-  //   vagas: amenitiesQuantity.one,
-  //   valor: "R$ 2.800,00",
-  //   areaTotal: "360 m²",
-  //   areaConstruida: "- m²",
-  //   titulo: "Casa no centro de Santa Bárbara",
-  //   descricao:
-  //     "Imóvel muito conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo a rodoviária). Em um raio de apenas 300m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas.",
-  // },
-  // {
-  //   fotos: importAll(
-  //     require.context("../assets/images/L039", true, /\.(png|jpe?g|svg|jfif)$/)
-  //   ),
-  //   fotoCapa: ffL039,
-  //   cod: "L039",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.house,
-  //   ruaNum: "Rua Vereador João Paulino, 242",
-  //   bairro: "Centro",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: amenitiesQuantity.three,
-  //   banheiros: amenitiesQuantity.one,
-  //   vagas: amenitiesQuantity.zero,
-  //   valor: "R$ 1.300,00",
-  //   areaTotal: "- m²",
-  //   areaConstruida: "80 m²",
-  //   titulo: "Aluga-se casa bem localizada no centro – Santa Bárbara",
-  //   descricao:
-  //     "Casa fundos, acesso comum; sala, copa, cozinha, área de serviço, 03 quartos, 01 banheiro e sem garagem. Área construída: 80 m².",
-  // },
-  //   {
-  //   fotos: importAll(require.context("../assets/images/L031", true, /\.(png|jpe?g|svg)$/)),
-  //   fotoCapa: ffL031,
-  //   cod: "L031",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.house,
-  //   ruaNum: "Rua Rio Doce, 221",
-  //   bairro: "Tenente Carlos",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: amenitiesQuantity.two,
-  //   banheiros: amenitiesQuantity.one,
-  //   vagas: amenitiesQuantity.two,
-  //   valor: "R$ 1.800,00",
-  //   areaTotal: "- m²",
-  //   areaConstruida: "70 m²",
-  //   titulo: "Aluga-se casa no bairro Tenente Carlos",
-  //   descricao:
-  //     "Casa para locação no bairro Tenente Carlos, em Santa Bárbara/MG. O imóvel possui 70 m² de área construída, distribuídos em 02 quartos, 01 banheiro, sala, cozinha e demais dependências, oferecendo conforto e praticidade para o dia a dia. Conta ainda com garagem para 02 veículos. Valor do aluguel: R$ 1.800,00 mensais.",
-  // },
-  // {
-  //   fotos: importAll(
-  //     require.context("../assets/images/L033", true, /\.(png|jpe?g|svg)$/)
-  //   ),
-  //   fotoCapa: ffL033,
-  //   cod: "L033",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.house,
-  //   ruaNum: "Rua Madre Maria Miguel, 94",
-  //   bairro: "Centro",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: amenitiesQuantity.four,
-  //   banheiros: amenitiesQuantity.four,
-  //   vagas: amenitiesQuantity.two,
-  //   valor: "R$ 1.800,00",
-  //   areaTotal: "- m²",
-  //   areaConstruida: "- m²",
-  //   titulo: "Aluga-se casa no centro de Santa Bárbara",
-  //   descricao:
-  //     "Imóvel conservado e com amplo espaço físico. Localizado no centro de Santa Bárbara (próximo à área hospitalar). Em um raio de 500m tem-se acesso a vários tipos de comércio como: farmácias, supermercados, academias, bares, restaurantes, lojas diversas, 04 quartos, 04 banheiros, 03 Salas, cozinha, varanda, área de serviço, área externa, terraço, garagem para 02 carros.",
-  // },
-  // {
-  //   fotos: importAll(require.context("../assets/images/L048_1", true, /\.(png|jpe?g|svg)$/)),
-  //   fotoCapa: ffL048_1,
-  //   cod: "L048_1",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.house,
-  //   ruaNum: "-",
-  //   bairro: "Centro",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: amenitiesQuantity.three,
-  //   banheiros: amenitiesQuantity.three,
-  //   vagas: amenitiesQuantity.five,
-  //   valor: "R$ 3.500,00",
-  //   areaTotal: "- m²",
-  //   areaConstruida: "- m²",
-  //   titulo: "Ótima casa para Aluguel no Centro (em frente a Caixa Econômica",
-  //   descricao:
-  //     "03 quartos, 03 banheiros, sala/cozinha, área de serviço, área externa com piscina, churrasqueira, jardim, garagem para 5 carros.",
-  // },
-    {
-    fotos: importAll(require.context("../assets/images/L048_4", true, /\.(png|jpe?g|svg)$/)),
+  {
+    fotos: importAll(
+      require.context("../assets/images/L048_4", true, /\.(png|jpe?g|svg)$/),
+    ),
     fotoCapa: ffL048_4,
     cod: "L048_4",
     contrato: contractType[contractTypeParamKey.rent],
@@ -1810,221 +1658,14 @@ const imoveisDisp = [
     valor: "R$ 2.000,00",
     areaTotal: "25 m²",
     areaConstruida: "- m²",
-    titulo: "Aluguel de ponto comercial na rua João Mota (Em frente a Caixa Econômica)",
+    titulo:
+      "Aluguel de ponto comercial na rua João Mota (Em frente a Caixa Econômica)",
     descricao:
       "01 Sala comercial com 01 banheiro (25m²), localizado em área central de altíssima movimentação, 1º andar, fachada.",
   },
-  // {
-  //   fotos: importAll(
-  //     require.context("../assets/images/L049", true, /\.(png|jpe?g|svg)$/)
-  //   ),
-  //   fotoCapa: ffL049,
-  //   cod: "L049",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.house,
-  //   ruaNum: "Rua Joana Henrique de Castro, 133",
-  //   bairro: "São Francisco",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: amenitiesQuantity.three,
-  //   banheiros: amenitiesQuantity.two,
-  //   vagas: amenitiesQuantity.two,
-  //   valor: "R$ 3.000,00",
-  //   areaTotal: "- m²",
-  //   areaConstruida: "- m²",
-  //   titulo: "Casa para aluguel no bairro São Francisco",
-  //   descricao:
-  //     "Sala, copa, cozinha, 03 quartos, 01 suíte, garagem coberta para 2 carros, portão eletrônico, amplo quintal com churrasqueira, próximo a escola, supermercado, posto de saúde e padaria, valor de aluguel: R$ 3.100,00/mês.",
-  // },
-  // {
-  //   fotos: importAll(
-  //     require.context("../assets/images/L051", true, /\.(png|jpe?g|svg)$/)
-  //   ),
-  //   fotoCapa: ffL051,
-  //   cod: "L051",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.apartment,
-  //   ruaNum: "-",
-  //   bairro: "Praia",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: amenitiesQuantity.three,
-  //   banheiros: amenitiesQuantity.one,
-  //   vagas: amenitiesQuantity.one,
-  //   valor: "R$ 1.400,00",
-  //   areaTotal: "120 m²",
-  //   areaConstruida: "- m²",
-  //   titulo: "Apartamento no bairro Praia",
-  //   descricao:
-  //     "Ótimo apartamento com área externa; sala, copa, cozinha; 3 quartos, 1 banheiro social; 01 vaga de garagem coberta; Condomínio com piscina e área de lazer; R$ 1.500,00 + 310,00 de condomínio (70,00 fundo de reserva), inclui conta água.",
-  // },
-  // {
-  //   fotos: importAll(require.context('../assets/images/L053', true, /\.(png|jpe?g|svg)$/)),
-  //   fotoCapa: ffL053,
-  //   cod: "L053",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel:propertyType.house,
-  //   ruaNum: "Rua Cristal, 234",
-  //   bairro:"Mãe Catarina",
-  //   cidade:city.santa_barbara,
-  //   Estado:"Minas Gerais",
-  //   quartos:amenitiesQuantity.three,
-  //   banheiros:amenitiesQuantity.three,
-  //   vagas:amenitiesQuantity.five,
-  //   valor:"R$ 3.000,00",
-  //   areaTotal:"- m²",
-  //   areaConstruida: "- m²",
-  //   titulo:"Ótima casa de aluguel no bairro Mãe Catarina",
-  //   descricao:"Sala/copa, cozinha com bancada em granito e cooktop, 03 quartos (01 suite), 02 banheiros sociais, varanda, área de serviço, área gourmet com churrasqueira, dispensa, garagem para 05 carros, interfone, piso porcelanato, rebaixamento de gesso, portas madeira e janelas de vidro."
-  // },
-  // {
-  //   fotos: importAll(
-  //     require.context("../assets/images/L059", true, /\.(png|jpe?g|svg)$/)
-  //   ),
-  //   fotoCapa: ffL059,
-  //   cod: "L059",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.apartment,
-  //   ruaNum: "Rua São José, n°70",
-  //   bairro: "Santa Terezinha",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: amenitiesQuantity.two,
-  //   banheiros: amenitiesQuantity.one,
-  //   vagas: amenitiesQuantity.one,
-  //   valor: "R$ 1.200,00 + R$ 100,00 de condomínio",
-  //   areaTotal: "48,50 m²",
-  //   areaConstruida: "- m²",
-  //   titulo: "Apartamento no bairro Santa Terezinha",
-  //   descricao:
-  //     "Apartamento no 2° andar, 02 quartos, 01 banheiro, sala, copa, cozinha, área de serviço, garagem coberta para 01 carro, com portão eletrônico, valor: R$1.330,00 + R$100,00 de condomínio.",
-  // },
-  // {
-  //   fotos: importAll(
-  //     require.context("../assets/images/L061", true, /\.(png|jpe?g|svg)$/)
-  //   ),
-  //   fotoCapa: ffL061,
-  //   cod: "L061",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.house,
-  //   ruaNum: "Não informado",
-  //   bairro: "Santo Antônio",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: amenitiesQuantity.three,
-  //   banheiros: amenitiesQuantity.two,
-  //   vagas: amenitiesQuantity.two,
-  //   valor: "R$ 2.000,00",
-  //   areaTotal: "- m²",
-  //   areaConstruida: "- m²",
-  //   titulo: "Aluga-se ótima casa no residencial Santo Antônio",
-  //   descricao:
-  //     "Imóvel com cozinha ampla, sala, copa, área de serviço, quintal, varanda, jardim. Casa de laje, piso de porcelanato e cerâmica. Imóvel seguro (todo murado).",
-  // },
-  // {
-  //   fotos: importAll(
-  //     require.context("../assets/images/L062", true, /\.(png|jpe?g|svg)$/)
-  //   ),
-  //   fotoCapa: ffL062,
-  //   cod: "L062",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.house,
-  //   ruaNum: "Ao lado do River Park",
-  //   bairro: "Barra Feliz",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: amenitiesQuantity.three,
-  //   banheiros: amenitiesQuantity.two,
-  //   vagas: amenitiesQuantity.three,
-  //   valor: "R$ 3.000,00",
-  //   areaTotal: "1.670,20 m²",
-  //   areaConstruida: "200 m²",
-  //   titulo: "Aluga-se casa/chalé gourmet ao lado do River Park",
-  //   descricao:
-  //     "Imóvel novo e aconchegante, localização privilegiada (Ao lado do River Park); chalé bem estruturado e com área ampla; portão eletrônico, quiosque com churrasqueira e piscina; banheiro social, 01 suíte, 02 quartos; sala, cozinha, área de serviço; garagem e quintal.",
-  // },
-  // {
-  //   fotos: importAll(require.context("../assets/images/L063a1", true, /\.(png|jpe?g|svg)$/)),
-  //   fotoCapa: ffL063a1,
-  //   cod: "L063a1",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.commercial_property,
-  //   ruaNum: "Rua Ramal dos Ferroviários, 473",
-  //   bairro: "Centro",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: 0,
-  //   banheiros: 1,
-  //   vagas: 0,
-  //   valor: "R$ 2.200,00",
-  //   areaTotal: "46 m²",
-  //   areaConstruida: "- m²",
-  //   titulo: "Aluguel de sala comercial no Reale - 2º andar.",
-  //   descricao:
-  //     "R$ 520,00 taxa de condomínio. Sala de 46m² em ótima localização e acabamento; situado em área central de alta movimentação; recepção climatizada, com recepcionista; porta principal com acionamento eletrônico; telefones fixos / Whatsapp automatizado; internet banda larga / Espaço com copa equipada; banheiros para clientes e banheiros internos; sistema de câmeras de segurança, com monitoramento via app; alarme geral e individual por sala, com acesso exclusivo; possibilidades de adaptação de diversos projetos tais como spa day, com ducha aquecida, ou outros tipos de projetos específicos; ideal para escritórios em geral, clínicas de estética, estúdio de pilates e outros; Obs: despesas de condomínio inclui água, luz, IPTU, internet, recepção, sistema de câmeras e limpeza de áreas comuns.",
-  // },
-  // {
-  //   fotos: importAll(require.context('../assets/images/L063a2', true, /\.(png|jpe?g|svg)$/)),
-  //   fotoCapa: ffL063a2,
-  //   cod: "L063a2",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel:propertyType.commercial_property,
-  //   ruaNum: "Rua Ramal dos Ferroviários, 473",
-  //   bairro:"Centro",
-  //   cidade:city.santa_barbara,
-  //   Estado:"Minas Gerais",
-  //   quartos:0,
-  //   banheiros:1,
-  //   vagas:0,
-  //   valor:"R$ 1.100,00",
-  //   areaTotal:"14 m²",
-  //   areaConstruida: "- m²",
-  //   titulo:"Aluguel de sala comercial no Reale - 2º andar.",
-  //   descricao:"R$ 400,00 taxa de condomínio. Sala de 14m² em ótima localização e acabamento. Situado em área central de alta movimentação. Recepção climatizada, com recepcionista. Porta principal com acionamento eletrônico. Telefones fixos / Whatsapp automatizado. Internet banda larga / Espaço com copa equipada.Banheiros para clientes e banheiros internos.Sistema de câmeras de segurança, com monitoramento via app.Alarme geral e individual por sala, com acesso exclusivo.Possibilidades de adaptação de diversos projetos tais como spa day, com ducha aquecida, ou outros tipos de projetos específicos.Ideal para escritórios em geral, clínicas de estética, estúdio de pilates e outros. Despesas de condomínio inclui água, luz, IPTU, internet, recepção, sistema de câmeras e limpeza de áreas comuns."
-  // },
-  // {
-  //   fotos: importAll(require.context("../assets/images/L065", true, /\.(png|jpe?g|svg)$/)),
-  //   fotoCapa: ffL065,
-  //   cod: "L065",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.house,
-  //   ruaNum: "Rua Jasmim, 118",
-  //   bairro: "Santo Antônio",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: 2,
-  //   banheiros: 2,
-  //   vagas: 1,
-  //   valor: "R$1.500,00",
-  //   areaTotal: "- m²",
-  //   areaConstruida: "- m²",
-  //   titulo: "Aluga-se casa geminada no residencial Santo Antônio",
-  //   descricao:
-  //     "02 quartos, 02 banheiros sociais, sala, copa, cozinha, área de serviço, varanda, garagem para 01 carro, casa ampla, de forro e piso de cerâmica. Imóvel seguro, no segundo pavimento.",
-  // },
-  // {
-  //   fotos: importAll(require.context("../assets/images/L073", true, /\.(png|jpe?g|svg)$/)),
-  //   fotoCapa: ffL073,
-  //   cod: "L073",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.house,
-  //   ruaNum: "-",
-  //   bairro: "Centro",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: 3,
-  //   banheiros: 1,
-  //   vagas: 0,
-  //   valor: "R$1.700,00",
-  //   areaTotal: "- m²",
-  //   areaConstruida: "- m²",
-  //   titulo: "Casa de aluguel no centrão de Santa Bárbara",
-  //   descricao:
-  //     "03 quartos, 01 banheiro social, sala, cozinha, área de serviço, sem garagem. Preferência de locação para empresa.",
-  // },
   {
     fotos: importAll(
-      require.context("../assets/images/L074", true, /\.(png|jpe?g|svg)$/)
+      require.context("../assets/images/L074", true, /\.(png|jpe?g|svg)$/),
     ),
     fotoCapa: ffL074,
     cod: "L074",
@@ -2190,7 +1831,7 @@ const imoveisDisp = [
   // },
   {
     fotos: importAll(
-      require.context("../assets/images/L086", true, /\.(png|jpe?g|svg|jfif)$/)
+      require.context("../assets/images/L086", true, /\.(png|jpe?g|svg|jfif)$/),
     ),
     fotoCapa: ffL086,
     cod: "L086",
@@ -2207,7 +1848,8 @@ const imoveisDisp = [
     areaTotal: "- m²",
     areaConstruida: "70 m²",
     titulo: "Aluguel de ponto comercial no centro",
-    descricao: "Imóvel comercial com recepção, área de depósito e 01 banheiro social, situado em área central de alta movimentação. Ideal para lojas e escritórios em geral. Valor: R$2.700,00.",
+    descricao:
+      "Imóvel comercial com recepção, área de depósito e 01 banheiro social, situado em área central de alta movimentação. Ideal para lojas e escritórios em geral. Valor: R$2.700,00.",
   },
   // {
   //   fotos: importAll(
@@ -2524,7 +2166,9 @@ const imoveisDisp = [
   //     "Lote com 6.000 m², casa com 120 m², sala, copa e cozinha, 4 quartos sendo 2 suítes, 1 banheiro social e 1 banheiro externo, área de churrasco com 2 fornos, área externa, área de serviço, varanda, piscina com aquecedor, valor de R$ 3.500,00.",
   // },
   {
-    fotos: importAll(require.context("../assets/images/L115", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context("../assets/images/L115", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffL115,
     cod: "L115",
     contrato: contractType[contractTypeParamKey.rent],
@@ -2623,8 +2267,10 @@ const imoveisDisp = [
   //   descricao:
   //     "Sala e cozinha, 02 quartos, 01 banheiro social, área de serviço, garagem e valor de R$ 1.800,00.",
   // },
-    {
-    fotos: importAll(require.context("../assets/images/L121", true, /\.(png|jpe?g|svg|jfif)$/)),
+  {
+    fotos: importAll(
+      require.context("../assets/images/L121", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffL121,
     cod: "L121",
     contrato: contractType[contractTypeParamKey.rent],
@@ -2643,48 +2289,14 @@ const imoveisDisp = [
     descricao:
       "Sala, copa, cozinha/área de serviço, 02 quartos, 01 banheiro social, garagem para 01 carro, prédio com 4 (quatro) apartamentos; existe área comum, permite animais de pequeno porte; aguardando ligação de água e energia separados; pegar as contas de água e energia para transferência, IPTU ao Locador, chaves pendentes assim como motor do portão eletrônico, taxa de condomínio a combinar.",
   },
-      {
-    fotos: importAll(require.context("../assets/images/L123", true, /\.(png|jpe?g|svg|jfif)$/)),
-    fotoCapa: ffL123,
-    cod: "L123",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.house,
-    ruaNum: "Rua Nossa Senhora das Mercês, 517",
-    bairro: "Centro",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 3,
-    banheiros: 2,
-    vagas: 1,
-    valor: "R$ 2.200,00",
-    areaTotal: "- m²",
-    areaConstruida: "- m²",
-    titulo: "Aluguel de casa no Centro de Santa Bárbara",
-    descricao:
-      "Sala, copa, cozinha, varanda, 03 quartos, 02 banheiros, garagem para 01 carro (portão manual), área externa com piscina. Aluguel inclui IPTU.",
-  },
-  // {
-  //   fotos: importAll(require.context("../assets/images/L126", true, /\.(png|jpe?g|svg|jfif)$/)),
-  //   fotoCapa: ffL126,
-  //   cod: "L126",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.house,
-  //   ruaNum: "-",
-  //   bairro: "Centro",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: 2,
-  //   banheiros: 2,
-  //   vagas: 2,
-  //   valor: "R$ 1.800,00",
-  //   areaTotal: "- m²",
-  //   areaConstruida: "- m²",
-  //   titulo: "Aluguel de casa em Santa Bárbara",
-  //   descricao:
-  //     "Imóvel composto por 01 suíte, 01 quarto, 01 banheiro social, sala, copa, cozinha, área de serviço e garagem para 02 carros. R$ 1.800,00. Casa de laje e portão manual. O valor do aluguel é diferente para empresas."
-  // },
   {
-    fotos: importAll(require.context("../assets/images/L127_1", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context(
+        "../assets/images/L127_1",
+        true,
+        /\.(png|jpe?g|svg|jfif)$/,
+      ),
+    ),
     fotoCapa: ffL127_1,
     cod: "L127_1",
     contrato: contractType[contractTypeParamKey.rent],
@@ -2701,10 +2313,16 @@ const imoveisDisp = [
     areaConstruida: "- m²",
     titulo: "Aluga-se ponto comercial no bairro Viúva em Barão de Cocais",
     descricao:
-      "Local onde funciona a clinica menino jesus, próximo da APAE e ao Hospital. Recepção com balcão e sala de espera. 3 salas de atendimento com 1 banheiro em cada. 2 banheiros sociais. Cozinha e área de serviço. Jardim. Ideal para clínica médica, odontológica ou escritório.", 
-    },
-    {
-    fotos: importAll(require.context("../assets/images/L127_2", true, /\.(png|jpe?g|svg|jfif)$/)),
+      "Local onde funciona a clinica menino jesus, próximo da APAE e ao Hospital. Recepção com balcão e sala de espera. 3 salas de atendimento com 1 banheiro em cada. 2 banheiros sociais. Cozinha e área de serviço. Jardim. Ideal para clínica médica, odontológica ou escritório.",
+  },
+  {
+    fotos: importAll(
+      require.context(
+        "../assets/images/L127_2",
+        true,
+        /\.(png|jpe?g|svg|jfif)$/,
+      ),
+    ),
     fotoCapa: ffL127_2,
     cod: "L127_2",
     contrato: contractType[contractTypeParamKey.rent],
@@ -2721,10 +2339,16 @@ const imoveisDisp = [
     areaConstruida: "- m²",
     titulo: "Aluga-se apartamento no bairro Viúva em Barão de Cocais",
     descricao:
-      "Local onde funciona a clinica menino jesus, próximo da APAE e ao Hospital.O imóvel conta com quatro suítes, varanda/sacada, sala de estar e sala de jantar, sala de TV, cozinha com área de serviço e garagem para três carros.", 
-    },
-    {
-    fotos: importAll(require.context("../assets/images/L127_3", true, /\.(png|jpe?g|svg|jfif)$/)),
+      "Local onde funciona a clinica menino jesus, próximo da APAE e ao Hospital.O imóvel conta com quatro suítes, varanda/sacada, sala de estar e sala de jantar, sala de TV, cozinha com área de serviço e garagem para três carros.",
+  },
+  {
+    fotos: importAll(
+      require.context(
+        "../assets/images/L127_3",
+        true,
+        /\.(png|jpe?g|svg|jfif)$/,
+      ),
+    ),
     fotoCapa: ffL127_3,
     cod: "L127_3",
     contrato: contractType[contractTypeParamKey.rent],
@@ -2741,10 +2365,12 @@ const imoveisDisp = [
     areaConstruida: "- m²",
     titulo: "Aluga-se apartamento no bairro Viúva em Barão de Cocais",
     descricao:
-      "Local onde funciona a clinica menino jesus, próximo da APAE e ao Hospital.O imóvel conta com sala de TV, uma suíte, um banheiro social, área gourmet com piscina e churrasqueira, cozinha com área de serviço e varanda/sacada.", 
-    },
-    {
-    fotos: importAll(require.context("../assets/images/L128", true, /\.(png|jpe?g|svg|jfif)$/)),
+      "Local onde funciona a clinica menino jesus, próximo da APAE e ao Hospital.O imóvel conta com sala de TV, uma suíte, um banheiro social, área gourmet com piscina e churrasqueira, cozinha com área de serviço e varanda/sacada.",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/L128", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffL128,
     cod: "L128",
     contrato: contractType[contractTypeParamKey.rent],
@@ -2764,7 +2390,9 @@ const imoveisDisp = [
       "Fundos com 02 pavimentos, composto por varanda, sala, copa, cozinha, área de serviço, 04 quartos, 02 banheiros sociais, jardim, quintal, área externa e 01 vaga de garagem. Aceita somente animais de pequeno porte.O valor do aluguel é diferente para empresas.",
   },
   {
-    fotos: importAll(require.context("../assets/images/L129", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context("../assets/images/L129", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffL129,
     cod: "L129",
     contrato: contractType[contractTypeParamKey.rent],
@@ -2784,7 +2412,9 @@ const imoveisDisp = [
       "Casa de laje, com piso de cerâmica, composta por sala e cozinha, área de serviço, 03 quartos, sendo 01 suíte, 01 banheiro social, varanda, quintal e 02 vagas de garagem. Possui cômodos espaçosos, quarto e cozinha com armários. O imóvel não conta com portão eletrônico.O valor do aluguel é diferente para empresas.",
   },
   {
-    fotos: importAll(require.context("../assets/images/L130", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context("../assets/images/L130", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffL130,
     cod: "L130",
     contrato: contractType[contractTypeParamKey.rent],
@@ -2824,7 +2454,9 @@ const imoveisDisp = [
   //     "Apartamento térreo com área construída de 48 m², composto por sala, cozinha com bancada em granito, área de serviço integrada, 02 quartos, 01 banheiro social e 01 vaga de garagem. Valor de locação por R$ 1.500 mil.",
   // },
   {
-    fotos: importAll(require.context("../assets/images/L132", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotos: importAll(
+      require.context("../assets/images/L132", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
     fotoCapa: ffL132,
     cod: "L132",
     contrato: contractType[contractTypeParamKey.rent],

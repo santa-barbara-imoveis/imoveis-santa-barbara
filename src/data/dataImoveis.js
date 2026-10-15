@@ -65,6 +65,7 @@ import ffL129 from "../assets/images/L129.jpg";
 import ffL130 from "../assets/images/L130.jpg";
 import ffL131 from "../assets/images/L131.jpg";
 import ffL132 from "../assets/images/L132.jpg";
+import ffL133 from "../assets/images/L133.jpg";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -2474,6 +2475,28 @@ const imoveisDisp = [
     titulo: "Aluga-se apartamento térreo no bairro Centro",
     descricao:
       "Imóvel composto por sala, copa, cozinha, 03 quartos (01 suíte), 01 banheiro social, terraço e área de serviço, além de 01 vaga de garagem com portão manual. Valor do aluguel: R$2.100,00, incluindo IPTU.",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/L133", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
+    fotoCapa: ffL133,
+    cod: "L133",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.land,
+    ruaNum: "-",
+    bairro: "Pacheca",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 0,
+    banheiros: 0,
+    vagas: 0,
+    valor: "R$ 25.000,00",
+    areaTotal: "24.000 m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se área comercial",
+    descricao:
+      "Ao lado do Posto Petronas (Pacheca). Área de 24.000 m². Com viabilidade para comércio, indústria, galpão e logística. Valor: R$25.000,00.",
   },
   // {
   //   fotos: importAll(require.context("../assets/images/L122", true, /\.(png|jpe?g|svg|jfif)$/)),

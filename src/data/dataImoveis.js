@@ -149,7 +149,9 @@ import ffV198 from "../assets/images/V198.jpeg";
 import ffV199 from "../assets/images/V199.jpg";
 import ffV201 from "../assets/images/V201.jpg";
 import ffV202 from "../assets/images/V202.jpg";
+import ffV203 from "../assets/images/V203.jpg";
 import ffV204 from "../assets/images/V204.jpg";
+import ffV205 from "../assets/images/V205.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -1597,6 +1599,28 @@ const imoveisDisp = [
     descricao:
       "Área:360 m², R$ 165 mil, água e energia disponíveis, sem escritura.",
   },
+    {
+    fotos: importAll(
+      require.context("../assets/images/V203", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
+    fotoCapa: ffV203,
+    cod: "V203",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "Caminho de Minas",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais - MG",
+    quartos: 3,
+    banheiros: 1,
+    vagas: 2,
+    valor: "R$ 490.000,00",
+    areaTotal: "180 m²",
+    areaConstruida: " m²",
+    titulo: "Vende-se casa no bairro Caminho de Minas",
+    descricao:
+      "O lote possui uma área de 180 m² e o valor é de R$ 490 mil. A planta conta com 3 quartos, sendo 1 suíte, além de 1 banheiro social, sala e cozinha integradas. O imóvel dispõe ainda de 2 vagas de garagem e aceita financiamento bancário.",
+  },
   {
     fotos: importAll(
       require.context("../assets/images/V204", true, /\.(png|jpe?g|svg|jfif)$/),
@@ -1618,6 +1642,28 @@ const imoveisDisp = [
     titulo: "Vende-se casa - bairro Campestre",
     descricao:
       "Lote com área de 200 m², no valor de R$ 490 mil. O imóvel possui 2 quartos, 1 banheiro, 2 vagas de garagem, sala e cozinha.",
+  },
+    {
+    fotos: importAll(
+      require.context("../assets/images/V205", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
+    fotoCapa: ffV205,
+    cod: "V205",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "São Vicente",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais - MG",
+    quartos: 3,
+    banheiros: 2,
+    vagas: 2,
+    valor: "R$ 280.000,00",
+    areaTotal: "211 m²",
+    areaConstruida: "107 m²",
+    titulo: "Vende-se casa - bairro São Vicente",
+    descricao:
+      "O imóvel conta com um lote de 211,70 m² e 107 m² de área construída. A casa dispõe de 3 quartos, sendo 1 suíte, além de 2 banheiros sociais, sala, copa e cozinha. Conta também com área de serviço, quintal, terraço e garagem com 2 vagas para carros. O valor é de R$ 280 mil e o imóvel não financia..",
   },
   {
     fotos: importAll(

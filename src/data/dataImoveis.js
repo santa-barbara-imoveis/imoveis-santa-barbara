@@ -20,6 +20,7 @@ import ffL065 from "../assets/images/L065.jpg";
 import ffL073 from "../assets/images/L073.jpg";
 import ffL093 from "../assets/images/L093.jpg";
 import ffL074 from "../assets/images/L074.jpg";
+import ffL076 from "../assets/images/L076.jpg";
 import ffL075 from "../assets/images/L075.jpeg";
 import ffL077 from "../assets/images/L077.jpeg";
 import ffL080 from "../assets/images/L080.jpg";
@@ -152,6 +153,7 @@ import ffV202 from "../assets/images/V202.jpg";
 import ffV203 from "../assets/images/V203.jpg";
 import ffV204 from "../assets/images/V204.jpg";
 import ffV205 from "../assets/images/V205.jpg";
+import ffV206 from "../assets/images/V206.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -1555,28 +1557,28 @@ const imoveisDisp = [
     descricao:
       "Imóvel composto por sala e cozinha, 02 quartos, 01 banheiro social, garagem para 1 veículo e área de serviço. Casa com 65 m². Valor: R$ 320 mil. Financia.",
   },
-  // {
-  //   fotos: importAll(
-  //     require.context("../assets/images/V201", true, /\.(png|jpe?g|svg|jfif)$/),
-  //   ),
-  //   fotoCapa: ffV201,
-  //   cod: "V201",
-  //   contrato: contractType[contractTypeParamKey.buy],
-  //   tipoImovel: propertyType.apartment,
-  //   ruaNum: "-",
-  //   bairro: "Garcia",
-  //   cidade: city.barao_cocais,
-  //   Estado: "Minas Gerais - MG",
-  //   quartos: 2,
-  //   banheiros: 1,
-  //   vagas: 1,
-  //   valor: "R$ 210.000,00",
-  //   areaTotal: "48 m²",
-  //   areaConstruida: " m²",
-  //   titulo: "Vende-se apartamento do bairro Garcia - Barão de Cocais",
-  //   descricao:
-  //     "Apartamento no 2° andar, com sala, cozinha, área de serviço, 02 quartos, 01 banheiro social e 01 vaga de garagem. Possui cozinha com bancada em granito e guarda-roupas nos quartos. Área construída de 48 m². Valor: R$ 210 mil.",
-  // },
+  {
+    fotos: importAll(
+      require.context("../assets/images/V201", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
+    fotoCapa: ffV201,
+    cod: "V201",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.apartment,
+    ruaNum: "-",
+    bairro: "Garcia",
+    cidade: city.barao_cocais,
+    Estado: "Minas Gerais - MG",
+    quartos: 2,
+    banheiros: 1,
+    vagas: 1,
+    valor: "R$ 230.000,00",
+    areaTotal: "48 m²",
+    areaConstruida: " m²",
+    titulo: "Vende-se apartamento do bairro Garcia - Barão de Cocais",
+    descricao:
+      "Apartamento no 2° andar, com sala, cozinha, área de serviço, 02 quartos, 01 banheiro social e 01 vaga de garagem. Possui cozinha com bancada em granito e guarda-roupas nos quartos. Área construída de 48 m². Valor: R$ 210 mil.",
+  },
   {
     fotos: importAll(
       require.context("../assets/images/V202", true, /\.(png|jpe?g|svg|jfif)$/),
@@ -1599,7 +1601,7 @@ const imoveisDisp = [
     descricao:
       "Área:360 m², R$ 165 mil, água e energia disponíveis, sem escritura.",
   },
-    {
+  {
     fotos: importAll(
       require.context("../assets/images/V203", true, /\.(png|jpe?g|svg|jfif)$/),
     ),
@@ -1643,7 +1645,7 @@ const imoveisDisp = [
     descricao:
       "Lote com área de 200 m², no valor de R$ 490 mil. O imóvel possui 2 quartos, 1 banheiro, 2 vagas de garagem, sala e cozinha.",
   },
-    {
+  {
     fotos: importAll(
       require.context("../assets/images/V205", true, /\.(png|jpe?g|svg|jfif)$/),
     ),
@@ -1664,6 +1666,28 @@ const imoveisDisp = [
     titulo: "Vende-se casa - bairro São Vicente",
     descricao:
       "O imóvel conta com um lote de 211,70 m² e 107 m² de área construída. A casa dispõe de 3 quartos, sendo 1 suíte, além de 2 banheiros sociais, sala, copa e cozinha. Conta também com área de serviço, quintal, terraço e garagem com 2 vagas para carros. O valor é de R$ 280 mil e o imóvel não financia..",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/V206", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
+    fotoCapa: ffV206,
+    cod: "V206",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "Progresso",
+    cidade: city.barao_cocais,
+    Estado: "Minas Gerais - MG",
+    quartos: 3,
+    banheiros: 2,
+    vagas: 2,
+    valor: "R$ 395.000,00",
+    areaTotal: "580 m²",
+    areaConstruida: "80 m²",
+    titulo: "Vende-se casa - bairro Progresso - Barão de Cocais",
+    descricao:
+      "Casa em lote de 580 m², com 80 m² de área construída, composta por 03 quartos, 02 banheiros, sala, copa, cozinha, área de serviço, quintal, terraço e garagem para 02 carros. Valor: R$ 395 mil.",
   },
   {
     fotos: importAll(
@@ -1731,6 +1755,28 @@ const imoveisDisp = [
     titulo: "Casa de aluguel no bairro Lagoa - Barão de Cocais",
     descricao:
       "Sala, copa, cozinha, 04 quartos (01 suíte), 02 banheiros sociais, área de serviço, quintal / área externa, garagem para 04 carros, casa de forro, piso de cerâmica e com aquecedor solar.",
+  },
+  {
+    fotos: importAll(
+      require.context("../assets/images/L076", true, /\.(png|jpe?g|svg)$/),
+    ),
+    fotoCapa: ffL076,
+    cod: "L076",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "Não informado",
+    bairro: "Santa Quitéria",
+    cidade: city.catas_altas,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 3,
+    vagas: 5,
+    valor: "R$ 6.000,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se casa de alto padrão em Catas Altas - Bairro Santa Quitéria",
+    descricao:
+      "Imóvel com garagem para 5 carros, ponto comercial, sala, copa, cozinha, 3 quartos, sendo 2 suítes, closet e varanda. Conta ainda com espaço gourmet, sauna e piscina com hidromassagem, além de vista definitiva para a serra. Área do terreno de 400 m², área construída da casa de 290 m² e área construída do ponto comercial de 56 m². Valor do aluguel: R$ 6.000,00.",
   },
   // {
   //   fotos: importAll(require.context("../assets/images/L093", true, /\.(png|jpe?g|svg)$/)),
@@ -2473,7 +2519,7 @@ const imoveisDisp = [
     quartos: 2,
     banheiros: 1,
     vagas: 1,
-    valor: "R$ 1.800,00",
+    valor: "R$ 1.650,00",
     areaTotal: "- m²",
     areaConstruida: "- m²",
     titulo: "Aluga-se casa geminada no bairro ipanema",

@@ -1577,7 +1577,7 @@ const imoveisDisp = [
     areaConstruida: " m²",
     titulo: "Vende-se apartamento do bairro Garcia - Barão de Cocais",
     descricao:
-      "Apartamento no 2° andar, com sala, cozinha, área de serviço, 02 quartos, 01 banheiro social e 01 vaga de garagem. Possui cozinha com bancada em granito e guarda-roupas nos quartos. Área construída de 48 m². Valor: R$ 210 mil.",
+      "Apartamento no 2° andar, com sala, cozinha, área de serviço, 02 quartos, 01 banheiro social e 01 vaga de garagem. Possui cozinha com bancada em granito e guarda-roupas nos quartos. Área construída de 48 m². Valor: R$ 230 mil.",
   },
   {
     fotos: importAll(

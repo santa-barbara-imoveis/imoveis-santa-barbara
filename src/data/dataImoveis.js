@@ -2460,28 +2460,28 @@ const imoveisDisp = [
     descricao:
       "Local onde funciona a clinica menino jesus, próximo da APAE e ao Hospital.O imóvel conta com sala de TV, uma suíte, um banheiro social, área gourmet com piscina e churrasqueira, cozinha com área de serviço e varanda/sacada.",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L128", true, /\.(png|jpe?g|svg|jfif)$/),
-    ),
-    fotoCapa: ffL128,
-    cod: "L128",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.house,
-    ruaNum: "Rua Edmundo Pena, 146",
-    bairro: "Centro",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 4,
-    banheiros: 2,
-    vagas: 1,
-    valor: "R$ 2.200,00",
-    areaTotal: "- m²",
-    areaConstruida: "- m²",
-    titulo: "Aluga-se casa no bairro centro",
-    descricao:
-      "Fundos com 02 pavimentos, composto por varanda, sala, copa, cozinha, área de serviço, 04 quartos, 02 banheiros sociais, jardim, quintal, área externa e 01 vaga de garagem. Aceita somente animais de pequeno porte.O valor do aluguel é diferente para empresas.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L128", true, /\.(png|jpe?g|svg|jfif)$/),
+  //   ),
+  //   fotoCapa: ffL128,
+  //   cod: "L128",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "Rua Edmundo Pena, 146",
+  //   bairro: "Centro",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 4,
+  //   banheiros: 2,
+  //   vagas: 1,
+  //   valor: "R$ 2.200,00",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Aluga-se casa no bairro centro",
+  //   descricao:
+  //     "Fundos com 02 pavimentos, composto por varanda, sala, copa, cozinha, área de serviço, 04 quartos, 02 banheiros sociais, jardim, quintal, área externa e 01 vaga de garagem. Aceita somente animais de pequeno porte.O valor do aluguel é diferente para empresas.",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/L129", true, /\.(png|jpe?g|svg|jfif)$/),

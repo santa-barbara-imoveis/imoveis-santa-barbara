@@ -67,6 +67,7 @@ import ffL130 from "../assets/images/L130.jpg";
 import ffL131 from "../assets/images/L131.jpg";
 import ffL132 from "../assets/images/L132.jpg";
 import ffL133 from "../assets/images/L133.jpg";
+import ffL134 from "../assets/images/L134.png";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -2218,26 +2219,26 @@ const imoveisDisp = [
   //   descricao:
   //     "Lote: 360 m², casa de 103 m²; sala, ⁠copa; cozinha; 03 quartos (01 suíte com closet e banheira hidromassagem); ⁠01 banheiro social; área de churrasco; área externa, ⁠área serviço; ⁠varanda; ⁠02 vagas de garagem com portão eletrônico; R$3.000,00.",
   // },
-  // {
-  //   fotos: importAll(require.context("../assets/images/L112", true, /\.(png|jpe?g|svg|jfif)$/)),
-  //   fotoCapa: ffL112,
-  //   cod: "L112",
-  //   contrato: contractType[contractTypeParamKey.rent],
-  //   tipoImovel: propertyType.house,
-  //   ruaNum: "-",
-  //   bairro: "Caminho de minas",
-  //   cidade: city.santa_barbara,
-  //   Estado: "Minas Gerais",
-  //   quartos: 3,
-  //   banheiros: 2,
-  //   vagas: 2,
-  //   valor: "R$ 2.000,00",
-  //   areaTotal: "180 m²",
-  //   areaConstruida: "100 m²",
-  //   titulo: "Aluga-se casa no bairro caminho de minas",
-  //   descricao:
-  //     "Sala, cozinha, 03 quartos (1 suíte), 01 banheiro social, área serviço / Quintal e 02 vagas de garagem.",
-  // },
+  {
+    fotos: importAll(require.context("../assets/images/L112", true, /\.(png|jpe?g|svg|jfif)$/)),
+    fotoCapa: ffL112,
+    cod: "L112",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "Caminho de minas",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 2,
+    vagas: 2,
+    valor: "R$ 2.000,00",
+    areaTotal: "180 m²",
+    areaConstruida: "100 m²",
+    titulo: "Aluga-se casa no bairro Caminho de Minas",
+    descricao:
+      "Sala, cozinha, 03 quartos (1 suíte), 01 banheiro social, área serviço / Quintal e 02 vagas de garagem.",
+  },
   // {
   //   fotos: importAll(require.context("../assets/images/L113", true, /\.(png|jpe?g|svg|jfif)$/)),
   //   fotoCapa: ffL113,
@@ -2589,6 +2590,28 @@ const imoveisDisp = [
     titulo: "Aluga-se área comercial",
     descricao:
       "Ao lado do Posto Petronas (Pacheca). Área de 24.000 m². Com viabilidade para comércio, indústria, galpão e logística. Valor: R$25.000,00.",
+  },
+    {
+    fotos: importAll(
+      require.context("../assets/images/L134", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
+    fotoCapa: ffL134,
+    cod: "L134",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "São José",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 2,
+    vagas: 4,
+    valor: "R$ 3.100,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se ótima casa no bairro São José",
+    descricao:
+      "Imóvel composto por varanda, sala, copa, cozinha, 01 suíte com closet, 03 quartos, 01 banheiro social, área externa, área de serviço e garagem para 04 veículos. Valor da locação: R$ 3.100,00. O valor do aluguel já inclui o IPTU. O valor aluguel pode variar caso o cliente seja pessoal jurídica.",
   },
   // {
   //   fotos: importAll(require.context("../assets/images/L122", true, /\.(png|jpe?g|svg|jfif)$/)),

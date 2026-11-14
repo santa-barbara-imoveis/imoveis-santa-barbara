@@ -69,6 +69,7 @@ import ffL132 from "../assets/images/L132.jpg";
 import ffL133 from "../assets/images/L133.jpg";
 import ffL134 from "../assets/images/L134.png";
 import ffL135 from "../assets/images/L135.jpg";
+import ffL137 from "../assets/images/L137.png";
 import ffV003 from "../assets/images/V003.jpeg";
 import ffV006 from "../assets/images/V006.jpg";
 import ffV021 from "../assets/images/V021.jpg";
@@ -2362,28 +2363,28 @@ const imoveisDisp = [
   //   descricao:
   //     "Sala e cozinha, 02 quartos, 01 banheiro social, área de serviço, garagem e valor de R$ 1.800,00.",
   // },
-  {
-    fotos: importAll(
-      require.context("../assets/images/L121", true, /\.(png|jpe?g|svg|jfif)$/),
-    ),
-    fotoCapa: ffL121,
-    cod: "L121",
-    contrato: contractType[contractTypeParamKey.rent],
-    tipoImovel: propertyType.apartment,
-    ruaNum: "Avenida Rodrigo de Castro, 72",
-    bairro: "São José",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais",
-    quartos: 2,
-    banheiros: 1,
-    vagas: 1,
-    valor: "R$ 1.800,00 + condomínio",
-    areaTotal: "- m²",
-    areaConstruida: "- m²",
-    titulo: "Aluguel de apartamento em Santa Bárbara",
-    descricao:
-      "Sala, copa, cozinha/área de serviço, 02 quartos, 01 banheiro social, garagem para 01 carro, prédio com 4 (quatro) apartamentos; existe área comum, permite animais de pequeno porte; aguardando ligação de água e energia separados; pegar as contas de água e energia para transferência, IPTU ao Locador, chaves pendentes assim como motor do portão eletrônico, taxa de condomínio a combinar.",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/L121", true, /\.(png|jpe?g|svg|jfif)$/),
+  //   ),
+  //   fotoCapa: ffL121,
+  //   cod: "L121",
+  //   contrato: contractType[contractTypeParamKey.rent],
+  //   tipoImovel: propertyType.apartment,
+  //   ruaNum: "Avenida Rodrigo de Castro, 72",
+  //   bairro: "São José",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais",
+  //   quartos: 2,
+  //   banheiros: 1,
+  //   vagas: 1,
+  //   valor: "R$ 1.800,00 + condomínio",
+  //   areaTotal: "- m²",
+  //   areaConstruida: "- m²",
+  //   titulo: "Aluguel de apartamento em Santa Bárbara",
+  //   descricao:
+  //     "Sala, copa, cozinha/área de serviço, 02 quartos, 01 banheiro social, garagem para 01 carro, prédio com 4 (quatro) apartamentos; existe área comum, permite animais de pequeno porte; aguardando ligação de água e energia separados; pegar as contas de água e energia para transferência, IPTU ao Locador, chaves pendentes assim como motor do portão eletrônico, taxa de condomínio a combinar.",
+  // },
   {
     fotos: importAll(
       require.context(
@@ -2613,6 +2614,28 @@ const imoveisDisp = [
     titulo: "Aluga-se apartamento no bairro Praia",
     descricao:
       "Apartamento com área de 50 m², composto por 2 quartos, 1 banheiro, sala, cozinha e 1 vaga de garagem coberta. O condomínio oferece área comum com piscina e espaço gourmet. Valor do aluguel: R$ 1.500,00, com água e condomínio inclusos. Valor sujeito a alteração em caso de locação para empresa.",
+  },
+      {
+    fotos: importAll(
+      require.context("../assets/images/L137", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
+    fotoCapa: ffL137,
+    cod: "L137",
+    contrato: contractType[contractTypeParamKey.rent],
+    tipoImovel: propertyType.apartment,
+    ruaNum: "-",
+    bairro: "Praia",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais",
+    quartos: 3,
+    banheiros: 1,
+    vagas: 1,
+    valor: "R$ 2.250,00",
+    areaTotal: "- m²",
+    areaConstruida: "- m²",
+    titulo: "Aluga-se apartamento no bairro Praia",
+    descricao:
+      "Apartamento no 4º andar – Ap 401 / Bloco 01, composto por 3 quartos, 1 banheiro, 1 vaga de garagem coberta, sala e cozinha. O condomínio conta com área comum com piscina e espaço gourmet. Valor da locação: R$ 2.250,00, com IPTU, água e condomínio inclusos. Valores sujeitos a alteração para locação de empresas.",
   },
   //   {
   //   fotos: importAll(

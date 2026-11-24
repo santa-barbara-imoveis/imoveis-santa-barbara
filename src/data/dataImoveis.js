@@ -157,6 +157,8 @@ import ffV203 from "../assets/images/V203.jpg";
 import ffV204 from "../assets/images/V204.jpg";
 import ffV205 from "../assets/images/V205.jpg";
 import ffV206 from "../assets/images/V206.jpg";
+import ffV208 from "../assets/images/V208.png";
+import ffV209 from "../assets/images/V209.jpg";
 import { amenitiesQuantity } from "../dicts/amenities-quantity";
 import { city } from "../dicts/cities";
 import { contractType, contractTypeParamKey } from "../dicts/contract-type";
@@ -1648,28 +1650,28 @@ const imoveisDisp = [
     descricao:
       "Lote com área de 200 m², no valor de R$ 490 mil. O imóvel possui 2 quartos, 1 banheiro, 2 vagas de garagem, sala e cozinha.",
   },
-  {
-    fotos: importAll(
-      require.context("../assets/images/V205", true, /\.(png|jpe?g|svg|jfif)$/),
-    ),
-    fotoCapa: ffV205,
-    cod: "V205",
-    contrato: contractType[contractTypeParamKey.buy],
-    tipoImovel: propertyType.house,
-    ruaNum: "-",
-    bairro: "São Vicente",
-    cidade: city.santa_barbara,
-    Estado: "Minas Gerais - MG",
-    quartos: 3,
-    banheiros: 2,
-    vagas: 2,
-    valor: "R$ 280.000,00",
-    areaTotal: "211 m²",
-    areaConstruida: "107 m²",
-    titulo: "Vende-se casa - bairro São Vicente",
-    descricao:
-      "O imóvel conta com um lote de 211,70 m² e 107 m² de área construída. A casa dispõe de 3 quartos, sendo 1 suíte, além de 2 banheiros sociais, sala, copa e cozinha. Conta também com área de serviço, quintal, terraço e garagem com 2 vagas para carros. O valor é de R$ 280 mil e o imóvel não financia..",
-  },
+  // {
+  //   fotos: importAll(
+  //     require.context("../assets/images/V205", true, /\.(png|jpe?g|svg|jfif)$/),
+  //   ),
+  //   fotoCapa: ffV205,
+  //   cod: "V205",
+  //   contrato: contractType[contractTypeParamKey.buy],
+  //   tipoImovel: propertyType.house,
+  //   ruaNum: "-",
+  //   bairro: "São Vicente",
+  //   cidade: city.santa_barbara,
+  //   Estado: "Minas Gerais - MG",
+  //   quartos: 3,
+  //   banheiros: 2,
+  //   vagas: 2,
+  //   valor: "R$ 280.000,00",
+  //   areaTotal: "211 m²",
+  //   areaConstruida: "107 m²",
+  //   titulo: "Vende-se casa - bairro São Vicente",
+  //   descricao:
+  //     "O imóvel conta com um lote de 211,70 m² e 107 m² de área construída. A casa dispõe de 3 quartos, sendo 1 suíte, além de 2 banheiros sociais, sala, copa e cozinha. Conta também com área de serviço, quintal, terraço e garagem com 2 vagas para carros. O valor é de R$ 280 mil e o imóvel não financia..",
+  // },
   {
     fotos: importAll(
       require.context("../assets/images/V206", true, /\.(png|jpe?g|svg|jfif)$/),
@@ -1691,6 +1693,50 @@ const imoveisDisp = [
     titulo: "Vende-se casa - bairro Progresso - Barão de Cocais",
     descricao:
       "Casa em lote de 580 m², com 80 m² de área construída, composta por 03 quartos, 02 banheiros, sala, copa, cozinha, área de serviço, quintal, terraço e garagem para 02 carros. Valor: R$ 395 mil.",
+  },
+    {
+    fotos: importAll(
+      require.context("../assets/images/V208", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
+    fotoCapa: ffV208,
+    cod: "V208",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.house,
+    ruaNum: "-",
+    bairro: "Vista Alegre",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais - MG",
+    quartos: 2,
+    banheiros: 2,
+    vagas: 1,
+    valor: "R$ 400.000,00",
+    areaTotal: "220 m²",
+    areaConstruida: "153 m²",
+    titulo: "Vende-se casa - bairro Vista Alegre - Santa Bárbara",
+    descricao:
+      "Imóvel com lote de 220 m² e casa (sem laje) com 153 m² de área construída. Possui 02 quartos, sendo 1 suíte, 01 banheiro social, sala, copa, cozinha, área de serviço, quintal e garagem para 01 carro.",
+  },
+   {
+    fotos: importAll(
+      require.context("../assets/images/V209", true, /\.(png|jpe?g|svg|jfif)$/),
+    ),
+    fotoCapa: ffV209,
+    cod: "V209",
+    contrato: contractType[contractTypeParamKey.buy],
+    tipoImovel: propertyType.apartment,
+    ruaNum: "-",
+    bairro: "Praia",
+    cidade: city.santa_barbara,
+    Estado: "Minas Gerais - MG",
+    quartos: 2,
+    banheiros: 1,
+    vagas: 1,
+    valor: "R$ 240.000,00",
+    areaTotal: "48 m²",
+    areaConstruida: "48 m²",
+    titulo: "Vende-se apartamento no bairro Praia (Santa Bárbara/MG)",
+    descricao:
+      "Apartamento térreo, sala, copa, cozinha, 2 quartos, um banheiro social, área de serviço, com bancada de granito.",
   },
   {
     fotos: importAll(
